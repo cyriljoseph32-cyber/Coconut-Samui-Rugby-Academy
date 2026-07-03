@@ -1,0 +1,24 @@
+---
+interface Props {
+  href: string;
+  variant?: "primary" | "secondary" | "ghost";
+  class?: string;
+}
+const { href, variant = "primary", class: className = "" } = Astro.props;
+
+const styles = {
+  primary:
+    "bg-amber text-jungle hover:bg-amber-dark hover:text-white focus-visible:bg-amber-dark",
+  secondary:
+    "bg-palm text-white hover:bg-palm-light",
+  ghost:
+    "border-2 border-current text-inherit hover:bg-white/10",
+};
+---
+
+<a
+  href={href}
+  class={`inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 font-display text-base font-bold transition-colors ${styles[variant]} ${className}`}
+>
+  <slot />
+</a>

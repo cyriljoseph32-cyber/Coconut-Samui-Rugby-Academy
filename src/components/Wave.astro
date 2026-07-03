@@ -1,0 +1,18 @@
+---
+/** Coastline section divider. `flip` mirrors it vertically; colour fills the wave. */
+interface Props {
+  fill?: string;
+  flip?: boolean;
+  class?: string;
+}
+const { fill = "var(--color-shell)", flip = false, class: className = "" } = Astro.props;
+---
+
+<svg
+  viewBox="0 0 1440 64"
+  preserveAspectRatio="none"
+  class={`block h-10 w-full sm:h-14 ${flip ? "rotate-180" : ""} ${className}`}
+  aria-hidden="true"
+>
+  <path d="M0 40C240 8 480 8 720 32C960 56 1200 56 1440 24V64H0V40Z" fill={fill}></path>
+</svg>

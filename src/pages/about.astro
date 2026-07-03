@@ -1,0 +1,140 @@
+---
+import Base from "../layouts/Base.astro";
+import Button from "../components/Button.astro";
+import Wave from "../components/Wave.astro";
+import SectionHead from "../components/SectionHead.astro";
+import Logo from "../components/Logo.astro";
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    name: "About Coconut Samui Rugby Academy",
+    url: "https://coconutsamuirugby.com/about/",
+  },
+];
+
+const vision = [
+  { stat: "30+", label: "kids enrolled by end of 2025" },
+  { stat: "2", label: "intensive holiday camps" },
+  { stat: "1", label: "inter-school tournament — the island's first" },
+];
+---
+
+<Base
+  title="About Us | Coconut Samui Rugby Academy — Our Mission & Coaches"
+  description="Founded to bring structured rugby to Koh Samui. Meet our coaches, our values and our 2025 vision: 30+ kids, 2 camps, 1 inter-school tournament."
+  schema={schema}
+>
+  <section class="bg-shell">
+    <div class="mx-auto max-w-[1200px] px-4 pb-14 pt-14 sm:px-6 lg:pt-20">
+      <p class="font-display text-sm font-bold tracking-[0.25em] text-amber-dark uppercase">
+        About &amp; Mission
+      </p>
+      <h1 class="mt-3 max-w-3xl text-4xl leading-tight text-palm sm:text-5xl">
+        The First Rugby Academy on Koh Samui
+      </h1>
+      <p class="mt-5 max-w-2xl text-lg leading-relaxed text-jungle/80">
+        Koh Samui has beaches, boxing gyms and football pitches. What it never had was rugby — the
+        sport that teaches kids that nobody wins alone. We started Coconut Samui Rugby Academy to
+        change that, one Saturday session at a time.
+      </p>
+    </div>
+  </section>
+  <Wave fill="var(--color-shell)" flip />
+
+  <section class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
+    <div class="grid gap-12 lg:grid-cols-2">
+      <div>
+        <SectionHead eyebrow="The story" title="Why rugby, why here" align="left" />
+        <div class="mt-6 space-y-4 leading-relaxed text-jungle/80">
+          <p>
+            Families on Samui — Thai and expat alike — kept asking the same question: where can my
+            child play a real team sport, with real structure, in a language they understand?
+            Football exists, Muay Thai is everywhere. But rugby offers something neither can: a
+            sport where every body type has a position, where respect for the referee is
+            non-negotiable, and where the culture off the pitch matters as much as the score on it.
+          </p>
+          <p>
+            So we built the academy the island was missing: an age-based curriculum from tag rugby
+            at four to full contact pathways for teens, coached in English with Thai support,
+            with safety standards set by World Rugby's age-grade guidelines — and a hard rule that
+            every child gets game time, every session.
+          </p>
+        </div>
+      </div>
+      <div>
+        <SectionHead eyebrow="Values in practice" title="What our values look like" align="left" />
+        <ul class="mt-6 space-y-4">
+          <li class="rounded-2xl border border-sand bg-shell/60 p-5">
+            <strong class="text-palm">Respect</strong>
+            <p class="mt-1 text-sm leading-relaxed text-jungle/80">Players shake hands with the opposition and thank the ref — win or lose, age four or fourteen.</p>
+          </li>
+          <li class="rounded-2xl border border-sand bg-shell/60 p-5">
+            <strong class="text-palm">Discipline</strong>
+            <p class="mt-1 text-sm leading-relaxed text-jungle/80">Boots on, on time, kit ready. Kids own their preparation — parents tell us it follows them home.</p>
+          </li>
+          <li class="rounded-2xl border border-sand bg-shell/60 p-5">
+            <strong class="text-palm">Inclusion</strong>
+            <p class="mt-1 text-sm leading-relaxed text-jungle/80">Scholarship spots for local kids, mixed Thai–expat squads, and no bench-warmers. Ever.</p>
+          </li>
+          <li class="rounded-2xl border border-sand bg-shell/60 p-5">
+            <strong class="text-palm">Team spirit</strong>
+            <p class="mt-1 text-sm leading-relaxed text-jungle/80">Every session ends in a huddle. Every try is celebrated by fifteen kids, not one.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-palm text-white">
+    <Wave fill="white" flip class="text-palm" />
+    <div class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6">
+      <SectionHead
+        eyebrow="Vision 2025"
+        title="Where we're taking this"
+        class="[&_h2]:text-white"
+      />
+      <div class="mt-12 grid gap-6 text-center sm:grid-cols-3">
+        {
+          vision.map((v) => (
+            <div class="rounded-2xl bg-white/10 p-8">
+              <p class="font-display text-5xl font-extrabold text-amber">{v.stat}</p>
+              <p class="mt-3 text-sand">{v.label}</p>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+    <Wave fill="white" class="text-palm" />
+  </section>
+
+  <section class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
+    <SectionHead
+      eyebrow="Coaches"
+      title="Who's on the whistle"
+      lede="Sessions are led by experienced rugby coaches with age-grade coaching backgrounds, first-aid certification, and background checks. Full coach profiles are coming here as the team grows."
+    />
+    <div class="mt-12 grid gap-6 md:grid-cols-2">
+      <div class="rounded-2xl border border-sand p-8">
+        <h3 class="text-xl text-palm">Safety &amp; child protection</h3>
+        <ul class="mt-4 space-y-2.5 text-sm leading-relaxed text-jungle/80">
+          <li>· Tag-only rugby under age 10 — no contact, no exceptions</li>
+          <li>· Progressive contact for teens per World Rugby age-grade guidelines</li>
+          <li>· First-aid trained coach at every session</li>
+          <li>· Background-checked staff and a written child-safeguarding policy</li>
+          <li>· Hydration and sun-safety breaks built into every island session</li>
+        </ul>
+      </div>
+      <div class="flex flex-col items-center justify-center rounded-2xl bg-shell p-8 text-center">
+        <Logo variant="monogram" class="h-40 text-palm" />
+        <p class="mt-4 max-w-xs text-sm text-jungle/70">
+          The CSRA crest — worn on every academy jersey, earned by every player.
+        </p>
+      </div>
+    </div>
+    <div class="mt-12 text-center">
+      <Button href="/contact/">Meet us at a session</Button>
+    </div>
+  </section>
+</Base>

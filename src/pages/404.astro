@@ -1,0 +1,23 @@
+---
+import Base from "../layouts/Base.astro";
+import Button from "../components/Button.astro";
+import LogoMark from "../components/LogoMark.astro";
+---
+
+<Base
+  title="Page not found | Coconut Samui Rugby Academy"
+  description="That page went into touch. Head back to the academy homepage."
+>
+  <section class="mx-auto flex max-w-[1200px] flex-col items-center px-4 py-24 text-center sm:px-6">
+    <LogoMark class="h-20 w-20 text-palm" accent="#f4a340" />
+    <h1 class="mt-6 text-4xl text-palm">Into touch!</h1>
+    <p class="mt-4 max-w-md text-jungle/70">
+      That page is out of play. Let's restart with a lineout — back to the homepage or straight to
+      a free trial.
+    </p>
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <Button href="/">Back to home</Button>
+      <Button href="/contact/" variant="secondary">Book a Free Trial</Button>
+    </div>
+  </section>
+</Base>

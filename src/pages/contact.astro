@@ -1,0 +1,162 @@
+---
+import Base from "../layouts/Base.astro";
+import Wave from "../components/Wave.astro";
+import Button from "../components/Button.astro";
+import FAQ from "../components/FAQ.astro";
+import SectionHead from "../components/SectionHead.astro";
+import { SITE, waLink } from "../config/site";
+import { faqSchema } from "../lib/schema";
+
+const faq = [
+  {
+    q: "How fast do you reply?",
+    a: "Within 24 hours by email, usually much faster on WhatsApp.",
+  },
+  {
+    q: "What does the free trial include?",
+    a: "One full session with the right age group — no payment details, no obligation. Bring water, trainers and sunscreen; we provide everything else.",
+  },
+  {
+    q: "Where do you train?",
+    a: "On Koh Samui — the exact ground and weekly schedule are confirmed when you book, as sessions follow school terms and island weather.",
+  },
+  {
+    q: "Do you offer scholarships?",
+    a: "Yes. Inclusion is a founding value — sponsored spots for local kids are funded by our partners and corporate events. Ask us on WhatsApp.",
+  },
+];
+
+const schema = [
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    name: "Contact & Registration — Coconut Samui Rugby Academy",
+    url: "https://coconutsamuirugby.com/contact/",
+  },
+  faqSchema(faq),
+];
+---
+
+<Base
+  title="Contact & Registration | Coconut Samui Rugby Academy"
+  description="Register your child or join a session. Reach us by form, WhatsApp or email — we reply within 24 hours."
+  schema={schema}
+  whatsappMessage="Hi! I'd like to book a free trial session."
+>
+  <section class="bg-shell">
+    <div class="mx-auto max-w-[1200px] px-4 pb-14 pt-14 sm:px-6 lg:pt-20">
+      <p class="font-display text-sm font-bold tracking-[0.25em] text-amber-dark uppercase">
+        Contact &amp; Registration
+      </p>
+      <h1 class="mt-3 text-4xl leading-tight text-palm sm:text-5xl">Book a Free Trial Session</h1>
+      <p class="mt-5 max-w-2xl text-lg leading-relaxed text-jungle/80">
+        Fastest: message us on WhatsApp. Prefer a form? It lands in the same inbox — we reply
+        within 24 hours with the next session you or your child can join.
+      </p>
+    </div>
+  </section>
+  <Wave fill="var(--color-shell)" flip />
+
+  <section class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
+    <div class="grid gap-12 lg:grid-cols-2">
+      <!-- Form -->
+      <form action="https://api.web3forms.com/submit" method="POST" class="rounded-3xl border border-sand bg-white p-8">
+        <input type="hidden" name="access_key" value={SITE.web3formsKey} />
+        <input type="hidden" name="subject" value="Trial / registration request — CSRA website" />
+        <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" aria-hidden="true" />
+
+        <h2 class="text-2xl text-palm">Send us the details</h2>
+
+        <div class="mt-6 space-y-5">
+          <div>
+            <label for="name" class="block text-sm font-semibold">Your name</label>
+            <input id="name" name="name" type="text" required autocomplete="name"
+              class="mt-1.5 w-full rounded-xl border border-sand px-4 py-3 text-sm" />
+          </div>
+          <div>
+            <label for="email" class="block text-sm font-semibold">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email"
+              class="mt-1.5 w-full rounded-xl border border-sand px-4 py-3 text-sm" />
+          </div>
+          <div>
+            <label for="program" class="block text-sm font-semibold">Program</label>
+            <select id="program" name="program" required class="mt-1.5 w-full rounded-xl border border-sand bg-white px-4 py-3 text-sm">
+              <option value="">Choose one…</option>
+              <option>Kids (4–10)</option>
+              <option>Teens (11–17)</option>
+              <option>Adults touch rugby</option>
+              <option>Corporate team-building</option>
+              <option>Camp / event</option>
+              <option>Sponsorship</option>
+            </select>
+          </div>
+          <div>
+            <label for="child-age" class="block text-sm font-semibold">
+              Child's age <span class="font-normal text-jungle/50">(if registering a child)</span>
+            </label>
+            <input id="child-age" name="child_age" type="text" inputmode="numeric"
+              class="mt-1.5 w-full rounded-xl border border-sand px-4 py-3 text-sm" />
+          </div>
+          <div>
+            <label for="message" class="block text-sm font-semibold">Anything we should know?</label>
+            <textarea id="message" name="message" rows="4"
+              class="mt-1.5 w-full rounded-xl border border-sand px-4 py-3 text-sm"></textarea>
+          </div>
+          <button type="submit" data-analytics="trial-form-submit"
+            class="w-full rounded-full bg-amber px-7 py-3.5 font-display font-bold text-jungle transition-colors hover:bg-amber-dark hover:text-white">
+            Send — we reply within 24h
+          </button>
+        </div>
+      </form>
+
+      <!-- Direct channels + practical info -->
+      <div class="space-y-8">
+        <div class="rounded-3xl bg-jungle p-8 text-white">
+          <h2 class="text-2xl">Faster on WhatsApp</h2>
+          <p class="mt-3 text-sand">
+            One message with your child's age is enough — we'll take it from there.
+          </p>
+          <div class="mt-5">
+            <Button href={waLink("Hi! I'd like to book a free trial session.")}>Open WhatsApp</Button>
+          </div>
+          <p class="mt-6 text-sm text-sand/80">
+            Or email <a href={`mailto:${SITE.email}`} class="underline hover:text-white">{SITE.email}</a>
+          </p>
+        </div>
+
+        <div class="rounded-3xl border border-sand p-8">
+          <h2 class="text-2xl text-palm">Where &amp; when</h2>
+          <table class="mt-4 w-full text-sm">
+            <caption class="sr-only">Weekly training schedule</caption>
+            <thead>
+              <tr class="text-left font-display text-palm">
+                <th scope="col" class="pb-2">Program</th>
+                <th scope="col" class="pb-2">When</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-sand text-jungle/80">
+              <tr><td class="py-2.5">Kids (4–10)</td><td>Saturday mornings</td></tr>
+              <tr><td class="py-2.5">Teens (11–17)</td><td>Saturday mornings + midweek session</td></tr>
+              <tr><td class="py-2.5">Adults touch</td><td>Weekly sunset session</td></tr>
+            </tbody>
+          </table>
+          <p class="mt-3 text-xs text-jungle/50">
+            Exact times confirmed on booking — the schedule follows school terms and island weather.
+          </p>
+          <a href={SITE.location.mapsUrl} target="_blank" rel="noopener"
+            class="mt-5 inline-flex items-center gap-2 font-display text-sm font-bold text-palm hover:underline">
+            <svg viewBox="0 0 24 24" class="h-5 w-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            {SITE.location.venue} — open in Google Maps
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-16">
+      <SectionHead eyebrow="Before you ask" title="Quick answers" />
+      <FAQ items={faq} class="mx-auto mt-10 max-w-3xl" />
+    </div>
+  </section>
+</Base>

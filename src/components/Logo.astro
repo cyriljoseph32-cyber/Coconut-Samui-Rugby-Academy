@@ -1,0 +1,70 @@
+---
+/**
+ * "Palm Lineout" logo system.
+ *  - primary   → stacked mark + wordmark
+ *  - secondary → horizontal mark + wordmark (header)
+ *  - monogram  → crest with CSRA (jerseys / avatars)
+ * Colour via currentColor; `accent` colours the ball seam.
+ */
+import LogoMark from "./LogoMark.astro";
+
+interface Props {
+  variant?: "primary" | "secondary" | "monogram";
+  accent?: string;
+  class?: string;
+}
+const { variant = "secondary", accent = "#e8dcc4", class: className = "" } = Astro.props;
+---
+
+{
+  variant === "secondary" && (
+    <span class={`inline-flex items-center gap-3 ${className}`}>
+      <LogoMark accent={accent} class="h-10 w-10 shrink-0" />
+      <span class="font-display leading-none">
+        <span class="block text-[1.05rem] font-extrabold tracking-tight">COCONUT SAMUI</span>
+        <span class="mt-0.5 block text-[0.68rem] font-semibold tracking-[0.32em]">RUGBY ACADEMY</span>
+      </span>
+    </span>
+  )
+}
+
+{
+  variant === "primary" && (
+    <span class={`inline-flex flex-col items-center gap-3 text-center ${className}`}>
+      <LogoMark accent={accent} class="h-16 w-16" />
+      <span class="font-display leading-none">
+        <span class="block text-xl font-extrabold tracking-tight">COCONUT SAMUI</span>
+        <span class="mt-1 block text-[0.72rem] font-semibold tracking-[0.42em]">RUGBY ACADEMY</span>
+      </span>
+    </span>
+  )
+}
+
+{
+  variant === "monogram" && (
+    <svg viewBox="0 0 80 96" class={className} fill="none" aria-hidden="true">
+      <ellipse cx="40" cy="38" rx="30" ry="34" stroke="currentColor" stroke-width="3.5" />
+      <path d="M35 56C36 47 36 39 41 30" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" />
+      <path d="M41 30C35 27 29 27 24 30" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+      <path d="M41 30C36 24 30 22 25 23" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+      <path d="M41 30C40 23 43 18 48 16" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+      <path d="M41 30C47 24 52 23 57 24" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+      <path d="M41 30C47 28 53 28 58 32" stroke="currentColor" stroke-width="3" stroke-linecap="round" />
+      <circle cx="38" cy="34" r="2" fill="currentColor" />
+      <circle cx="44" cy="35" r="2" fill="currentColor" />
+      <path d="M22 62C30 57 50 57 58 62" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" />
+      <text
+        x="40"
+        y="92"
+        text-anchor="middle"
+        fill="currentColor"
+        font-family="Archivo Variable, Archivo, sans-serif"
+        font-weight="800"
+        font-size="17"
+        letter-spacing="4"
+      >
+        CSRA
+      </text>
+    </svg>
+  )
+}

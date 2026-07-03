@@ -1,0 +1,23 @@
+---
+/** Palm Lineout symbol: palm + rugby ball + coastline. Colour via currentColor. */
+interface Props {
+  accent?: string;
+  class?: string;
+}
+const { accent = "#e8dcc4", class: className = "" } = Astro.props;
+---
+
+<svg viewBox="0 0 64 64" class={className} fill="none" aria-hidden="true">
+  <path d="M27 52C28 42 29 32 35 21" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  <path d="M35 21C28 17 20 17 13 21" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"></path>
+  <path d="M35 21C29 14 22 12 15 13" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"></path>
+  <path d="M35 21C34 13 37 7 43 4" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"></path>
+  <path d="M35 21C42 14 49 12 55 14" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"></path>
+  <path d="M35 21C42 18 50 18 56 23" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"></path>
+  <circle cx="31" cy="25" r="2.5" fill="currentColor"></circle>
+  <circle cx="38" cy="26" r="2.5" fill="currentColor"></circle>
+  <ellipse cx="46" cy="50" rx="10" ry="6" transform="rotate(-16 46 50)" fill="currentColor"></ellipse>
+  <path d="M38.5 52.5L53.5 47.5" stroke={accent} stroke-width="1.6" stroke-linecap="round"></path>
+  <path d="M43 52.5V49M46 51.5V48M49 50.5V47" stroke={accent} stroke-width="1.2" stroke-linecap="round"></path>
+  <path d="M6 58C14 52 24 53 30 57" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+</svg>

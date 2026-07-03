@@ -1,0 +1,204 @@
+---
+import Base from "../layouts/Base.astro";
+import Button from "../components/Button.astro";
+import Wave from "../components/Wave.astro";
+import SectionHead from "../components/SectionHead.astro";
+import HeroIllustration from "../components/HeroIllustration.astro";
+import LogoMark from "../components/LogoMark.astro";
+import { programs } from "../data/programs";
+import { waLink } from "../config/site";
+
+const values = [
+  {
+    name: "Respect",
+    desc: "For the ref, the opponent, the coach and each other. It's the first thing we teach and the last thing we compromise on.",
+  },
+  {
+    name: "Discipline",
+    desc: "Show up on time. Listen. Finish the drill. Small habits on the pitch become big habits everywhere else.",
+  },
+  {
+    name: "Inclusion",
+    desc: "Expat kids, local kids, big kids, small kids. Rugby has a position for every body type and a place for every child.",
+  },
+  {
+    name: "Team Spirit",
+    desc: "Nobody scores alone in rugby. Kids learn that their success depends on the player next to them — and vice versa.",
+  },
+];
+
+const testimonials = [
+  {
+    quote:
+      "My son counts the days to Saturday training. He's fitter, but the real change is confidence — he walks taller.",
+    name: "Parent of a Kids program player",
+  },
+  {
+    quote:
+      "We moved to Samui worried our daughter would lose her team sports. She found a better one.",
+    name: "Expat family, international school",
+  },
+  {
+    quote: "Turned up on holiday with trainers and zero experience. Best evening of the trip.",
+    name: "Touch rugby drop-in visitor",
+  },
+];
+---
+
+<Base
+  title="Coconut Samui Rugby Academy | Kids & Youth Rugby, Koh Samui"
+  description="Koh Samui's first rugby academy. Structured training for ages 4–17, adult touch rugby and corporate team-building. Book a free trial session today."
+>
+  <!-- Hero -->
+  <section class="bg-shell">
+    <div class="mx-auto grid max-w-[1200px] items-center gap-10 px-4 pb-16 pt-14 sm:px-6 lg:grid-cols-2 lg:pb-24 lg:pt-20">
+      <div>
+        <p class="font-display text-sm font-bold tracking-[0.25em] text-amber-dark uppercase">
+          Koh Samui · Thailand
+        </p>
+        <h1 class="mt-3 text-4xl leading-tight text-palm sm:text-5xl lg:text-[3.4rem]">
+          Rugby Academy in Koh Samui for Kids, Teens &amp; Adults
+        </h1>
+        <p class="mt-5 max-w-lg text-lg leading-relaxed text-jungle/80">
+          The island's first structured rugby academy. We teach kids aged 4–17 to run, pass,
+          tackle — and to respect, commit and belong. First session is free, no experience needed.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <Button href="/contact/">Book a Free Trial</Button>
+          <Button href="/programs/" variant="secondary">Explore Programs</Button>
+        </div>
+        <p class="mt-6 text-sm text-jungle/60">
+          English &amp; Thai friendly · All levels · Every kid gets game time
+        </p>
+      </div>
+      <HeroIllustration class="w-full max-w-xl justify-self-center lg:justify-self-end" />
+    </div>
+  </section>
+  <Wave fill="var(--color-shell)" flip />
+
+  <!-- Values -->
+  <section class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-24">
+    <SectionHead
+      eyebrow="What we stand for"
+      title="More than a game"
+      lede="Rugby is our vehicle. Character is the product. Four values run through every session, every camp, every match day."
+    />
+    <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      {
+        values.map((v) => (
+          <div class="rounded-2xl border border-sand bg-shell/60 p-7">
+            <LogoMark class="h-9 w-9 text-palm" accent="#f4a340" />
+            <h3 class="mt-4 text-xl text-palm">{v.name}</h3>
+            <p class="mt-2 text-sm leading-relaxed text-jungle/80">{v.desc}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Programs teaser -->
+  <section class="bg-palm text-white">
+    <Wave fill="white" flip class="text-palm" />
+    <div class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
+      <SectionHead
+        eyebrow="Programs"
+        title="A place on the pitch for everyone"
+        lede="Four programs, one crew — from four-year-olds chasing a tag to companies building real teams."
+        class="[&_h2]:text-white [&_p:last-child]:text-sand"
+      />
+      <div class="mt-12 grid gap-6 md:grid-cols-2">
+        {
+          programs.map((p) => (
+            <a
+              href={`/programs/${p.slug}/`}
+              class="group rounded-2xl bg-white/10 p-7 transition-colors hover:bg-white/20"
+            >
+              <p class="font-display text-xs font-bold tracking-[0.2em] text-amber uppercase">
+                {p.ages} · {p.tag}
+              </p>
+              <h3 class="mt-2 text-2xl text-white">{p.name}</h3>
+              <p class="mt-3 text-sm leading-relaxed text-sand">{p.short}</p>
+              <span class="mt-4 inline-block font-display text-sm font-bold text-amber group-hover:underline">
+                Learn more →
+              </span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+    <Wave fill="white" class="text-palm" />
+  </section>
+
+  <!-- Credibility + camp banner -->
+  <section class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-24">
+    <div class="grid items-center gap-10 lg:grid-cols-2">
+      <div>
+        <SectionHead
+          eyebrow="Why us"
+          title="First on the island, serious about it"
+          align="left"
+        />
+        <ul class="mt-6 space-y-4 text-jungle/80">
+          <li class="flex gap-3">
+            <span class="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-amber"></span>
+            <span><strong class="text-jungle">Structured, not improvised.</strong> Age-based curriculum, capped group sizes, session plans — the same standards you'd expect from a club back home.</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-amber"></span>
+            <span><strong class="text-jungle">Safety before scoreboard.</strong> Tag-only under 10, progressive contact for teens, qualified first-aid on every session.</span>
+          </li>
+          <li class="flex gap-3">
+            <span class="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-amber"></span>
+            <span><strong class="text-jungle">A community, not a class.</strong> Match days, family beach days, and a 2025 goal we're building together: 30+ enrolled kids, two intensive camps, and the island's first inter-school tournament.</span>
+          </li>
+        </ul>
+        <div class="mt-8">
+          <Button href="/about/" variant="secondary">Our story &amp; coaches</Button>
+        </div>
+      </div>
+      <div class="rounded-3xl bg-jungle p-8 text-white sm:p-10">
+        <p class="font-display text-xs font-bold tracking-[0.25em] text-amber uppercase">Next up</p>
+        <h3 class="mt-3 text-2xl sm:text-3xl">Holiday Intensive Camps &amp; the Island Tournament</h3>
+        <p class="mt-4 leading-relaxed text-sand">
+          Two intensive camps and Koh Samui's first inter-school rugby tournament are on the 2025
+          calendar. Residents and visiting families welcome.
+        </p>
+        <div class="mt-6">
+          <Button href="/camps-events/">See camps &amp; events</Button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="bg-shell">
+    <div class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
+      <SectionHead eyebrow="From the sideline" title="What families say" />
+      <div class="mt-12 grid gap-6 md:grid-cols-3">
+        {
+          testimonials.map((t) => (
+            <figure class="rounded-2xl border border-sand bg-white p-7">
+              <blockquote class="leading-relaxed text-jungle/90">“{t.quote}”</blockquote>
+              <figcaption class="mt-4 text-sm font-semibold text-palm">{t.name}</figcaption>
+            </figure>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="mx-auto max-w-[1200px] px-4 py-16 text-center sm:px-6 lg:py-24">
+    <SectionHead
+      eyebrow="First session free"
+      title="Come see a session. That's all it takes."
+      lede="Message us on WhatsApp or send the form — we'll reply within 24 hours with the next session your child can join."
+    />
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <Button href="/contact/">Book a Free Trial</Button>
+      <Button href={waLink("Hi! I'd like to book a free trial session.")} variant="secondary">
+        WhatsApp us
+      </Button>
+    </div>
+  </section>
+</Base>

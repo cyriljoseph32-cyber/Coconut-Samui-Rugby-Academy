@@ -1,0 +1,143 @@
+---
+import Base from "../layouts/Base.astro";
+import Wave from "../components/Wave.astro";
+import Button from "../components/Button.astro";
+import SectionHead from "../components/SectionHead.astro";
+import { waLink } from "../config/site";
+
+const tiers = [
+  {
+    name: "Bronze",
+    pitch: "Get behind the kids",
+    perks: ["Logo on academy website", "Social media thank-you posts", "Certificate of partnership"],
+  },
+  {
+    name: "Silver",
+    pitch: "Be seen on match days",
+    perks: [
+      "Everything in Bronze",
+      "Logo on training kit",
+      "Banner at academy sessions and events",
+      "Monthly social media features",
+    ],
+  },
+  {
+    name: "Gold",
+    pitch: "On the jersey",
+    perks: [
+      "Everything in Silver",
+      "Logo on match jerseys",
+      "Branding at camps and tournaments",
+      "Content collaboration (reels, stories)",
+      "First option on event activations",
+    ],
+  },
+  {
+    name: "Platinum",
+    pitch: "Naming rights",
+    perks: [
+      "Everything in Gold",
+      "Front-of-jersey placement",
+      "Naming rights: camp, tournament or team",
+      "Dedicated PR moment at launch",
+      "Seat at the academy's annual planning day",
+    ],
+  },
+];
+---
+
+<Base
+  title="Sponsorship & Partnership | Coconut Samui Rugby Academy"
+  description="Bronze to Platinum sponsorship: jersey branding, event naming rights, social reach. Put your business behind Koh Samui's youth."
+  whatsappMessage="Hi! I'd like the sponsorship deck for Coconut Samui Rugby Academy."
+>
+  <section class="bg-jungle text-white">
+    <div class="mx-auto max-w-[1200px] px-4 pb-16 pt-14 sm:px-6 lg:pt-20">
+      <p class="font-display text-sm font-bold tracking-[0.25em] text-amber uppercase">
+        Partnership &amp; Sponsorship
+      </p>
+      <h1 class="mt-3 max-w-3xl text-4xl leading-tight sm:text-5xl">
+        Back the Island's First Rugby Academy
+      </h1>
+      <p class="mt-5 max-w-2xl text-lg leading-relaxed text-sand">
+        Every jersey, camp and tournament on Samui will carry its founding partners' names. Your
+        brand in front of expat families, international schools, tourists and the island's business
+        community — attached to the most positive youth story on Koh Samui.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-4">
+        <Button href={waLink("Hi! Please send me the sponsorship deck.")}>Request the Sponsorship Deck</Button>
+      </div>
+    </div>
+  </section>
+  <Wave fill="var(--color-jungle)" flip />
+
+  <section class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
+    <SectionHead
+      eyebrow="Why sponsor"
+      title="Visibility with heart"
+      lede="First-mover categories don't come around often. Rugby on Samui has one academy — and its partners own the story from day one."
+    />
+    <div class="mt-12 grid gap-6 text-center sm:grid-cols-3">
+      <div class="rounded-2xl border border-sand p-8">
+        <p class="font-display text-4xl font-extrabold text-palm">30+</p>
+        <p class="mt-2 text-sm text-jungle/70">families in the academy community by end of 2025 — each one a word-of-mouth channel</p>
+      </div>
+      <div class="rounded-2xl border border-sand p-8">
+        <p class="font-display text-4xl font-extrabold text-palm">3</p>
+        <p class="mt-2 text-sm text-jungle/70">branded events in year one: two camps and the island's first inter-school tournament</p>
+      </div>
+      <div class="rounded-2xl border border-sand p-8">
+        <p class="font-display text-4xl font-extrabold text-palm">52</p>
+        <p class="mt-2 text-sm text-jungle/70">weeks of social content per year — training, match days and island life, with partners tagged in</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-shell">
+    <div class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
+      <SectionHead eyebrow="Tiers" title="Four ways in" />
+      <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+        {
+          tiers.map((tier, i) => (
+            <div
+              class={`flex flex-col rounded-3xl p-7 ${
+                i === 3 ? "bg-palm text-white" : "border border-sand bg-white"
+              }`}
+            >
+              <h3 class={`font-display text-2xl font-extrabold ${i === 3 ? "text-amber" : "text-palm"}`}>
+                {tier.name}
+              </h3>
+              <p class={`mt-1 text-sm font-semibold ${i === 3 ? "text-sand" : "text-jungle/60"}`}>
+                {tier.pitch}
+              </p>
+              <ul class={`mt-5 flex-1 space-y-2.5 text-sm leading-relaxed ${i === 3 ? "text-sand" : "text-jungle/80"}`}>
+                {tier.perks.map((perk) => (
+                  <li class="flex gap-2.5">
+                    <span class={`mt-1.5 h-2 w-2 shrink-0 rounded-full ${i === 3 ? "bg-amber" : "bg-palm"}`} />
+                    {perk}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+      <p class="mt-8 text-center text-sm text-jungle/60">
+        Tier pricing is shared in the sponsorship deck — packages can be tailored, and in-kind
+        partnerships (kit, venue, catering, transport) are welcome.
+      </p>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-[1200px] px-4 py-16 text-center sm:px-6">
+    <SectionHead
+      eyebrow="Next step"
+      title="Fifteen minutes, one coffee"
+      lede="Tell us about your business and we'll show you exactly where your brand fits — jersey, camp, tournament or all three."
+    />
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
+      <Button href={waLink("Hi! I'm interested in sponsoring the academy. Can we talk?")}>WhatsApp us</Button>
+      <Button href="/contact/" variant="secondary">Use the contact form</Button>
+    </div>
+  </section>
+</Base>

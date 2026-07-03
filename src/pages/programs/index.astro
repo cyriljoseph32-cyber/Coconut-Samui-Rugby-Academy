@@ -1,0 +1,71 @@
+---
+import Base from "../../layouts/Base.astro";
+import Wave from "../../components/Wave.astro";
+import Button from "../../components/Button.astro";
+import { programs } from "../../data/programs";
+import { courseSchema } from "../../lib/schema";
+
+const schema = programs.map((p) =>
+  courseSchema({ name: p.name, description: p.short, url: `/programs/${p.slug}/` })
+);
+---
+
+<Base
+  title="Rugby Programs Koh Samui | Kids 4–10, Teens, Adults, Corporate"
+  description="Age-based rugby training on Koh Samui: fun-first for ages 4–10, competitive pathway for teens, social touch rugby for adults, team-building for companies."
+  schema={schema}
+>
+  <section class="bg-shell">
+    <div class="mx-auto max-w-[1200px] px-4 pb-14 pt-14 sm:px-6 lg:pt-20">
+      <p class="font-display text-sm font-bold tracking-[0.25em] text-amber-dark uppercase">Programs</p>
+      <h1 class="mt-3 text-4xl leading-tight text-palm sm:text-5xl">
+        Rugby Programs for Every Age
+      </h1>
+      <p class="mt-5 max-w-2xl text-lg leading-relaxed text-jungle/80">
+        Four programs, one philosophy: everyone plays, everyone belongs. Pick the one that fits —
+        the first session is always free for kids and teens.
+      </p>
+    </div>
+  </section>
+  <Wave fill="var(--color-shell)" flip />
+
+  <section class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
+    <div class="grid gap-8 md:grid-cols-2">
+      {
+        programs.map((p) => (
+          <article class="flex flex-col rounded-3xl border border-sand bg-white p-8 shadow-sm">
+            <p class="font-display text-xs font-bold tracking-[0.2em] text-amber-dark uppercase">
+              {p.ages} · {p.tag}
+            </p>
+            <h2 class="mt-2 text-2xl text-palm">{p.name}</h2>
+            <p class="mt-3 flex-1 leading-relaxed text-jungle/80">{p.short}</p>
+            <dl class="mt-5 space-y-1.5 text-sm text-jungle/70">
+              {p.details.slice(0, 2).map((d) => (
+                <div class="flex gap-2">
+                  <dt class="font-semibold text-jungle">{d.label}:</dt>
+                  <dd>{d.value}</dd>
+                </div>
+              ))}
+            </dl>
+            <div class="mt-6">
+              <Button href={`/programs/${p.slug}/`} variant="secondary">
+                {p.name} details
+              </Button>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+
+    <div class="mt-16 rounded-3xl bg-jungle p-8 text-center text-white sm:p-12">
+      <h2 class="text-2xl sm:text-3xl">Not sure which program fits?</h2>
+      <p class="mx-auto mt-3 max-w-xl text-sand">
+        Tell us your child's age and experience on WhatsApp — we'll point you to the right session
+        and hold a free trial spot.
+      </p>
+      <div class="mt-6">
+        <Button href="/contact/">Book a Free Trial</Button>
+      </div>
+    </div>
+  </section>
+</Base>

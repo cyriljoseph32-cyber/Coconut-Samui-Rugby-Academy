@@ -1,0 +1,85 @@
+---
+import Logo from "./Logo.astro";
+import { SITE, waLink } from "../config/site";
+
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-jungle text-sand">
+  <div class="mx-auto grid max-w-[1200px] gap-10 px-4 py-14 sm:px-6 md:grid-cols-3">
+    <div>
+      <a href="/" class="inline-block text-white" aria-label="Coconut Samui Rugby Academy — home">
+        <Logo variant="primary" accent="#f4a340" />
+      </a>
+      <p class="mt-4 max-w-xs text-sm leading-relaxed">
+        The first structured rugby academy on Koh Samui. Respect, discipline, inclusion and team
+        spirit — for every kid on the island.
+      </p>
+    </div>
+
+    <nav aria-label="Footer">
+      <h2 class="font-display text-sm font-bold tracking-[0.2em] text-white">EXPLORE</h2>
+      <ul class="mt-4 space-y-2.5 text-sm">
+        <li><a class="hover:text-white hover:underline" href="/about/">About &amp; Mission</a></li>
+        <li><a class="hover:text-white hover:underline" href="/programs/">Programs</a></li>
+        <li><a class="hover:text-white hover:underline" href="/camps-events/">Camps &amp; Events</a></li>
+        <li><a class="hover:text-white hover:underline" href="/sponsorship/">Sponsorship</a></li>
+        <li><a class="hover:text-white hover:underline" href="/gallery/">Gallery</a></li>
+        <li><a class="hover:text-white hover:underline" href="/contact/">Contact &amp; Registration</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <h2 class="font-display text-sm font-bold tracking-[0.2em] text-white">GET IN TOUCH</h2>
+      <ul class="mt-4 space-y-2.5 text-sm">
+        <li>
+          <a class="hover:text-white hover:underline" href={waLink("Hi! I'd like to know more about the academy.")} target="_blank" rel="noopener">
+            WhatsApp us
+          </a>
+        </li>
+        <li><a class="hover:text-white hover:underline" href={`mailto:${SITE.email}`}>{SITE.email}</a></li>
+        <li>
+          <a class="hover:text-white hover:underline" href={SITE.instagram} target="_blank" rel="noopener">Instagram</a>
+        </li>
+        <li>
+          <a class="hover:text-white hover:underline" href={SITE.location.mapsUrl} target="_blank" rel="noopener">
+            {SITE.location.venue}
+          </a>
+        </li>
+      </ul>
+
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="mt-6"
+        aria-label="Newsletter signup"
+      >
+        <input type="hidden" name="access_key" value={SITE.web3formsKey} />
+        <input type="hidden" name="subject" value="Newsletter signup — CSRA website" />
+        <label for="newsletter-email" class="block text-sm font-semibold text-white">
+          Academy news, camps &amp; match days
+        </label>
+        <div class="mt-2 flex gap-2">
+          <input
+            id="newsletter-email"
+            type="email"
+            name="email"
+            required
+            placeholder="your@email.com"
+            class="w-full rounded-full border border-sand/40 bg-white/10 px-4 py-2.5 text-sm text-white placeholder:text-sand/60"
+          />
+          <button
+            type="submit"
+            class="shrink-0 rounded-full bg-amber px-5 py-2.5 font-display text-sm font-bold text-jungle hover:bg-amber-dark hover:text-white"
+          >
+            Join
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="border-t border-white/10 py-5 text-center text-xs text-sand/70">
+    © {year} Coconut Samui Rugby Academy · Koh Samui, Thailand
+  </div>
+</footer>

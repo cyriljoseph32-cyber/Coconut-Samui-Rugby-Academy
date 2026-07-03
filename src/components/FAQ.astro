@@ -1,0 +1,33 @@
+---
+import type { FaqItem } from "../lib/schema";
+
+interface Props {
+  items: FaqItem[];
+  class?: string;
+}
+const { items, class: className = "" } = Astro.props;
+---
+
+<div class={`divide-y divide-sand rounded-2xl border border-sand bg-white ${className}`}>
+  {
+    items.map((item) => (
+      <details class="group px-6 py-5">
+        <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-display font-bold text-palm [&::-webkit-details-marker]:hidden">
+          {item.q}
+          <svg
+            viewBox="0 0 24 24"
+            class="h-5 w-5 shrink-0 transition-transform group-open:rotate-45"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            aria-hidden="true"
+          >
+            <path d="M12 5v14M5 12h14" />
+          </svg>
+        </summary>
+        <p class="mt-3 leading-relaxed text-jungle/80">{item.a}</p>
+      </details>
+    ))
+  }
+</div>
