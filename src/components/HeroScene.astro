@@ -1,0 +1,58 @@
+---
+/**
+ * Art-directed hero panel: Koh Samui horizon, a low clay sun, coconut palms and
+ * a rugby ball caught mid-flight. Built entirely from brand tokens so it never
+ * reads as stock. Portrait 4:5.
+ */
+interface Props {
+  class?: string;
+}
+const { class: className = "" } = Astro.props;
+---
+
+<div class={`relative overflow-hidden rounded-xl grain ${className}`}>
+  <svg viewBox="0 0 500 620" class="block h-full w-full" role="img"
+    aria-label="Illustration of Koh Samui's coastline at golden hour — coconut palms, the sea, goal posts on a grass pitch and a rugby ball in flight.">
+    <defs>
+      <clipPath id="hero-frame"><rect x="0" y="0" width="500" height="620" rx="16"></rect></clipPath>
+    </defs>
+    <g clip-path="url(#hero-frame)">
+      <!-- sky -->
+      <rect width="500" height="620" fill="var(--color-sand)"></rect>
+      <!-- low sun -->
+      <circle cx="330" cy="250" r="92" fill="var(--color-clay)" opacity="0.9"></circle>
+      <!-- sea -->
+      <path d="M0 300C120 280 260 280 380 296C430 303 470 302 500 294V420H0Z" fill="var(--color-fern)"></path>
+      <path d="M0 300C120 280 260 280 380 296C430 303 470 302 500 294" fill="none" stroke="var(--color-palm)" stroke-width="2" opacity="0.5"></path>
+      <!-- distant headland -->
+      <path d="M0 300C60 286 120 288 170 298C120 296 60 298 0 306Z" fill="var(--color-palm)" opacity="0.55"></path>
+      <!-- beach -->
+      <path d="M0 384C140 366 320 372 500 392V470H0Z" fill="var(--color-sand-deep)"></path>
+      <!-- pitch -->
+      <path d="M0 440C160 420 340 420 500 446V620H0Z" fill="var(--color-palm)"></path>
+      <path d="M0 500C160 482 340 482 500 502" stroke="var(--color-fern)" stroke-width="4" opacity="0.7" stroke-linecap="round"></path>
+      <!-- goal posts -->
+      <g stroke="var(--color-paper)" stroke-width="7" stroke-linecap="round" opacity="0.92">
+        <path d="M150 452V330"></path>
+        <path d="M214 456V334"></path>
+        <path d="M150 384H214"></path>
+      </g>
+      <!-- ball mid-flight -->
+      <g transform="rotate(-24 372 210)">
+        <ellipse cx="372" cy="210" rx="34" ry="20" fill="var(--color-ink)"></ellipse>
+        <path d="M372 194V226M360 210H384" stroke="var(--color-paper)" stroke-width="2.4" stroke-linecap="round"></path>
+      </g>
+      <path d="M300 250C322 236 346 224 366 216" stroke="var(--color-ink)" stroke-width="2.5" stroke-dasharray="2 9" stroke-linecap="round" opacity="0.5"></path>
+      <!-- big palm, ink -->
+      <g fill="var(--color-ink)">
+        <path d="M92 470C96 400 98 350 118 300C96 292 74 294 56 306C74 286 98 280 120 288C104 268 84 262 64 266C86 258 110 262 126 280C126 254 134 236 152 226C136 246 130 268 130 292C120 300 108 350 104 470Z"></path>
+        <circle cx="108" cy="300" r="6"></circle>
+        <circle cx="126" cy="304" r="6"></circle>
+      </g>
+      <!-- small palm, palm-green -->
+      <g fill="var(--color-ink)" opacity="0.75">
+        <path d="M420 476C422 430 423 402 435 372C420 366 405 368 393 378C405 362 423 358 438 366C426 350 410 346 396 350C412 342 430 346 440 362C440 344 446 330 458 322C447 336 443 352 443 372C436 380 432 430 430 476Z"></path>
+      </g>
+    </g>
+  </svg>
+</div>

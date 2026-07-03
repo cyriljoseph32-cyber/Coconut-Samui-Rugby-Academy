@@ -1,0 +1,11 @@
+---
+/** Single coconut palm silhouette — decorative, fills with currentColor. */
+interface Props {
+  class?: string;
+}
+const { class: className = "" } = Astro.props;
+---
+
+<svg viewBox="0 0 200 200" class={className} fill="currentColor" aria-hidden="true">
+  <path d="M96 196c2-42 3-78 14-118 3-10 8-19 14-27-3 1-6 3-9 6 2-8 6-15 12-21-8 2-15 7-20 14 0-9 3-17 9-25-9 4-16 12-19 22-4-11-13-19-24-23 6 7 9 16 9 25-8-8-19-12-30-11 9 4 17 11 21 20-11-3-23-1-33 6 11-1 22 2 30 9-9 1-18 6-24 14 10-5 22-6 32-3-7 5-12 13-14 22 7-8 17-13 27-13-6 8-10 18-11 28-1 20-1 40-3 60 3-1 6-1 9-1s6 0 10 1z"></path>
+</svg>

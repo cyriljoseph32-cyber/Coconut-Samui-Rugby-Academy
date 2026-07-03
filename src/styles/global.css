@@ -1,57 +1,141 @@
 @import "tailwindcss";
 
+/*
+  Art direction — "Island Grit".
+  OKLCH palette rooted in the coconut/palm/Koh Samui identity: deep palm ink,
+  a living fern green, warm bone paper and sand surfaces, with ONE accent —
+  a sun-baked clay — used sparingly for emphasis. Fraunces (optical serif,
+  soft + wonk axes) carries editorial warmth in headlines; Schibsted Grotesk
+  keeps the body clean and modern. Texture is a faint paper grain, never gloss.
+*/
 @theme {
-  --color-palm: #0e5a3c;
-  --color-palm-light: #167a52;
-  --color-jungle: #123028;
-  --color-sand: #e8dcc4;
-  --color-shell: #f8f4ea;
-  --color-amber: #f4a340;
-  --color-amber-dark: #d9871f;
+  /* Core palette (OKLCH) */
+  --color-ink: oklch(0.24 0.035 165);       /* near-black palm */
+  --color-palm: oklch(0.42 0.085 165);      /* primary green */
+  --color-fern: oklch(0.62 0.12 158);       /* living / energy green */
+  --color-paper: oklch(0.972 0.014 92);     /* warm bone background */
+  --color-sand: oklch(0.9 0.032 88);        /* surface / cards */
+  --color-sand-deep: oklch(0.83 0.045 84);  /* borders on sand */
+  --color-clay: oklch(0.68 0.15 47);        /* the single accent */
+  --color-clay-deep: oklch(0.6 0.15 44);
+  --color-chalk: oklch(0.99 0.006 92);      /* near-white */
 
-  --font-display: "Archivo Variable", "Noto Sans Thai", system-ui, sans-serif;
-  --font-body: "Inter Variable", "Noto Sans Thai", system-ui, sans-serif;
+  --font-display: "Fraunces Variable", "Noto Sans Thai", Georgia, serif;
+  --font-body: "Schibsted Grotesk Variable", "Noto Sans Thai", system-ui, sans-serif;
+
+  /* Nested-radius scale */
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 2rem;
 }
 
-html {
-  scroll-behavior: smooth;
+:root {
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.4'/%3E%3C/svg%3E");
 }
 
-body {
+/* Base element styles live in @layer base so Tailwind utilities (e.g. text-paper
+   on a dark heading) always win — un-layered rules would otherwise override them. */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-paper);
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background-color: var(--color-paper);
+    font-size: 1.02rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Fraunces optical settings: warmer, softer headline character */
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 560;
+    font-optical-sizing: auto;
+    font-variation-settings: "SOFT" 40, "WONK" 1, "opsz" 120;
+    letter-spacing: -0.018em;
+    line-height: 1.02;
+    text-wrap: balance;
+    color: var(--color-ink);
+  }
+}
+
+/* Display headline — the editorial voice */
+.font-display { font-family: var(--font-display); }
+.display-xl {
+  font-size: clamp(2.6rem, 7vw, 5.4rem);
+  font-weight: 540;
+  line-height: 0.96;
+}
+.display-lg {
+  font-size: clamp(2rem, 4.5vw, 3.4rem);
+  font-weight: 560;
+}
+
+/* Eyebrow / kicker */
+.kicker {
   font-family: var(--font-body);
-  color: var(--color-jungle);
-  background-color: #ffffff;
-  -webkit-font-smoothing: antialiased;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-clay-deep);
 }
 
-h1,
-h2,
-h3,
-h4 {
-  font-family: var(--font-display);
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  text-wrap: balance;
+/* Paper grain overlay utility */
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--grain);
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 0;
 }
+
+/* Link underline that grows from the left */
+.link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1.5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.3s ease;
+}
+.link-underline:hover { background-size: 100% 1.5px; }
 
 ::selection {
-  background-color: var(--color-amber);
-  color: var(--color-jungle);
+  background-color: var(--color-clay);
+  color: var(--color-chalk);
 }
 
-/* Visible focus for keyboard users */
 :focus-visible {
-  outline: 3px solid var(--color-amber);
-  outline-offset: 2px;
+  outline: 3px solid var(--color-clay);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Scroll-reveal — progressive enhancement; content is visible without JS */
+@media (prefers-reduced-motion: no-preference) {
+  [data-reveal] {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  [data-reveal].is-in {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-  *,
-  *::before,
-  *::after {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
     animation-duration: 0.01ms !important;
     transition-duration: 0.01ms !important;
   }

@@ -1,48 +1,20 @@
 ---
 import Base from "../layouts/Base.astro";
-import Wave from "../components/Wave.astro";
 import Button from "../components/Button.astro";
-import SectionHead from "../components/SectionHead.astro";
+import PalmSilhouette from "../components/PalmSilhouette.astro";
 import { waLink } from "../config/site";
 
 const tiers = [
-  {
-    name: "Bronze",
-    pitch: "Get behind the kids",
-    perks: ["Logo on academy website", "Social media thank-you posts", "Certificate of partnership"],
-  },
-  {
-    name: "Silver",
-    pitch: "Be seen on match days",
-    perks: [
-      "Everything in Bronze",
-      "Logo on training kit",
-      "Banner at academy sessions and events",
-      "Monthly social media features",
-    ],
-  },
-  {
-    name: "Gold",
-    pitch: "On the jersey",
-    perks: [
-      "Everything in Silver",
-      "Logo on match jerseys",
-      "Branding at camps and tournaments",
-      "Content collaboration (reels, stories)",
-      "First option on event activations",
-    ],
-  },
-  {
-    name: "Platinum",
-    pitch: "Naming rights",
-    perks: [
-      "Everything in Gold",
-      "Front-of-jersey placement",
-      "Naming rights: camp, tournament or team",
-      "Dedicated PR moment at launch",
-      "Seat at the academy's annual planning day",
-    ],
-  },
+  { name: "Bronze", pitch: "Get behind the kids", perks: ["Logo on academy website", "Social thank-you posts", "Partnership certificate"] },
+  { name: "Silver", pitch: "Be seen on match days", perks: ["Everything in Bronze", "Logo on training kit", "Banner at sessions & events", "Monthly social features"] },
+  { name: "Gold", pitch: "On the jersey", perks: ["Everything in Silver", "Logo on match jerseys", "Branding at camps & tournaments", "Content collaboration"] },
+  { name: "Platinum", pitch: "Naming rights", perks: ["Everything in Gold", "Front-of-jersey placement", "Naming rights: camp, team or tournament", "Dedicated PR launch moment"], featured: true },
+];
+
+const reach = [
+  ["30+", "families in the community by 2027 — each a word-of-mouth channel"],
+  ["3", "branded events in year one: two camps and the island's first tournament"],
+  ["52", "weeks of social content a year — training, match days, island life"],
 ];
 ---
 
@@ -51,69 +23,71 @@ const tiers = [
   description="Bronze to Platinum sponsorship: jersey branding, event naming rights, social reach. Put your business behind Koh Samui's youth."
   whatsappMessage="Hi! I'd like the sponsorship deck for Coconut Samui Rugby Academy."
 >
-  <section class="bg-jungle text-white">
-    <div class="mx-auto max-w-[1200px] px-4 pb-16 pt-14 sm:px-6 lg:pt-20">
-      <p class="font-display text-sm font-bold tracking-[0.25em] text-amber uppercase">
-        Partnership &amp; Sponsorship
-      </p>
-      <h1 class="mt-3 max-w-3xl text-4xl leading-tight sm:text-5xl">
-        Back the Island's First Rugby Academy
-      </h1>
-      <p class="mt-5 max-w-2xl text-lg leading-relaxed text-sand">
-        Every jersey, camp and tournament on Samui will carry its founding partners' names. Your
-        brand in front of expat families, international schools, tourists and the island's business
-        community — attached to the most positive youth story on Koh Samui.
-      </p>
-      <div class="mt-8 flex flex-wrap gap-4">
-        <Button href={waLink("Hi! Please send me the sponsorship deck.")}>Request the Sponsorship Deck</Button>
-      </div>
-    </div>
-  </section>
-  <Wave fill="var(--color-jungle)" flip />
-
-  <section class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
-    <SectionHead
-      eyebrow="Why sponsor"
-      title="Visibility with heart"
-      lede="First-mover categories don't come around often. Rugby on Samui has one academy — and its partners own the story from day one."
-    />
-    <div class="mt-12 grid gap-6 text-center sm:grid-cols-3">
-      <div class="rounded-2xl border border-sand p-8">
-        <p class="font-display text-4xl font-extrabold text-palm">30+</p>
-        <p class="mt-2 text-sm text-jungle/70">families in the academy community by end of 2025 — each one a word-of-mouth channel</p>
-      </div>
-      <div class="rounded-2xl border border-sand p-8">
-        <p class="font-display text-4xl font-extrabold text-palm">3</p>
-        <p class="mt-2 text-sm text-jungle/70">branded events in year one: two camps and the island's first inter-school tournament</p>
-      </div>
-      <div class="rounded-2xl border border-sand p-8">
-        <p class="font-display text-4xl font-extrabold text-palm">52</p>
-        <p class="mt-2 text-sm text-jungle/70">weeks of social content per year — training, match days and island life, with partners tagged in</p>
+  <!-- Hero, ink -->
+  <section class="relative overflow-hidden border-b border-ink/12 bg-ink text-paper">
+    <PalmSilhouette class="pointer-events-none absolute -right-10 -bottom-16 h-96 w-96 text-fern/12" />
+    <div class="relative mx-auto max-w-[1240px] px-5 pt-16 pb-20 sm:px-8">
+      <div class="grid gap-x-16 gap-y-8 lg:grid-cols-12">
+        <div class="lg:col-span-8" data-reveal>
+          <p class="kicker text-clay">Partnership &amp; Sponsorship</p>
+          <h1 class="display-xl mt-6 text-paper">Get your name<br />on the jersey.</h1>
+        </div>
+        <div class="self-end lg:col-span-4" data-reveal data-reveal-delay="100ms">
+          <p class="text-lg leading-relaxed text-paper/75">
+            Every jersey, camp and tournament on Samui will carry its founding partners' names — in
+            front of expat families, schools, tourists and the island's business community.
+          </p>
+          <div class="mt-8"><Button href={waLink("Hi! Please send me the sponsorship deck.")} variant="paper">Request the deck</Button></div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="bg-shell">
-    <div class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
-      <SectionHead eyebrow="Tiers" title="Four ways in" />
-      <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+  <!-- Reach -->
+  <section class="mx-auto max-w-[1240px] px-5 py-20 sm:px-8">
+    <div class="grid gap-x-16 gap-y-10 lg:grid-cols-12">
+      <div class="lg:col-span-4" data-reveal>
+        <p class="kicker">Why sponsor</p>
+        <h2 class="display-lg mt-5">Visibility<br />with heart.</h2>
+        <p class="mt-5 leading-relaxed text-ink/65">
+          First-mover categories don't come around often. Rugby on Samui has one academy — and its
+          partners own the story from day one.
+        </p>
+      </div>
+      <dl class="grid gap-px overflow-hidden rounded-xl border border-ink/12 bg-ink/12 sm:grid-cols-3 lg:col-span-7 lg:col-start-6">
+        {
+          reach.map(([s, l], i) => (
+            <div class="bg-paper p-8" data-reveal data-reveal-delay={`${i * 90}ms`}>
+              <dt class="font-display text-5xl text-palm">{s}</dt>
+              <dd class="mt-3 text-sm leading-relaxed text-ink/65">{l}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </div>
+  </section>
+
+  <!-- Tiers -->
+  <section class="border-t border-ink/12 bg-sand/40">
+    <div class="mx-auto max-w-[1240px] px-5 py-20 sm:px-8">
+      <h2 class="display-lg max-w-xl" data-reveal>Four ways in.</h2>
+      <div class="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
         {
           tiers.map((tier, i) => (
             <div
-              class={`flex flex-col rounded-3xl p-7 ${
-                i === 3 ? "bg-palm text-white" : "border border-sand bg-white"
-              }`}
+              class={`flex flex-col rounded-xl p-7 grain ${tier.featured ? "bg-ink text-paper" : "border border-ink/12 bg-paper"}`}
+              data-reveal
+              data-reveal-delay={`${i * 70}ms`}
             >
-              <h3 class={`font-display text-2xl font-extrabold ${i === 3 ? "text-amber" : "text-palm"}`}>
-                {tier.name}
-              </h3>
-              <p class={`mt-1 text-sm font-semibold ${i === 3 ? "text-sand" : "text-jungle/60"}`}>
-                {tier.pitch}
-              </p>
-              <ul class={`mt-5 flex-1 space-y-2.5 text-sm leading-relaxed ${i === 3 ? "text-sand" : "text-jungle/80"}`}>
+              <div class="relative flex items-baseline justify-between">
+                <h3 class={`font-display text-2xl ${tier.featured ? "text-clay" : "text-palm"}`}>{tier.name}</h3>
+                <span class={`font-body text-xs font-semibold tabular-nums ${tier.featured ? "text-paper/50" : "text-ink/40"}`}>0{i + 1}</span>
+              </div>
+              <p class={`relative mt-1 text-sm font-medium ${tier.featured ? "text-paper/70" : "text-ink/55"}`}>{tier.pitch}</p>
+              <ul class={`relative mt-6 flex-1 space-y-3 text-sm leading-relaxed ${tier.featured ? "text-paper/80" : "text-ink/75"}`}>
                 {tier.perks.map((perk) => (
-                  <li class="flex gap-2.5">
-                    <span class={`mt-1.5 h-2 w-2 shrink-0 rounded-full ${i === 3 ? "bg-amber" : "bg-palm"}`} />
+                  <li class="flex gap-2.5 border-t pt-3" style={`border-color:${tier.featured ? "oklch(0.99 0.006 92 / 0.15)" : "oklch(0.24 0.035 165 / 0.1)"}`}>
+                    <svg viewBox="0 0 24 24" class={`mt-0.5 h-4 w-4 shrink-0 ${tier.featured ? "text-clay" : "text-clay-deep"}`} fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>
                     {perk}
                   </li>
                 ))}
@@ -122,22 +96,28 @@ const tiers = [
           ))
         }
       </div>
-      <p class="mt-8 text-center text-sm text-jungle/60">
+      <p class="mt-8 max-w-2xl text-sm text-ink/55" data-reveal>
         Tier pricing is shared in the sponsorship deck — packages can be tailored, and in-kind
         partnerships (kit, venue, catering, transport) are welcome.
       </p>
     </div>
   </section>
 
-  <section class="mx-auto max-w-[1200px] px-4 py-16 text-center sm:px-6">
-    <SectionHead
-      eyebrow="Next step"
-      title="Fifteen minutes, one coffee"
-      lede="Tell us about your business and we'll show you exactly where your brand fits — jersey, camp, tournament or all three."
-    />
-    <div class="mt-8 flex flex-wrap justify-center gap-4">
-      <Button href={waLink("Hi! I'm interested in sponsoring the academy. Can we talk?")}>WhatsApp us</Button>
-      <Button href="/contact/" variant="secondary">Use the contact form</Button>
+  <!-- CTA -->
+  <section class="mx-auto max-w-[1240px] px-5 py-20 sm:px-8">
+    <div class="grid items-end gap-8 lg:grid-cols-12">
+      <div class="lg:col-span-8" data-reveal>
+        <p class="kicker">Next step</p>
+        <h2 class="display-lg mt-4">Fifteen minutes, one coffee.</h2>
+        <p class="mt-5 max-w-xl leading-relaxed text-ink/70">
+          Tell us about your business and we'll show you exactly where your brand fits — jersey, camp,
+          tournament, or all three.
+        </p>
+      </div>
+      <div class="flex flex-wrap gap-4 lg:col-span-4 lg:justify-end" data-reveal data-reveal-delay="100ms">
+        <Button href={waLink("Hi! I'm interested in sponsoring the academy. Can we talk?")}>WhatsApp us</Button>
+        <Button href="/contact/" variant="outline">Contact form</Button>
+      </div>
     </div>
   </section>
 </Base>

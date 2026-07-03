@@ -1,23 +1,30 @@
 ---
-/** Palm Lineout symbol: palm + rugby ball + coastline. Colour via currentColor. */
+/**
+ * "Palm Lineout" mark, refined: a rugby ball on its point whose seam becomes a
+ * palm trunk, three fronds arcing off the top, two coconuts. Chunky strokes and
+ * solid ball so it survives embroidery and 16px favicons. Single colour via
+ * currentColor; `seam` tints the ball's lacing/negative detail.
+ */
 interface Props {
-  accent?: string;
+  seam?: string;
   class?: string;
 }
-const { accent = "#e8dcc4", class: className = "" } = Astro.props;
+const { seam = "var(--color-paper)", class: className = "" } = Astro.props;
 ---
 
 <svg viewBox="0 0 64 64" class={className} fill="none" aria-hidden="true">
-  <path d="M27 52C28 42 29 32 35 21" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
-  <path d="M35 21C28 17 20 17 13 21" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"></path>
-  <path d="M35 21C29 14 22 12 15 13" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"></path>
-  <path d="M35 21C34 13 37 7 43 4" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"></path>
-  <path d="M35 21C42 14 49 12 55 14" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"></path>
-  <path d="M35 21C42 18 50 18 56 23" stroke="currentColor" stroke-width="3.5" stroke-linecap="round"></path>
-  <circle cx="31" cy="25" r="2.5" fill="currentColor"></circle>
-  <circle cx="38" cy="26" r="2.5" fill="currentColor"></circle>
-  <ellipse cx="46" cy="50" rx="10" ry="6" transform="rotate(-16 46 50)" fill="currentColor"></ellipse>
-  <path d="M38.5 52.5L53.5 47.5" stroke={accent} stroke-width="1.6" stroke-linecap="round"></path>
-  <path d="M43 52.5V49M46 51.5V48M49 50.5V47" stroke={accent} stroke-width="1.2" stroke-linecap="round"></path>
-  <path d="M6 58C14 52 24 53 30 57" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"></path>
+  <!-- ball, upright -->
+  <ellipse cx="32" cy="42" rx="15" ry="19" fill="currentColor"></ellipse>
+  <!-- lacing seam -->
+  <path d="M32 30V54" stroke={seam} stroke-width="2.4" stroke-linecap="round"></path>
+  <path d="M28 36H36M28 42H36M28 48H36" stroke={seam} stroke-width="2.2" stroke-linecap="round"></path>
+  <!-- palm trunk rising from the ball's tip -->
+  <path d="M32 24C31 18 33 12 30 6" stroke="currentColor" stroke-width="4.4" stroke-linecap="round"></path>
+  <!-- fronds -->
+  <path d="M30 7C24 3 17 3 12 8" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  <path d="M30 7C33 1 40 -1 47 2" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  <path d="M30 7C37 4 45 5 51 11" stroke="currentColor" stroke-width="4" stroke-linecap="round"></path>
+  <!-- coconuts -->
+  <circle cx="26" cy="12" r="2.6" fill="currentColor"></circle>
+  <circle cx="34" cy="13" r="2.6" fill="currentColor"></circle>
 </svg>

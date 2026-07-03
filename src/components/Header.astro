@@ -4,27 +4,28 @@ import Logo from "./Logo.astro";
 const nav = [
   { href: "/about/", label: "About" },
   { href: "/programs/", label: "Programs" },
-  { href: "/camps-events/", label: "Camps & Events" },
-  { href: "/sponsorship/", label: "Sponsorship" },
+  { href: "/camps-events/", label: "Camps" },
+  { href: "/sponsorship/", label: "Sponsor" },
   { href: "/gallery/", label: "Gallery" },
 ];
 const current = Astro.url.pathname;
+const isActive = (href: string) => current === href || (href !== "/" && current.startsWith(href));
 ---
 
-<header class="sticky top-0 z-40 border-b border-sand bg-white/95 backdrop-blur">
-  <div class="mx-auto flex max-w-[1200px] items-center justify-between gap-4 px-4 py-3 sm:px-6">
-    <a href="/" class="text-palm" aria-label="Coconut Samui Rugby Academy — home">
-      <Logo variant="secondary" accent="#f4a340" />
+<header class="sticky top-0 z-40 border-b border-ink/10 bg-paper/85 backdrop-blur-md">
+  <div class="mx-auto flex max-w-[1240px] items-center justify-between gap-6 px-5 py-3.5 sm:px-8">
+    <a href="/" class="text-ink" aria-label="Coconut Samui Rugby Academy — home">
+      <Logo variant="secondary" seam="var(--color-paper)" />
     </a>
 
-    <nav class="hidden items-center gap-6 lg:flex" aria-label="Main">
+    <nav class="hidden items-center gap-8 lg:flex" aria-label="Main">
       {
         nav.map((item) => (
           <a
             href={item.href}
-            aria-current={current === item.href ? "page" : undefined}
-            class={`font-display text-sm font-semibold transition-colors hover:text-palm ${
-              current === item.href ? "text-palm underline underline-offset-8" : "text-jungle"
+            aria-current={isActive(item.href) ? "page" : undefined}
+            class={`link-underline font-body text-sm font-medium ${
+              isActive(item.href) ? "text-clay-deep" : "text-ink/80 hover:text-ink"
             }`}
           >
             {item.label}
@@ -33,42 +34,40 @@ const current = Astro.url.pathname;
       }
       <a
         href="/contact/"
-        class="rounded-full bg-amber px-5 py-2.5 font-display text-sm font-bold text-jungle transition-colors hover:bg-amber-dark hover:text-white"
+        class="rounded-md bg-ink px-5 py-2.5 font-body text-sm font-semibold text-paper transition-colors hover:bg-clay hover:text-chalk"
       >
-        Book a Free Trial
+        Free trial
       </a>
     </nav>
 
     <button
       id="menu-toggle"
-      class="flex h-11 w-11 items-center justify-center rounded-lg text-palm lg:hidden"
+      class="flex h-11 w-11 items-center justify-center rounded-md text-ink lg:hidden"
       aria-expanded="false"
       aria-controls="mobile-menu"
       aria-label="Open menu"
     >
-      <svg viewBox="0 0 24 24" class="h-7 w-7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true">
-        <path d="M4 7h16M4 12h16M4 17h16"></path>
+      <svg viewBox="0 0 24 24" class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M4 8h16M4 16h16"></path>
       </svg>
     </button>
   </div>
 
-  <nav id="mobile-menu" class="hidden border-t border-sand bg-white px-4 pb-6 pt-2 lg:hidden" aria-label="Mobile">
+  <nav id="mobile-menu" class="hidden border-t border-ink/10 bg-paper px-5 pb-6 pt-2 lg:hidden" aria-label="Mobile">
     {
       nav.map((item) => (
         <a
           href={item.href}
-          aria-current={current === item.href ? "page" : undefined}
-          class="block border-b border-shell py-3.5 font-display font-semibold text-jungle"
+          aria-current={isActive(item.href) ? "page" : undefined}
+          class="flex items-center justify-between border-b border-ink/8 py-4 font-display text-lg text-ink"
         >
           {item.label}
+          <svg viewBox="0 0 24 24" class="h-4 w-4 text-ink/40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
         </a>
       ))
     }
-    <a
-      href="/contact/"
-      class="mt-4 block rounded-full bg-amber px-5 py-3 text-center font-display font-bold text-jungle"
-    >
-      Book a Free Trial
+    <a href="/contact/" class="mt-5 block rounded-md bg-ink px-5 py-3.5 text-center font-body font-semibold text-paper">
+      Book a free trial
     </a>
   </nav>
 </header>

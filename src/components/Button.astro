@@ -1,24 +1,36 @@
 ---
 interface Props {
   href: string;
-  variant?: "primary" | "secondary" | "ghost";
+  /** solid/outline for light backgrounds; paper/outlinePaper for dark backgrounds. */
+  variant?: "solid" | "outline" | "ghost" | "paper" | "outlinePaper";
   class?: string;
+  target?: string;
+  rel?: string;
+  dataAnalytics?: string;
 }
-const { href, variant = "primary", class: className = "" } = Astro.props;
+const {
+  href,
+  variant = "solid",
+  class: className = "",
+  target,
+  rel,
+  dataAnalytics,
+} = Astro.props;
 
+const base =
+  "group inline-flex items-center gap-2.5 rounded-md px-6 py-3.5 font-body text-[0.95rem] font-semibold transition-all duration-300";
 const styles = {
-  primary:
-    "bg-amber text-jungle hover:bg-amber-dark hover:text-white focus-visible:bg-amber-dark",
-  secondary:
-    "bg-palm text-white hover:bg-palm-light",
-  ghost:
-    "border-2 border-current text-inherit hover:bg-white/10",
+  solid: "bg-ink text-paper hover:bg-clay hover:text-chalk",
+  outline: "border border-ink/25 text-ink hover:border-ink hover:bg-ink hover:text-paper",
+  ghost: "text-ink hover:text-clay-deep px-0",
+  paper: "bg-paper text-ink hover:bg-clay hover:text-chalk",
+  outlinePaper: "border border-paper/40 text-paper hover:bg-paper hover:text-ink",
 };
 ---
 
-<a
-  href={href}
-  class={`inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 font-display text-base font-bold transition-colors ${styles[variant]} ${className}`}
->
+<a href={href} class={`${base} ${styles[variant]} ${className}`} target={target} rel={rel} data-analytics={dataAnalytics}>
   <slot />
+  <svg viewBox="0 0 24 24" class="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M5 12h14M13 6l6 6-6 6"></path>
+  </svg>
 </a>

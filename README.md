@@ -51,11 +51,20 @@ All contact placeholders live in **`src/config/site.ts`**:
 
 ## Brand quick reference
 
-| Token | Value |
+Art direction "Island Grit" — editorial, type-led, asymmetric. All colour tokens
+are OKLCH, defined once in `src/styles/global.css` under `@theme`.
+
+| Token | Role |
 |---|---|
-| Palm Green | `#0E5A3C` |
-| Deep Jungle | `#123028` |
-| Sand | `#E8DCC4` |
-| Sunset Amber (CTA only) | `#F4A340` |
-| Display font | Archivo Variable |
-| Body font | Inter Variable |
+| `--color-ink` | Near-black palm — headings, dark sections |
+| `--color-palm` | Primary green |
+| `--color-fern` | Living / energy green |
+| `--color-paper` | Warm bone background |
+| `--color-sand` | Surfaces / cards |
+| `--color-clay` | The single accent — used sparingly |
+| Display font | Fraunces Variable (optical serif) |
+| Body font | Schibsted Grotesk Variable |
+
+Base element styles are wrapped in `@layer base` so Tailwind utilities always win.
+Buttons: use `paper` / `outlinePaper` variants on dark backgrounds (never override
+colours via `class`, or conflicting utilities cancel out).

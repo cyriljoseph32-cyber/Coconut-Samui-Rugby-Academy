@@ -1,8 +1,7 @@
 ---
 import Base from "../layouts/Base.astro";
-import Wave from "../components/Wave.astro";
 import Button from "../components/Button.astro";
-import LogoMark from "../components/LogoMark.astro";
+import PalmSilhouette from "../components/PalmSilhouette.astro";
 import { SITE } from "../config/site";
 
 const schema = [
@@ -14,16 +13,23 @@ const schema = [
   },
 ];
 
-// Placeholder tiles — swap each for a real <img> (AVIF/WebP, width/height set,
-// loading="lazy") as academy photography comes in. Keep the alt text pattern.
-const placeholders = [
-  { label: "Saturday training", note: "Kids session, first photos coming after launch" },
-  { label: "Tag rugby matches", note: "Match-day moments" },
-  { label: "Teens contact skills", note: "Progressive contact training" },
-  { label: "Sunset touch rugby", note: "Adult sessions on the island" },
-  { label: "Holiday camps", note: "Camp week highlights" },
-  { label: "Team huddles", note: "Where every session ends" },
+// Branded art tiles until real photography lands — swap each for an <img>
+// (AVIF/WebP, width/height, loading="lazy") keeping the same label + span.
+const tiles = [
+  { label: "Saturday training", tone: "ink", span: "sm:col-span-2 sm:row-span-2" },
+  { label: "Tag rugby", tone: "palm", span: "" },
+  { label: "Sunset touch", tone: "clay", span: "" },
+  { label: "Holiday camps", tone: "sand", span: "sm:col-span-2" },
+  { label: "Team huddles", tone: "palm", span: "" },
+  { label: "Match days", tone: "ink", span: "" },
 ];
+
+const toneClass: Record<string, string> = {
+  ink: "bg-ink text-paper",
+  palm: "bg-palm text-paper",
+  clay: "bg-clay text-chalk",
+  sand: "bg-sand-deep text-ink",
+};
 ---
 
 <Base
@@ -31,35 +37,35 @@ const placeholders = [
   description="Training days, camps and match moments from Koh Samui's rugby community."
   schema={schema}
 >
-  <section class="bg-shell">
-    <div class="mx-auto max-w-[1200px] px-4 pb-14 pt-14 sm:px-6 lg:pt-20">
-      <p class="font-display text-sm font-bold tracking-[0.25em] text-amber-dark uppercase">Gallery</p>
-      <h1 class="mt-3 text-4xl leading-tight text-palm sm:text-5xl">Life at the Academy</h1>
-      <p class="mt-5 max-w-2xl text-lg leading-relaxed text-jungle/80">
-        We're a young academy and proud of it — this page fills with real training days, camps and
-        match moments as they happen. No stock photos, ever. For the live feed, Instagram is where
-        it all lands first.
-      </p>
-      <div class="mt-8">
-        <Button href={SITE.instagram}>Follow on Instagram</Button>
+  <section class="mx-auto max-w-[1240px] px-5 pt-14 pb-6 sm:px-8 lg:pt-20">
+    <div class="grid gap-x-16 gap-y-8 lg:grid-cols-12">
+      <div class="lg:col-span-8" data-reveal>
+        <p class="kicker">Gallery</p>
+        <h1 class="display-xl mt-6">Life at the<br />academy.</h1>
       </div>
+      <p class="self-end text-lg leading-relaxed text-ink/70 lg:col-span-4" data-reveal data-reveal-delay="100ms">
+        We're a young academy and proud of it. This page fills with real training days, camps and
+        match moments as they happen — no stock photos, ever. Instagram gets them first.
+      </p>
     </div>
+    <div class="mt-8" data-reveal><Button href={SITE.instagram} target="_blank" rel="noopener">Follow {SITE.instagramHandle}</Button></div>
   </section>
-  <Wave fill="var(--color-shell)" flip />
 
-  <section class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
-    <ul class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+  <section class="mx-auto max-w-[1240px] px-5 py-14 sm:px-8">
+    <ul class="grid auto-rows-[180px] grid-cols-2 gap-4 sm:grid-cols-4">
       {
-        placeholders.map((tile) => (
-          <li class="flex aspect-[4/3] flex-col items-center justify-center gap-3 rounded-3xl border-2 border-dashed border-sand bg-shell/60 p-6 text-center">
-            <LogoMark class="h-12 w-12 text-palm/40" accent="transparent" />
-            <p class="font-display font-bold text-palm">{tile.label}</p>
-            <p class="text-xs text-jungle/50">{tile.note}</p>
+        tiles.map((t) => (
+          <li class={`group relative overflow-hidden rounded-xl grain ${toneClass[t.tone]} ${t.span}`} data-reveal>
+            <PalmSilhouette class="pointer-events-none absolute -right-6 -bottom-8 h-40 w-40 opacity-15 transition-transform duration-500 group-hover:scale-110" />
+            <div class="relative flex h-full flex-col justify-between p-5">
+              <span class="font-body text-[0.7rem] font-semibold uppercase tracking-[0.18em] opacity-70">Coming soon</span>
+              <span class="font-display text-xl leading-tight">{t.label}</span>
+            </div>
           </li>
         ))
       }
     </ul>
-    <p class="mt-10 text-center text-sm text-jungle/60">
+    <p class="mt-10 max-w-2xl text-sm leading-relaxed text-ink/55">
       Parents: photos of your kids are only ever published with your written consent — it's part of
       our safeguarding policy.
     </p>

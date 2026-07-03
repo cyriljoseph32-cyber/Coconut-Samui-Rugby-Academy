@@ -1,204 +1,223 @@
 ---
 import Base from "../layouts/Base.astro";
 import Button from "../components/Button.astro";
-import Wave from "../components/Wave.astro";
-import SectionHead from "../components/SectionHead.astro";
-import HeroIllustration from "../components/HeroIllustration.astro";
-import LogoMark from "../components/LogoMark.astro";
+import Marquee from "../components/Marquee.astro";
+import HeroScene from "../components/HeroScene.astro";
+import PalmSilhouette from "../components/PalmSilhouette.astro";
 import { programs } from "../data/programs";
 import { waLink } from "../config/site";
 
 const values = [
-  {
-    name: "Respect",
-    desc: "For the ref, the opponent, the coach and each other. It's the first thing we teach and the last thing we compromise on.",
-  },
-  {
-    name: "Discipline",
-    desc: "Show up on time. Listen. Finish the drill. Small habits on the pitch become big habits everywhere else.",
-  },
-  {
-    name: "Inclusion",
-    desc: "Expat kids, local kids, big kids, small kids. Rugby has a position for every body type and a place for every child.",
-  },
-  {
-    name: "Team Spirit",
-    desc: "Nobody scores alone in rugby. Kids learn that their success depends on the player next to them — and vice versa.",
-  },
+  { name: "Respect", def: "For the ref, the opponent, the coach and each other. First thing we teach, last thing we drop." },
+  { name: "Discipline", def: "Boots on, on time, drill finished. Habits built on the pitch follow kids home." },
+  { name: "Inclusion", def: "Thai and expat, every body type, no bench-warmers. Rugby has a position for everyone." },
+  { name: "Team spirit", def: "Nobody scores alone. Every try is celebrated by fifteen kids, not one." },
 ];
 
-const testimonials = [
-  {
-    quote:
-      "My son counts the days to Saturday training. He's fitter, but the real change is confidence — he walks taller.",
-    name: "Parent of a Kids program player",
-  },
-  {
-    quote:
-      "We moved to Samui worried our daughter would lose her team sports. She found a better one.",
-    name: "Expat family, international school",
-  },
-  {
-    quote: "Turned up on holiday with trainers and zero experience. Best evening of the trip.",
-    name: "Touch rugby drop-in visitor",
-  },
+const vision = [
+  { stat: "30+", label: "kids enrolled" },
+  { stat: "2", label: "intensive camps" },
+  { stat: "1", label: "inter-school tournament" },
 ];
 ---
 
 <Base
   title="Coconut Samui Rugby Academy | Kids & Youth Rugby, Koh Samui"
-  description="Koh Samui's first rugby academy. Structured training for ages 4–17, adult touch rugby and corporate team-building. Book a free trial session today."
+  description="Koh Samui's first rugby academy. Structured training for ages 4–17, adult touch rugby and corporate team-building. Book a free trial — no experience needed."
 >
   <!-- Hero -->
-  <section class="bg-shell">
-    <div class="mx-auto grid max-w-[1200px] items-center gap-10 px-4 pb-16 pt-14 sm:px-6 lg:grid-cols-2 lg:pb-24 lg:pt-20">
-      <div>
-        <p class="font-display text-sm font-bold tracking-[0.25em] text-amber-dark uppercase">
-          Koh Samui · Thailand
-        </p>
-        <h1 class="mt-3 text-4xl leading-tight text-palm sm:text-5xl lg:text-[3.4rem]">
-          Rugby Academy in Koh Samui for Kids, Teens &amp; Adults
+  <section class="relative">
+    <div class="mx-auto grid max-w-[1240px] items-end gap-10 px-5 pt-12 pb-8 sm:px-8 lg:grid-cols-[1.05fr_0.95fr] lg:pt-20 lg:pb-0">
+      <div class="lg:pb-24" data-reveal>
+        <p class="kicker">Koh Samui · Thailand · Est. 2024</p>
+        <h1 class="display-xl mt-6">
+          Rugby that<br />
+          <span class="italic text-palm">raises</span> islanders.
         </h1>
-        <p class="mt-5 max-w-lg text-lg leading-relaxed text-jungle/80">
-          The island's first structured rugby academy. We teach kids aged 4–17 to run, pass,
-          tackle — and to respect, commit and belong. First session is free, no experience needed.
+        <p class="mt-7 max-w-md text-lg leading-relaxed text-ink/70">
+          The first structured rugby academy on Koh Samui. We teach kids aged 4–17 to run, pass and
+          tackle — and to respect, commit and belong. First session's free, no experience needed.
         </p>
-        <div class="mt-8 flex flex-wrap gap-4">
-          <Button href="/contact/">Book a Free Trial</Button>
-          <Button href="/programs/" variant="secondary">Explore Programs</Button>
+        <div class="mt-9 flex flex-wrap items-center gap-4">
+          <Button href="/contact/">Book a free trial</Button>
+          <Button href="/programs/" variant="outline">See the programs</Button>
         </div>
-        <p class="mt-6 text-sm text-jungle/60">
-          English &amp; Thai friendly · All levels · Every kid gets game time
-        </p>
+        <dl class="mt-12 flex gap-10 border-t border-ink/12 pt-6">
+          <div><dt class="text-sm text-ink/55">Ages</dt><dd class="font-display text-2xl">4–17</dd></div>
+          <div><dt class="text-sm text-ink/55">Coached in</dt><dd class="font-display text-2xl">EN · TH</dd></div>
+          <div><dt class="text-sm text-ink/55">Game time</dt><dd class="font-display text-2xl">Everyone</dd></div>
+        </dl>
       </div>
-      <HeroIllustration class="w-full max-w-xl justify-self-center lg:justify-self-end" />
-    </div>
-  </section>
-  <Wave fill="var(--color-shell)" flip />
 
-  <!-- Values -->
-  <section class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-24">
-    <SectionHead
-      eyebrow="What we stand for"
-      title="More than a game"
-      lede="Rugby is our vehicle. Character is the product. Four values run through every session, every camp, every match day."
-    />
-    <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-      {
-        values.map((v) => (
-          <div class="rounded-2xl border border-sand bg-shell/60 p-7">
-            <LogoMark class="h-9 w-9 text-palm" accent="#f4a340" />
-            <h3 class="mt-4 text-xl text-palm">{v.name}</h3>
-            <p class="mt-2 text-sm leading-relaxed text-jungle/80">{v.desc}</p>
-          </div>
-        ))
-      }
+      <!-- art panel overlaps the marquee below (surprise moment) -->
+      <div class="relative z-10 lg:-mb-16" data-reveal data-reveal-delay="120ms">
+        <HeroScene class="mx-auto w-full max-w-md shadow-[0_30px_60px_-30px_oklch(0.24_0.035_165/0.5)] lg:max-w-none" />
+      </div>
+    </div>
+
+    <!-- value marquee, ink band -->
+    <div class="mt-8 bg-ink py-5 text-paper lg:mt-0">
+      <Marquee items={["Respect", "Discipline", "Inclusion", "Team spirit", "First on the island"]} />
     </div>
   </section>
 
-  <!-- Programs teaser -->
-  <section class="bg-palm text-white">
-    <Wave fill="white" flip class="text-palm" />
-    <div class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
-      <SectionHead
-        eyebrow="Programs"
-        title="A place on the pitch for everyone"
-        lede="Four programs, one crew — from four-year-olds chasing a tag to companies building real teams."
-        class="[&_h2]:text-white [&_p:last-child]:text-sand"
-      />
-      <div class="mt-12 grid gap-6 md:grid-cols-2">
+  <!-- Mission — asymmetric editorial -->
+  <section class="mx-auto max-w-[1240px] px-5 py-20 sm:px-8 lg:py-28">
+    <div class="grid gap-x-16 gap-y-8 lg:grid-cols-12">
+      <div class="lg:col-span-5" data-reveal>
+        <p class="kicker">01 — The mission</p>
+        <h2 class="display-lg mt-5">
+          A team sport the island never had.
+        </h2>
+      </div>
+      <div class="lg:col-span-6 lg:col-start-7" data-reveal data-reveal-delay="100ms">
+        <p class="text-xl leading-relaxed text-ink/80">
+          Samui has beaches, boxing gyms and football pitches. What it never had was rugby — the one
+          sport built on the idea that nobody wins alone.
+        </p>
+        <p class="mt-5 leading-relaxed text-ink/65">
+          We started Coconut Samui Rugby Academy to change that: an age-based curriculum from tag
+          rugby at four to a real contact pathway for teens, adult touch under the sunset, and
+          team-building for island companies. Structured, safe, and coached in English with Thai
+          support. Not a holiday clinic — a club that stays.
+        </p>
+        <a href="/about/" class="link-underline mt-7 inline-flex items-center gap-2 font-body font-semibold text-ink">
+          Our story &amp; coaches
+          <svg viewBox="0 0 24 24" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs — editorial index, not a card grid -->
+  <section class="border-y border-ink/12 bg-sand/40">
+    <div class="mx-auto max-w-[1240px] px-5 py-16 sm:px-8 lg:py-24">
+      <div class="flex flex-wrap items-end justify-between gap-6" data-reveal>
+        <div>
+          <p class="kicker">02 — Programs</p>
+          <h2 class="display-lg mt-5 max-w-xl">A place on the pitch for every age.</h2>
+        </div>
+        <a href="/programs/" class="link-underline hidden font-body font-semibold text-ink sm:inline-block">All programs →</a>
+      </div>
+
+      <ul class="mt-12 border-t border-ink/15">
         {
-          programs.map((p) => (
-            <a
-              href={`/programs/${p.slug}/`}
-              class="group rounded-2xl bg-white/10 p-7 transition-colors hover:bg-white/20"
-            >
-              <p class="font-display text-xs font-bold tracking-[0.2em] text-amber uppercase">
-                {p.ages} · {p.tag}
-              </p>
-              <h3 class="mt-2 text-2xl text-white">{p.name}</h3>
-              <p class="mt-3 text-sm leading-relaxed text-sand">{p.short}</p>
-              <span class="mt-4 inline-block font-display text-sm font-bold text-amber group-hover:underline">
-                Learn more →
-              </span>
-            </a>
+          programs.map((p, i) => (
+            <li class="group border-b border-ink/15" data-reveal>
+              <a href={`/programs/${p.slug}/`} class="grid items-center gap-4 py-7 sm:grid-cols-[auto_1fr_auto] sm:gap-8">
+                <span class="font-body text-sm font-semibold text-clay-deep tabular-nums">0{i + 1}</span>
+                <span>
+                  <span class="font-display text-2xl transition-colors group-hover:text-palm sm:text-3xl">{p.name}</span>
+                  <span class="mt-1 block max-w-xl text-[0.95rem] leading-relaxed text-ink/60">{p.short}</span>
+                </span>
+                <span class="flex items-center gap-4 justify-self-start sm:justify-self-end">
+                  <span class="rounded-full border border-ink/20 px-3 py-1 text-xs font-medium text-ink/70">{p.ages}</span>
+                  <svg viewBox="0 0 24 24" class="h-6 w-6 text-ink/40 transition-all group-hover:translate-x-1 group-hover:text-clay" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+                </span>
+              </a>
+            </li>
           ))
         }
-      </div>
-    </div>
-    <Wave fill="white" class="text-palm" />
-  </section>
-
-  <!-- Credibility + camp banner -->
-  <section class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-24">
-    <div class="grid items-center gap-10 lg:grid-cols-2">
-      <div>
-        <SectionHead
-          eyebrow="Why us"
-          title="First on the island, serious about it"
-          align="left"
-        />
-        <ul class="mt-6 space-y-4 text-jungle/80">
-          <li class="flex gap-3">
-            <span class="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-amber"></span>
-            <span><strong class="text-jungle">Structured, not improvised.</strong> Age-based curriculum, capped group sizes, session plans — the same standards you'd expect from a club back home.</span>
-          </li>
-          <li class="flex gap-3">
-            <span class="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-amber"></span>
-            <span><strong class="text-jungle">Safety before scoreboard.</strong> Tag-only under 10, progressive contact for teens, qualified first-aid on every session.</span>
-          </li>
-          <li class="flex gap-3">
-            <span class="mt-1 h-2.5 w-2.5 shrink-0 rounded-full bg-amber"></span>
-            <span><strong class="text-jungle">A community, not a class.</strong> Match days, family beach days, and a 2025 goal we're building together: 30+ enrolled kids, two intensive camps, and the island's first inter-school tournament.</span>
-          </li>
-        </ul>
-        <div class="mt-8">
-          <Button href="/about/" variant="secondary">Our story &amp; coaches</Button>
-        </div>
-      </div>
-      <div class="rounded-3xl bg-jungle p-8 text-white sm:p-10">
-        <p class="font-display text-xs font-bold tracking-[0.25em] text-amber uppercase">Next up</p>
-        <h3 class="mt-3 text-2xl sm:text-3xl">Holiday Intensive Camps &amp; the Island Tournament</h3>
-        <p class="mt-4 leading-relaxed text-sand">
-          Two intensive camps and Koh Samui's first inter-school rugby tournament are on the 2025
-          calendar. Residents and visiting families welcome.
-        </p>
-        <div class="mt-6">
-          <Button href="/camps-events/">See camps &amp; events</Button>
-        </div>
-      </div>
+      </ul>
     </div>
   </section>
 
-  <!-- Testimonials -->
-  <section class="bg-shell">
-    <div class="mx-auto max-w-[1200px] px-4 py-16 sm:px-6 lg:py-20">
-      <SectionHead eyebrow="From the sideline" title="What families say" />
-      <div class="mt-12 grid gap-6 md:grid-cols-3">
+  <!-- Values — full-bleed ink, editorial, palm overlap -->
+  <section class="relative overflow-hidden bg-ink text-paper">
+    <PalmSilhouette class="pointer-events-none absolute -left-16 top-10 h-80 w-80 text-fern/12 sm:h-[26rem] sm:w-[26rem]" />
+    <div class="relative mx-auto max-w-[1240px] px-5 py-20 sm:px-8 lg:py-28">
+      <div class="max-w-2xl" data-reveal>
+        <p class="kicker text-clay">03 — What we stand for</p>
+        <h2 class="display-lg mt-5 text-paper">
+          Rugby is the vehicle.<br />Character is the point.
+        </h2>
+      </div>
+      <dl class="mt-14 grid gap-x-14 gap-y-10 sm:grid-cols-2">
         {
-          testimonials.map((t) => (
-            <figure class="rounded-2xl border border-sand bg-white p-7">
-              <blockquote class="leading-relaxed text-jungle/90">“{t.quote}”</blockquote>
-              <figcaption class="mt-4 text-sm font-semibold text-palm">{t.name}</figcaption>
-            </figure>
+          values.map((v, i) => (
+            <div class="flex gap-5 border-t border-paper/15 pt-6" data-reveal data-reveal-delay={`${i * 80}ms`}>
+              <span class="font-body text-sm font-semibold text-clay tabular-nums">0{i + 1}</span>
+              <div>
+                <dt class="font-display text-2xl text-paper">{v.name}</dt>
+                <dd class="mt-2 leading-relaxed text-paper/70">{v.def}</dd>
+              </div>
+            </div>
           ))
         }
+      </dl>
+    </div>
+  </section>
+
+  <!-- Vision 2027 -->
+  <section class="mx-auto max-w-[1240px] px-5 py-20 sm:px-8 lg:py-28">
+    <div class="grid gap-x-16 gap-y-10 lg:grid-cols-12">
+      <div class="lg:col-span-4" data-reveal>
+        <p class="kicker">04 — Where we're headed</p>
+        <h2 class="display-lg mt-5">Vision<br />2027.</h2>
+        <p class="mt-5 leading-relaxed text-ink/65">
+          A goal we're building together, one Saturday at a time — with the families and sponsors
+          who got here first.
+        </p>
+      </div>
+      <div class="lg:col-span-7 lg:col-start-6">
+        <dl class="grid gap-px overflow-hidden rounded-xl border border-ink/12 bg-ink/12 sm:grid-cols-3">
+          {
+            vision.map((v, i) => (
+              <div class="bg-paper p-8" data-reveal data-reveal-delay={`${i * 90}ms`}>
+                <dt class="font-display text-6xl text-palm">{v.stat}</dt>
+                <dd class="mt-3 text-sm leading-relaxed text-ink/65">{v.label}</dd>
+              </div>
+            ))
+          }
+        </dl>
+        <div class="mt-8" data-reveal>
+          <Button href="/camps-events/" variant="outline">Camps &amp; the island tournament</Button>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Final CTA -->
-  <section class="mx-auto max-w-[1200px] px-4 py-16 text-center sm:px-6 lg:py-24">
-    <SectionHead
-      eyebrow="First session free"
-      title="Come see a session. That's all it takes."
-      lede="Message us on WhatsApp or send the form — we'll reply within 24 hours with the next session your child can join."
-    />
-    <div class="mt-8 flex flex-wrap justify-center gap-4">
-      <Button href="/contact/">Book a Free Trial</Button>
-      <Button href={waLink("Hi! I'd like to book a free trial session.")} variant="secondary">
-        WhatsApp us
-      </Button>
+  <!-- Testimonials — asymmetric pull quote -->
+  <section class="border-t border-ink/12 bg-sand/40">
+    <div class="mx-auto max-w-[1240px] px-5 py-20 sm:px-8 lg:py-28">
+      <div class="grid gap-12 lg:grid-cols-12">
+        <figure class="lg:col-span-7" data-reveal>
+          <p class="kicker">From the sideline</p>
+          <blockquote class="mt-6 font-display text-3xl leading-tight text-ink sm:text-4xl">
+            “My son counts the days to Saturday. He's fitter — but the real change is confidence.
+            He walks taller.”
+          </blockquote>
+          <figcaption class="mt-6 text-sm font-medium text-ink/60">Parent · Kids program</figcaption>
+        </figure>
+        <div class="flex flex-col justify-end gap-8 lg:col-span-4 lg:col-start-9">
+          <figure class="border-t border-ink/15 pt-5" data-reveal data-reveal-delay="80ms">
+            <blockquote class="leading-relaxed text-ink/80">“We moved to Samui worried our daughter would lose her team sport. She found a better one.”</blockquote>
+            <figcaption class="mt-3 text-sm text-ink/55">Expat family · international school</figcaption>
+          </figure>
+          <figure class="border-t border-ink/15 pt-5" data-reveal data-reveal-delay="160ms">
+            <blockquote class="leading-relaxed text-ink/80">“Turned up on holiday with trainers and zero experience. Best evening of the trip.”</blockquote>
+            <figcaption class="mt-3 text-sm text-ink/55">Touch rugby drop-in</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA — overlapping clay panel -->
+  <section class="mx-auto max-w-[1240px] px-5 py-20 sm:px-8 lg:py-28">
+    <div class="relative overflow-hidden rounded-xl bg-palm px-6 py-14 text-paper sm:px-14 sm:py-20 grain" data-reveal>
+      <PalmSilhouette class="pointer-events-none absolute -bottom-10 right-0 h-64 w-64 text-ink/15 sm:h-80 sm:w-80" />
+      <div class="relative max-w-2xl">
+        <h2 class="display-lg text-paper">Come watch a session. That's all it takes.</h2>
+        <p class="mt-5 max-w-lg text-lg leading-relaxed text-paper/80">
+          Message us with your child's age and we'll hold a free trial spot at the next session.
+          Reply within 24 hours, promise.
+        </p>
+        <div class="mt-9 flex flex-wrap gap-4">
+          <Button href="/contact/" variant="paper">Book a free trial</Button>
+          <Button href={waLink("Hi! I'd like to book a free trial session.")} variant="outlinePaper">WhatsApp us</Button>
+        </div>
+      </div>
     </div>
   </section>
 </Base>

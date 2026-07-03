@@ -1,0 +1,35 @@
+---
+/** Slow value ticker. Pauses entirely under prefers-reduced-motion. */
+interface Props {
+  items: string[];
+  class?: string;
+}
+const { items, class: className = "" } = Astro.props;
+const loop = [...items, ...items];
+---
+
+<div class={`marquee overflow-hidden ${className}`} aria-hidden="true">
+  <div class="marquee-track flex w-max items-center">
+    {
+      loop.map((item) => (
+        <span class="flex items-center">
+          <span class="px-6 font-display text-2xl italic sm:text-3xl">{item}</span>
+          <svg viewBox="0 0 24 24" class="h-3 w-3 opacity-60" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="12" /></svg>
+        </span>
+      ))
+    }
+  </div>
+</div>
+
+<style>
+  .marquee-track {
+    animation: marquee 34s linear infinite;
+  }
+  @keyframes marquee {
+    to { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-track { animation: none; }
+    .marquee { overflow-x: auto; }
+  }
+</style>
