@@ -14,11 +14,18 @@ npm run build    # production build → dist/
 npm run preview  # preview the production build
 ```
 
-## Deploy (Cloudflare Pages)
+## Deploy (Vercel via GitHub)
 
-1. Connect this repo in the Cloudflare Pages dashboard.
-2. Build command: `npm run build` · Output directory: `dist`.
-3. Add the custom domain and enable HTTPS.
+1. Go to [vercel.com/new](https://vercel.com/new) and import this GitHub repo.
+2. Framework preset: **Astro** (auto-detected via `vercel.json`) — build command
+   `npm run build`, output `dist`. No changes needed, just click **Deploy**.
+3. In Project → Settings → Git, make sure the **Production Branch** matches the
+   branch that contains the site code (merge to `main` first, or point it at the
+   feature branch).
+4. Add the custom domain in Project → Settings → Domains.
+
+Every push to the production branch then deploys automatically; other branches
+get preview URLs.
 
 ## Before launch — replace placeholders
 
