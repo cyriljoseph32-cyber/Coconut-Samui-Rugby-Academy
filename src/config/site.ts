@@ -9,8 +9,8 @@ export const SITE = {
   // WhatsApp number in international format, digits only (e.g. "66812345678").
   whatsappNumber: "66000000000",
   email: "coconutrugbyacademy@gmail.com",
-  instagram: "https://www.instagram.com/CoconutRugby",
-  instagramHandle: "@CoconutRugby",
+  instagram: "https://www.instagram.com/coconut_samui_rugby",
+  instagramHandle: "@coconut_samui_rugby",
   // Training ground — replace with the real venue.
   location: {
     venue: "Training Ground, Koh Samui",
