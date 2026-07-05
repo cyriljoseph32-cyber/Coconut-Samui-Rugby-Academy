@@ -52,18 +52,23 @@ All contact placeholders live in **`src/config/site.ts`**:
 ## Brand quick reference
 
 Art direction "Island Grit" — editorial, type-led, asymmetric. All colour tokens
-are OKLCH, defined once in `src/styles/global.css` under `@theme`.
+are OKLCH, defined once in `src/styles/global.css` under `@theme`, **sampled from
+the official badge logo** (`public/logo-badge-*.webp`, from Instagram
+@coconut_samui_rugby).
 
-| Token | Role |
-|---|---|
-| `--color-ink` | Near-black palm — headings, dark sections |
-| `--color-palm` | Primary green |
-| `--color-fern` | Living / energy green |
-| `--color-paper` | Warm bone background |
-| `--color-sand` | Surfaces / cards |
-| `--color-clay` | The single accent — used sparingly |
-| Display font | Fraunces Variable (optical serif) |
-| Body font | Schibsted Grotesk Variable |
+| Token | Role | Sampled from |
+|---|---|---|
+| `--color-ink` | Deep petrol — text, dark sections | badge outlines `#004848` |
+| `--color-palm` | Primary lagoon teal | `#007890` |
+| `--color-fern` | Living turquoise | `#009090`/`#60c0c0` |
+| `--color-paper` | Warm cream background | badge ring `#f0d890` (lightened) |
+| `--color-sand` | Cream surfaces | `#f0d890` |
+| `--color-clay` | Coconut-husk accent — used sparingly | `#c07830` |
+| Display font | Fraunces Variable (optical serif) | — |
+| Body font | Schibsted Grotesk Variable | — |
+
+Coaching languages are French & English (per the Instagram bio) — reflected in
+hero stats, mission copy and the Kids program FAQ.
 
 Base element styles are wrapped in `@layer base` so Tailwind utilities always win.
 Buttons: use `paper` / `outlinePaper` variants on dark backgrounds (never override

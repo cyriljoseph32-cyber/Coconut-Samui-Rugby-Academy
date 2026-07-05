@@ -26,7 +26,7 @@ export const programs: Program[] = [
       "Tag rugby, games and small wins. No tackling, no pressure — just kids learning to pass, run and back each other up.",
     seoTitle: "Kids Rugby Classes Koh Samui (Ages 4–10) | Coconut Samui Rugby Academy",
     seoDescription:
-      "Fun-first tag rugby for kids aged 4–10 on Koh Samui. No contact, no experience needed. Small groups, English-speaking coaches, free trial session.",
+      "Fun-first tag rugby for kids aged 4–10 on Koh Samui. No contact, no experience needed. Small groups, French- and English-speaking pro coaches, free trial session.",
     h1: "Kids Rugby — Ages 4 to 10",
     intro:
       "At this age, rugby is a game of chase, laughter and tiny victories. Our youngest players learn to catch, pass and run with the ball through games they don't want to stop playing. There is no tackling — it's tag rugby only — and no child ever sits out because they're 'not good enough'. Every kid gets ball-in-hand time, every single session.",
@@ -41,7 +41,7 @@ export const programs: Program[] = [
       { label: "Group size", value: "Max 12 kids per coach" },
       { label: "Duration", value: "60-minute sessions, weekly" },
       { label: "Experience", value: "None needed — most of our kids started at zero" },
-      { label: "Language", value: "English coaching, Thai-friendly" },
+      { label: "Language", value: "French & English coaching" },
       { label: "Bring", value: "Water bottle, trainers or boots, sunscreen" },
     ],
     cta: {
@@ -58,8 +58,8 @@ export const programs: Program[] = [
         a: "Not at all — most of our kids started with zero experience. The first month is entirely about confidence with the ball and having fun with the group.",
       },
       {
-        q: "Do you coach in English or Thai?",
-        a: "Sessions are coached in English with Thai support, so both expat and local kids are at home from day one.",
+        q: "Do you coach in French or English?",
+        a: "Both — sessions run bilingual French–English, so francophone, anglophone and international-school kids are all at home from day one.",
       },
     ],
   },

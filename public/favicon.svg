@@ -1,16 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#0d3b2a"/>
-  <g transform="translate(0,-1)">
-    <ellipse cx="32" cy="42" rx="15" ry="19" fill="#f4efe1"/>
-    <path d="M32 30V54" stroke="#0d3b2a" stroke-width="2.4" stroke-linecap="round"/>
-    <path d="M28 36H36M28 42H36M28 48H36" stroke="#0d3b2a" stroke-width="2.2" stroke-linecap="round"/>
-    <g stroke="#f4efe1" fill="none" stroke-linecap="round">
-      <path d="M32 24C31 18 33 12 30 6" stroke-width="4.4"/>
-      <path d="M30 7C24 3 17 3 12 8" stroke-width="4"/>
-      <path d="M30 7C33 1 40 -1 47 2" stroke-width="4"/>
-      <path d="M30 7C37 4 45 5 51 11" stroke-width="4"/>
-    </g>
-    <circle cx="26" cy="12" r="2.6" fill="#f4efe1"/>
-    <circle cx="34" cy="13" r="2.6" fill="#f4efe1"/>
-  </g>
+  <!-- Simplified badge: petrol ring, cream band, teal sky, coconut + ball -->
+  <circle cx="32" cy="32" r="31" fill="#004848"/>
+  <circle cx="32" cy="32" r="28.5" fill="#f0d890"/>
+  <circle cx="32" cy="32" r="21" fill="#60c0c0"/>
+  <path d="M11 36c7-4 14-4 21-1s14 3 21-1v9a21 21 0 0 1-42 0z" fill="#009090"/>
+  <ellipse cx="38" cy="24" rx="11" ry="7" transform="rotate(-35 38 24)" fill="#f0f0d8" stroke="#004848" stroke-width="2"/>
+  <path d="M31 31l14-10" stroke="#004848" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M28 47a10 8 0 0 1-8-9c4-2 9-3 16-1a10 8 0 0 1-8 10z" fill="#c07830" stroke="#004848" stroke-width="2"/>
+  <path d="M20 38c5-2 11-2 16 0" fill="none" stroke="#f0f0d8" stroke-width="2.4" stroke-linecap="round"/>
 </svg>

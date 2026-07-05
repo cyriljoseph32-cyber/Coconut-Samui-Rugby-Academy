@@ -1,24 +1,24 @@
 @import "tailwindcss";
 
 /*
-  Art direction — "Island Grit".
-  OKLCH palette rooted in the coconut/palm/Koh Samui identity: deep palm ink,
-  a living fern green, warm bone paper and sand surfaces, with ONE accent —
-  a sun-baked clay — used sparingly for emphasis. Fraunces (optical serif,
-  soft + wonk axes) carries editorial warmth in headlines; Schibsted Grotesk
-  keeps the body clean and modern. Texture is a faint paper grain, never gloss.
+  Art direction — "Island Grit", tuned to the official badge logo.
+  OKLCH palette sampled from the Instagram crest: deep petrol ink (#004848),
+  lagoon teal (#007890/#009090), turquoise (#60c0c0), badge cream (#f0d890),
+  with ONE accent — coconut-husk brown (#c07830) — used sparingly. Fraunces
+  (optical serif, soft + wonk axes) carries editorial warmth in headlines;
+  Schibsted Grotesk keeps the body clean. Texture is faint paper grain.
 */
 @theme {
-  /* Core palette (OKLCH) */
-  --color-ink: oklch(0.24 0.035 165);       /* near-black palm */
-  --color-palm: oklch(0.42 0.085 165);      /* primary green */
-  --color-fern: oklch(0.62 0.12 158);       /* living / energy green */
-  --color-paper: oklch(0.972 0.014 92);     /* warm bone background */
-  --color-sand: oklch(0.9 0.032 88);        /* surface / cards */
-  --color-sand-deep: oklch(0.83 0.045 84);  /* borders on sand */
-  --color-clay: oklch(0.68 0.15 47);        /* the single accent */
-  --color-clay-deep: oklch(0.6 0.15 44);
-  --color-chalk: oklch(0.99 0.006 92);      /* near-white */
+  /* Core palette (OKLCH), sampled from the badge */
+  --color-ink: oklch(0.33 0.05 200);        /* deep petrol outline/text */
+  --color-palm: oklch(0.52 0.085 210);      /* primary lagoon teal */
+  --color-fern: oklch(0.64 0.1 192);        /* living turquoise */
+  --color-paper: oklch(0.968 0.025 92);     /* warm cream background */
+  --color-sand: oklch(0.9 0.06 90);         /* badge cream surfaces */
+  --color-sand-deep: oklch(0.83 0.07 87);   /* borders on sand */
+  --color-clay: oklch(0.63 0.115 55);       /* coconut-husk accent */
+  --color-clay-deep: oklch(0.52 0.11 52);
+  --color-chalk: oklch(0.99 0.008 95);      /* near-white */
 
   --font-display: "Fraunces Variable", "Noto Sans Thai", Georgia, serif;
   --font-body: "Schibsted Grotesk Variable", "Noto Sans Thai", system-ui, sans-serif;

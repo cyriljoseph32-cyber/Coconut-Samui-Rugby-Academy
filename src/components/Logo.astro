@@ -1,24 +1,30 @@
 ---
 /**
- * Logo lockups built on the refined LogoMark.
- *  - secondary → horizontal, for the header
- *  - primary   → stacked, for the footer / large moments
- *  - monogram  → ball crest with CSRA, for jerseys / avatars
+ * Logo lockups built on the official badge (public/logo-badge-*.webp — the
+ * Instagram crest).
+ *  - secondary → horizontal badge + wordmark, for the header
+ *  - primary   → stacked badge + wordmark, for the footer / large moments
+ *  - monogram  → simplified vector crest with CSRA (jerseys / single-colour)
  */
-import LogoMark from "./LogoMark.astro";
-
 interface Props {
   variant?: "primary" | "secondary" | "monogram";
-  seam?: string;
   class?: string;
 }
-const { variant = "secondary", seam = "var(--color-paper)", class: className = "" } = Astro.props;
+const { variant = "secondary", class: className = "" } = Astro.props;
 ---
 
 {
   variant === "secondary" && (
-    <span class={`inline-flex items-center gap-2.5 ${className}`}>
-      <LogoMark seam={seam} class="h-9 w-9 shrink-0" />
+    <span class={`inline-flex items-center gap-3 ${className}`}>
+      <img
+        src="/logo-badge-96.webp"
+        srcset="/logo-badge-96.webp 96w, /logo-badge-192.webp 192w"
+        sizes="44px"
+        width="96"
+        height="96"
+        alt=""
+        class="h-11 w-11 shrink-0"
+      />
       <span class="font-display leading-[0.95]">
         <span class="block text-[0.98rem] font-semibold tracking-tight">Coconut Samui</span>
         <span class="mt-[1px] block font-body text-[0.6rem] font-semibold tracking-[0.32em] uppercase opacity-70">
@@ -31,8 +37,16 @@ const { variant = "secondary", seam = "var(--color-paper)", class: className = "
 
 {
   variant === "primary" && (
-    <span class={`inline-flex flex-col gap-3 ${className}`}>
-      <LogoMark seam={seam} class="h-14 w-14" />
+    <span class={`inline-flex flex-col gap-4 ${className}`}>
+      <img
+        src="/logo-badge-192.webp"
+        srcset="/logo-badge-192.webp 192w, /logo-badge-512.webp 512w"
+        sizes="80px"
+        width="192"
+        height="192"
+        alt=""
+        class="h-20 w-20"
+      />
       <span class="font-display leading-[0.98]">
         <span class="block text-2xl font-semibold tracking-tight">Coconut Samui</span>
         <span class="mt-1 block font-body text-[0.66rem] font-semibold tracking-[0.34em] uppercase opacity-70">
