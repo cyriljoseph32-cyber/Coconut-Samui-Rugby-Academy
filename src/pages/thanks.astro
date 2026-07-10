@@ -1,0 +1,31 @@
+---
+import Base from "../layouts/Base.astro";
+import Button from "../components/Button.astro";
+import LogoMark from "../components/LogoMark.astro";
+import { SITE, waLink } from "../config/site";
+---
+
+<Base
+  title="Message received | Coconut Samui Rugby Academy"
+  description="Thanks — your message is in. We reply within 24 hours with the next session you can join."
+  noindex
+  whatsappMessage="Hi! I just sent a message through the website."
+>
+  <section class="mx-auto flex max-w-[1240px] flex-col items-start px-5 py-28 sm:px-8">
+    <LogoMark class="h-16 w-16 text-palm" seam="var(--color-paper)" />
+    <p class="kicker mt-8">Message received</p>
+    <h1 class="display-xl mt-4">Try converted.</h1>
+    <p class="mt-5 max-w-md text-lg leading-relaxed text-ink/70">
+      Your message is in our inbox — we reply within 24 hours with the next session you can join.
+      In a hurry? WhatsApp is always faster.
+    </p>
+    <div class="mt-9 flex flex-wrap gap-4">
+      <Button href={waLink("Hi! I just sent a message through the website.")}>Chat on WhatsApp</Button>
+      <Button href="/" variant="outline">Back to home</Button>
+    </div>
+    <p class="mt-8 text-sm text-ink/50">
+      Nothing after 24h? Check spam, or email
+      <a href={`mailto:${SITE.email}`} class="link-underline text-ink/70">{SITE.email}</a>.
+    </p>
+  </section>
+</Base>

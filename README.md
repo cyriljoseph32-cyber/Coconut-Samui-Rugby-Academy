@@ -31,9 +31,11 @@ get preview URLs.
 
 All contact placeholders live in **`src/config/site.ts`**:
 
-- [ ] `whatsappNumber` — real number, digits only (e.g. `66812345678`)
-- [ ] `email`, `instagram`, `location` (venue name, Google Maps URL, lat/lng)
-- [ ] `web3formsKey` — free key from [web3forms.com](https://web3forms.com) (forms + newsletter)
+- [x] `whatsappNumber` — +66 63 375 3316
+- [x] `email`, `instagram`, `location`/`venues` — Koh's 33 Stadium (Lamai) + PSG Academy (Chaweng)
+- [ ] Forms (contact + newsletter) use [FormSubmit](https://formsubmit.co) → `SITE.email`, no key
+      needed. Submit the contact form once after deploy, then click **Activate** in the one-time
+      email FormSubmit sends to that inbox — after that every submission is delivered.
 - [ ] `domain` here **and** `site` in `astro.config.mjs` + `Sitemap:` line in `public/robots.txt`
 - [ ] GA4 + Microsoft Clarity snippets in `src/layouts/Base.astro` (commented stubs in `<head>`)
 - [ ] Camp dates in `src/pages/camps-events.astro`
