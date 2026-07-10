@@ -8,7 +8,7 @@ import { faqSchema } from "../lib/schema";
 const faq = [
   { q: "How fast do you reply?", a: "Within 24 hours by email, usually much faster on WhatsApp." },
   { q: "What does the free trial include?", a: "One full session with the right age group — no payment details, no obligation. Bring water, trainers and sunscreen; we provide everything else." },
-  { q: "Where do you train?", a: "On Koh Samui — the exact ground and weekly schedule are confirmed when you book, as sessions follow school terms and island weather." },
+  { q: "Where do you train?", a: "At Koh's 33 Stadium in Lamai and PSG Academy in Chaweng. The exact ground and weekly schedule are confirmed when you book, as sessions follow school terms and island weather." },
   { q: "Do you offer scholarships?", a: "Yes. Inclusion is a founding value — sponsored spots for local kids are funded by our partners and corporate events. Ask us on WhatsApp." },
 ];
 
@@ -118,10 +118,19 @@ const schedule = [
             }
           </dl>
           <p class="mt-3 text-xs text-ink/50">Exact times confirmed on booking.</p>
-          <a href={SITE.location.mapsUrl} target="_blank" rel="noopener" class="link-underline mt-5 inline-flex items-center gap-2 font-body text-sm font-semibold text-ink">
-            <svg viewBox="0 0 24 24" class="h-4 w-4 text-clay-deep" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
-            {SITE.location.venue} — Google Maps
-          </a>
+          <div class="mt-5 space-y-2.5">
+            {
+              SITE.venues.map((v) => (
+                <a href={v.mapsUrl} target="_blank" rel="noopener" class="link-underline inline-flex items-center gap-2 font-body text-sm font-semibold text-ink">
+                  <svg viewBox="0 0 24 24" class="h-4 w-4 text-clay-deep" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  {v.name}
+                </a>
+              ))
+            }
+          </div>
         </div>
       </div>
     </div>

@@ -7,20 +7,30 @@ export const SITE = {
   tagline: "Grow Strong Together.",
   domain: "https://coconutsamuirugby.com",
   // WhatsApp number in international format, digits only (e.g. "66812345678").
-  whatsappNumber: "66000000000",
+  whatsappNumber: "66633753316",
   email: "coconutrugbyacademy@gmail.com",
   instagram: "https://www.instagram.com/coconut_samui_rugby",
   instagramHandle: "@coconut_samui_rugby",
-  // Training ground — replace with the real venue.
+  // Primary training ground — used for the Organization schema (JSON-LD).
   location: {
-    venue: "Training Ground, Koh Samui",
+    venue: "Koh's 33 Stadium, Lamai",
     area: "Koh Samui, Surat Thani",
     country: "Thailand",
-    mapsUrl: "https://maps.google.com/?q=Koh+Samui+Thailand",
-    // Approximate island centre until the real pitch is confirmed.
-    lat: 9.512,
-    lng: 100.014,
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Koh%27s+33+Stadium+Lamai+Koh+Samui",
+    lat: 9.474,
+    lng: 100.0472,
   },
+  // All training grounds, shown wherever we link to Google Maps.
+  venues: [
+    {
+      name: "Koh's 33 Stadium — Lamai",
+      mapsUrl: "https://www.google.com/maps/search/?api=1&query=Koh%27s+33+Stadium+Lamai+Koh+Samui",
+    },
+    {
+      name: "PSG Academy — Chaweng",
+      mapsUrl: "https://www.google.com/maps/search/?api=1&query=PSG+Academy+Samui+Chaweng",
+    },
+  ],
 } as const;
 
 // Forms are handled by FormSubmit (https://formsubmit.co) — no API key needed.

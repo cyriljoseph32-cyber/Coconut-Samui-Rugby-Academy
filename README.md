@@ -31,8 +31,8 @@ get preview URLs.
 
 All contact placeholders live in **`src/config/site.ts`**:
 
-- [ ] `whatsappNumber` — real number, digits only (e.g. `66812345678`)
-- [ ] `email`, `instagram`, `location` (venue name, Google Maps URL, lat/lng)
+- [x] `whatsappNumber` — +66 63 375 3316
+- [x] `email`, `instagram`, `location`/`venues` — Koh's 33 Stadium (Lamai) + PSG Academy (Chaweng)
 - [ ] Forms (contact + newsletter) use [FormSubmit](https://formsubmit.co) → `SITE.email`, no key
       needed. Submit the contact form once after deploy, then click **Activate** in the one-time
       email FormSubmit sends to that inbox — after that every submission is delivered.
