@@ -15,8 +15,10 @@ interface Props {
   /** Extra JSON-LD blocks appended after the base Organization schema. */
   schema?: Record<string, unknown>[];
   whatsappMessage?: string;
+  /** Keep utility pages (form thank-you, etc.) out of search results. */
+  noindex?: boolean;
 }
-const { title, description, schema = [], whatsappMessage } = Astro.props;
+const { title, description, schema = [], whatsappMessage, noindex = false } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site);
 
 const orgSchema = {
@@ -49,6 +51,7 @@ const allSchema = [orgSchema, ...schema];
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -92,6 +95,12 @@ const allSchema = [orgSchema, ...schema];
     <WhatsAppButton message={whatsappMessage} />
 
     <script>
+      // Form redirects (_next) must be absolute URLs — repoint them at the
+      // current origin so previews and the custom domain both land on /thanks/.
+      document.querySelectorAll<HTMLInputElement>('input[name="_next"]').forEach((el) => {
+        el.value = new URL(new URL(el.value).pathname, window.location.origin).href;
+      });
+
       // Scroll-reveal — purposeful, subtle, and fully progressive (no JS = visible).
       const els = document.querySelectorAll("[data-reveal]");
       if (els.length && "IntersectionObserver" in window) {

@@ -2,7 +2,7 @@
 import Base from "../layouts/Base.astro";
 import Button from "../components/Button.astro";
 import FAQ from "../components/FAQ.astro";
-import { SITE, waLink } from "../config/site";
+import { SITE, FORM_ENDPOINT, waLink } from "../config/site";
 import { faqSchema } from "../lib/schema";
 
 const faq = [
@@ -46,10 +46,12 @@ const schedule = [
   <section class="mx-auto max-w-[1240px] px-5 py-14 sm:px-8">
     <div class="grid gap-12 lg:grid-cols-12">
       <!-- Form -->
-      <form action="https://api.web3forms.com/submit" method="POST" class="lg:col-span-7" data-reveal>
-        <input type="hidden" name="access_key" value={SITE.web3formsKey} />
-        <input type="hidden" name="subject" value="Trial / registration request — CSRA website" />
-        <input type="checkbox" name="botcheck" class="hidden" style="display:none" tabindex="-1" aria-hidden="true" />
+      <form action={FORM_ENDPOINT} method="POST" class="lg:col-span-7" data-reveal>
+        <input type="hidden" name="_subject" value="Trial / registration request — CSRA website" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value={`${SITE.domain}/thanks/`} />
+        <input type="text" name="_honey" class="hidden" style="display:none" tabindex="-1" aria-hidden="true" />
 
         <div class="grid gap-5 sm:grid-cols-2">
           <div class="sm:col-span-2">

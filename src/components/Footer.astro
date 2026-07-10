@@ -1,7 +1,7 @@
 ---
 import Logo from "./Logo.astro";
 import PalmSilhouette from "./PalmSilhouette.astro";
-import { SITE, waLink } from "../config/site";
+import { SITE, FORM_ENDPOINT, waLink } from "../config/site";
 
 const year = new Date().getFullYear();
 ---
@@ -42,9 +42,12 @@ const year = new Date().getFullYear();
           <li><a class="link-underline text-paper/80 hover:text-paper" href={SITE.location.mapsUrl} target="_blank" rel="noopener">{SITE.location.venue}</a></li>
         </ul>
 
-        <form action="https://api.web3forms.com/submit" method="POST" class="mt-7" aria-label="Newsletter signup">
-          <input type="hidden" name="access_key" value={SITE.web3formsKey} />
-          <input type="hidden" name="subject" value="Newsletter signup — CSRA website" />
+        <form action={FORM_ENDPOINT} method="POST" class="mt-7" aria-label="Newsletter signup">
+          <input type="hidden" name="_subject" value="Newsletter signup — CSRA website" />
+          <input type="hidden" name="_template" value="table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value={`${SITE.domain}/thanks/`} />
+          <input type="text" name="_honey" class="hidden" style="display:none" tabindex="-1" aria-hidden="true" />
           <label for="newsletter-email" class="block text-sm font-medium text-paper/80">Island news &amp; match days</label>
           <div class="mt-2 flex overflow-hidden rounded-md border border-paper/25 focus-within:border-clay">
             <input id="newsletter-email" type="email" name="email" required placeholder="you@email.com"

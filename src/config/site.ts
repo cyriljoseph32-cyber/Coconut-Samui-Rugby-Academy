@@ -21,9 +21,13 @@ export const SITE = {
     lat: 9.512,
     lng: 100.014,
   },
-  // Web3Forms access key — create one free at https://web3forms.com and paste it here.
-  web3formsKey: "REPLACE_WITH_WEB3FORMS_KEY",
 } as const;
+
+// Forms are handled by FormSubmit (https://formsubmit.co) — no API key needed.
+// Submissions are emailed to SITE.email. The very first submission triggers a
+// one-time activation email to that inbox: click "Activate" once and the form
+// is live for good.
+export const FORM_ENDPOINT = `https://formsubmit.co/${SITE.email}`;
 
 export function waLink(message: string): string {
   return `https://wa.me/${SITE.whatsappNumber}?text=${encodeURIComponent(message)}`;
