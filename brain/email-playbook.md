@@ -44,6 +44,18 @@ Créer les labels manquants à la première utilisation (`create_label`).
 - Tarifs / horaires / dates : jamais de chiffres inventés — proposer WhatsApp ou laisser
   `[À COMPLÉTER PAR CYRIL]` dans le brouillon.
 
+## Signature de marque — intégrer le site aux mails
+
+Chaque brouillon se termine par la **signature HTML de marque** (`brain/email-signature.html`) :
+elle affiche le logo chargé depuis le site, la tagline, et des liens cliquables vers
+coconutsamuirugby.com (programmes), WhatsApp et Instagram — c'est ce qui relie les mails au site.
+
+- Passer la signature dans le champ **`htmlBody`** de `create_draft` (le corps du message en
+  HTML se termine par le bloc de `email-signature.html`) ; fournir aussi un `body` texte
+  équivalent (avec les mêmes liens en clair) pour les clients sans HTML.
+- Ne pas modifier les URL ni le numéro : ils viennent de `src/config/site.ts` (source de vérité).
+- Le logo s'affiche une fois le domaine `coconutsamuirugby.com` connecté (checklist du README).
+
 ## Modèles
 
 ### Essai gratuit Kids/Teens — EN

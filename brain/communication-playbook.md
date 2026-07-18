@@ -120,6 +120,14 @@
 > Best regards,
 > Cyril Joseph — Coconut Samui Rugby Academy
 
+## Signature de marque
+
+Terminer chaque brouillon (relance ou approche sponsor) par la signature HTML de marque
+`brain/email-signature.html` — logo chargé depuis le site + liens vers coconutsamuirugby.com,
+WhatsApp et Instagram. Voir les modalités dans `brain/email-playbook.md` (champ `htmlBody`
++ `body` texte équivalent). Pour les sponsors, on peut ajouter avant la signature un lien vers
+la page `/sponsorship`.
+
 ## Reprise de contact après long silence de NOTRE côté (cas Danielle/Olympia)
 
 Ton : excuse brève et honnête, pas de sur-justification, puis du concret (l'académie tourne,

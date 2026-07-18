@@ -62,6 +62,8 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
 - `brain/marketing-playbook.md` — marque, ton, piliers de contenu Instagram, hashtags,
   formats de posts, calendrier éditorial type.
 - `brain/email-playbook.md` — labels Gmail, règles de triage, modèles de réponses FR/EN.
+- `brain/email-signature.html` — signature de marque HTML (logo du site + liens) : intègre le
+  site aux mails, utilisée par les agents `secretariat` et `communication` dans `htmlBody`.
 - `brain/communication-playbook.md` — cadences de relance, modèles d'approche sponsors FR/EN
   (niveaux Bronze→Platinum), segments cibles Koh Samui.
 - `brain/pipeline.md` — **registre vivant** des relances et prospects (leads, écoles,
