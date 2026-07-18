@@ -50,6 +50,23 @@
 |---|---|---|---|---|
 | **Rachel** — `Rachelwands1@gmail.com` (enfant 8 ans, Kids) | Lead site | 2026-07-18 11:06 (réponse envoyée par Cyril) | Si pas de réponse : relance douce **J+3** (21/07), puis J+7 (25/07). Max 2 relances. | 🕐 Suivi actif |
 
+### Vague 1 — brouillons prêts (18/07, à relire et envoyer par Cyril)
+
+Cibles à email public vérifié — brouillons signés créés dans Gmail. Suivi J+7 après envoi.
+
+| Cible | Segment | Email | Angle |
+|---|---|---|---|
+| Samui Fitness Lab | Salle de sport | `contact@samuifitnesslab.com` | S&C + cross-promo |
+| Lamai Beach CrossFit | Salle de sport | `info@samuifitnessretreat.com` | S&C + cross-promo |
+| Chameleon Production | Impression/maillots | `contact@chameleonproduction.com` | Partenaire kit & banderoles |
+| Go Samui Catering | Catering | `eat@gosamuicatering.com` | Camps/corporate + référencement croisé |
+| Kohi Coffee | Café | `events@kohicoffee.com` | Café aux événements/tournoi |
+| Dive Point Samui | Plongée | `info@divepoint-samui.com` | Cross-promo familles/expats |
+| Silent Divers | Plongée | `info@silentdivers.com` | Cross-promo familles/expats |
+| SBC Insurance | Assurance | `apply@sbc-insurance.live` | RSE familles + cover académie |
+| Think Safe Insurance | Assurance | `contact@thinksafeinternational.com` | RSE familles + cover académie |
+| Rotary Club Samui & Phangan | Communauté | `Secretary@RotarySamui-Phangan.org` | Bourses + projets communautaires + réseau |
+
 ## 🏟️ Logistique — location de terrain
 
 | Cible | Rôle | Contact vérifié | Statut |
