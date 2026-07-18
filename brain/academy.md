@@ -75,7 +75,7 @@ Koh Samui, province de Surat Thani, Thaïlande.
 | Info | Statut |
 |---|---|
 | Tarifs (tous programmes) | `[À COMPLÉTER PAR CYRIL]` — rediriger vers WhatsApp |
-| Horaires précis des séances | `[À COMPLÉTER PAR CYRIL]` — rediriger vers WhatsApp |
+| Horaires précis des séances | **En attente des résultats du sondage Facebook (juillet 2026)** — d'ici là, rediriger vers WhatsApp |
 | Dates des camps / événements | `[À COMPLÉTER PAR CYRIL]` (`src/pages/camps-events.astro`) |
 | Noms et bios des coachs | `[À COMPLÉTER PAR CYRIL]` (`src/pages/about.astro`) |
 
