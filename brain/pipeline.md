@@ -35,7 +35,9 @@
 
 | Cible | Zone | Affinité | Canal de contact | Statut |
 |---|---|---|---|---|
-| **Bondi Aussie Bar & Grill** | Chaweng | Diffuse le rugby en direct, clientèle australienne/expat | bondiasia.com + Facebook | 🎯 À contacter (EN) |
+| **BR Munns International** (groupe food, CEO Bradley Munns) | Bangkok / Samui | **Groupe qui possède Bondi (rugby live), SALT, The Cliff, The Palms, The Outback** — 1 contact = plusieurs bars sportifs | `Info@brmunnsinternational.com` (vérifié) · +66 80 519 3931 | ✍️ **Brouillon prêt 18/07** (EN, niveau groupe) |
+| **George Clancy** — communauté rugby de l'île | Koh Samui | Contact rugby (rôle à confirmer par Cyril : arbitre irlandais ? Koh Samui Rugby Club ?) | `george.clancy@gmail.com` (fourni par Cyril) | ✍️ **Brouillon prêt 18/07** (EN, connexion/collab) |
+| **Bondi Aussie Bar & Grill** | Chaweng | Diffuse le rugby en direct | Couvert via BR Munns (groupe) ci-dessus | 🔁 Via BR Munns |
 | **The Islander** | Chaweng | Sports pub, rugby EN/AUS/EU | Facebook / sur place | 🎯 À contacter (EN) |
 | **Premier Sports Bar** | Bang Rak | Repaire d'expats fans de rugby | Facebook / sur place | 🎯 À contacter (EN) |
 | **Emerald Irish Pub** | Bophut (Fisherman's Village) | Écrans sports, ambiance pub | Facebook / sur place | 🎯 À contacter (EN) |
