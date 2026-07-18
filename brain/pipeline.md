@@ -8,9 +8,9 @@
 
 | Contact | Type | Dernier échange | Prochaine action | Statut |
 |---|---|---|---|---|
-| **Alan** — `alan@lis.ac.th` (prof EPS, Lamai International School) | Partenariat école | 2026-05-08 (réponse de Cyril à son 1er mail) | **Relancer maintenant** : il revient sur Samui en août, proposer un rendez-vous à son arrivée pour monter le rugby à LIS | ⏳ Relance due |
-| **Danielle Perchard** — `danielleperchard@hotmail.com` (3 garçons dont 4, 5 et 7 ans en 2025) | Lead parents | 2025-09-04 (elle attend un retour promis « next week ») | Réponse chaleureuse d'excuse + nouvelles de l'académie structurée + essai gratuit pour les 3 | ⏳ Due depuis 09/2025 |
-| **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | 2025-09-03 (sa demande — **jamais répondue**) | Première réponse (tardive) : excuse + infos Kids + essai gratuit | ⏳ Jamais traitée |
+| **Alan** — `alan@lis.ac.th` (prof EPS, Lamai International School) | Partenariat école | **2026-07-18 (relance envoyée par Cyril)** | Suivi J+7 (~25/07) s'il ne répond pas ; caler un RDV à son retour en août | ✅ Relance envoyée 18/07 |
+| **Danielle Perchard** — `danielleperchard@hotmail.com` (3 garçons dont 4, 5 et 7 ans en 2025) | Lead parents | **2026-07-18 (relance envoyée par Cyril)** | Suivi J+7 (~25/07) ; confirmer essai des 3 via WhatsApp | ✅ Relance envoyée 18/07 |
+| **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (relance envoyée par Cyril)** | Suivi J+7 (~25/07) ; orienter vers WhatsApp pour l'essai | ✅ Relance envoyée 18/07 |
 
 ## 📤 Prospection écoles (proposition périscolaire envoyée le 2026-05-05, sans réponse)
 
@@ -25,14 +25,39 @@
 
 | Sujet | État | Prochaine action |
 |---|---|---|
-| Campagne de prospection sponsors | **Jamais lancée** — 2 brouillons prêts dans Gmail depuis 2025-06 (FR) et 2026-05 (EN), niveaux Bronze→Platinum, dossier de sponsoring existant | Définir avec Cyril la liste de cibles (hôtels, entreprises de l'île) puis préparer les envois personnalisés |
+| Campagne de prospection sponsors | Modèles FR/EN prêts (playbook), niveaux Bronze→Platinum, dossier de sponsoring existant | Segment retenu par Cyril le 18/07 : **commerces expat** (voir ci-dessous) |
 | Crowdfunding 4fund.com « Become a partner… » | Campagne terminée ~09/2025 — résultat inconnu | `[À COMPLÉTER PAR CYRIL]` : bilan ? relancer les donateurs ? |
+
+### Prospection « commerces expat » (identifiée le 2026-07-18 — cibles vérifiées, à contacter)
+
+> Aucun email public vérifié (sites en 403) — contact via site officiel / page Facebook / sur place.
+> Ne pas deviner d'adresse : demander l'email à Cyril ou envoyer via le canal indiqué.
+
+| Cible | Zone | Affinité | Canal de contact | Statut |
+|---|---|---|---|---|
+| **BR Munns International** (groupe food, CEO Bradley Munns) | Bangkok / Samui | **Groupe qui possède Bondi (rugby live), SALT, The Cliff, The Palms, The Outback** — 1 contact = plusieurs bars sportifs | `Info@brmunnsinternational.com` (vérifié) · +66 80 519 3931 | ✅ **Envoyé 18/07** — suivi J+7 (~25/07) |
+| **George Clancy** — communauté rugby de l'île | Koh Samui | Contact rugby (rôle à confirmer par Cyril) | `george.clancy@gmail.com` (fourni par Cyril) | 🤝 **A répondu (positif) 18/07** — à l'étranger, RDV à caler à son retour **mi/fin août**. Relance de calage ~15/08 |
+| **Bondi Aussie Bar & Grill** | Chaweng | Diffuse le rugby en direct | Couvert via BR Munns (groupe) ci-dessus | 🔁 Via BR Munns |
+| **The Islander** | Chaweng | Sports pub, rugby EN/AUS/EU | Facebook / sur place | 🎯 À contacter (EN) |
+| **Premier Sports Bar** | Bang Rak | Repaire d'expats fans de rugby | Facebook / sur place | 🎯 À contacter (EN) |
+| **Emerald Irish Pub** | Bophut (Fisherman's Village) | Écrans sports, ambiance pub | Facebook / sur place | 🎯 À contacter (EN) |
+| **La Guinguette** (patron : Seb) | Lamai | Resto français — affinité FR/famille | Facebook / sur place | 🎯 À contacter (FR) |
+| No Stress / Baobab | Lamai Beach | Restos français, familles FR | Facebook / sur place | 🎯 Réserve (FR) |
 
 ## ✅ Suivis en cours
 
 | Contact | Type | Dernier échange | Prochaine action | Statut |
 |---|---|---|---|---|
 | **Rachel** — `Rachelwands1@gmail.com` (enfant 8 ans, Kids) | Lead site | 2026-07-18 11:06 (réponse envoyée par Cyril) | Si pas de réponse : relance douce **J+3** (21/07), puis J+7 (25/07). Max 2 relances. | 🕐 Suivi actif |
+
+## 🏟️ Logistique — location de terrain
+
+| Cible | Rôle | Contact vérifié | Statut |
+|---|---|---|---|
+| **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) — c'est l'interlocuteur pour **louer un terrain** | `info@maraleina.com` · +66 80 169 4276 · portail : sportsbooking.maraleina.com | ✅ **Email envoyé 18/07** — suivi J+7 (~25/07) |
+| **PSG Academy Samui** | Académie de foot (Chaweng) opérant sur le site Maraleina | +66 910360361 · psgacademysamui.com · FB/IG @psgacademysamui | ✅ **Contacté sur Instagram 18/07** — en attente de réponse |
+
+> Tarif de location de terrain non public → `[À COMPLÉTER PAR CYRIL]` après retour Maraleina.
 
 ## ❓ À clarifier avec Cyril
 
