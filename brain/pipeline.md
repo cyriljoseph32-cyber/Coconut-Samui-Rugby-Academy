@@ -36,7 +36,7 @@
 | Cible | Zone | Affinité | Canal de contact | Statut |
 |---|---|---|---|---|
 | **BR Munns International** (groupe food, CEO Bradley Munns) | Bangkok / Samui | **Groupe qui possède Bondi (rugby live), SALT, The Cliff, The Palms, The Outback** — 1 contact = plusieurs bars sportifs | `Info@brmunnsinternational.com` (vérifié) · +66 80 519 3931 | ✅ **Envoyé 18/07** — suivi J+7 (~25/07) |
-| **George Clancy** — communauté rugby de l'île | Koh Samui | Contact rugby (rôle à confirmer par Cyril : arbitre irlandais ? Koh Samui Rugby Club ?) | `george.clancy@gmail.com` (fourni par Cyril) | ✅ **Envoyé 18/07** — suivi J+7 (~25/07) |
+| **George Clancy** — communauté rugby de l'île | Koh Samui | Contact rugby (rôle à confirmer par Cyril) | `george.clancy@gmail.com` (fourni par Cyril) | 🤝 **A répondu (positif) 18/07** — à l'étranger, RDV à caler à son retour **mi/fin août**. Relance de calage ~15/08 |
 | **Bondi Aussie Bar & Grill** | Chaweng | Diffuse le rugby en direct | Couvert via BR Munns (groupe) ci-dessus | 🔁 Via BR Munns |
 | **The Islander** | Chaweng | Sports pub, rugby EN/AUS/EU | Facebook / sur place | 🎯 À contacter (EN) |
 | **Premier Sports Bar** | Bang Rak | Repaire d'expats fans de rugby | Facebook / sur place | 🎯 À contacter (EN) |
@@ -54,8 +54,8 @@
 
 | Cible | Rôle | Contact vérifié | Statut |
 |---|---|---|---|
-| **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) — c'est l'interlocuteur pour **louer un terrain** | `info@maraleina.com` · +66 80 169 4276 · portail : sportsbooking.maraleina.com | ✍️ **Brouillon d'enquête prêt 18/07** (dispo + tarifs) |
-| **PSG Academy Samui** | Académie de foot (Chaweng) opérant sur le site Maraleina | +66 910360361 · psgacademysamui.com · FB/IG @psgacademysamui (email direct non public — site en 403) | ℹ️ Contact direct via tél. / réseaux |
+| **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) — c'est l'interlocuteur pour **louer un terrain** | `info@maraleina.com` · +66 80 169 4276 · portail : sportsbooking.maraleina.com | ✅ **Email envoyé 18/07** — suivi J+7 (~25/07) |
+| **PSG Academy Samui** | Académie de foot (Chaweng) opérant sur le site Maraleina | +66 910360361 · psgacademysamui.com · FB/IG @psgacademysamui | ✅ **Contacté sur Instagram 18/07** — en attente de réponse |
 
 > Tarif de location de terrain non public → `[À COMPLÉTER PAR CYRIL]` après retour Maraleina.
 
