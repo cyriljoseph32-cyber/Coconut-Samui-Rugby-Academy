@@ -29,9 +29,13 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
 
 | Agent | Rôle | Raccourci |
 |---|---|---|
+| `assistant-cyril` (`.claude/agents/assistant-cyril.md`) | Chef d'orchestre : brief quotidien, agenda, délégation | `/brief` |
 | `marketing` (`.claude/agents/marketing.md`) | Posts Instagram, campagnes, flyers, copy FR/EN | `/marketing` |
 | `secretariat` (`.claude/agents/secretariat.md`) | Triage de la boîte Gmail, brouillons de réponses | `/inbox` |
-| `assistant-cyril` (`.claude/agents/assistant-cyril.md`) | Chef d'orchestre : brief quotidien, agenda, délégation | `/brief` |
+| `communication` (`.claude/agents/communication.md`) | Relances email, prospection sponsors & partenaires, pipeline | `/relances` · `/sponsors` |
+| `evenements` (`.claude/agents/evenements.md`) | Camps, tournoi inter-écoles, corporate : rétroplannings, checklists | `/events` |
+| `webmaster` (`.claude/agents/webmaster.md`) | Site Astro : contenus, SEO, checklist lancement, synchro brain↔src | `/site` |
+| `coach` (`.claude/agents/coach.md`) | Plans de séance, progressions, banques de jeux, sécurité | `/coach` |
 
 ## Règles communes à tous les agents
 
@@ -58,6 +62,15 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
 - `brain/marketing-playbook.md` — marque, ton, piliers de contenu Instagram, hashtags,
   formats de posts, calendrier éditorial type.
 - `brain/email-playbook.md` — labels Gmail, règles de triage, modèles de réponses FR/EN.
+- `brain/email-signature.html` — signature de marque HTML (logo du site + liens) : intègre le
+  site aux mails, utilisée par les agents `secretariat` et `communication` dans `htmlBody`.
+- `brain/communication-playbook.md` — cadences de relance, modèles d'approche sponsors FR/EN
+  (niveaux Bronze→Platinum), segments cibles Koh Samui.
+- `brain/pipeline.md` — **registre vivant** des relances et prospects (leads, écoles,
+  sponsors) : à tenir à jour après chaque action validée.
+- `brain/events-playbook.md` — rétroplanning et checklists camps / tournoi / corporate.
+- `brain/coaching-playbook.md` — cadres de séance par programme, progression contact,
+  sécurité (chaleur, commotion, ratios).
 
 ## Site web — développement
 

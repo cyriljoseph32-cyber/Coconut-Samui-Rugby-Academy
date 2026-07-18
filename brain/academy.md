@@ -70,12 +70,29 @@ Koh Samui, province de Surat Thani, Thaïlande.
 - **Impact** : chaque événement finance des bourses pour les enfants de l'académie
 - **CTA** : devis — *« Hi! I'd like a quote for a corporate team-building event. »*
 
+## Sponsoring & partenariats (faits issus des emails de Cyril)
+
+- Niveaux de partenariat structurés **Bronze → Platinum** (détails et montants :
+  `[À COMPLÉTER PAR CYRIL]`)
+- Un **dossier de sponsoring complet** existe — à demander à Cyril avant tout envoi
+- Contreparties : visibilité (maillots, événements, digital), impact social (bourses enfants
+  thaïlandais, rugby féminin), engagement corporate
+- Historique : campagne de crowdfunding 4fund.com « Become a partner… » (terminée ~09/2025,
+  bilan `[À COMPLÉTER PAR CYRIL]`)
+- Le suivi des prospects est dans `brain/pipeline.md`
+
+## Notes opérationnelles
+
+- **Beach rugby** utilisé pendant la saison des pluies (mentionné aux familles en 09/2025)
+- Démarches juridiques d'ouverture menées avec un avocat local en 2025 (Kumchai, IT Complex
+  Lamai) — statut actuel `[À COMPLÉTER PAR CYRIL]`
+
 ## Informations NON publiées — ne jamais inventer
 
 | Info | Statut |
 |---|---|
 | Tarifs (tous programmes) | `[À COMPLÉTER PAR CYRIL]` — rediriger vers WhatsApp |
-| Horaires précis des séances | `[À COMPLÉTER PAR CYRIL]` — rediriger vers WhatsApp |
+| Horaires précis des séances | **En attente des résultats du sondage Facebook (juillet 2026)** — d'ici là, rediriger vers WhatsApp |
 | Dates des camps / événements | `[À COMPLÉTER PAR CYRIL]` (`src/pages/camps-events.astro`) |
 | Noms et bios des coachs | `[À COMPLÉTER PAR CYRIL]` (`src/pages/about.astro`) |
 
