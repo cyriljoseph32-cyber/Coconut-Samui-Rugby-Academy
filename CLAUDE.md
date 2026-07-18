@@ -68,6 +68,8 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
   (niveaux Bronze→Platinum), segments cibles Koh Samui.
 - `brain/pipeline.md` — **registre vivant** des relances et prospects (leads, écoles,
   sponsors) : à tenir à jour après chaque action validée.
+- `brain/sponsor-prospects.md` — **annuaire** des cibles sponsors/partenaires de Koh Samui
+  (bars sportifs, salles, physio, plongée, hôtels, immobilier, écoles) avec contacts vérifiés.
 - `brain/events-playbook.md` — rétroplanning et checklists camps / tournoi / corporate.
 - `brain/coaching-playbook.md` — cadres de séance par programme, progression contact,
   sécurité (chaleur, commotion, ratios).

@@ -42,6 +42,10 @@
 | Marques sport & santé (physio, salles, nutrition) | Cohérence d'image | Partenariat en nature + visibilité |
 | Entreprises de services de l'île (immobilier, plongée, assurances) | Réseau expat, RSE locale | Niveaux Bronze→Platinum |
 
+**Annuaire de prospects** : la liste des cibles réelles et vérifiées (par segment, avec canal de
+contact) est dans `brain/sponsor-prospects.md` — s'en servir comme point de départ, et la mettre
+à jour quand de nouvelles cibles sont vérifiées.
+
 **Règles de prospection** :
 1. Toute cible proposée doit être **vérifiée** (WebSearch : l'établissement existe, le contact
    est plausible). **Jamais d'adresse email devinée** — si le contact n'est pas trouvable,
