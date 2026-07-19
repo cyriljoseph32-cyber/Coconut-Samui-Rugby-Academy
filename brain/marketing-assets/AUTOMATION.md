@@ -28,20 +28,20 @@ visuels auto.
 **Limite** : les sessions de la routine tournent **sans connecteurs** (pas de Gmail/Bloom/Canva).
 Ce n'est pas un problème : les visuels sont générés en local (Chromium), aucun crédit requis.
 
-### Étage 2 — Publication (Meta Business Suite — recommandé)
+### Étage 2 — Publication (Postiz — planificateur retenu)
 
-La routine prépare ; **Cyril publie**. Le plus simple pour programmer Instagram + Facebook
-**ensemble**, gratuitement :
+Les posts sont poussés dans **[Postiz](https://postiz.com)** (le planificateur de l'académie),
+**en brouillon**, par `postiz-push.cjs`. Cyril relit et programme dans Postiz — *rien n'est publié
+sans sa validation*.
 
-1. **Meta Business Suite** (business.facebook.com ou l'app mobile) — connecter la Page Facebook
-   + le compte **Instagram Business/Creator**
-2. Onglet **Planifier / Créer un post** → coller la caption livrée par la routine, ajouter le
-   visuel PNG, cocher **Instagram + Facebook**
-3. Choisir la date/heure (les créneaux sont dans le calendrier livré) → **Programmer**
-4. Meta publie tout seul aux heures prévues, sur les deux réseaux
+- Si la variable `POSTIZ_API_KEY` est définie, la routine écrit un `manifest.json` et lance
+  automatiquement `node brain/marketing-assets/postiz-push.cjs <manifest.json>` → les posts
+  (Instagram + Facebook, caption + visuel) apparaissent dans Postiz, prêts à programmer.
+- Installation complète (clé API, canaux à connecter, variables d'environnement) :
+  **`brain/marketing-assets/POSTIZ.md`**.
 
-> Alternative : **Buffer** ou **Later** (offres gratuites) si Cyril préfère leur interface de
-> calendrier. Même principe : la routine fournit le contenu prêt à coller.
+> Alternative manuelle (si Postiz non configuré) : coller le contenu livré dans **Meta Business
+> Suite** (gratuit, IG + FB ensemble) et programmer les dates du calendrier.
 
 ## Option « tout automatique » (non activée)
 
