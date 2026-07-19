@@ -91,10 +91,13 @@ Cibles sans emails publics — contact via Facebook Messenger ou WhatsApp. Broui
 
 | Cible | Rôle | Contact vérifié | Statut |
 |---|---|---|---|
-| **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) — c'est l'interlocuteur pour **louer un terrain** | `info@maraleina.com` · +66 80 169 4276 · portail : sportsbooking.maraleina.com | ✅ **Email envoyé 18/07** — suivi J+7 (~25/07) |
+| **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) — c'est l'interlocuteur pour **louer un terrain** | `info@maraleina.com` · +66 77 233 888 · LINE lin.ee/1aZso7B · WhatsApp wa.me/+66801694276 | 🤝 **A répondu 19/07 (Bim, équipe résa)** — tarifs reçus. Brouillon de réponse (visite du site) prêt dans Gmail à valider par Cyril |
 | **PSG Academy Samui** | Académie de foot (Chaweng) opérant sur le site Maraleina | +66 910360361 · psgacademysamui.com · FB/IG @psgacademysamui | ✅ **Contacté sur Instagram 18/07** — en attente de réponse |
 
-> Tarif de location de terrain non public → `[À COMPLÉTER PAR CYRIL]` après retour Maraleina.
+> **Tarifs Maraleina reçus le 19/07 (terrain gazon naturel 11-a-side, min. 1h)** :
+> - Sans éclairage (7h–18h) : **6 475 THB/h**
+> - Avec éclairage (18h–21h) : **7 650 THB/h**
+> Prochaine étape : caler une **visite du site** (date à choisir par Cyril), demander un **tarif récurrent** pour créneau hebdo fixe et la possibilité d'un **demi-terrain** pour les petits groupes.
 
 ## ❓ À clarifier avec Cyril
 
