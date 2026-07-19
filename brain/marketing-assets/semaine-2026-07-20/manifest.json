@@ -1,0 +1,29 @@
+{
+  "_comment": "Manifest Postiz — semaine 20-26 juillet. Utilisé par postiz-push.cjs. Dates ISO 8601 (UTC). Créneaux Samui (UTC+7) : soustraire 7h pour l'UTC. Par défaut poussé en 'draft' pour relecture dans Postiz.",
+  "posts": [
+    {
+      "content": "Une séance Kids, étape par étape 🏉 Zéro plaquage, zéro pression, aucun enfant sur le banc. 60 min de plaisir ballon en main, coachées en FR/EN. Première séance offerte 👉 WhatsApp +66 63 375 3316\n\nA Kids session, step by step — no tackling, no pressure, no child sits out. First session free.\n\n#kidsrugby #tagrugby #kohsamui #samuikids #samuiexpats #growstrongtogether",
+      "image": "poster-kids-session.png",
+      "date": "2026-07-22T12:00:00.000Z",
+      "platforms": ["instagram", "facebook"]
+    },
+    {
+      "content": "L'île n'a jamais eu ça 🏝️🏉 Le premier tournoi inter-écoles de rugby de Koh Samui se prépare. Écoles & parents qui veulent en être 👉 WhatsApp +66 63 375 3316\n\nKoh Samui's first inter-school rugby tournament is on the horizon. Schools & parents — this is your moment.\n\n#kohsamui #rugby #youthrugby #interschool #growstrongtogether",
+      "image": "poster-tournament.png",
+      "date": "2026-07-23T11:00:00.000Z",
+      "platforms": ["instagram", "facebook"]
+    },
+    {
+      "content": "Essai GRATUIT cette semaine 🏉 Kids (4–10, tag) ou Teens (11–17, contact progressif). Coaching bilingue, tous niveaux, aucune expérience requise. Réservez 👉 WhatsApp +66 63 375 3316\n\nFREE trial this week — Kids or Teens. Bilingual coaching, all levels, zero experience needed.\n\n#freetrial #kidsrugby #kohsamui #samuikids #youthrugby #growstrongtogether",
+      "image": "poster-free-trial.png",
+      "date": "2026-07-24T10:30:00.000Z",
+      "platforms": ["instagram", "facebook"]
+    },
+    {
+      "content": "Sunset Sessions 🌅🏉 Du touch rugby convivial pour résidents, expats et voyageurs. Sans contact, sans abonnement — venez comme vous êtes 👉 DM ou WhatsApp +66 63 375 3316\n\nSocial touch rugby at golden hour. No contact, no membership, just show up.\n\n#touchrugby #kohsamui #samuiexpats #sunsetsession #growstrongtogether",
+      "image": "poster-sunset-touch.png",
+      "date": "2026-07-26T10:30:00.000Z",
+      "platforms": ["instagram", "facebook"]
+    }
+  ]
+}
