@@ -50,22 +50,42 @@
 |---|---|---|---|---|
 | **Rachel** — `Rachelwands1@gmail.com` (enfant 8 ans, Kids) | Lead site | 2026-07-18 11:06 (réponse envoyée par Cyril) | Si pas de réponse : relance douce **J+3** (21/07), puis J+7 (25/07). Max 2 relances. | 🕐 Suivi actif |
 
-### Vague 1 — brouillons prêts (18/07, à relire et envoyer par Cyril)
+### Vague 1 — ✅ Brouillons envoyés (19/07)
 
-Cibles à email public vérifié — brouillons signés créés dans Gmail. Suivi J+7 après envoi.
+Cibles à email public vérifié — brouillons signés envoyés depuis Gmail. Suivi J+7 (25/07) après envoi.
 
-| Cible | Segment | Email | Angle |
-|---|---|---|---|
-| Samui Fitness Lab | Salle de sport | `contact@samuifitnesslab.com` | S&C + cross-promo |
-| Lamai Beach CrossFit | Salle de sport | `info@samuifitnessretreat.com` | S&C + cross-promo |
-| Chameleon Production | Impression/maillots | `contact@chameleonproduction.com` | Partenaire kit & banderoles |
-| Go Samui Catering | Catering | `eat@gosamuicatering.com` | Camps/corporate + référencement croisé |
-| Kohi Coffee | Café | `events@kohicoffee.com` | Café aux événements/tournoi |
-| Dive Point Samui | Plongée | `info@divepoint-samui.com` | Cross-promo familles/expats |
-| Silent Divers | Plongée | `info@silentdivers.com` | Cross-promo familles/expats |
-| SBC Insurance | Assurance | `apply@sbc-insurance.live` | RSE familles + cover académie |
-| Think Safe Insurance | Assurance | `contact@thinksafeinternational.com` | RSE familles + cover académie |
-| Rotary Club Samui & Phangan | Communauté | `Secretary@RotarySamui-Phangan.org` | Bourses + projets communautaires + réseau |
+| Cible | Segment | Email | Angle | Statut |
+|---|---|---|---|---|
+| Samui Fitness Lab | Salle de sport | `contact@samuifitnesslab.com` | S&C + cross-promo | ✅ Envoyé 19/07 |
+| Lamai Beach CrossFit | Salle de sport | `info@samuifitnessretreat.com` | S&C + cross-promo | ✅ Envoyé 19/07 |
+| Chameleon Production | Impression/maillots | `contact@chameleonproduction.com` | Partenaire kit & banderoles | ✅ Envoyé 19/07 |
+| Go Samui Catering | Catering | `eat@gosamuicatering.com` | Camps/corporate + référencement croisé | ✅ Envoyé 19/07 |
+| Kohi Coffee | Café | `events@kohicoffee.com` | Café aux événements/tournoi | ✅ Envoyé 19/07 |
+| Dive Point Samui | Plongée | `info@divepoint-samui.com` | Cross-promo familles/expats | ✅ Envoyé 19/07 |
+| Silent Divers | Plongée | `info@silentdivers.com` | Cross-promo familles/expats | ✅ Envoyé 19/07 |
+| SBC Insurance | Assurance | `apply@sbc-insurance.live` | RSE familles + cover académie | ✅ Envoyé 19/07 |
+| Think Safe Insurance | Assurance | `contact@thinksafeinternational.com` | RSE familles + cover académie | ✅ Envoyé 19/07 |
+| Rotary Club Samui & Phangan | Communauté | `Secretary@RotarySamui-Phangan.org` | Bourses + projets communautaires + réseau | ✅ Envoyé 19/07 |
+
+### Vague 2 — brouillons prêts (19/07, déploiement mardi 22/07)
+
+Cibles sans emails publics — contact via Facebook Messenger ou WhatsApp. Brouillons personnalisés prêts dans `brain/scratchpad/wave2-prospection-commerces-expat.md`. Suivi J+7 après envoi.
+
+**Semaine 1 (mardi 22/07) : Bars anglais (EN)**
+
+| Cible | Zone | Canal | Angle | Statut |
+|---|---|---|---|---|
+| **The Islander** | Chaweng | FB @Islander1995 · +66 87 280 3605 | Diffusion matchs CSRA, communauté rugby anglophone | 🎯 Brouillon prêt EN |
+| **Premier Sports Bar** | Bang Rak | FB (vs Mermaid Hotel) | Partenaire diffusion tournois, clientèle entreprises | 🎯 Brouillon prêt EN |
+| **Emerald Irish Pub** | Bophut (Fisherman's) | FB @Emeraldbarkohsamui | Sponsoring événementiel, affinité UK/AUS/IE | 🎯 Brouillon prêt EN |
+
+**Semaine 2+ (si réponses positives) : Restos français (FR)**
+
+| Cible | Zone | Canal | Angle | Statut |
+|---|---|---|---|---|
+| **La Guinguette** (patron : Seb) | Lamai (50m stadium) | FB / sur place | Partenaire local FR, proximité Koh's 33 | 🎯 Brouillon prêt FR |
+| **No Stress** (Pierre & Pannee) | Lamai Beach | FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | 🎯 Brouillon prêt FR |
+| **Le Baobab** (Greg & Indy) | Lamai Beach | FB / sur place | Beach club français (réserve après No Stress) | 🎯 Réserve FR |
 
 ## 🏟️ Logistique — location de terrain
 
