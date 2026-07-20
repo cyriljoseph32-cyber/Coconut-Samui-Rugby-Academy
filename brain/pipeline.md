@@ -8,7 +8,7 @@
 
 | Contact | Type | Dernier échange | Prochaine action | Statut |
 |---|---|---|---|---|
-| **Alan** — `alan@lis.ac.th` (prof EPS, Lamai International School) | Partenariat école | **2026-07-18 (relance envoyée par Cyril)** | Suivi J+7 (~25/07) s'il ne répond pas ; caler un RDV à son retour en août | ✅ Relance envoyée 18/07 |
+| **Alan** — `alan@lis.ac.th` (prof EPS, Lamai International School) | Partenariat école | **2026-07-20 (a répondu, positif)** | Il rentre à Samui le **20/08** et appellera une fois installé (« cake & coffee »). Brouillon d'accusé prêt dans Gmail. **Relance si pas de nouvelles ~25/08.** Prévoir séance découverte à l'école (nouveau trimestre). | 🤝 Réponse positive 20/07 |
 | **Danielle Perchard** — `danielleperchard@hotmail.com` (3 garçons dont 4, 5 et 7 ans en 2025) | Lead parents | **2026-07-18 (relance envoyée par Cyril)** | Suivi J+7 (~25/07) ; confirmer essai des 3 via WhatsApp | ✅ Relance envoyée 18/07 |
 | **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (relance envoyée par Cyril)** | Suivi J+7 (~25/07) ; orienter vers WhatsApp pour l'essai | ✅ Relance envoyée 18/07 |
 
