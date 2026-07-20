@@ -36,6 +36,7 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
 | `evenements` (`.claude/agents/evenements.md`) | Camps, tournoi inter-écoles, corporate : rétroplannings, checklists | `/events` |
 | `webmaster` (`.claude/agents/webmaster.md`) | Site Astro : contenus, SEO, checklist lancement, synchro brain↔src | `/site` |
 | `coach` (`.claude/agents/coach.md`) | Plans de séance, progressions, banques de jeux, sécurité | `/coach` |
+| `memory` (`.claude/agents/memory.md`) | Mémoire transverse de **tous** les projets de Cyril : fiches, journal, briefs de contexte pour les autres agents | `/memory` |
 
 ## Règles communes à tous les agents
 
@@ -54,6 +55,9 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
    Pour gérer la boîte officielle `coconutrugbyacademy@gmail.com`, ce compte doit être connecté
    dans les paramètres claude.ai (Settings → Connectors). Si le connecteur est absent ou pointe
    sur un autre compte, le dire clairement au lieu de simuler.
+6. **Mémoire** : après une session de travail significative sur un projet (feature livrée,
+   décision, changement de cap), mettre à jour `brain/memoire/` (fiche du projet + journal)
+   ou le signaler à l'agent `memory` pour qu'il s'en charge.
 
 ## Base de connaissances (`brain/`)
 
@@ -73,6 +77,9 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
 - `brain/events-playbook.md` — rétroplanning et checklists camps / tournoi / corporate.
 - `brain/coaching-playbook.md` — cadres de séance par programme, progression contact,
   sécurité (chaleur, commotion, ratios).
+- `brain/memoire/` — **mémoire transverse des projets de Cyril** (index, journal, une fiche
+  par dépôt GitHub) : tenue par l'agent `memory`, à consulter avant de travailler sur un
+  autre projet et à mettre à jour après chaque session significative.
 
 ## Site web — développement
 
