@@ -30,6 +30,13 @@
 - Vérification avant ship : `npm run build` → smoke curl de toutes les routes → screenshots
   Playwright 1280×900 et 375×780 → revue ban-list → contraste WCAG AA.
 
+## Équipe d'agents (créée le 2026-07-20)
+
+`.claude/agents/` du dépôt : `webmaster-dst` (site + design system — `/dst-site`),
+`contenu-dst` (copy/articles/posts — `/dst-contenu`), `lancement-dst` (checklist de
+lancement, coordination — `/dst-lancement`). Garde-fous communs : ban-list design absolue,
+jamais de claim médical, brouillons uniquement, IP confidentielle jamais copiée.
+
 ## État & prochaines étapes (2026-07-20)
 
 - Dernier commit : 04/07 — refonte de la home (« conversion spine »).

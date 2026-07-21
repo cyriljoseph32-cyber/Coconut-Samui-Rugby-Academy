@@ -29,6 +29,14 @@
   mobile OK à 390px.
 - `npm run build` et `npm run typecheck` doivent passer avant tout push.
 
+## Équipe d'agents (créée le 2026-07-20)
+
+`.claude/agents/` du dépôt : `dev-coco` (code — `/coco-dev`), `onboarding-coco`
+(installation client — `/coco-onboarding`), `qualite-coco` (bilan d'exploitation —
+`/coco-qualite`), `commercial-coco` (vente/prospection — `/coco-vente`). Garde-fous
+communs : aucune action externe sans validation de Cyril, tarifs/données client jamais
+inventés.
+
 ## État & prochaines étapes (2026-07-20)
 
 - Dernier merge : PR #3 (branche « ai-assistant-client-launch ») le 17/07 — préparation du

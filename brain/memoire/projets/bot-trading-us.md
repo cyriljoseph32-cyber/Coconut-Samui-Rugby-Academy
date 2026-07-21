@@ -25,6 +25,13 @@
 - Commandes : `npm run dev` · `build` · `typecheck` · `lint` · `test:run` ·
   `bot:paper` · `bot:backtest`.
 
+## Équipe d'agents (créée le 2026-07-20)
+
+`.claude/agents/` du dépôt : `trading-ops` (exploitation — `/trading`), `quant` (stratégie
+& backtests — `/backtest`), `dev-trading` (code — `/bot-dev`). Garde-fous communs : jamais
+de conseil en investissement, jamais `ALPACA_LIVE`/`AUTOTRADE` sans décision explicite de
+Cyril.
+
 ## État & prochaines étapes (2026-07-20)
 
 - Dernier merge : PR #2 le 17/07. Le README documente les durcissements en place : token

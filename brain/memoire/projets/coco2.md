@@ -32,6 +32,14 @@
   marketing/SEO/réseaux sociaux, SOP d'exploitation, kits de prospection + contacts Samui,
   pricing, decks agence.
 
+## Équipe d'agents (créée le 2026-07-20)
+
+`.claude/agents/` du dépôt : `dev-concierge` (code — `/concierge-dev`), `data-concierge`
+(base de listings — `/concierge-data`), `growth-concierge` (plans marketing/SEO/réseaux —
+`/concierge-growth`), `partenariats-concierge` (prospection partenaires —
+`/concierge-partenariats`). Garde-fous communs : brouillons uniquement, règles
+TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles communes.
+
 ## État & prochaines étapes (2026-07-20)
 
 - Dernier commit : 12/07 — base concierge complète (20/20 catégories de listings).
