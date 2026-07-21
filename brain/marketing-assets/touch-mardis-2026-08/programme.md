@@ -4,15 +4,17 @@
 > Événement : **Touch rugby, chaque mardi 19h–20h30, Koh's 33 Stadium (Lamai)** — sans contact,
 > tous niveaux, adultes.
 
-## Créneaux (5 posts — le mardi 21/07 est déjà couvert par le post d'hier)
+## Créneaux (5 posts — publication le dimanche soir, 2 jours avant la séance)
+
+> Le mardi 21/07 est déjà couvert par le post d'hier. Chaque post part le **dimanche 18h Samui**.
 
 | Date de séance | Visuel | Publication prévue | Canaux |
 |---|---|---|---|
-| Mardi 28 juillet | `poster-touch-2026-07-28.png` | mardi 28/07, 09h Samui | Instagram + Facebook |
-| Mardi 4 août | `poster-touch-2026-08-04.png` | mardi 04/08, 09h Samui | Instagram + Facebook |
-| Mardi 11 août | `poster-touch-2026-08-11.png` | mardi 11/08, 09h Samui | Instagram + Facebook |
-| Mardi 18 août | `poster-touch-2026-08-18.png` | mardi 18/08, 09h Samui | Instagram + Facebook |
-| Mardi 25 août | `poster-touch-2026-08-25.png` | mardi 25/08, 09h Samui | Instagram + Facebook |
+| Mardi 28 juillet | `poster-touch-2026-07-28.png` | dimanche 26/07, 18h Samui | Instagram + Facebook |
+| Mardi 4 août | `poster-touch-2026-08-04.png` | dimanche 02/08, 18h Samui | Instagram + Facebook |
+| Mardi 11 août | `poster-touch-2026-08-11.png` | dimanche 09/08, 18h Samui | Instagram + Facebook |
+| Mardi 18 août | `poster-touch-2026-08-18.png` | dimanche 16/08, 18h Samui | Instagram + Facebook |
+| Mardi 25 août | `poster-touch-2026-08-25.png` | dimanche 23/08, 18h Samui | Instagram + Facebook |
 
 ## Légende (identique chaque semaine, date adaptée)
 
