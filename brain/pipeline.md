@@ -48,7 +48,7 @@
 
 | Contact | Type | Dernier échange | Prochaine action | Statut |
 |---|---|---|---|---|
-| **Rachel** — `Rachelwands1@gmail.com` (enfant 8 ans, Kids) | Lead site | 2026-07-18 11:06 (réponse envoyée par Cyril) | Si pas de réponse : relance douce **J+3** (21/07), puis J+7 (25/07). Max 2 relances. | 🕐 Suivi actif |
+| **Rachel** — `Rachelwands1@gmail.com` (enfant 8 ans, Kids) | Lead site | 2026-07-18 11:06 (réponse envoyée par Cyril) | **Pas de relance** — décision de Cyril (21/07). Laisser la balle dans son camp ; rouvrir seulement si elle réécrit. | ⏸️ Clos sans relance (choix Cyril) |
 
 ### Vague 1 — ✅ Brouillons envoyés (19/07)
 

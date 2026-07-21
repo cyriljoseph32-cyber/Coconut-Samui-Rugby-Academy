@@ -31,6 +31,11 @@ parallèle dans la même séance, intégration en 4–6 semaines.
 2. Équipes mixtes refaites chaque semaine par les coachs
 3. Jeu continu, arbitrage léger, social d'abord
 
+> **Séance récurrente du mardi soir** (19h00–20h30, Koh's 33 Lamai) : plan minuté détaillé
+> dans `brain/coaching-plans/seance-touch-mardi.md` — structure fixe **10 min échauffement/jeux
+> → 30 min skills → 50 min touch**, avec rotation hebdo des thèmes skills. À **livrer le lundi**
+> (la veille) pour la séance du lendemain.
+
 ## Sécurité — spécifique Koh Samui
 
 - **Chaleur/hydratation** : pauses eau toutes les 15–20 min ; éviter les pics de chaleur pour
