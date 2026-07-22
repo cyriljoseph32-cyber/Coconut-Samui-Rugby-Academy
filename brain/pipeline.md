@@ -91,7 +91,7 @@ Cibles sans emails publics — contact via Facebook Messenger ou WhatsApp. Broui
 
 | Cible | Rôle | Contact vérifié | Statut |
 |---|---|---|---|
-| **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) — c'est l'interlocuteur pour **louer un terrain** | `info@maraleina.com` · +66 77 233 888 · LINE lin.ee/1aZso7B · WhatsApp wa.me/+66801694276 | 🤝 **A répondu 19/07 (Bim, équipe résa)** — tarifs reçus. Brouillon de réponse (visite du site) prêt dans Gmail à valider par Cyril |
+| **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) — c'est l'interlocuteur pour **louer un terrain** | `info@maraleina.com` · +66 77 233 888 · LINE lin.ee/1aZso7B · WhatsApp wa.me/+66801694276 | 🤝 **Réponse de Cyril ENVOYÉE 19/07** (demande de visite du site avant de confirmer) — **en attente de leur proposition de date**. Relance de calage ~fin juillet si pas de nouvelles |
 | **PSG Academy Samui** | Académie de foot (Chaweng) opérant sur le site Maraleina | +66 910360361 · psgacademysamui.com · FB/IG @psgacademysamui | ✅ **Contacté sur Instagram 18/07** — en attente de réponse |
 
 > **Tarifs Maraleina reçus le 19/07 (terrain gazon naturel 11-a-side, min. 1h)** :
