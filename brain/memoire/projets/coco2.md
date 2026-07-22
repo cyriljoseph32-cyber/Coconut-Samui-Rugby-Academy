@@ -58,14 +58,13 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
     partenaire prioritaire + consigne « mention Coco » + rappel casque/permis/assurance) ;
     fiche partenaire rang 1 dans `data/concierge-db/13-location-scooters-voitures-vans.json` ;
     assertion dans `scripts/smoke-test.mjs`.
-  - Actif en prod seulement au merge de la branche sur `main` (Vercel) ou `vercel --prod`.
+  - **Mergé sur `main` le 2026-07-22 (PR #7, merge `ead54fb`)** → déploiement Vercel automatique.
 
 ## État & prochaines étapes (2026-07-22)
 
-- Dernier commit : 12/07 — base concierge complète (20/20 catégories de listings).
-- En cours : intégration du partenaire location **Hakuna Matata** (branche
-  `claude/vehicle-rental-agency-integration-a8jkpd`, commits `f28db11`→`2482fed`, non mergée) — voir
-  section Partenaires.
+- 2026-07-22 : intégration du partenaire location **Hakuna Matata** **mergée sur `main`**
+  (PR #7, merge `ead54fb`) → déploiement Vercel auto — voir section Partenaires.
+- Base concierge complète (20/20 catégories de listings) depuis le 12/07.
 - Prospection (agences, comptes) : voir `Coco_AI_Prospection_RECAP.md` dans le dépôt ;
   avancement réel : `[À COMPLÉTER PAR CYRIL]`.
 
