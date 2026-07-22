@@ -1,6 +1,6 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-07-20.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-07-22.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
 
@@ -40,9 +40,31 @@
 `/concierge-partenariats`). Garde-fous communs : brouillons uniquement, règles
 TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles communes.
 
-## État & prochaines étapes (2026-07-20)
+## Partenaires
+
+- **Hakuna Matata** (location véhicules) — intégré le 2026-07-22.
+  - Loueur voitures + scooters à Koh Samui. Modèle apporteur d'affaires :
+    **commission 10 %** versée en fin de location.
+  - **Tracking manuel** : le client mentionne « referred by Coco » ou Cyril prévient
+    directement le loueur. Pas de lien tracké (PID), pas de contrat formel (confiance).
+  - Conditions : min 1 jour / min 1 000 THB par location ; assurance incluse ; caution
+    demandée ; passeport seul ; prépaiement 1 000 THB (PaySolutions / Bangkok Bank) ;
+    livraison gratuite 10h-18h (+300 THB hors horaires). Résa : https://amo.si/K/YNSE7V/YJLEOZ
+  - Implémentation (branche `claude/vehicle-rental-agency-integration-a8jkpd`, commit `f28db11`) :
+    entrée transport dans `api/_affiliates.js` (mots-clés location EN/FR/DE, lien direct
+    appended par `bookingFooter()`) ; section TRANSPORT du prompt `api/chat.js` (loueur
+    partenaire prioritaire + consigne « mention Coco » + rappel casque/permis/assurance) ;
+    fiche partenaire rang 1 dans `data/concierge-db/13-location-scooters-voitures-vans.json` ;
+    assertion dans `scripts/smoke-test.mjs`.
+  - À compléter : téléphone/WhatsApp/adresse du loueur. Actif en prod seulement au merge
+    sur `main` (Vercel) ou `vercel --prod`.
+
+## État & prochaines étapes (2026-07-22)
 
 - Dernier commit : 12/07 — base concierge complète (20/20 catégories de listings).
+- En cours : intégration du partenaire location **Hakuna Matata** (branche
+  `claude/vehicle-rental-agency-integration-a8jkpd`, commit `f28db11`, non mergée) — voir
+  section Partenaires.
 - Prospection (agences, comptes) : voir `Coco_AI_Prospection_RECAP.md` dans le dépôt ;
   avancement réel : `[À COMPLÉTER PAR CYRIL]`.
 
