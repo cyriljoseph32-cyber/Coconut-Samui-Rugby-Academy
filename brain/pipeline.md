@@ -87,6 +87,26 @@ Cibles sans emails publics — contact via Facebook Messenger ou WhatsApp. Broui
 | **No Stress** (Pierre & Pannee) | Lamai Beach | FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | 🎯 Brouillon prêt FR |
 | **Le Baobab** (Greg & Indy) | Lamai Beach | FB / sur place | Beach club français (réserve après No Stress) | 🎯 Réserve FR |
 
+### Vague 3 — Sport, nutrition & santé (préparée 26/07)
+
+Cibles à forte affinité, **partenariat en nature** — canal FB/téléphone/sur place (aucun email
+public vérifié). Messages prêts à copier dans `brain/prospection-vague3-sport-sante.md`.
+Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après contact.
+
+| Cible | Zone | Canal | Angle | Statut |
+|---|---|---|---|---|
+| **Koh Fit Thailand** | Lamai | ☎️ +66 80 393 4542 · FB | S&C + cross-promo, voisin du stade | 🎯 Brouillon prêt EN |
+| **Lamai Fitness Retreat** | Lamai | FB · site | Salle expat/familles | 🎯 Brouillon prêt EN |
+| **Ultra Bodies Gym** | Lamai | FB `/Ultrabodiesgymlamai` | Salle de quartier Lamai | 🎯 Brouillon prêt EN |
+| **Elite Gym** | Chaweng/Bophut | formulaire `elitegymsamui.com` · FB | Grosse salle, réseau athlètes | 🎯 Brouillon prêt EN |
+| **Samui Pro Nutrition** | Chaweng | FB `/samuipronutrition` | Nutrition sportive, dotation | 🎯 Brouillon prêt EN |
+| **Samui Health Shop by Lamphu** | Lamai | site · FB `/samuihealthshop` | Santé/familles, proximité | 🎯 Brouillon prêt EN |
+| **Supersports** (Central Festival) | Bophut | sur place — responsable | Dotation ballons/maillots | 🎯 Brouillon prêt EN |
+| **Workshop Sport Design** | Chaweng | site · FB | Maillots custom | 🎯 Brouillon prêt EN |
+| **Samui Physio Clinic** | Bophut | site · FB · IG | Référent physio + crédibilité sécurité | 🎯 Brouillon prêt EN |
+| **Physio on Samui** | Chaweng | FB `/physiotherapyonsamui` | Réserve — physio hôpital | 🎯 Réserve EN |
+| **Star Gym** | Chaweng | site `stargymkohsamui.com` | Réserve — si 1–4 sans réponse | 🎯 Réserve EN |
+
 ## 🏟️ Logistique — location de terrain
 
 | Cible | Rôle | Contact vérifié | Statut |
