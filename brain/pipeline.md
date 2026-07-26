@@ -71,21 +71,24 @@ Cibles à email public vérifié — brouillons signés envoyés depuis Gmail. S
 
 Cibles sans emails publics — contact via Facebook Messenger ou WhatsApp. Brouillons personnalisés prêts dans `brain/scratchpad/wave2-prospection-commerces-expat.md`. Suivi J+7 après envoi.
 
+> **Emails publics vérifiés 26/07** (recherche web) — ajoutés ci-dessous. Bars EN : pas d'email
+> public (FB/tél). Restos FR : No Stress et Baobab ont un email public.
+
 **Semaine 1 (mardi 22/07) : Bars anglais (EN)**
 
 | Cible | Zone | Canal | Angle | Statut |
 |---|---|---|---|---|
-| **The Islander** | Chaweng | FB @Islander1995 · +66 87 280 3605 | Diffusion matchs CSRA, communauté rugby anglophone | 🎯 Brouillon prêt EN |
-| **Premier Sports Bar** | Bang Rak | FB (vs Mermaid Hotel) | Partenaire diffusion tournois, clientèle entreprises | 🎯 Brouillon prêt EN |
-| **Emerald Irish Pub** | Bophut (Fisherman's) | FB @Emeraldbarkohsamui | Sponsoring événementiel, affinité UK/AUS/IE | 🎯 Brouillon prêt EN |
+| **The Islander** | Chaweng | FB @Islander1995 · +66 87 280 3605 (pas d'email public) | Diffusion matchs CSRA, communauté rugby anglophone | 🎯 Brouillon prêt EN |
+| **Premier Sports Bar** | Bang Rak | FB (vs Mermaid Hotel) — pas d'email public | Partenaire diffusion tournois, clientèle entreprises | 🎯 Brouillon prêt EN |
+| **Emerald Irish Pub** | Bophut (Fisherman's) | FB @Emeraldbarkohsamui · +66 77 332 476 (pas d'email public) | Sponsoring événementiel, affinité UK/AUS/IE | 🎯 Brouillon prêt EN |
 
 **Semaine 2+ (si réponses positives) : Restos français (FR)**
 
 | Cible | Zone | Canal | Angle | Statut |
 |---|---|---|---|---|
-| **La Guinguette** (patron : Seb) | Lamai (50m stadium) | FB / sur place | Partenaire local FR, proximité Koh's 33 | 🎯 Brouillon prêt FR |
-| **No Stress** (Pierre & Pannee) | Lamai Beach | FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | 🎯 Brouillon prêt FR |
-| **Le Baobab** (Greg & Indy) | Lamai Beach | FB / sur place | Beach club français (réserve après No Stress) | 🎯 Réserve FR |
+| **La Guinguette** (patron : Seb) | Lamai (50m stadium) | FB / sur place (pas d'email public) | Partenaire local FR, proximité Koh's 33 | 🎯 Brouillon prêt FR |
+| **No Stress** (Pierre & Pannee) | Lamai Beach | ✉️ `peiauch.pierre@gmail.com` · FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | 🎯 Email vérifié — brouillon Gmail possible |
+| **Le Baobab** (Greg & Indy) | Lamai Beach | ✉️ `indy_jjj@hotmail.com` · +66 84 838 3040 | Beach club français (réserve après No Stress) | 🎯 Email vérifié — brouillon Gmail possible |
 
 ### Vague 3 — Sport, nutrition & santé (préparée 26/07)
 

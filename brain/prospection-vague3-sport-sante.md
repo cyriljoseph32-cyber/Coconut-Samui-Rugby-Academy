@@ -3,29 +3,32 @@
 > Préparée par l'agent `communication` le 2026-07-26. Cibles à **forte affinité rugby/marque**,
 > partenariats **en nature** (S&C, dotation, physio) + cross-promo — le meilleur reste après la
 > Vague 1 (envoyée 19/07) et la Vague 2 (bars EN + restos FR).
-> **Aucun email public vérifié** pour ces cibles → contact via **Facebook / téléphone / sur place /
-> formulaire du site**. Ne jamais deviner d'adresse. Si Cyril veut envoyer un **email**, je cherche
-> d'abord un contact vérifié (WebSearch) puis je crée le **brouillon Gmail** — rien n'est envoyé
-> sans son « oui ».
+> **Emails publics vérifiés le 2026-07-26** (recherche web, jamais devinés) pour 6 cibles → on peut
+> préparer un **brouillon Gmail**. Les autres n'ont pas d'email public → **Facebook / téléphone /
+> sur place**. Ne jamais deviner d'adresse. **Rien n'est envoyé sans le « oui » de Cyril.**
 > Suivi tenu dans `brain/pipeline.md`. Signature de marque : `brain/email-signature.html`.
 > Page à mentionner : `coconutsamuirugby.com/sponsorship`.
 
 ## Cibles & canal (11, dont 2 en réserve)
 
-| # | Cible | Zone | Canal de contact | Modèle | Accroche perso |
-|---|---|---|---|---|---|
-| 1 | **Koh Fit Thailand** | Lamai | ☎️ +66 80 393 4542 · FB | A — Salle | Voisins de Koh's 33 (Lamai) |
-| 2 | **Lamai Fitness Retreat** | Lamai | FB · site | A — Salle | Clientèle expat/familles, même zone |
-| 3 | **Ultra Bodies Gym** | Lamai | FB `/Ultrabodiesgymlamai` | A — Salle | Salle de quartier à Lamai |
-| 4 | **Elite Gym** | Chaweng/Bophut | formulaire `elitegymsamui.com` · FB | A — Salle | Grosse salle, réseau athlètes |
-| 5 | **Samui Pro Nutrition** | Chaweng (chez Elite Gym) | FB `/samuipronutrition` | B — Nutrition/dotation | Nutrition sportive → jeunes athlètes |
-| 6 | **Samui Health Shop by Lamphu** | Lamai | site · FB `/samuihealthshop` | B — Nutrition/dotation | Santé/familles, proximité Lamai |
-| 7 | **Supersports** (Central Festival) | Bophut | sur place — demander le responsable | B — Nutrition/dotation | Enseigne sport nationale → dotation ballons/maillots |
-| 8 | **Workshop Sport Design** | Chaweng | site · FB | B — Nutrition/dotation | Design sportswear → maillots custom |
-| 9 | **Samui Physio Clinic** | Bophut | site · FB · IG | C — Physio | Référent physio + crédibilité sécurité |
-| 10 | **Physio on Samui** | Chaweng (Samui Intl Hospital) | FB `/physiotherapyonsamui` | C — Physio | *(réserve)* proche hôpital |
-| 11 | **Star Gym** | Chaweng | site `stargymkohsamui.com` | A — Salle | *(réserve)* si 1–4 sans réponse |
+| # | Cible | Zone | Email vérifié | Autre canal | Modèle | Accroche perso |
+|---|---|---|---|---|---|---|
+| 1 | **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` | ☎️ +66 80 393 4542 · WA +66 80 472 2356 · FB | A — Salle | Voisins de Koh's 33 (Lamai) |
+| 2 | **Lamai Fitness Retreat** | Lamai | — (formulaire/WhatsApp) | site `lamaifitnessretreat.com` · FB | A — Salle | Clientèle expat/familles, même zone |
+| 3 | **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` | ☎️ +66 87 347 6761 · FB `/Ultrabodiesgymlamai` | A — Salle | Salle de quartier à Lamai |
+| 4 | **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` | ☎️ +66 77 423 646 · FB | A — Salle | Grosse salle, réseau athlètes |
+| 5 | **Samui Pro Nutrition** | Chaweng (chez Elite Gym) | ✉️ `pronutritionthailand@gmail.com` | ☎️ +66 82 112 7321 · FB `/samuipronutrition` | B — Nutrition/dotation | Nutrition sportive → jeunes athlètes |
+| 6 | **Samui Health Shop by Lamphu** | Lamai | — (formulaire du site) | ☎️ +66 96 634 8752 · FB `/samuihealthshop` | B — Nutrition/dotation | Santé/familles, proximité Lamai |
+| 7 | **Supersports** (Central Festival) | Bophut | — (enseigne nationale) | sur place — demander le responsable | B — Nutrition/dotation | Enseigne sport nationale → dotation ballons/maillots |
+| 8 | **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` | LINE `workshop14` · ☎️ +66 93 642 9645 · FB | B — Nutrition/dotation | Design sportswear → maillots custom |
+| 9 | **Samui Physio Clinic** | Bophut | — (WhatsApp/LINE) | site · FB · IG · linktr.ee/samuiphysioclinic | C — Physio | Référent physio + crédibilité sécurité |
+| 10 | **Physio on Samui** | Chaweng (Samui Intl Hospital) | — | FB `/physiotherapyonsamui` | C — Physio | *(réserve)* proche hôpital |
+| 11 | **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` | ☎️ +66 91 821 2474 · site `stargymkohsamui.com` | A — Salle | *(réserve)* si 1–4 sans réponse |
 
+> **Email possible (brouillon Gmail) pour 6 cibles** : Koh Fit, Ultra Bodies, Elite Gym,
+> Samui Pro Nutrition, Workshop Sport Design, Star Gym.
+> **Sans email public** (FB/tél/sur place) : Lamai Fitness Retreat, Samui Health Shop, Supersports,
+> Samui Physio Clinic, Physio on Samui.
 > **Ordre conseillé** : commencer par **Lamai** (1–3, 6) — même quartier que le terrain, le plus
 > facile à activer sur place — puis Chaweng/Bophut (4, 5, 7, 8, 9).
 
