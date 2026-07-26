@@ -87,8 +87,8 @@ Cibles sans emails publics — contact via Facebook Messenger ou WhatsApp. Broui
 | Cible | Zone | Canal | Angle | Statut |
 |---|---|---|---|---|
 | **La Guinguette** (patron : Seb) | Lamai (50m stadium) | FB / sur place (pas d'email public) | Partenaire local FR, proximité Koh's 33 | 🎯 Brouillon prêt FR |
-| **No Stress** (Pierre & Pannee) | Lamai Beach | ✉️ `peiauch.pierre@gmail.com` · FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | 🎯 Email vérifié — brouillon Gmail possible |
-| **Le Baobab** (Greg & Indy) | Lamai Beach | ✉️ `indy_jjj@hotmail.com` · +66 84 838 3040 | Beach club français (réserve après No Stress) | 🎯 Email vérifié — brouillon Gmail possible |
+| **No Stress** (Pierre & Pannee) | Lamai Beach | ✉️ `peiauch.pierre@gmail.com` · FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | ✅ Brouillon Gmail créé 26/07 — à valider/envoyer |
+| **Le Baobab** (Greg & Indy) | Lamai Beach | ✉️ `indy_jjj@hotmail.com` · +66 84 838 3040 | Beach club français (réserve après No Stress) | ✅ Brouillon Gmail créé 26/07 — à valider/envoyer |
 
 ### Vague 3 — Sport, nutrition & santé (préparée 26/07)
 
@@ -96,19 +96,26 @@ Cibles à forte affinité, **partenariat en nature** — canal FB/téléphone/su
 public vérifié). Messages prêts à copier dans `brain/prospection-vague3-sport-sante.md`.
 Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après contact.
 
+**Avec email vérifié → brouillon Gmail créé le 26/07 (à valider/envoyer)**
+
+| Cible | Zone | Email | Angle | Statut |
+|---|---|---|---|---|
+| **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` | S&C + cross-promo, voisin du stade | ✅ Brouillon Gmail créé 26/07 |
+| **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` | Salle de quartier Lamai | ✅ Brouillon Gmail créé 26/07 |
+| **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` | Grosse salle, réseau athlètes | ✅ Brouillon Gmail créé 26/07 |
+| **Samui Pro Nutrition** | Chaweng | ✉️ `pronutritionthailand@gmail.com` | Nutrition sportive, dotation | ✅ Brouillon Gmail créé 26/07 |
+| **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE workshop14 | Maillots custom | ✅ Brouillon Gmail créé 26/07 |
+| **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` | Réserve — brouillon néanmoins prêt | ✅ Brouillon Gmail créé 26/07 |
+
+**Sans email public → contact FB / téléphone / sur place**
+
 | Cible | Zone | Canal | Angle | Statut |
 |---|---|---|---|---|
-| **Koh Fit Thailand** | Lamai | ☎️ +66 80 393 4542 · FB | S&C + cross-promo, voisin du stade | 🎯 Brouillon prêt EN |
-| **Lamai Fitness Retreat** | Lamai | FB · site | Salle expat/familles | 🎯 Brouillon prêt EN |
-| **Ultra Bodies Gym** | Lamai | FB `/Ultrabodiesgymlamai` | Salle de quartier Lamai | 🎯 Brouillon prêt EN |
-| **Elite Gym** | Chaweng/Bophut | formulaire `elitegymsamui.com` · FB | Grosse salle, réseau athlètes | 🎯 Brouillon prêt EN |
-| **Samui Pro Nutrition** | Chaweng | FB `/samuipronutrition` | Nutrition sportive, dotation | 🎯 Brouillon prêt EN |
-| **Samui Health Shop by Lamphu** | Lamai | site · FB `/samuihealthshop` | Santé/familles, proximité | 🎯 Brouillon prêt EN |
-| **Supersports** (Central Festival) | Bophut | sur place — responsable | Dotation ballons/maillots | 🎯 Brouillon prêt EN |
-| **Workshop Sport Design** | Chaweng | site · FB | Maillots custom | 🎯 Brouillon prêt EN |
-| **Samui Physio Clinic** | Bophut | site · FB · IG | Référent physio + crédibilité sécurité | 🎯 Brouillon prêt EN |
-| **Physio on Samui** | Chaweng | FB `/physiotherapyonsamui` | Réserve — physio hôpital | 🎯 Réserve EN |
-| **Star Gym** | Chaweng | site `stargymkohsamui.com` | Réserve — si 1–4 sans réponse | 🎯 Réserve EN |
+| **Lamai Fitness Retreat** | Lamai | FB · site (formulaire/WhatsApp) | Salle expat/familles | 🎯 À contacter (FB/WhatsApp) |
+| **Samui Health Shop by Lamphu** | Lamai | ☎️ +66 96 634 8752 · FB `/samuihealthshop` | Santé/familles, proximité | 🎯 À contacter (FB/tél) |
+| **Supersports** (Central Festival) | Bophut | sur place — responsable | Dotation ballons/maillots | 🎯 À contacter (sur place) |
+| **Samui Physio Clinic** | Bophut | FB · IG · WhatsApp · linktr.ee/samuiphysioclinic | Référent physio + crédibilité sécurité | 🎯 À contacter (FB/WhatsApp) |
+| **Physio on Samui** | Chaweng | FB `/physiotherapyonsamui` | Réserve — physio hôpital | 🎯 Réserve (FB) |
 
 ## 🏟️ Logistique — location de terrain
 
