@@ -42,6 +42,17 @@ recommandée dans `brain/prospection-ecoles.md` section C.
 | Campagne de prospection sponsors | Modèles FR/EN prêts (playbook), niveaux Bronze→Platinum, dossier de sponsoring existant | Segment retenu par Cyril le 18/07 : **commerces expat** (voir ci-dessous) |
 | Crowdfunding 4fund.com « Become a partner… » | Campagne terminée ~09/2025 — résultat inconnu | `[À COMPLÉTER PAR CYRIL]` : bilan ? relancer les donateurs ? |
 
+### Grands partenaires — investisseurs, mécènes, réseau rugby (annuaire complet : `brain/prospection-grands-partenaires.md`)
+
+| Prospect | Score | Canal | Statut |
+|---|---|---|---|
+| Rugby School Thailand (Fondation Veraphan) | 76/100 | `enquiries@rugbyschool.ac.th` | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
+| Six Senses Samui (fonds de durabilité) | 59/100 | `reservations-samui@sixsenses.com` | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
+| Thai Rugby Union | 84/100 | ☎️ +66 2 215 3839 (pas d'email public) | 📞 Script d'appel prêt — à passer par Cyril |
+| Eddie Evans (Nak Suu Rugby Academy) | 83/100 | LinkedIn (pas d'email public) | 💬 Message LinkedIn prêt — à envoyer par Cyril |
+| Bangkok Airways | 66/100 | Formulaire site (pas d'email public confirmé) | 📝 Texte prêt pour formulaire — à soumettre par Cyril |
+| Haad Thip PCL | 57/100 | Aucun canal digital fiable trouvé | ⏳ `[À COMPLÉTER PAR CYRIL]` — via comité Samui Regatta ou courrier siège |
+
 ### Prospection « commerces expat » (identifiée le 2026-07-18 — cibles vérifiées, à contacter)
 
 > Aucun email public vérifié (sites en 403) — contact via site officiel / page Facebook / sur place.

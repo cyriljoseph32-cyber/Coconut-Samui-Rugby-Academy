@@ -17,9 +17,9 @@
 |---|---|---|---|---|---|---|---|---|
 | **Thai Rugby Union (TRU)** — fédération nationale | Ambassadeur / connecteur | Basée à Bangkok, National Stadium — organisme national thaïlandais | Fédération nationale, membre World Rugby depuis 1989 | Reconnaissance officielle = crédibilité auprès des parents/écoles/sponsors, porte d'entrée vers le réseau rugby thaïlandais | **A** | Présenter CSRA comme premier programme structuré à Koh Samui et demander comment s'inscrire dans le développement national du rugby | Tél. +66 2 215 3839 (National Stadium, Bangkok) · [asiarugby.com/unions/thailand](https://www.asiarugby.com/unions/thailand/) | [asiarugby.com](https://www.asiarugby.com/unions/thailand/) · [Wikipedia](https://en.wikipedia.org/wiki/Thai_Rugby_Union) |
 | **Eddie Evans** — fondateur X-Treme Rugby Wear & Nak Suu Rugby Academy | Mécène potentiel / sponsor en nature | Résident de longue date en Thaïlande (Bangkok) | Ex-international canadien (50 sélections, 3 Coupes du Monde), Hall of Fame Rugby Canada 2024/2025, fondateur d'une académie caritative rugby pour enfants défavorisés | Mission quasi identique à CSRA (rugby + inclusion + enfants défavorisés) ; dirige aussi une marque d'équipement rugby (dotation possible) | **A** | Se présenter comme un « pair » (fondateur d'un autre projet rugby-jeunesse en Thaïlande) et proposer un jumelage Bangkok–Samui | LinkedIn [th.linkedin.com/in/eddie-evans-5282a031](https://th.linkedin.com/in/eddie-evans-5282a031) · formulaire [naksuurugby.org/get-involved](https://www.naksuurugby.org/get-involved) | [Wikipedia — Eddie Evans](https://en.wikipedia.org/wiki/Eddie_Evans) · [naksuurugby.org](https://www.naksuurugby.org/) · [bangkokrugby10s.com](https://www.bangkokrugby10s.com/nak-suu-charity) |
-| **Rugby School Thailand** (Chonburi) — école internationale britannique, Fondation Veraphan | Partenaire / ambassadeur | École internationale basée en Thaïlande (~1200 élèves), réseau Rugby School Global (UK) | Nom et ethos centrés sur le rugby ; Fondation Veraphan = bourses pour élèves méritants — modèle très proche des bourses CSRA | Alignement de mission fort (bourses par le sport), capacité financière réelle (école privée établie) | **A** | Proposer un partenariat « pathway » (repérage de jeunes joueurs CSRA pour bourses) et un partage d'expérience sur les modèles de bourses | Formulaire admissions/marketing sur [rugbyschool.ac.th](https://www.rugbyschool.ac.th/the-veraphan-foundation) | [Bangkok Post](https://www.bangkokpost.com/thailand/pr/2883972/rugby-school-thailand-launches-the-veraphan-foundation) · [rugbyschool.ac.th](https://www.rugbyschool.ac.th/the-veraphan-foundation) |
+| **Rugby School Thailand** (Chonburi) — école internationale britannique, Fondation Veraphan | Partenaire / ambassadeur | École internationale basée en Thaïlande (~1200 élèves), réseau Rugby School Global (UK) | Nom et ethos centrés sur le rugby ; Fondation Veraphan = bourses pour élèves méritants — modèle très proche des bourses CSRA | Alignement de mission fort (bourses par le sport), capacité financière réelle (école privée établie) | **A** | Proposer un partenariat « pathway » (repérage de jeunes joueurs CSRA pour bourses) et un partage d'expérience sur les modèles de bourses | ✉️ `enquiries@rugbyschool.ac.th` (vérifié, recherche complémentaire 27/07) · ☎️ +66 33 141 800 | [Bangkok Post](https://www.bangkokpost.com/thailand/pr/2883972/rugby-school-thailand-launches-the-veraphan-foundation) · [rugbyschool.ac.th](https://www.rugbyschool.ac.th/the-veraphan-foundation) · [rugbyschool.ac.th/admissions/contact-us](https://www.rugbyschool.ac.th/admissions/contact-us) |
 | **Bangkok Airways** | Partenaire commercial / sponsor en nature | Exploitant historique de l'aéroport de Koh Samui ; sponsor du Samui Half Marathon et de la Samui Regatta ; campagne CSR annuelle « Love Samui, Save the Coconut Tree » | Aucun lien rugby direct | Déjà investi dans le sport et la communauté à Samui — budget CSR confirmé, décideurs identifiables, clin d'œil de marque avec « Coconut » | **A** | Proposer une dotation transport (billets pour déplacements d'équipes/tournois) ou une animation rugby lors du volet « Kids Series Race » du marathon | Site institutionnel [investor.bangkokair.com](https://investor.bangkokair.com/) (service marketing/RSE) ou via le comité Samui Half Marathon/Regatta | [btw.media](https://btw.media/en/bangkok-airways-launches-boutique-series-2024-with-samui-half-marathon) · [MarketScreener](https://www.marketscreener.com/news/bangkok-airways-organizes-the-8th-annual-coconut-planting-for-koh-samui-restoring-ecosystems-for-ce7d5ad8d18df423) · [Samui Regatta sponsors](https://www.travelfoundation.org/global-travel-news/world-class-sailors-battle-at-samui-regatta/) |
-| **Six Senses Samui** (Bophut) — GM Johannes Steyn (depuis 06/2024) | Mécène potentiel | Resort implanté à Bophut, Koh Samui | Aucun lien rugby direct | Chaque resort Six Senses gère un fonds dédié (0,5 % du CA + dons) réservé aux projets **communautaires locaux** — mécanisme concret et documenté, pas une simple intention | **A** | Candidater au fonds de durabilité du resort pour financer des bourses ou du matériel, en s'appuyant sur la proximité géographique | Direction générale du resort via [sixsenses.com — Koh Samui](https://www.sixsenses.com/en/resorts) | [travmedia.com](https://travmedia.com/showPRPreview/six-senses-samui-welcomes-johannes-steyn-as-new-general-manager) · [sixsenses.com/sustainability](https://www.sixsenses.com/en/sustainability/impacts/) |
+| **Six Senses Samui** (Bophut) — GM Johannes Steyn (depuis 06/2024) | Mécène potentiel | Resort implanté à Bophut, Koh Samui | Aucun lien rugby direct | Chaque resort Six Senses gère un fonds dédié (0,5 % du CA + dons) réservé aux projets **communautaires locaux** — mécanisme concret et documenté, pas une simple intention | **A** | Candidater au fonds de durabilité du resort pour financer des bourses ou du matériel, en s'appuyant sur la proximité géographique | ✉️ `reservations-samui@sixsenses.com` (vérifié, ligne réservations générale — demander la redirection vers l'équipe durabilité/communauté) · ☎️ +66 77 245 678 | [travmedia.com](https://travmedia.com/showPRPreview/six-senses-samui-welcomes-johannes-steyn-as-new-general-manager) · [sixsenses.com/sustainability](https://www.sixsenses.com/en/sustainability/impacts/) |
 | **Haad Thip PCL** — embouteilleur Coca-Cola du sud de la Thaïlande | Sponsor en nature | Dessert les 14 provinces du sud dont Koh Samui ; sponsor historique de la Samui Regatta et du Phuket King's Cup Regatta | Aucun lien rugby direct | CSR déclarée « développement de la voile junior » — société cotée avec budget confirmé, déjà convaincue de sponsoriser le sport jeunesse local | **A** | Proposer une dotation boissons/hydratation pour entraînements et tournois, avec visibilité de marque sur site | Site corporate [haadthip.com](https://www.haadthip.com/en/about/about-the-company) ou via le comité de la Samui Regatta (déjà partenaire) | [haadthip.com](https://www.haadthip.com/en/about/about-the-company) · [ryt9.com (CSR voile)](https://www.ryt9.com/en/prg/145942) · [Samui Regatta sponsors](https://www.travelfoundation.org/global-travel-news/world-class-sailors-battle-at-samui-regatta/) |
 | **Bangkok International Rugby Tens** (tournoi, 20e édition 2026) | Connecteur | Plus grand tournoi social de rugby d'Asie, organisé à Bangkok | Rugby direct — fonds reversés à Nak Suu Rugby Academy | Networking régional : sponsors, clubs et académies rugby d'Asie s'y retrouvent chaque année | B | Envisager une présence CSRA (stand, discours, ou petite sélection de jeunes) pour se faire connaître du réseau rugby régional | [bangkokrugby10s.com](https://www.bangkokrugby10s.com/) | [RugbyAsia247](https://www.rugbyasia247.com/bangkok-international-rugby-tens-2026-celebrates-20th-anniversary/) · [bangkokrugby10s.com](https://www.bangkokrugby10s.com/nak-suu-charity) |
 | **Southerners Sports Club** (Bangkok) | Connecteur / ambassadeur | Club omnisports expat de Bangkok, entraînements à NIST International School | Section rugby (XV, Sevens, Tens, féminin, vétérans) + touch rugby | Valeurs proches de CSRA (rugby féminin, inclusion, mixité) ; pourrait organiser une tournée ou un échange à Samui | B | Proposer un match/camp d'échange Bangkok–Samui pour les catégories Adults Touch ou Teens | Formulaire [southerners-bangkok.com/contact](https://www.southerners-bangkok.com/contact/) | [southerners-bangkok.com](https://www.southerners-bangkok.com/rugby/) · [Wikipedia](https://en.wikipedia.org/wiki/Southerners_Sports_Club) |
@@ -178,6 +178,86 @@ Les 6 profils **A** ci-dessus, avec le détail demandé pour chacun.
 | **J5** | Contact à la direction de **Six Senses Samui** pour présenter le programme de bourses | Sonder l'intérêt pour le fonds de durabilité du resort |
 | **J6** | Pas de nouveau contact à froid — préparer un support court (photos, chiffres, une page one-pager bourses) pour appuyer les relances à venir | Professionnaliser le discours avant la vague 2 |
 | **J7** | Bilan de la semaine avec Cyril : premières réponses, ajustements, préparation de la vague 2 (**Rugby School Thailand**, **Bangkok Airways**, **Haad Thip PCL**) | Cadencer la suite sans brûler tous les contacts d'un coup |
+
+## Premiers contacts — prêts à utiliser (27/07, les 6 profils A)
+
+> Recherche complémentaire menée pour vérifier des emails directs avant de créer les brouillons.
+> Résultat : 2 emails fiables trouvés (Rugby School Thailand, Six Senses Samui — brouillons Gmail
+> créés, voir ci-dessous). Pour les 4 autres, aucun email vérifié n'a été trouvé — canal réel
+> (téléphone, LinkedIn, formulaire web) utilisé à la place, conformément à la règle « jamais
+> d'email deviné ».
+
+### ✅ Brouillons Gmail créés
+
+1. **Rugby School Thailand** (`enquiries@rugbyschool.ac.th`) — EN — sujet « Partnership —
+   Coconut Samui Rugby Academy & The Veraphan Foundation ».
+2. **Six Senses Samui** (`reservations-samui@sixsenses.com`) — EN — sujet « Partnership enquiry
+   — Sustainability Fund & local scholarships ». Précise que c'est la ligne réservations
+   générale et demande à être redirigé vers l'équipe durabilité/communauté.
+
+### ☎️ Thai Rugby Union — script d'appel (pas d'email public trouvé)
+
+Téléphone : **+66 2 215 3839** (National Stadium, Bangkok, heures de bureau). Alternative :
+message sur leur page Facebook publique [@Thairugbyunion](https://www.facebook.com/Thairugbyunion/).
+
+> **FR (au téléphone ou en message)** : « Bonjour, je suis Cyril Joseph, fondateur de la Coconut
+> Samui Rugby Academy, la première académie de rugby structurée de Koh Samui. Nous aimerions
+> présenter notre travail à la Fédération et voir comment nous inscrire dans le développement du
+> rugby sur l'île — à qui pourrions-nous en parler ? »
+>
+> **EN** : « Hello, I'm Cyril Joseph, founder of the Coconut Samui Rugby Academy — the first
+> structured rugby academy on Koh Samui. We'd love to introduce our program to the Thai Rugby
+> Union and explore how we can support rugby development on the island — who would be the best
+> person to speak to? »
+
+### 💬 Eddie Evans — message LinkedIn (pas d'email public trouvé)
+
+Profil : [th.linkedin.com/in/eddie-evans-5282a031](https://th.linkedin.com/in/eddie-evans-5282a031).
+Alternative : formulaire [naksuurugby.org/get-involved](https://www.naksuurugby.org/get-involved).
+
+> **FR** : « Bonjour Eddie, je m'appelle Cyril Joseph, je dirige la Coconut Samui Rugby Academy à
+> Koh Samui — j'ai découvert avec beaucoup d'admiration ce que vous avez construit avec Nak Suu
+> Rugby Academy. Nous partageons la même conviction : le rugby comme outil d'inclusion pour les
+> enfants thaïlandais. Serait-il possible d'échanger ? »
+>
+> **EN (à envoyer telle quelle sur LinkedIn)** : « Hi Eddie, I'm Cyril Joseph, founder of the
+> Coconut Samui Rugby Academy on Koh Samui — I came across what you've built with Nak Suu Rugby
+> Academy and it's exactly the kind of rugby-for-good model that inspires us. Would love to
+> connect and explore a possible sister-academy link between Bangkok and Samui. »
+
+### 📝 Bangkok Airways — texte pour formulaire de contact (pas d'email public confirmé)
+
+Aucune adresse email directe fiable trouvée (seul un format générique deviné apparaît chez des
+agrégateurs tiers — écarté, conforme à la règle « jamais d'email deviné »). Utiliser le
+formulaire [bangkokair.com/customer-service/contact-us](https://www.bangkokair.com/customer-service/contact-us)
+en précisant « Sponsorship / Partnership » comme objet, ou téléphoner au siège **02 265 8796**
+en demandant le service sponsoring/partenariats (contact identifié : Lertkit Kitcharoenwong,
+Specialist – Sponsorship and Partnership).
+
+> **EN (texte à coller dans le formulaire)** : « Hello, I'm Cyril Joseph, founder of the Coconut
+> Samui Rugby Academy. Bangkok Airways already supports sport and community life on Koh Samui —
+> we'd love to introduce our academy and explore a youth-sport partnership on the island
+> (transport support for tournaments/camps, or a rugby activation during the Samui Half
+> Marathon). Could you please direct this to your Sponsorship & Partnerships team? »
+>
+> **FR (pour référence de Cyril)** : « Bonjour, je suis Cyril Joseph, fondateur de la Coconut
+> Samui Rugby Academy. Bangkok Airways soutient déjà le sport et la communauté à Koh Samui —
+> nous aimerions vous présenter notre académie et explorer un partenariat autour du sport
+> jeunesse sur l'île (dotation transport pour tournois/camps, ou animation rugby lors du Samui
+> Half Marathon). Pourriez-vous transmettre ceci à votre équipe sponsoring/partenariats ? »
+
+### 📝 Haad Thip PCL — pas de canal digital fiable trouvé
+
+Aucun email ni formulaire web confirmé pour cette société (siège : 87/1 Kanchanavanich Road,
+Hat Yai, Songkhla — loin de Samui). **Deux options réalistes** : passer par le comité de la
+Samui Regatta (déjà partenaire de Haad Thip, donc un point d'entrée existant), ou une lettre/
+appel direct au siège. `[À COMPLÉTER PAR CYRIL]` si un contact plus direct existe (ex. via le
+distributeur régional Coca-Cola de Samui).
+
+> **EN (à adapter selon le canal retenu)** : « Hello, I'm Cyril Joseph, founder of the Coconut
+> Samui Rugby Academy on Koh Samui. Haad Thip already supports youth sailing development through
+> its CSR programme — we'd love to explore a hydration/beverage partnership for our training
+> sessions and tournaments. »
 
 ## Limites de la recherche
 
