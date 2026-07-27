@@ -133,12 +133,18 @@
 
 ## N. Écoles internationales — (partenaires/pathway — voir pipeline)
 
+> Annuaire complet (toutes les structures scolaires de l'île, angles de partenariat par type) :
+> `brain/prospection-ecoles.md`.
+
 | École | Contact | Statut |
 |---|---|---|
-| **ISS** (Sports Academy) | `HRmanager@iss.ac.th` | Relance due (pipeline) |
-| **Greenacre School** | `info@greenacre.ac.th` | Relance due (pipeline) |
-| **IFDS** (école française) | `contact@ifds.pw` | Relance due (pipeline) |
-| **Lamai International School** | via Alan (`alan@lis.ac.th`) | Relance envoyée (pipeline) |
+| **ISS** (International School of Samui) | `HRmanager@iss.ac.th` | ✅ Brouillon relance créé 27/07 (pipeline) |
+| **Greenacre School** | `info@greenacre.ac.th` | ✅ Brouillon relance créé 27/07 (pipeline) |
+| **IFDS** (école française) | `contact@ifds.pw` | ✅ Brouillon relance créé 27/07 (pipeline) |
+| **Lamai International School** | via Alan (`alan@lis.ac.th`) | Réponse positive 20/07 (pipeline) |
+| **PBISS** (British International School of Samui) | ☎️ +66 77 423 802 / +66 77 413 506 | 🎯 Nouveau — premier contact à préparer |
+| **Windfield International School** | `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | 🎯 Nouveau — premier contact à préparer |
+| **Oonrak Koh Samui School** | ☎️ 077 332 040 | 🎯 Nouveau — premier contact à préparer |
 
 ---
 

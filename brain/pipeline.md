@@ -14,12 +14,26 @@
 
 ## 📤 Prospection écoles (proposition périscolaire envoyée le 2026-05-05, sans réponse)
 
+> Annuaire complet des structures scolaires de Koh Samui (contacts, angles de partenariat) :
+> `brain/prospection-ecoles.md`.
+
 | Contact | École | Prochaine action | Statut |
 |---|---|---|---|
-| `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | ⏳ Relance due |
-| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | ⏳ Relance due |
-| `contact@ifds.pw` | École française (IFDS) | Relance courtoise FR | ⏳ Relance due |
+| `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
+| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
+| `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
 | `info@lis.ac.th` | Lamai International School | Couverte par le contact direct Alan (ci-dessus) — ne pas doublonner | ✅ Via Alan |
+
+### Nouvelles cibles identifiées (recherche web 27/07) — premier contact, pas encore approchées
+
+| Contact | École | Statut |
+|---|---|---|
+| ☎️ +66 77 423 802 / +66 77 413 506 (email non fiable — formulaire du site) | PBISS (British International School of Samui), Chaweng Noi | 🎯 À approcher — premier contact (pas une relance) |
+| `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | 🎯 À approcher — premier contact |
+| ☎️ 077 332 040 (email non fiable — formulaire du site) | Oonrak Koh Samui School, Maenam | 🎯 À approcher — premier contact |
+
+Écoles publiques thaïlandaises (angle bourses) : aucun contact vérifié trouvé — voir piste
+recommandée dans `brain/prospection-ecoles.md` section C.
 
 ## 💼 Sponsors / partenaires
 
