@@ -142,9 +142,9 @@
 | **Greenacre School** | `info@greenacre.ac.th` | ✅ Brouillon relance créé 27/07 (pipeline) |
 | **IFDS** (école française) | `contact@ifds.pw` | ✅ Brouillon relance créé 27/07 (pipeline) |
 | **Lamai International School** | via Alan (`alan@lis.ac.th`) | Réponse positive 20/07 (pipeline) |
-| **PBISS** (British International School of Samui) | ☎️ +66 77 423 802 / +66 77 413 506 | 🎯 Nouveau — premier contact à préparer |
-| **Windfield International School** | `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | 🎯 Nouveau — premier contact à préparer |
-| **Oonrak Koh Samui School** | ☎️ 077 332 040 | 🎯 Nouveau — premier contact à préparer |
+| **PBISS** (British International School of Samui) | `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | ✅ Brouillon premier contact créé 27/07 |
+| **Windfield International School** | `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | ✅ Brouillon premier contact créé 27/07 |
+| **Oonrak Koh Samui School** | `info@oonraksamui.ac.th` · ☎️ 077 332 040 | ✅ Brouillon premier contact créé 27/07 |
 
 ---
 

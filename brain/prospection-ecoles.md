@@ -13,9 +13,9 @@
 | **ISS** — International School of Samui (~300 élèves, cursus britannique/Cambridge) | Bophut | ✉️ `HRmanager@iss.ac.th` (vérifié) | ⏳ Relance due — proposition envoyée 05/05/2026, sans réponse |
 | **Lamai International School (LIS)** | Lamai | ✉️ `info@lis.ac.th` — contact direct : **Alan** (prof EPS), `alan@lis.ac.th` | 🤝 Réponse positive 20/07 — piste la plus chaude, voir `brain/pipeline.md` |
 | **Greenacre International School** | Na Mueang | ✉️ `info@greenacre.ac.th` (vérifié) | ⏳ Relance due — proposition envoyée 05/05/2026, sans réponse |
-| **PBISS** (PanyaDee, The British International School of Samui — Cambridge + STEM+) | Chaweng Noi | ☎️ +66 77 423 802 / +66 77 413 506 · site `pbiss.ac.th` (email non capturé de façon fiable par la recherche — passer par le formulaire du site ou le téléphone) | 🎯 Nouveau — jamais contacté, premier contact à préparer |
-| **Windfield International School** | Koh Samui | ✉️ `info.samui@windfield.ac.th` (vérifié) · ☎️ +66 77 332 420 | 🎯 Nouveau — jamais contacté, premier contact à préparer |
-| **Oonrak Koh Samui School** (bilingue, Maenam) | Maenam | ☎️ 077 332 040 · site `oonraksamui.ac.th` (email non capturé de façon fiable — passer par le formulaire ou le téléphone) | 🎯 Nouveau — jamais contacté, premier contact à préparer |
+| **PBISS** (PanyaDee, The British International School of Samui — Cambridge + STEM+) | Chaweng Noi | ✉️ `admissions@pbiss.ac.th` (vérifié) · ☎️ +66 77 423 802 / +66 77 413 506 | ✅ Brouillon premier contact créé 27/07 |
+| **Windfield International School** | Koh Samui | ✉️ `info.samui@windfield.ac.th` (vérifié) · ☎️ +66 77 332 420 | ✅ Brouillon premier contact créé 27/07 |
+| **Oonrak Koh Samui School** (bilingue, Maenam) | Maenam | ✉️ `info@oonraksamui.ac.th` (vérifié) · ☎️ 077 332 040 | ✅ Brouillon premier contact créé 27/07 |
 
 ## B. École française
 

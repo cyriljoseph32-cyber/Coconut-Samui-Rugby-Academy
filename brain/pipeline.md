@@ -24,13 +24,13 @@
 | `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
 | `info@lis.ac.th` | Lamai International School | Couverte par le contact direct Alan (ci-dessus) — ne pas doublonner | ✅ Via Alan |
 
-### Nouvelles cibles identifiées (recherche web 27/07) — premier contact, pas encore approchées
+### Nouvelles cibles identifiées (recherche web 27/07) — premier contact
 
 | Contact | École | Statut |
 |---|---|---|
-| ☎️ +66 77 423 802 / +66 77 413 506 (email non fiable — formulaire du site) | PBISS (British International School of Samui), Chaweng Noi | 🎯 À approcher — premier contact (pas une relance) |
-| `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | 🎯 À approcher — premier contact |
-| ☎️ 077 332 040 (email non fiable — formulaire du site) | Oonrak Koh Samui School, Maenam | 🎯 À approcher — premier contact |
+| `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS (British International School of Samui), Chaweng Noi | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
+| `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
+| `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
 
 Écoles publiques thaïlandaises (angle bourses) : aucun contact vérifié trouvé — voir piste
 recommandée dans `brain/prospection-ecoles.md` section C.
