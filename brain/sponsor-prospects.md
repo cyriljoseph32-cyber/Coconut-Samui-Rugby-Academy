@@ -13,7 +13,7 @@
 
 | Établissement | Zone | Contact vérifié | Statut |
 |---|---|---|---|
-| **BR Munns International** (groupe : Bondi, SALT, The Cliff, The Palms, The Outback) | Samui / Bangkok | `Info@brmunnsinternational.com` · +66 80 519 3931 | ✅ Contacté 18/07 |
+| **BR Munns International** (groupe : Bondi, SALT, The Cliff, The Palms, The Outback) | Samui / Bangkok | `Info@brmunnsinternational.com` · +66 80 519 3931 | ✅ Contacté 19/07, sans réponse — brouillon de relance J+7 créé 27/07 |
 | **Black Duck Sports Bar** | Chaweng (Chaweng Yai Soi 4) | `blackduck.live` · FB `/blackducksportsbar` | 🎯 À contacter |
 | **The Islander** | Chaweng | FB / sur place | 🎯 À contacter |
 | **Premier Sports Bar** | Bang Rak | FB / sur place | 🎯 À contacter |
