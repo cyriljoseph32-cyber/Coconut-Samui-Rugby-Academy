@@ -1,9 +1,11 @@
 ---
 /**
- * Art-directed hero panel: a procedural 3D rugby ball in brand leather (palm
- * teal, sand seams), drifting on a slow auto-rotate. Renders client-side only
- * (WebGL); a soft badge mark shows through as a no-JS / no-WebGL fallback.
- * Portrait, matches the SVG hero panel's proportions.
+ * Art-directed hero panel: Koh Samui horizon, a low clay sun, coconut palms
+ * and goal posts on a grass pitch — same scene as the original illustration
+ * — with a real 3D rugby ball (brand leather, procedural) thrown mid-flight
+ * in place of the old flat ellipse. A matching flat ellipse sits behind the
+ * canvas as the no-JS / no-WebGL fallback, so the composition never looks
+ * broken. Portrait 4:5.
  */
 interface Props {
   class?: string;
@@ -11,16 +13,60 @@ interface Props {
 const { class: className = "" } = Astro.props;
 ---
 
-<div class={`relative aspect-[500/620] overflow-hidden rounded-xl grain bg-gradient-to-br from-sand to-paper ${className}`} data-hero-ball>
-  <img
-    src="/logo-badge-192.webp"
-    alt="Coconut Samui Rugby Academy badge"
-    class="absolute inset-0 m-auto h-24 w-24 opacity-30"
-    width="96"
-    height="96"
-    loading="eager"
-  />
-  <canvas class="absolute inset-0 h-full w-full opacity-0 transition-opacity duration-700"></canvas>
+<div class={`relative overflow-hidden rounded-xl grain ${className}`}>
+  <svg viewBox="0 0 500 620" class="block h-full w-full" role="img"
+    aria-label="Illustration of Koh Samui's coastline at golden hour — coconut palms, the sea, goal posts on a grass pitch and a rugby ball in flight.">
+    <defs>
+      <clipPath id="hero-frame"><rect x="0" y="0" width="500" height="620" rx="16"></rect></clipPath>
+    </defs>
+    <g clip-path="url(#hero-frame)">
+      <!-- sky -->
+      <rect width="500" height="620" fill="var(--color-sand)"></rect>
+      <!-- low sun -->
+      <circle cx="330" cy="250" r="92" fill="var(--color-clay)" opacity="0.9"></circle>
+      <!-- sea -->
+      <path d="M0 300C120 280 260 280 380 296C430 303 470 302 500 294V420H0Z" fill="var(--color-fern)"></path>
+      <path d="M0 300C120 280 260 280 380 296C430 303 470 302 500 294" fill="none" stroke="var(--color-palm)" stroke-width="2" opacity="0.5"></path>
+      <!-- distant headland -->
+      <path d="M0 300C60 286 120 288 170 298C120 296 60 298 0 306Z" fill="var(--color-palm)" opacity="0.55"></path>
+      <!-- beach -->
+      <path d="M0 384C140 366 320 372 500 392V470H0Z" fill="var(--color-sand-deep)"></path>
+      <!-- pitch -->
+      <path d="M0 440C160 420 340 420 500 446V620H0Z" fill="var(--color-palm)"></path>
+      <path d="M0 500C160 482 340 482 500 502" stroke="var(--color-fern)" stroke-width="4" opacity="0.7" stroke-linecap="round"></path>
+      <!-- goal posts -->
+      <g stroke="var(--color-paper)" stroke-width="7" stroke-linecap="round" opacity="0.92">
+        <path d="M150 452V330"></path>
+        <path d="M214 456V334"></path>
+        <path d="M150 384H214"></path>
+      </g>
+      <!-- motion trail toward the ball -->
+      <path d="M300 250C322 236 346 224 366 216" stroke="var(--color-ink)" stroke-width="2.5" stroke-dasharray="2 9" stroke-linecap="round" opacity="0.5"></path>
+      <!-- big palm, ink -->
+      <g fill="var(--color-ink)">
+        <path d="M92 470C96 400 98 350 118 300C96 292 74 294 56 306C74 286 98 280 120 288C104 268 84 262 64 266C86 258 110 262 126 280C126 254 134 236 152 226C136 246 130 268 130 292C120 300 108 350 104 470Z"></path>
+        <circle cx="108" cy="300" r="6"></circle>
+        <circle cx="126" cy="304" r="6"></circle>
+      </g>
+      <!-- small palm, palm-green -->
+      <g fill="var(--color-ink)" opacity="0.75">
+        <path d="M420 476C422 430 423 402 435 372C420 366 405 368 393 378C405 362 423 358 438 366C426 350 410 346 396 350C412 342 430 346 440 362C440 344 446 330 458 322C447 336 443 352 443 372C436 380 432 430 430 476Z"></path>
+      </g>
+    </g>
+  </svg>
+
+  <!-- ball, mid-flight — same slot as the old flat ellipse (cx 372, cy 210 of the 500x620 frame) -->
+  <div
+    class="absolute"
+    style="left:74.4%; top:33.9%; width:34%; aspect-ratio:3/2; transform:translate(-50%,-50%) rotate(-16deg);"
+    data-hero-ball
+  >
+    <svg viewBox="0 0 68 40" class="absolute inset-0 h-full w-full transition-opacity duration-500" data-hero-ball-fallback>
+      <ellipse cx="34" cy="20" rx="34" ry="20" fill="var(--color-ink)"></ellipse>
+      <path d="M34 4V36M22 20H46" stroke="var(--color-paper)" stroke-width="2.4" stroke-linecap="round"></path>
+    </svg>
+    <canvas class="absolute inset-0 h-full w-full opacity-0 transition-opacity duration-500"></canvas>
+  </div>
 </div>
 
 <script>
@@ -29,50 +75,36 @@ const { class: className = "" } = Astro.props;
 
   function initBall(container: HTMLElement) {
     const canvas = container.querySelector("canvas");
+    const fallback = container.querySelector<HTMLElement>("[data-hero-ball-fallback]");
     if (!canvas) return;
 
     let renderer: THREE.WebGLRenderer;
     try {
       renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: "low-power" });
     } catch {
-      return; // no WebGL — badge fallback stays visible
+      return; // no WebGL — flat ellipse fallback stays visible
     }
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
-    renderer.shadowMap.enabled = true;
-    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(38, 1, 0.01, 100);
 
+    // No ground plane / contact shadow — the ball is airborne, not resting on
+    // a studio floor, so only directional light gives it shape.
     scene.add(new THREE.HemisphereLight(0xfff7ea, 0xd8c9a0, 1.15));
-    const key = new THREE.DirectionalLight(0xffd9a0, 2.5);
+    const key = new THREE.DirectionalLight(0xffd9a0, 2.6);
     key.position.set(3, 5.5, 4);
-    key.castShadow = true;
-    key.shadow.mapSize.set(1024, 1024);
-    key.shadow.bias = -0.0003;
     scene.add(key);
-    const fill = new THREE.DirectionalLight(0xdff0ee, 0.7);
+    const fill = new THREE.DirectionalLight(0xdff0ee, 0.8);
     fill.position.set(-4, 2, -3);
     scene.add(fill);
 
-    const ground = new THREE.Mesh(new THREE.PlaneGeometry(4, 4), new THREE.ShadowMaterial({ opacity: 0.14 }));
-    ground.rotation.x = -Math.PI / 2;
-    ground.receiveShadow = true;
-    scene.add(ground);
-
     const ball = buildBall(THREE);
-    ball.traverse((o: THREE.Object3D) => {
-      if ((o as THREE.Mesh).isMesh) {
-        o.castShadow = true;
-        o.receiveShadow = true;
-      }
-    });
     scene.add(ball);
 
     const box = new THREE.Box3().setFromObject(ball);
     const sphere = box.getBoundingSphere(new THREE.Sphere());
-    ground.position.y = box.min.y;
-    const dist = (sphere.radius / Math.tan((camera.fov * Math.PI) / 360)) * 0.85;
+    const dist = (sphere.radius / Math.tan((camera.fov * Math.PI) / 360)) * 1.0;
     const dir = new THREE.Vector3(1, 0.5, 1.3).normalize();
     camera.position.copy(sphere.center).add(dir.multiplyScalar(dist));
     camera.lookAt(sphere.center);
@@ -90,19 +122,24 @@ const { class: className = "" } = Astro.props;
 
     const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const baseY = ball.position.y;
+    const baseRotX = ball.rotation.x;
     const t0 = performance.now();
     let revealed = false;
 
     function frame() {
       const t = (performance.now() - t0) / 1000;
       if (!reduceMotion) {
-        ball.rotation.y += 0.0035;
-        ball.position.y = baseY + Math.sin(t * 0.6) * 0.008;
+        // gentle tumble, not a clean single-axis spin — a thrown ball wobbles
+        ball.rotation.y += 0.0032;
+        ball.rotation.x = baseRotX + Math.sin(t * 0.45) * 0.05;
+        ball.position.y = baseY + Math.sin(t * 0.5) * 0.01;
+        ball.position.x = Math.sin(t * 0.33) * 0.006;
       }
       renderer.render(scene, camera);
       if (!revealed) {
         revealed = true;
         canvas!.style.opacity = "1";
+        if (fallback) fallback.style.opacity = "0";
       }
       if (!reduceMotion) requestAnimationFrame(frame);
     }
