@@ -1,0 +1,113 @@
+---
+/**
+ * Art-directed hero panel: a procedural 3D rugby ball in brand leather (palm
+ * teal, sand seams), drifting on a slow auto-rotate. Renders client-side only
+ * (WebGL); a soft badge mark shows through as a no-JS / no-WebGL fallback.
+ * Portrait, matches the SVG hero panel's proportions.
+ */
+interface Props {
+  class?: string;
+}
+const { class: className = "" } = Astro.props;
+---
+
+<div class={`relative aspect-[500/620] overflow-hidden rounded-xl grain bg-gradient-to-br from-sand to-paper ${className}`} data-hero-ball>
+  <img
+    src="/logo-badge-192.webp"
+    alt="Coconut Samui Rugby Academy badge"
+    class="absolute inset-0 m-auto h-24 w-24 opacity-30"
+    width="96"
+    height="96"
+    loading="eager"
+  />
+  <canvas class="absolute inset-0 h-full w-full opacity-0 transition-opacity duration-700"></canvas>
+</div>
+
+<script>
+  import * as THREE from "three";
+  import { buildBall } from "../lib/rugby-ball-model";
+
+  function initBall(container: HTMLElement) {
+    const canvas = container.querySelector("canvas");
+    if (!canvas) return;
+
+    let renderer: THREE.WebGLRenderer;
+    try {
+      renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: "low-power" });
+    } catch {
+      return; // no WebGL — badge fallback stays visible
+    }
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    renderer.shadowMap.enabled = true;
+    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(38, 1, 0.01, 100);
+
+    scene.add(new THREE.HemisphereLight(0xfff7ea, 0xd8c9a0, 1.15));
+    const key = new THREE.DirectionalLight(0xffd9a0, 2.5);
+    key.position.set(3, 5.5, 4);
+    key.castShadow = true;
+    key.shadow.mapSize.set(1024, 1024);
+    key.shadow.bias = -0.0003;
+    scene.add(key);
+    const fill = new THREE.DirectionalLight(0xdff0ee, 0.7);
+    fill.position.set(-4, 2, -3);
+    scene.add(fill);
+
+    const ground = new THREE.Mesh(new THREE.PlaneGeometry(4, 4), new THREE.ShadowMaterial({ opacity: 0.14 }));
+    ground.rotation.x = -Math.PI / 2;
+    ground.receiveShadow = true;
+    scene.add(ground);
+
+    const ball = buildBall(THREE);
+    ball.traverse((o: THREE.Object3D) => {
+      if ((o as THREE.Mesh).isMesh) {
+        o.castShadow = true;
+        o.receiveShadow = true;
+      }
+    });
+    scene.add(ball);
+
+    const box = new THREE.Box3().setFromObject(ball);
+    const sphere = box.getBoundingSphere(new THREE.Sphere());
+    ground.position.y = box.min.y;
+    const dist = (sphere.radius / Math.tan((camera.fov * Math.PI) / 360)) * 0.85;
+    const dir = new THREE.Vector3(1, 0.5, 1.3).normalize();
+    camera.position.copy(sphere.center).add(dir.multiplyScalar(dist));
+    camera.lookAt(sphere.center);
+
+    function fit() {
+      const w = container.clientWidth;
+      const h = container.clientHeight;
+      if (!w || !h) return;
+      renderer.setSize(w, h, false);
+      camera.aspect = w / h;
+      camera.updateProjectionMatrix();
+    }
+    fit();
+    new ResizeObserver(fit).observe(container);
+
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const baseY = ball.position.y;
+    const t0 = performance.now();
+    let revealed = false;
+
+    function frame() {
+      const t = (performance.now() - t0) / 1000;
+      if (!reduceMotion) {
+        ball.rotation.y += 0.0035;
+        ball.position.y = baseY + Math.sin(t * 0.6) * 0.008;
+      }
+      renderer.render(scene, camera);
+      if (!revealed) {
+        revealed = true;
+        canvas!.style.opacity = "1";
+      }
+      if (!reduceMotion) requestAnimationFrame(frame);
+    }
+    frame();
+  }
+
+  document.querySelectorAll<HTMLElement>("[data-hero-ball]").forEach(initBall);
+</script>
