@@ -30,13 +30,21 @@
 - Règles communes (CLAUDE.md) : validation humaine obligatoire, zéro invention,
   ton « Island Grit », français avec Cyril.
 
-## État & prochaines étapes (2026-07-20)
+## État & prochaines étapes (2026-07-31)
 
 - Site en ligne ; placeholders restants listés dans `brain/academy.md` — tarifs, horaires,
   dates de camps : `[À COMPLÉTER PAR CYRIL]`.
-- Brain agentique créé le 18/07 ; 1re vague de relances envoyée les 18–19/07
-  (voir `brain/pipeline.md`) ; intégration Postiz mergée le 19/07 (PR #7).
-- Prochaine échéance : suivis J+7 des relances (~25/07) — détail dans le pipeline.
+- Brain agentique créé le 18/07 ; vagues 1–3 de prospection commerces/sport-santé envoyées ou
+  prêtes ; intégration Postiz mergée le 19/07 (PR #7) ; automatisation posts IG+FB (Routine
+  hebdo) et écoles/grands-partenaires prospectés fin juillet — détail complet dans
+  `brain/pipeline.md`.
+- **Samui Fitness Lab** (sponsoring S&C) : email 19/07 → réponse positive 20/07 → reprise de
+  contact WhatsApp par Omar (Samui Fitness Lab) le 30/07 → Cyril a répondu le 31/07 pour un RDV
+  mardi soir, avant la séance touch rugby (Koh's 33 Stadium 19h). En attente de l'heure.
+- Nombreux brouillons Gmail (écoles, sponsors locaux, grands partenaires, relances J+7) restent
+  en attente de validation/envoi par Cyril — voir `brain/pipeline.md` pour le détail par cible.
+- Prochaine échéance : confirmation du RDV Samui Fitness Lab (mardi) + validation des brouillons
+  en attente.
 
 ## Pièges connus
 
