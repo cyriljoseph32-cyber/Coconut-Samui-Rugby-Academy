@@ -81,7 +81,7 @@ Cibles à email public vérifié — brouillons signés envoyés depuis Gmail. S
 
 | Cible | Segment | Email | Angle | Statut |
 |---|---|---|---|---|
-| Samui Fitness Lab | Salle de sport | `contact@samuifitnesslab.com` | S&C + cross-promo | 🤝 **Envoyé 19/07 → réponse positive 20/07 (contact : Omar Li) → repris contact WhatsApp 30/07, RDV proposé.** Cyril a répondu par WhatsApp le 31/07 : passage au Lab avant la séance touch rugby de mardi 19h (Koh's 33 Stadium). En attente de l'heure confirmée par Omar. |
+| Samui Fitness Lab | Salle de sport | `contact@samuifitnesslab.com` | S&C + cross-promo | 🤝 **Envoyé 19/07 → réponse positive 20/07 (contact : Omar Li) → repris contact WhatsApp 30/07.** Omar coache tous les jours cette semaine (7h30–10h30 et 17h–19h) — Cyril lui a laissé le choix du créneau par WhatsApp le 31/07. **En attente de l'heure proposée par Omar.** Documents de présentation prêts (one-pager PDF). |
 | Lamai Beach CrossFit | Salle de sport | `info@samuifitnessretreat.com` | S&C + cross-promo | ✅ Envoyé 19/07 |
 | Chameleon Production | Impression/maillots | `contact@chameleonproduction.com` | Partenaire kit & banderoles | ✅ Envoyé 19/07 |
 | Go Samui Catering | Catering | `eat@gosamuicatering.com` | Camps/corporate + référencement croisé | ✅ Envoyé 19/07 |
