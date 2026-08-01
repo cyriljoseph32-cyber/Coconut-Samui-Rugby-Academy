@@ -35,6 +35,22 @@
 Écoles publiques thaïlandaises (angle bourses) : aucun contact vérifié trouvé — voir piste
 recommandée dans `brain/prospection-ecoles.md` section C.
 
+## 👕 Sourcing textile — kit match/training (lancement)
+
+Commande de lancement : 10 joueurs × (U10, U14, U18, Adults) + 5 staff. Dossier fournisseur
+(one-pager + fiches produit + tableau tailles) préparé le 01/08 — PDF envoyé à Cyril, à joindre
+manuellement à chaque brouillon avant envoi (non joint automatiquement pour limiter la taille).
+
+| Fournisseur | Contact | Angle | Statut |
+|---|---|---|---|
+| X-Treme Sports Gear (Bangkok, spécialiste rugby) | `sales@x-tremesportsgear.com` | Devis kit match + training, specialiste rugby | ✅ Brouillon Gmail créé 01/08 — à valider/envoyer (joindre le PDF) |
+| CS Sport Thailand (Chiang Mai, OEM/ODM) | `info@cs-sport.co.th` | Devis générique sportswear | ✅ Brouillon Gmail créé 01/08 — à valider/envoyer (joindre le PDF) |
+| Fabrion Manufacturing (Pattaya) | `info@fabrionmanufacturing.com` | Devis générique sportswear/teamwear | ✅ Brouillon Gmail créé 01/08 — à valider/envoyer (joindre le PDF) |
+| Thai T-Shirt Factory (Chonburi) | `info@thaitshirtfactory.com` | Devis générique t-shirts/sportswear | ✅ Brouillon Gmail créé 01/08 — à valider/envoyer (joindre le PDF) |
+
+> Déjà dans le pipeline sponsoring/local (angle différent — visibilité/partenariat, pas devis
+> pur) : Chameleon Production (`brain/pipeline.md` Vague 1) et Workshop Sport Design (Vague 3).
+
 ## 💼 Sponsors / partenaires
 
 | Sujet | État | Prochaine action |
