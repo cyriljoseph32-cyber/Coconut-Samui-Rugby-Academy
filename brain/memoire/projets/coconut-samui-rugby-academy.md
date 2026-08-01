@@ -30,21 +30,26 @@
 - Règles communes (CLAUDE.md) : validation humaine obligatoire, zéro invention,
   ton « Island Grit », français avec Cyril.
 
-## État & prochaines étapes (2026-07-31)
+## État & prochaines étapes (2026-08-01)
 
 - Site en ligne ; placeholders restants listés dans `brain/academy.md` — tarifs, horaires,
   dates de camps : `[À COMPLÉTER PAR CYRIL]`.
-- Brain agentique créé le 18/07 ; vagues 1–3 de prospection commerces/sport-santé envoyées ou
-  prêtes ; intégration Postiz mergée le 19/07 (PR #7) ; automatisation posts IG+FB (Routine
-  hebdo) et écoles/grands-partenaires prospectés fin juillet — détail complet dans
-  `brain/pipeline.md`.
+- Brain agentique créé le 18/07 ; vagues 1–3 de prospection commerces/sport-santé, écoles et
+  grands partenaires — **Cyril a validé et envoyé l'essentiel des brouillons en attente le
+  01/08** (relances Danielle/Olympia, écoles ISS/Greenacre/IFDS/PBISS/Windfield/Oonrak, Rugby
+  School Thailand, Six Senses Samui, No Stress, Le Baobab, Koh Fit Thailand, Ultra Bodies Gym,
+  Elite Gym, Samui Pro Nutrition, Workshop Sport Design, Star Gym) — détail complet et à jour
+  dans `brain/pipeline.md`.
+- **Sourcing textile** (kit match/training, lancement 10 joueurs × 4 catégories + 5 staff) :
+  dossier fournisseur (one-pager + fiches produit + tableau tailles) préparé le 01/08 ; 4
+  brouillons créés (X-Treme Sports Gear, CS Sport Thailand, Fabrion, Thai T-Shirt Factory) —
+  **programmés par Cyril pour un envoi lundi 03/08 8h** via la fonction native de Gmail.
 - **Samui Fitness Lab** (sponsoring S&C) : email 19/07 → réponse positive 20/07 → reprise de
   contact WhatsApp par Omar (Samui Fitness Lab) le 30/07 → Cyril a répondu le 31/07 pour un RDV
   mardi soir, avant la séance touch rugby (Koh's 33 Stadium 19h). En attente de l'heure.
-- Nombreux brouillons Gmail (écoles, sponsors locaux, grands partenaires, relances J+7) restent
-  en attente de validation/envoi par Cyril — voir `brain/pipeline.md` pour le détail par cible.
-- Prochaine échéance : confirmation du RDV Samui Fitness Lab (mardi) + validation des brouillons
-  en attente.
+- Prochaine échéance : confirmation du RDV Samui Fitness Lab (mardi), suivi des premières
+  réponses aux emails envoyés le 01/08, et vérification que les 4 envois textile sont bien
+  partis lundi 8h.
 
 ## Pièges connus
 

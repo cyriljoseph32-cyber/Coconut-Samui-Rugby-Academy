@@ -9,8 +9,8 @@
 | Contact | Type | Dernier échange | Prochaine action | Statut |
 |---|---|---|---|---|
 | **Alan** — `alan@lis.ac.th` (prof EPS, Lamai International School) | Partenariat école | **2026-07-20 (a répondu, positif)** | Il rentre à Samui le **20/08** et appellera une fois installé (« cake & coffee »). Brouillon d'accusé prêt dans Gmail. **Relance si pas de nouvelles ~25/08.** Prévoir séance découverte à l'école (nouveau trimestre). | 🤝 Réponse positive 20/07 |
-| **Danielle Perchard** — `danielleperchard@hotmail.com` (3 garçons, 4/5/7 ans à l'inquiry initiale) | Lead parents | **2025-09-04 (Danielle avait dit « catching up next week ») — correction : aucune relance n'a en fait été envoyée depuis, malgré une note précédente erronée** | Reprise de contact après ~11 mois de silence de notre côté (même cas que Olympia). Brouillon Gmail créé 27/07 — à valider/envoyer. | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
-| **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (relance envoyée par Cyril, vérifié dans Gmail)** | Aucune réponse depuis — J+7 dépassé. Brouillon de suivi créé 27/07 — à valider/envoyer. | ✅ Brouillon de suivi créé 27/07 — à valider/envoyer |
+| **Danielle Perchard** — `danielleperchard@hotmail.com` (3 garçons, 4/5/7 ans à l'inquiry initiale) | Lead parents | **2025-09-04 (Danielle avait dit « catching up next week ») — correction : aucune relance n'a en fait été envoyée depuis, malgré une note précédente erronée** | Reprise de contact envoyée le 01/08 (brouillon créé 27/07). En attente de réponse. | ✅ Envoyé 01/08 |
+| **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (relance envoyée par Cyril, vérifié dans Gmail)** | Suivi J+7 envoyé le 01/08 (brouillon créé 27/07). En attente de réponse. | ✅ Envoyé 01/08 |
 
 ## 📤 Prospection écoles (proposition périscolaire envoyée le 2026-05-05, sans réponse)
 
@@ -19,18 +19,18 @@
 
 | Contact | École | Prochaine action | Statut |
 |---|---|---|---|
-| `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
-| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
-| `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
+| `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | ✅ Envoyé 01/08 |
+| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | ✅ Envoyé 01/08 |
+| `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | ✅ Envoyé 01/08 |
 | `info@lis.ac.th` | Lamai International School | Couverte par le contact direct Alan (ci-dessus) — ne pas doublonner | ✅ Via Alan |
 
 ### Nouvelles cibles identifiées (recherche web 27/07) — premier contact
 
 | Contact | École | Statut |
 |---|---|---|
-| `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS (British International School of Samui), Chaweng Noi | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
-| `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
-| `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
+| `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS (British International School of Samui), Chaweng Noi | ✅ Envoyé 01/08 |
+| `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | ✅ Envoyé 01/08 |
+| `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | ✅ Envoyé 01/08 |
 
 Écoles publiques thaïlandaises (angle bourses) : aucun contact vérifié trouvé — voir piste
 recommandée dans `brain/prospection-ecoles.md` section C.
@@ -43,10 +43,10 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 
 | Fournisseur | Contact | Angle | Statut |
 |---|---|---|---|
-| X-Treme Sports Gear (Bangkok, spécialiste rugby) | `sales@x-tremesportsgear.com` | Devis kit match + training, specialiste rugby | ✅ Brouillon Gmail créé 01/08 — à valider/envoyer (joindre le PDF) |
-| CS Sport Thailand (Chiang Mai, OEM/ODM) | `info@cs-sport.co.th` | Devis générique sportswear | ✅ Brouillon Gmail créé 01/08 — à valider/envoyer (joindre le PDF) |
-| Fabrion Manufacturing (Pattaya) | `info@fabrionmanufacturing.com` | Devis générique sportswear/teamwear | ✅ Brouillon Gmail créé 01/08 — à valider/envoyer (joindre le PDF) |
-| Thai T-Shirt Factory (Chonburi) | `info@thaitshirtfactory.com` | Devis générique t-shirts/sportswear | ✅ Brouillon Gmail créé 01/08 — à valider/envoyer (joindre le PDF) |
+| X-Treme Sports Gear (Bangkok, spécialiste rugby) | `sales@x-tremesportsgear.com` | Devis kit match + training, specialiste rugby | 📅 Programmé par Cyril — envoi lundi 03/08 8h |
+| CS Sport Thailand (Chiang Mai, OEM/ODM) | `info@cs-sport.co.th` | Devis générique sportswear | 📅 Programmé par Cyril — envoi lundi 03/08 8h |
+| Fabrion Manufacturing (Pattaya) | `info@fabrionmanufacturing.com` | Devis générique sportswear/teamwear | 📅 Programmé par Cyril — envoi lundi 03/08 8h |
+| Thai T-Shirt Factory (Chonburi) | `info@thaitshirtfactory.com` | Devis générique t-shirts/sportswear | 📅 Programmé par Cyril — envoi lundi 03/08 8h |
 
 > Déjà dans le pipeline sponsoring/local (angle différent — visibilité/partenariat, pas devis
 > pur) : Chameleon Production (`brain/pipeline.md` Vague 1) et Workshop Sport Design (Vague 3).
@@ -62,8 +62,8 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 
 | Prospect | Score | Canal | Statut |
 |---|---|---|---|
-| Rugby School Thailand (Fondation Veraphan) | 76/100 | `enquiries@rugbyschool.ac.th` | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
-| Six Senses Samui (fonds de durabilité) | 59/100 | `reservations-samui@sixsenses.com` | ✅ Brouillon Gmail créé 27/07 — à valider/envoyer |
+| Rugby School Thailand (Fondation Veraphan) | 76/100 | `enquiries@rugbyschool.ac.th` | ✅ Envoyé 01/08 |
+| Six Senses Samui (fonds de durabilité) | 59/100 | `reservations-samui@sixsenses.com` | ✅ Envoyé 01/08 |
 | Thai Rugby Union | 84/100 | ☎️ +66 2 215 3839 (pas d'email public) | 📞 Script d'appel prêt — à passer par Cyril |
 | Eddie Evans (Nak Suu Rugby Academy) | 83/100 | LinkedIn (pas d'email public) | 💬 Message LinkedIn prêt — à envoyer par Cyril |
 | Bangkok Airways | 66/100 | Formulaire site (pas d'email public confirmé) | 📝 Texte prêt pour formulaire — à soumettre par Cyril |
@@ -128,8 +128,8 @@ Cibles sans emails publics — contact via Facebook Messenger ou WhatsApp. Broui
 | Cible | Zone | Canal | Angle | Statut |
 |---|---|---|---|---|
 | **La Guinguette** (patron : Seb) | Lamai (50m stadium) | FB / sur place (pas d'email public) | Partenaire local FR, proximité Koh's 33 | 🎯 Brouillon prêt FR |
-| **No Stress** (Pierre & Pannee) | Lamai Beach | ✉️ `peiauch.pierre@gmail.com` · FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | ✅ Brouillon Gmail créé 26/07 — à valider/envoyer |
-| **Le Baobab** (Greg & Indy) | Lamai Beach | ✉️ `indy_jjj@hotmail.com` · +66 84 838 3040 | Beach club français (réserve après No Stress) | ✅ Brouillon Gmail créé 26/07 — à valider/envoyer |
+| **No Stress** (Pierre & Pannee) | Lamai Beach | ✉️ `peiauch.pierre@gmail.com` · FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | ✅ Envoyé 01/08 |
+| **Le Baobab** (Greg & Indy) | Lamai Beach | ✉️ `indy_jjj@hotmail.com` · +66 84 838 3040 | Beach club français (réserve après No Stress) | ✅ Envoyé 01/08 |
 
 ### Vague 3 — Sport, nutrition & santé (préparée 26/07)
 
@@ -141,12 +141,12 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 
 | Cible | Zone | Email | Angle | Statut |
 |---|---|---|---|---|
-| **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` | S&C + cross-promo, voisin du stade | ✅ Brouillon Gmail créé 26/07 |
-| **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` | Salle de quartier Lamai | ✅ Brouillon Gmail créé 26/07 |
-| **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` | Grosse salle, réseau athlètes | ✅ Brouillon Gmail créé 26/07 |
-| **Samui Pro Nutrition** | Chaweng | ✉️ `pronutritionthailand@gmail.com` | Nutrition sportive, dotation | ✅ Brouillon Gmail créé 26/07 |
-| **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE workshop14 | Maillots custom | ✅ Brouillon Gmail créé 26/07 |
-| **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` | Réserve — brouillon néanmoins prêt | ✅ Brouillon Gmail créé 26/07 |
+| **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` | S&C + cross-promo, voisin du stade | ✅ Envoyé 01/08 |
+| **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` | Salle de quartier Lamai | ✅ Envoyé 01/08 |
+| **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` | Grosse salle, réseau athlètes | ✅ Envoyé 01/08 |
+| **Samui Pro Nutrition** | Chaweng | ✉️ `pronutritionthailand@gmail.com` | Nutrition sportive, dotation | ✅ Envoyé 01/08 |
+| **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE workshop14 | Maillots custom | ✅ Envoyé 01/08 |
+| **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` | Réserve — brouillon néanmoins prêt | ✅ Envoyé 01/08 |
 
 **Sans email public → contact FB / téléphone / sur place**
 
