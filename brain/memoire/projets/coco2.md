@@ -1,6 +1,6 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-07-22.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-02.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
 
@@ -60,13 +60,17 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
     assertion dans `scripts/smoke-test.mjs`.
   - **Mergé sur `main` le 2026-07-22 (PR #7, merge `ead54fb`)** → déploiement Vercel automatique.
 
-## État & prochaines étapes (2026-07-22)
+## État & prochaines étapes (2026-08-02)
 
 - 2026-07-22 : intégration du partenaire location **Hakuna Matata** **mergée sur `main`**
   (PR #7, merge `ead54fb`) → déploiement Vercel auto — voir section Partenaires.
 - Base concierge complète (20/20 catégories de listings) depuis le 12/07.
 - Prospection (agences, comptes) : voir `Coco_AI_Prospection_RECAP.md` dans le dépôt ;
   avancement réel : `[À COMPLÉTER PAR CYRIL]`.
+- 2026-08-02 : audit des connecteurs MCP de la session — Vercel, Gmail, Windsor.ai et Canva
+  sont déjà connectés et désormais documentés dans les agents (`dev-concierge`,
+  `partenariats-concierge`, `growth-concierge`) — PR #10 (branche
+  `claude/mcp-setup-automation-gvu3i6`). Aucun nouveau MCP nécessaire pour ce dépôt.
 
 ## Pièges connus
 

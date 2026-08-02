@@ -10,10 +10,10 @@
 
 | Projet | Quoi | Stack | Déploiement | Dernière activité | Statut |
 |---|---|---|---|---|---|
-| [CSRA](projets/coconut-samui-rugby-academy.md) | Académie de rugby : site + brain agentique (QG des agents) | Astro + Tailwind | Vercel — coconutsamuirugby.com | 19/07 — intégration Postiz (PR #7) | 🟢 Actif |
+| [CSRA](projets/coconut-samui-rugby-academy.md) | Académie de rugby : site + brain agentique (QG des agents) | Astro + Tailwind | Vercel — coconutsamuirugby.com | 02/08 — fix routage Gmail→Superhuman (PR #10) | 🟢 Actif |
 | [bot-trading-US](projets/bot-trading-us.md) | Signal Bot actifs US (RSI-2) + bot global temps réel | React 19 + Vite + TS | Vercel — `/trading.html` | 17/07 — merge PR #2 | 🟢 Actif |
 | [assistant-ai](projets/assistant-ai.md) | **Coco front desk** — réceptionniste IA WhatsApp/email + console | Next.js 14 + Claude + Supabase + Twilio | Vercel | 17/07 — PR #3 « client launch » | 🟢 Actif |
-| [coco2](projets/coco2.md) | **Coco Samui Concierge** — chatbot touristique + serveur MCP | Astro + serverless + Claude Haiku | Vercel — coco-samui-ai.com | 12/07 — base 20/20 catégories | 🟢 Actif |
+| [coco2](projets/coco2.md) | **Coco Samui Concierge** — chatbot touristique + serveur MCP | Astro + serverless + Claude Haiku | Vercel — coco-samui-ai.com | 02/08 — doc connecteurs MCP (PR #10) | 🟢 Actif |
 | [Dancesoul-therapy](projets/dancesoul-therapy.md) | Marque movement-therapy de Hannah + site | Next.js 15 (SSG) | Vercel (main) | 04/07 — refonte home | 🟡 En veille |
 | [Koh-s-33-stadium](projets/koh-s-33-stadium.md) | `[À COMPLÉTER PAR CYRIL]` | — | — | Jamais (aucun commit) | ⚪ Non démarré |
 
