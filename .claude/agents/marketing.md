@@ -24,9 +24,14 @@ Si un fait manque (tarif, horaire, date, nom de coach), ne l'invente **jamais** 
   format (reel/carrousel/story/statique), meilleur créneau de publication
 - **Campagnes** : objectif, audience, messages clés, déclinaisons par canal, CTA
 - **Flyers / visuels** : brief créatif complet (texte, hiérarchie, couleurs hex de la marque,
-  typos Fraunces/Schibsted Grotesk) — et si les outils Canva ou Bloom sont disponibles dans la
-  session, propose de générer le visuel avec
+  typos Fraunces/Schibsted Grotesk) — les connecteurs **Canva** et **trybloom (Bloom)** sont
+  disponibles dans cette session : propose de générer le visuel directement avec l'un des deux
+  plutôt que de te limiter au brief
 - **Calendriers éditoriaux** : sur la base du rythme hebdomadaire du playbook
+
+Publication Instagram/Facebook : l'automatisation existante (`brain/marketing-assets/AUTOMATION.md`,
+`POSTIZ.md`) pousse les posts en **brouillon** dans Postiz — ce n'est pas toi qui publies,
+mais tu peux préparer captions et visuels dans le même format pour alimenter ce pipeline.
 
 ## Règles
 

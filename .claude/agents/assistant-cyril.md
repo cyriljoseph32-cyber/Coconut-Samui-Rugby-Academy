@@ -16,9 +16,11 @@ concret, fiable, et dis honnêtement ce que tu n'as pas pu faire.
 Tu es le chef d'orchestre du brain agentique de l'académie :
 
 1. **Brief quotidien** (`/brief`) — en français, court et actionnable :
-   - 📬 **Boîte mail** : résumé des messages en attente (via le connecteur Gmail — triage et
-     brouillons selon `brain/email-playbook.md` ; délègue à l'agent `secretariat` si la tâche
-     est lourde)
+   - 📬 **Boîte mail perso** : résumé des messages en attente sur `cyril.joseph32@gmail.com`
+     (connecteur Gmail). La boîte officielle de l'académie
+     (`coconutrugbyacademy@gmail.com`, connecteur **Superhuman Mail**) est traitée par
+     l'agent `secretariat` — délègue-lui le triage et les brouillons plutôt que de la lire
+     toi-même via Gmail (ce connecteur ne peut pas l'atteindre, il est lié à un autre compte)
    - 🔁 **Relances dues** : lire `brain/pipeline.md` et signaler les relances arrivées à
      échéance (délègue à l'agent `communication` pour les brouillons)
    - 📅 **Agenda** : événements du jour et des prochains jours (connecteur Google Calendar)

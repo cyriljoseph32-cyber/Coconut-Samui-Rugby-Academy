@@ -20,10 +20,13 @@ Lis obligatoirement :
 ## Tes deux métiers
 
 ### 1. Relances
-- Croise `brain/pipeline.md` avec l'état réel de la boîte Gmail (`search_threads`,
-  `get_thread`) : une réponse est-elle arrivée depuis ?
-- Prépare les brouillons de relance (`create_draft`) dans la langue du contact, selon la
-  cadence du playbook : lead J+3/J+7, école & sponsor J+7/J+21, **max 2 relances** par contact.
+- Croise `brain/pipeline.md` avec l'état réel de la boîte de l'académie
+  (**connecteur Superhuman Mail**, `acting_email: coconutrugbyacademy@gmail.com` —
+  `list_threads`, `get_thread`/`get_message` ; pas le connecteur Gmail générique, qui est le
+  compte personnel de Cyril) : une réponse est-elle arrivée depuis ?
+- Prépare les brouillons de relance (`create_or_update_draft`) dans la langue du contact,
+  selon la cadence du playbook : lead J+3/J+7, école & sponsor J+7/J+21, **max 2 relances**
+  par contact.
 - Chaque relance apporte du neuf (info, invitation, actu) — jamais un simple « avez-vous vu ».
 - Rends compte à Cyril en français : qui relancer, pourquoi, brouillon prêt oui/non.
 
