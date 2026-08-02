@@ -37,7 +37,7 @@ export const programs: Program[] = [
       "Team huddle: one value, one high-five, home",
     ],
     details: [
-      { label: "When & where", value: "Weekly — parents are voting on the day right now on our Facebook page. Message us and we'll confirm your slot first." },
+      { label: "When & where", value: "Saturdays 9:00–10:00 · Koh's 33 Stadium, Lamai" },
       { label: "Pricing", value: "350 THB per session · 1,200 THB per month — first session free" },
       { label: "Format", value: "Tag rugby (non-contact)" },
       { label: "Group size", value: "Max 12 kids per coach" },
@@ -85,7 +85,7 @@ export const programs: Program[] = [
       "Conditioned games and match play",
     ],
     details: [
-      { label: "When & where", value: "Weekly — day & time being finalised with families; ask on WhatsApp and we'll confirm your slot first." },
+      { label: "When & where", value: "Saturdays 16:00–17:30 · Koh's 33 Stadium, Lamai" },
       { label: "Pricing", value: "350 THB per session · 1,200 THB per month — first session free" },
       { label: "Format", value: "Contact rugby, introduced progressively by age and readiness" },
       { label: "Duration", value: "90-minute sessions, weekly" },
