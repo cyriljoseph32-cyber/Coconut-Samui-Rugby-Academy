@@ -43,10 +43,10 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 
 | Fournisseur | Contact | Angle | Statut |
 |---|---|---|---|
-| X-Treme Sports Gear (Bangkok, spécialiste rugby) | `sales@x-tremesportsgear.com` — contact : **Darryn Mathee, General Manager**, ☎️ (66) 095-257-5802 | Devis kit match + training, specialiste rugby | 🤝 **Envoyé 03/08 8h → réponse positive le jour même.** Tarifs indicatifs : Match kit 2400 THB, Training kit 750 THB, Polo coach 800 THB, personnalisation sublimation incluse, pas de MOQ, délai 4-6 sem. après validation design + acompte. **Brouillon de réponse créé 03/08** (demande de devis global sur la commande de lancement + questions acompte/numérotation) — à valider/envoyer. |
-| CS Sport Thailand (Chiang Mai, OEM/ODM) | `info@cs-sport.co.th` | Devis générique sportswear | 📅 Programmé par Cyril — envoi lundi 03/08 8h |
-| Fabrion Manufacturing (Pattaya) | `info@fabrionmanufacturing.com` | Devis générique sportswear/teamwear | 📅 Programmé par Cyril — envoi lundi 03/08 8h |
-| Thai T-Shirt Factory (Chonburi) | `info@thaitshirtfactory.com` | Devis générique t-shirts/sportswear | 📅 Programmé par Cyril — envoi lundi 03/08 8h |
+| X-Treme Sports Gear (Bangkok, spécialiste rugby) | `sales@x-tremesportsgear.com` — contact : **Darryn Mathee, General Manager**, ☎️ (66) 095-257-5802 | Devis kit match + training, specialiste rugby | 🤝 **Envoyé 03/08 8h → réponse positive le jour même** (tarifs indicatifs : Match kit 2400 THB, Training kit 750 THB, Polo coach 800 THB, sublimation incluse, pas de MOQ, délai 4-6 sem. après validation design + acompte). **Relance envoyée 03/08** (demande de devis global + questions acompte/numérotation) — en attente de sa réponse. |
+| CS Sport Thailand (Chiang Mai, OEM/ODM) | `info@cs-sport.co.th` | Devis générique sportswear | 📅 Envoyé lundi 03/08 8h — en attente de réponse |
+| Fabrion Manufacturing (Pattaya) | `info@fabrionmanufacturing.com` | Devis générique sportswear/teamwear | 📅 Envoyé lundi 03/08 8h — en attente de réponse |
+| Thai T-Shirt Factory (Chonburi) | `info@thaitshirtfactory.com` | Devis générique t-shirts/sportswear | 📅 Envoyé lundi 03/08 8h — en attente de réponse |
 
 > Déjà dans le pipeline sponsoring/local (angle différent — visibilité/partenariat, pas devis
 > pur) : Chameleon Production (`brain/pipeline.md` Vague 1) et Workshop Sport Design (Vague 3).
