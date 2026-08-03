@@ -128,7 +128,7 @@ Cibles sans emails publics — contact via Facebook Messenger ou WhatsApp. Broui
 | Cible | Zone | Canal | Angle | Statut |
 |---|---|---|---|---|
 | **La Guinguette** (patron : Seb) | Lamai (50m stadium) | FB / sur place (pas d'email public) | Partenaire local FR, proximité Koh's 33 | 🎯 Brouillon prêt FR |
-| **No Stress** (Pierre & Pannee) | Lamai Beach | ✉️ `peiauch.pierre@gmail.com` · FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | ✅ Envoyé 01/08 |
+| **No Stress** (Pierre & Pannee) | Lamai Beach | ✉️ `peiauch.pierre@gmail.com` · FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | 🤝 Envoyé 01/08 → Pierre a répondu 03/08 : en parle à sa compagne le soir même, revient vers nous. En attente. |
 | **Le Baobab** (Greg & Indy) | Lamai Beach | ✉️ `indy_jjj@hotmail.com` · +66 84 838 3040 | Beach club français (réserve après No Stress) | ✅ Envoyé 01/08 |
 
 ### Vague 3 — Sport, nutrition & santé (préparée 26/07)
