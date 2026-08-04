@@ -77,6 +77,9 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
 - `brain/events-playbook.md` — rétroplanning et checklists camps / tournoi / corporate.
 - `brain/coaching-playbook.md` — cadres de séance par programme, progression contact,
   sécurité (chaleur, commotion, ratios).
+- `brain/whatsapp-playbook.md` — canal WhatsApp (nº 1 de conversion) : **envoi** de relances
+  via le connecteur Zapier WhatsApp Business (fenêtre 24 h, templates), validation obligatoire.
+  Les conversations restent lues sur l'app du téléphone (pas de lecture par API).
 - `brain/memoire/` — **mémoire transverse des projets de Cyril** (index, journal, une fiche
   par dépôt GitHub) : tenue par l'agent `memory`, à consulter avant de travailler sur un
   autre projet et à mettre à jour après chaque session significative.

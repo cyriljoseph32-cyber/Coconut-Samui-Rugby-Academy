@@ -76,7 +76,20 @@ Toujours finir par un appel à l'action clair, en priorité **WhatsApp** :
 | Lundi | Recap week-end / moment fort terrain (reel ou photo) |
 | Mercredi | Pilier confiance parents OU île & communauté (carrousel/story FAQ) |
 | Vendredi | Conversion : rappel séances du week-end + essai gratuit (post + story) |
-| Dimanche | Story spontanée terrain / sunset session |
+| **Dimanche 18h** | **🏉 Post récurrent PERMANENT — annonce Touch Rugby du mardi (IG + FB)** |
+
+## 🔁 Contenu récurrent permanent (à ne jamais oublier)
+
+> Décision de Cyril (21/07) : l'agent `marketing` **prend en charge ce post chaque dimanche**,
+> automatiquement, sans qu'on ait à le redemander.
+
+- **Chaque dimanche 18h (heure Samui)** → publier l'**annonce Touch Rugby du mardi** sur
+  **Instagram + Facebook** (post + visuel daté). Visuel = même design que la série
+  `brain/marketing-assets/touch-mardis-2026-08/` (touch rugby, 19h–20h30, Koh's 33 Lamai).
+- **Visuels déjà générés** jusqu'au **mardi 25/08**. Au-delà, régénérer les visuels datés avec
+  `brain/marketing-assets/gen-posters.cjs` (ou le générateur de la série) pour les mardis suivants.
+- Légende type (FR + EN) + hashtags : voir `touch-mardis-2026-08/programme.md`.
+- Publication **en brouillon** (Postiz) ou livraison à Cyril — **rien en ligne sans sa validation**.
 
 ## Règles de production
 

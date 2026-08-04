@@ -13,32 +13,35 @@
 
 | Établissement | Zone | Contact vérifié | Statut |
 |---|---|---|---|
-| **BR Munns International** (groupe : Bondi, SALT, The Cliff, The Palms, The Outback) | Samui / Bangkok | `Info@brmunnsinternational.com` · +66 80 519 3931 | ✅ Contacté 18/07 |
+| **BR Munns International** (groupe : Bondi, SALT, The Cliff, The Palms, The Outback) | Samui / Bangkok | `Info@brmunnsinternational.com` · +66 80 519 3931 | ✅ Contacté 19/07, sans réponse — brouillon de relance J+7 créé 27/07 |
 | **Black Duck Sports Bar** | Chaweng (Chaweng Yai Soi 4) | `blackduck.live` · FB `/blackducksportsbar` | 🎯 À contacter |
 | **The Islander** | Chaweng | FB / sur place | 🎯 À contacter |
 | **Premier Sports Bar** | Bang Rak | FB / sur place | 🎯 À contacter |
 | **Emerald Irish Pub** | Bophut (Fisherman's Village) | FB / sur place | 🎯 À contacter |
-| **La Guinguette** (Seb), **No Stress**, **Baobab** | Lamai | FB / sur place | 🎯 À contacter (FR) |
+| **No Stress** (Pierre) | Lamai Beach | ✉️ `peiauch.pierre@gmail.com` · FB / sur place | 🎯 À contacter (FR, email vérifié) |
+| **Le Baobab** (Indy) | Lamai Beach | ✉️ `indy_jjj@hotmail.com` · +66 84 838 3040 | 🎯 À contacter (FR, email vérifié) |
+| **La Guinguette** (Seb) | Lamai | FB / sur place (pas d'email public) | 🎯 À contacter (FR) |
 
 ## B. Salles de sport & fitness — ⭐⭐⭐ (marque alignée, partenariats en nature)
 
 | Établissement | Zone | Contact vérifié | Statut |
 |---|---|---|---|
-| **Koh Fit Thailand** | Lamai | +66 80 393 4542 · `kohfitthailand.com` | 🎯 À contacter |
-| **Lamai Fitness Retreat** | Lamai | `lamaifitnessretreat.com` · FB `/lamaifitness` | 🎯 À contacter |
-| **Lamai Beach CrossFit / Samui Fitness Retreat** | Lamai | +66 98 690 3537 · `info@samuifitnessretreat.com` · FB `/lamaibeachcrossfit` | 🎯 À contacter |
-| **Samui Fitness Lab** | Lamai | +66 92 294 0906 · `contact@samuifitnesslab.com` · IG `@samuifitnesslab` | 🎯 À contacter |
-| **Ultra Bodies Gym** | Lamai | FB `/Ultrabodiesgymlamai` | 🎯 À contacter |
-| **Elite Gym** · **Star Gym** | Bophut/Chaweng | `elitegymsamui.com` · `stargymkohsamui.com` | 🎯 À contacter |
+| **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` · +66 80 393 4542 · WA +66 80 472 2356 | 🎯 À contacter (Vague 3) |
+| **Lamai Fitness Retreat** | Lamai | `lamaifitnessretreat.com` (formulaire/WhatsApp) · FB `/lamaifitness` | 🎯 À contacter (pas d'email public) |
+| **Lamai Beach CrossFit / Samui Fitness Retreat** | Lamai | +66 98 690 3537 · `info@samuifitnessretreat.com` · FB `/lamaibeachcrossfit` | ✅ Contacté 19/07 (Vague 1) |
+| **Samui Fitness Lab** | Lamai | +66 92 294 0906 · `contact@samuifitnesslab.com` · IG `@samuifitnesslab` | ✅ Contacté 19/07 (Vague 1) |
+| **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` · +66 87 347 6761 · FB `/Ultrabodiesgymlamai` | 🎯 À contacter (Vague 3) |
+| **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` · +66 77 423 646 · `elitegymsamui.com` | 🎯 À contacter (Vague 3) |
+| **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` · +66 91 821 2474 · `stargymkohsamui.com` | 🎯 Réserve (Vague 3) |
 
 ## C. Équipement sport, sportswear & nutrition — ⭐⭐⭐ (cœur de cible)
 
 | Établissement | Zone | Contact vérifié | Statut |
 |---|---|---|---|
-| **Supersports** (Central Festival Samui) | Bophut | via Central Festival — enseigne sport nationale | 🎯 À contacter (dotation/visibilité) |
-| **Workshop Sport Design** | Chaweng | site / FB | 🎯 À contacter |
-| **Samui Pro Nutrition** | Chaweng (chez Elite Gym) | FB `/samuipronutrition` | 🎯 À contacter |
-| **Samui Health Shop by Lamphu** | Lamai | `samuihealthshop.com` · FB `/samuihealthshop` | 🎯 À contacter |
+| **Supersports** (Central Festival Samui) | Bophut | via Central Festival — enseigne sport nationale (pas d'email local) | 🎯 À contacter (dotation/visibilité) |
+| **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE `workshop14` · +66 93 642 9645 | 🎯 À contacter (Vague 3) |
+| **Samui Pro Nutrition** | Chaweng (chez Elite Gym) | ✉️ `pronutritionthailand@gmail.com` · +66 82 112 7321 · FB `/samuipronutrition` | 🎯 À contacter (Vague 3) |
+| **Samui Health Shop by Lamphu** | Lamai | `samuihealthshop.com` (formulaire) · +66 96 634 8752 · FB `/samuihealthshop` | 🎯 À contacter (pas d'email public) |
 
 ## D. Santé & sport (physio, cliniques) — ⭐⭐ (partenaire en nature, crédibilité)
 
@@ -130,12 +133,18 @@
 
 ## N. Écoles internationales — (partenaires/pathway — voir pipeline)
 
+> Annuaire complet (toutes les structures scolaires de l'île, angles de partenariat par type) :
+> `brain/prospection-ecoles.md`.
+
 | École | Contact | Statut |
 |---|---|---|
-| **ISS** (Sports Academy) | `HRmanager@iss.ac.th` | Relance due (pipeline) |
-| **Greenacre School** | `info@greenacre.ac.th` | Relance due (pipeline) |
-| **IFDS** (école française) | `contact@ifds.pw` | Relance due (pipeline) |
-| **Lamai International School** | via Alan (`alan@lis.ac.th`) | Relance envoyée (pipeline) |
+| **ISS** (International School of Samui) | `HRmanager@iss.ac.th` | ✅ Brouillon relance créé 27/07 (pipeline) |
+| **Greenacre School** | `info@greenacre.ac.th` | ✅ Brouillon relance créé 27/07 (pipeline) |
+| **IFDS** (école française) | `contact@ifds.pw` | ✅ Brouillon relance créé 27/07 (pipeline) |
+| **Lamai International School** | via Alan (`alan@lis.ac.th`) | Réponse positive 20/07 (pipeline) |
+| **PBISS** (British International School of Samui) | `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | ✅ Brouillon premier contact créé 27/07 |
+| **Windfield International School** | `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | ✅ Brouillon premier contact créé 27/07 |
+| **Oonrak Koh Samui School** | `info@oonraksamui.ac.th` · ☎️ 077 332 040 | ✅ Brouillon premier contact créé 27/07 |
 
 ---
 

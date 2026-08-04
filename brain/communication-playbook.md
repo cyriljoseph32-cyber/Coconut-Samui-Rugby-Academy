@@ -24,8 +24,13 @@
 
 ## Offre de partenariat (faits établis — issus des emails de Cyril)
 
-- Niveaux de partenariat structurés **Bronze → Platinum** (montants et détails :
-  `[À COMPLÉTER PAR CYRIL]` — un dossier de sponsoring complet existe, à demander à Cyril)
+- Niveaux de partenariat structurés **Bronze → Platinum** — montants (proposition chiffrée du
+  03/08/2026, méthode coût + marge détaillée dans `brain/academy.md` et `brain/pipeline.md`) :
+  **Bronze 4 500 THB · Silver 11 500 THB · Gold 36 000 THB · Platinum 195 000 THB**.
+  Un dossier de sponsoring complet existe — à demander à Cyril avant tout envoi. Rappel :
+  **tout engagement avec un prospect (montant, remise, contrepartie) reste une décision de
+  Cyril** (cf. règle ci-dessous) — ces montants sont la grille de référence, pas une
+  autorisation de citer un chiffre sans son feu vert au cas par cas.
 - Contreparties proposées : visibilité (maillots, événements, plateformes digitales),
   association à un projet à impact social, engagement corporate
 - Impact social : bourses pour enfants thaïlandais défavorisés, développement du rugby
