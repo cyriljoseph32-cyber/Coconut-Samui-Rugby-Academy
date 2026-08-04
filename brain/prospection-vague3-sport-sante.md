@@ -100,8 +100,10 @@
 
 - **Rien d'envoyé sans le « oui » de Cyril.** Ces messages partent par **FB/téléphone/sur place** —
   côté Cyril, ou je prépare un brouillon Gmail **uniquement** si on trouve un email **vérifié**.
-- **Zéro tarif inventé** : parler de « dotation / réduction / partenariat en nature », jamais de
-  montant. Le dossier de sponsoring (niveaux Bronze→Platinum) reste `[À COMPLÉTER PAR CYRIL]`.
+- **Zéro tarif inventé envers ces cibles** : parler de « dotation / réduction / partenariat en
+  nature », jamais de montant. Les niveaux Bronze→Platinum ont désormais des montants définis
+  (voir `brain/academy.md` / `brain/communication-playbook.md`), mais ils **ne sont pas adaptés
+  à ces cibles en nature** — ne pas les citer ici sans instruction explicite de Cyril.
 - **Photos d'enfants** : accord parental obligatoire avant toute publication liée à un partenaire.
 - Après chaque contact validé → mettre à jour `brain/pipeline.md` (statut, date, réponse).
 - Max **2 relances** par cible sans accord explicite de Cyril.

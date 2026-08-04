@@ -72,9 +72,22 @@ Koh Samui, province de Surat Thani, Thaïlande.
 
 ## Sponsoring & partenariats (faits issus des emails de Cyril)
 
-- Niveaux de partenariat structurés **Bronze → Platinum** (détails et montants :
-  `[À COMPLÉTER PAR CYRIL]`)
-- Un **dossier de sponsoring complet** existe — à demander à Cyril avant tout envoi
+- Niveaux de partenariat structurés **Bronze → Platinum** — proposition chiffrée du 03/08/2026
+  (méthode coût + marge ~50 %, base : devis kit X-Treme QT2026080001 — détail du calcul dans
+  `brain/pipeline.md`) :
+
+  | Niveau | Prix | Base de coût |
+  |---|---|---|
+  | Bronze | 4 500 THB | symbolique — aucun kit physique fourni à ce niveau |
+  | Silver | 11 500 THB | training kit d'une catégorie d'âge (10 joueurs) |
+  | Gold | 36 000 THB | match kit d'une catégorie d'âge (10 joueurs) |
+  | Platinum | 195 000 THB | commande de lancement complète, toutes catégories |
+
+  > Points ouverts avant tout envoi à un prospect : période (saison/an ou forfait ponctuel) non
+  > précisée ; base Platinum à réviser si la commande finale passe de 40/40/5 à 48/48/6 (avec
+  > maillots de rechange, cf. `brain/pipeline.md`).
+- Un **dossier de sponsoring complet** existe — à demander à Cyril avant tout envoi (le PDF ne
+  contient pas encore ces montants chiffrés — mise à jour à prévoir)
 - Contreparties : visibilité (maillots, événements, digital), impact social (bourses enfants
   thaïlandais, rugby féminin), engagement corporate
 - Historique : campagne de crowdfunding 4fund.com « Become a partner… » (terminée ~09/2025,

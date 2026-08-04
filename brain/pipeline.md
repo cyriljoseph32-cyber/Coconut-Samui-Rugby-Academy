@@ -43,10 +43,30 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 
 | Fournisseur | Contact | Angle | Statut |
 |---|---|---|---|
-| X-Treme Sports Gear (Bangkok, spécialiste rugby) | `sales@x-tremesportsgear.com` — contact : **Darryn Mathee, General Manager**, ☎️ (66) 095-257-5802 | Devis kit match + training, specialiste rugby | 🤝 **Échange en cours 03/08** : envoyé 8h → réponse positive (tarifs : Match kit 2400 THB, Training kit 750 THB, Polo coach 800 THB, sublimation incluse, pas de MOQ, délai 4-6 sem.) → Cyril demande un devis global (envoyé) → **Darryn demande logos/couleurs pour lancer le design (gratuit)**. Logo, crest mono-couleur et palette de marque envoyés à Cyril (fichiers trop lourds pour pièce jointe via l'outil) — **brouillon de réponse créé 03/08, images à joindre manuellement avant envoi**. En attente du devis formel de Darryn. |
+| X-Treme Sports Gear (Bangkok, spécialiste rugby) | `sales@x-tremesportsgear.com` — contact : **Darryn Mathee, General Manager**, ☎️ (66) 095-257-5802 | Devis kit match + training, specialiste rugby | 🤝 **Échange en cours 03/08** : envoyé 8h → réponse positive (tarifs : Match kit 2400 THB, Training kit 750 THB, Polo coach 800 THB, sublimation incluse, pas de MOQ, délai 4-6 sem.) → Cyril demande un devis global (envoyé) → **Darryn demande logos/couleurs pour lancer le design (gratuit)**. Logo, crest mono-couleur et palette de marque envoyés à Cyril (fichiers trop lourds pour pièce jointe via l'outil) — **brouillon de réponse créé 03/08, images à joindre manuellement avant envoi**. → **Devis formel reçu 03/08 (doc n° QT2026080001) — détail ci-dessous.** |
 | CS Sport Thailand (Chiang Mai, OEM/ODM) | `info@cs-sport.co.th` | Devis générique sportswear | 📅 Envoyé lundi 03/08 8h — en attente de réponse |
 | Fabrion Manufacturing (Pattaya) | `info@fabrionmanufacturing.com` | Devis générique sportswear/teamwear | 📅 Envoyé lundi 03/08 8h — en attente de réponse |
 | Thai T-Shirt Factory (Chonburi) | `info@thaitshirtfactory.com` | Devis générique t-shirts/sportswear | 📅 Envoyé lundi 03/08 8h — en attente de réponse |
+
+> **Devis formel X-Treme reçu le 03/08** — doc n° **QT2026080001**, daté 03/08/2026, vendeur
+> Darryn Mathee, crédit **30 jours** :
+>
+> | Ligne | Qté | PU (THB) | Total (THB) |
+> |---|---|---|---|
+> | Rugby Kit (match : maillot + short + chaussettes), 100% polyester sublimé | 40 | 2 400 | 96 000 |
+> | Warm up shirt custom (haut training) | 40 | 750 | 30 000 |
+> | Polo custom (staff/coachs) | 5 | 800 | 4 000 |
+> | **Sous-total HT** | | | **121 495,33** |
+> | **TVA 7 %** | | | **8 504,67** |
+> | **Total TTC** | | | **130 000,00** |
+>
+> ⚠️ **Écart de quantités — décision de Cyril avant commande** : ce devis formel porte sur
+> **40 kits match / 40 training / 5 polos**, alors que le dossier de sourcing envoyé aux
+> fournisseurs le 01/08 (10 joueurs × 4 catégories + 5 staff, **avec 2 maillots de rechange par
+> catégorie**, cf. section ci-dessus) prévoyait **48 kits match / 48 training / 6 polos**.
+> Deux options : (a) commander tel quel à 130 000 THB (sans rechange), ou (b) redemander à
+> Darryn un devis pour 48/48/6 avec rechanges. **Ne pas trancher automatiquement — remonter à
+> Cyril.**
 
 > Déjà dans le pipeline sponsoring/local (angle différent — visibilité/partenariat, pas devis
 > pur) : Chameleon Production (`brain/pipeline.md` Vague 1) et Workshop Sport Design (Vague 3).
