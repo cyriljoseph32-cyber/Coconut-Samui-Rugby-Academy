@@ -9,7 +9,7 @@
 | Contact | Type | Dernier échange | Prochaine action | Statut |
 |---|---|---|---|---|
 | **Alan** — `alan@lis.ac.th` (prof EPS, Lamai International School) | Partenariat école | **2026-07-20 (a répondu, positif)** | Il rentre à Samui le **20/08** et appellera une fois installé (« cake & coffee »). Brouillon d'accusé prêt dans Gmail. **Relance si pas de nouvelles ~25/08.** Prévoir séance découverte à l'école (nouveau trimestre). | 🤝 Réponse positive 20/07 |
-| **Danielle Perchard** — `danielleperchard@hotmail.com` (3 garçons, 4/5/7 ans à l'inquiry initiale) | Lead parents | **2025-09-04 (Danielle avait dit « catching up next week ») — correction : aucune relance n'a en fait été envoyée depuis, malgré une note précédente erronée** | Reprise de contact envoyée le 01/08 (brouillon créé 27/07). En attente de réponse. | ✅ Envoyé 01/08 |
+| ~~Danielle Perchard~~ — `danielleperchard@hotmail.com` (3 garçons, 4/5/7 ans à l'inquiry initiale) | Lead parents | Reprise de contact envoyée 01/08 → **Danielle a répondu le 03/08 : elle ne vit plus à Samui, nous souhaite bonne chance.** | Aucune — lead non convertible (a quitté l'île). | ⛔ Clos (partie de l'île) |
 | **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (relance envoyée par Cyril, vérifié dans Gmail)** | Suivi J+7 envoyé le 01/08 (brouillon créé 27/07). En attente de réponse. | ✅ Envoyé 01/08 |
 
 ## 📤 Prospection écoles (proposition périscolaire envoyée le 2026-05-05, sans réponse)
@@ -45,8 +45,8 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 |---|---|---|---|
 | X-Treme Sports Gear (Bangkok, spécialiste rugby) | `sales@x-tremesportsgear.com` — contact : **Darryn Mathee, General Manager**, ☎️ (66) 095-257-5802 | Devis kit match + training, specialiste rugby | 🤝 **Échange en cours 03/08** : envoyé 8h → réponse positive (tarifs : Match kit 2400 THB, Training kit 750 THB, Polo coach 800 THB, sublimation incluse, pas de MOQ, délai 4-6 sem.) → Cyril demande un devis global (envoyé) → **Darryn demande logos/couleurs pour lancer le design (gratuit)**. Logo, crest mono-couleur et palette de marque envoyés à Cyril (fichiers trop lourds pour pièce jointe via l'outil) — **brouillon de réponse créé 03/08, images à joindre manuellement avant envoi**. → **Devis formel reçu 03/08 (doc n° QT2026080001) — détail ci-dessous.** |
 | CS Sport Thailand (Chiang Mai, OEM/ODM) | `info@cs-sport.co.th` | Devis générique sportswear | 📅 Envoyé lundi 03/08 8h — en attente de réponse |
-| Fabrion Manufacturing (Pattaya) | `info@fabrionmanufacturing.com` | Devis générique sportswear/teamwear | 📅 Envoyé lundi 03/08 8h — en attente de réponse |
-| Thai T-Shirt Factory (Chonburi) | `info@thaitshirtfactory.com` | Devis générique t-shirts/sportswear | 📅 Envoyé lundi 03/08 8h — en attente de réponse |
+| Fabrion Manufacturing (Pattaya) | `info@fabrionmanufacturing.com` | Devis générique sportswear/teamwear | 🤝 **Envoyé 03/08 → 2 réponses reçues 04/08** : (1) confirment pouvoir fabriquer maillots match, shorts, t-shirts/shorts training et polos staff ; (2) suivi spontané confirmant qu'ils peuvent s'adapter aux **petites quantités** de notre première commande. **Pas encore de devis chiffré ni de réponse de notre côté — décision à prendre par Cyril** : redemander un devis formel (même démarche que X-Treme) ? |
+| Thai T-Shirt Factory (Chonburi) | `info@thaitshirtfactory.com` | Devis générique t-shirts/sportswear | 🤝 **Envoyé 03/08 → réponse reçue 04/08** (contact : **Nina**) : MOQ **50 pièces par design/couleur**. Cyril a répondu le 04/08 (accusé + demande de devis détaillé basé sur nos specs et tableau de tailles) — **en attente du devis chiffré**. |
 
 > **Devis formel X-Treme reçu le 03/08** — doc n° **QT2026080001**, daté 03/08/2026, vendeur
 > Darryn Mathee, crédit **30 jours** :
@@ -124,7 +124,7 @@ Cibles à email public vérifié — brouillons signés envoyés depuis Gmail. S
 | Kohi Coffee | Café | `events@kohicoffee.com` | Café aux événements/tournoi | ✅ Envoyé 19/07 |
 | Dive Point Samui | Plongée | `info@divepoint-samui.com` | Cross-promo familles/expats | ✅ Envoyé 19/07 |
 | Silent Divers | Plongée | `info@silentdivers.com` | Cross-promo familles/expats | ✅ Envoyé 19/07 |
-| SBC Insurance | Assurance | `apply@sbc-insurance.live` | RSE familles + cover académie | ✅ Envoyé 19/07 |
+| SBC Insurance | Assurance | `apply@sbc-insurance.live` | RSE familles + cover académie | 🤝 **Envoyé 19/07 → Irene a répondu positivement le 21/07** (forte adhésion aux valeurs de l'académie) → Cyril a répondu le 24/07 → **en attente de la suite d'Irene** (rappel Superhuman du 01/08, pas de nouvelle réponse depuis) |
 | Think Safe Insurance | Assurance | `contact@thinksafeinternational.com` | RSE familles + cover académie | ✅ Envoyé 19/07 |
 | Rotary Club Samui & Phangan | Communauté | `Secretary@RotarySamui-Phangan.org` | Bourses + projets communautaires + réseau | ✅ Envoyé 19/07 |
 
@@ -149,7 +149,7 @@ Cibles sans emails publics — contact via Facebook Messenger ou WhatsApp. Broui
 |---|---|---|---|---|
 | **La Guinguette** (patron : Seb) | Lamai (50m stadium) | FB / sur place (pas d'email public) | Partenaire local FR, proximité Koh's 33 | 🎯 Brouillon prêt FR |
 | **No Stress** (Pierre & Pannee) | Lamai Beach | ✉️ `peiauch.pierre@gmail.com` · FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | 🤝 Envoyé 01/08 → Pierre a répondu 03/08 : en parle à sa compagne le soir même, revient vers nous. En attente. |
-| **Le Baobab** (Greg & Indy) | Lamai Beach | ✉️ `indy_jjj@hotmail.com` · +66 84 838 3040 | Beach club français (réserve après No Stress) | ✅ Envoyé 01/08 |
+| **Le Baobab** (Greg & Indy) | Lamai Beach | ✉️ `indy_jjj@hotmail.com` · +66 84 838 3040 | Beach club français (réserve après No Stress) | 🤝 **Envoyé 28/07 → Greg a répondu positivement le 28/07**, a donné son numéro (0848383040) et invite à l'appeler. Cyril a répondu le 01/08 : appellera **la semaine prochaine**. **En attente de l'appel de Cyril.** |
 
 ### Vague 3 — Sport, nutrition & santé (préparée 26/07)
 
@@ -182,13 +182,16 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 
 | Cible | Rôle | Contact vérifié | Statut |
 |---|---|---|---|
-| **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) — c'est l'interlocuteur pour **louer un terrain** | `info@maraleina.com` · +66 77 233 888 · LINE lin.ee/1aZso7B · WhatsApp wa.me/+66801694276 | 🤝 **Réponse de Cyril ENVOYÉE 19/07** (demande de visite du site avant de confirmer) — **en attente de leur proposition de date**. Relance de calage ~fin juillet si pas de nouvelles |
+| **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) — c'est l'interlocuteur pour **louer un terrain** | `info@maraleina.com` · +66 77 233 888 · LINE lin.ee/1aZso7B · WhatsApp wa.me/+66801694276 | 🤝 **Réponse de Cyril envoyée 19/07** (demande de visite du site) → **relance envoyée 01/08** (tarif récurrent + demi-terrain, cf. ci-dessous) — **en attente de leur réponse** |
 | **PSG Academy Samui** | Académie de foot (Chaweng) opérant sur le site Maraleina | +66 910360361 · psgacademysamui.com · FB/IG @psgacademysamui | ✅ **Contacté sur Instagram 18/07** — en attente de réponse |
 
 > **Tarifs Maraleina reçus le 19/07 (terrain gazon naturel 11-a-side, min. 1h)** :
 > - Sans éclairage (7h–18h) : **6 475 THB/h**
 > - Avec éclairage (18h–21h) : **7 650 THB/h**
-> Prochaine étape : caler une **visite du site** (date à choisir par Cyril), demander un **tarif récurrent** pour créneau hebdo fixe et la possibilité d'un **demi-terrain** pour les petits groupes.
+> Cyril a relancé le 01/08 pour demander un **tarif récurrent** (créneau hebdo fixe) et la
+> possibilité d'un **demi-terrain** pour les petits groupes — **réponse toujours attendue**.
+> Prochaine étape : caler une **visite du site** (date à choisir par Cyril) une fois ces points
+> clarifiés.
 
 ## ❓ À clarifier avec Cyril
 
