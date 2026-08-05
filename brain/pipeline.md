@@ -10,7 +10,7 @@
 |---|---|---|---|---|
 | **Alan** — `alan@lis.ac.th` (prof EPS, Lamai International School) | Partenariat école | **2026-07-20 (a répondu, positif)** | Il rentre à Samui le **20/08** et appellera une fois installé (« cake & coffee »). Brouillon d'accusé prêt dans Gmail. **Relance si pas de nouvelles ~25/08.** Prévoir séance découverte à l'école (nouveau trimestre). | 🤝 Réponse positive 20/07 |
 | ~~Danielle Perchard~~ — `danielleperchard@hotmail.com` (3 garçons, 4/5/7 ans à l'inquiry initiale) | Lead parents | Reprise de contact envoyée 01/08 → **Danielle a répondu le 03/08 : elle ne vit plus à Samui, nous souhaite bonne chance.** | Aucune — lead non convertible (a quitté l'île). | ⛔ Clos (partie de l'île) |
-| **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (relance envoyée par Cyril, vérifié dans Gmail)** | Suivi J+7 envoyé le 01/08 (brouillon créé 27/07). En attente de réponse. | ✅ Envoyé 01/08 |
+| **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (réponse tardive de Cyril à l'inquiry initiale de 09/2025) → suivi J+7 réellement envoyé le 29/07 (date corrigée après vérification Gmail — l'entrée précédente indiquait 01/08 par erreur)** | Aucune réponse depuis. Prochaine relance possible ~J+21 (~19/08) si accord de Cyril (déjà 1 relance envoyée). | ✅ Envoyé 29/07 — en attente |
 
 ## 📤 Prospection écoles (proposition périscolaire envoyée le 2026-05-05, sans réponse)
 
@@ -19,18 +19,18 @@
 
 | Contact | École | Prochaine action | Statut |
 |---|---|---|---|
-| `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | ✅ Envoyé 01/08 |
-| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | ✅ Envoyé 01/08 |
-| `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | ✅ Envoyé 01/08 |
+| `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
+| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
+| `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
 | `info@lis.ac.th` | Lamai International School | Couverte par le contact direct Alan (ci-dessus) — ne pas doublonner | ✅ Via Alan |
 
 ### Nouvelles cibles identifiées (recherche web 27/07) — premier contact
 
 | Contact | École | Statut |
 |---|---|---|
-| `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS (British International School of Samui), Chaweng Noi | ✅ Envoyé 01/08 |
-| `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | ✅ Envoyé 01/08 |
-| `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | ✅ Envoyé 01/08 |
+| `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS (British International School of Samui), Chaweng Noi | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
+| `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
+| `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
 
 Écoles publiques thaïlandaises (angle bourses) : aucun contact vérifié trouvé — voir piste
 recommandée dans `brain/prospection-ecoles.md` section C.
@@ -82,8 +82,8 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 
 | Prospect | Score | Canal | Statut |
 |---|---|---|---|
-| Rugby School Thailand (Fondation Veraphan) | 76/100 | `enquiries@rugbyschool.ac.th` | ✅ Envoyé 01/08 |
-| Six Senses Samui (fonds de durabilité) | 59/100 | `reservations-samui@sixsenses.com` | ✅ Envoyé 01/08 |
+| Rugby School Thailand (Fondation Veraphan) | 76/100 | `enquiries@rugbyschool.ac.th` | ✅ Envoyé 28/07 (date corrigée — pas 01/08) — en attente |
+| Six Senses Samui (fonds de durabilité) | 59/100 | `reservations-samui@sixsenses.com` | ✅ Envoyé 28/07 (date corrigée — pas 01/08) — en attente |
 | Thai Rugby Union | 84/100 | ☎️ +66 2 215 3839 (pas d'email public) | 📞 Script d'appel prêt — à passer par Cyril |
 | Eddie Evans (Nak Suu Rugby Academy) | 83/100 | LinkedIn (pas d'email public) | 💬 Message LinkedIn prêt — à envoyer par Cyril |
 | Bangkok Airways | 66/100 | Formulaire site (pas d'email public confirmé) | 📝 Texte prêt pour formulaire — à soumettre par Cyril |
@@ -96,7 +96,7 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 
 | Cible | Zone | Affinité | Canal de contact | Statut |
 |---|---|---|---|---|
-| **BR Munns International** (groupe food, CEO Bradley Munns) | Bangkok / Samui | **Groupe qui possède Bondi (rugby live), SALT, The Cliff, The Palms, The Outback** — 1 contact = plusieurs bars sportifs | `Info@brmunnsinternational.com` (vérifié) · +66 80 519 3931 | ✅ **Envoyé 18/07** — suivi J+7 (~25/07) |
+| **BR Munns International** (groupe food, CEO Bradley Munns) | Bangkok / Samui | **Groupe qui possède Bondi (rugby live), SALT, The Cliff, The Palms, The Outback** — 1 contact = plusieurs bars sportifs | `Info@brmunnsinternational.com` (vérifié) · +66 80 519 3931 | 🤝 Envoyé 18/07 → **suivi J+7 réellement envoyé le 29/07** (idée concrète : Touch Rugby hebdo) — aucune réponse depuis. Prochaine relance ~J+21 (~19/08) seulement avec accord explicite de Cyril (déjà 1 relance faite) |
 | **George Clancy** — communauté rugby de l'île | Koh Samui | Contact rugby (rôle à confirmer par Cyril) | `george.clancy@gmail.com` (fourni par Cyril) | 🤝 **A répondu (positif) 18/07** — à l'étranger, RDV à caler à son retour **mi/fin août**. Relance de calage ~15/08 |
 | **Bondi Aussie Bar & Grill** | Chaweng | Diffuse le rugby en direct | Couvert via BR Munns (groupe) ci-dessus | 🔁 Via BR Munns |
 | **The Islander** | Chaweng | Sports pub, rugby EN/AUS/EU | Facebook / sur place | 🎯 À contacter (EN) |
@@ -122,8 +122,8 @@ Cibles à email public vérifié — brouillons signés envoyés depuis Gmail. S
 | Chameleon Production | Impression/maillots | `contact@chameleonproduction.com` | Partenaire kit & banderoles | ✅ Envoyé 19/07 |
 | Go Samui Catering | Catering | `eat@gosamuicatering.com` | Camps/corporate + référencement croisé | ✅ Envoyé 19/07 |
 | Kohi Coffee | Café | `events@kohicoffee.com` | Café aux événements/tournoi | ✅ Envoyé 19/07 |
-| Dive Point Samui | Plongée | `info@divepoint-samui.com` | Cross-promo familles/expats | ✅ Envoyé 19/07 |
-| Silent Divers | Plongée | `info@silentdivers.com` | Cross-promo familles/expats | ✅ Envoyé 19/07 |
+| Dive Point Samui | Plongée | `info@divepoint-samui.com` | Cross-promo familles/expats | ⚠️ **Marqué « envoyé 19/07 » par erreur — aucune trace dans Gmail (vérifié 05/08, aucun mail sortant vers cette adresse).** À renvoyer si Cyril confirme que l'email n'est jamais parti. |
+| Silent Divers | Plongée | `info@silentdivers.com` | Cross-promo familles/expats | ⚠️ **Marqué « envoyé 19/07 » par erreur — aucune trace dans Gmail (vérifié 05/08, aucun mail sortant vers cette adresse).** À renvoyer si Cyril confirme que l'email n'est jamais parti. |
 | SBC Insurance | Assurance | `apply@sbc-insurance.live` | RSE familles + cover académie | 🤝 **Envoyé 19/07 → Irene a répondu positivement le 21/07** (forte adhésion aux valeurs de l'académie) → Cyril a répondu le 24/07 → **en attente de la suite d'Irene** (rappel Superhuman du 01/08, pas de nouvelle réponse depuis) |
 | Think Safe Insurance | Assurance | `contact@thinksafeinternational.com` | RSE familles + cover académie | ✅ Envoyé 19/07 |
 | Rotary Club Samui & Phangan | Communauté | `Secretary@RotarySamui-Phangan.org` | Bourses + projets communautaires + réseau | ✅ Envoyé 19/07 |
@@ -148,7 +148,7 @@ Cibles sans emails publics — contact via Facebook Messenger ou WhatsApp. Broui
 | Cible | Zone | Canal | Angle | Statut |
 |---|---|---|---|---|
 | **La Guinguette** (patron : Seb) | Lamai (50m stadium) | FB / sur place (pas d'email public) | Partenaire local FR, proximité Koh's 33 | 🎯 Brouillon prêt FR |
-| **No Stress** (Pierre & Pannee) | Lamai Beach | ✉️ `peiauch.pierre@gmail.com` · FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | 🤝 Envoyé 01/08 → Pierre a répondu 03/08 : en parle à sa compagne le soir même, revient vers nous. En attente. |
+| **No Stress** (Pierre & Pannee) | Lamai Beach | ✉️ `peiauch.pierre@gmail.com` · FB @no.stress.restaurant.koh.samui | Partenariat familles FR, cross-promo Kids/Adults | 🤝 Envoyé 03/08 (date corrigée — pas 01/08) → Pierre a répondu le jour même : en parle à sa compagne le soir, revient vers nous. En attente. |
 | **Le Baobab** (Greg & Indy) | Lamai Beach | ✉️ `indy_jjj@hotmail.com` · +66 84 838 3040 | Beach club français (réserve après No Stress) | 🤝 **Envoyé 28/07 → Greg a répondu positivement le 28/07**, a donné son numéro (0848383040) et invite à l'appeler. Cyril a répondu le 01/08 : appellera **la semaine prochaine**. **En attente de l'appel de Cyril.** |
 
 ### Vague 3 — Sport, nutrition & santé (préparée 26/07)
@@ -161,12 +161,12 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 
 | Cible | Zone | Email | Angle | Statut |
 |---|---|---|---|---|
-| **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` | S&C + cross-promo, voisin du stade | ✅ Envoyé 01/08 |
-| **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` | Salle de quartier Lamai | ✅ Envoyé 01/08 |
-| **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` | Grosse salle, réseau athlètes | ✅ Envoyé 01/08 |
-| **Samui Pro Nutrition** | Chaweng | ✉️ `pronutritionthailand@gmail.com` | Nutrition sportive, dotation | ✅ Envoyé 01/08 |
-| **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE workshop14 | Maillots custom | ✅ Envoyé 01/08 |
-| **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` | Réserve — brouillon néanmoins prêt | ✅ Envoyé 01/08 |
+| **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` | S&C + cross-promo, voisin du stade | ✅ Envoyé 29/07 (date corrigée — pas 01/08) — en attente |
+| **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` | Salle de quartier Lamai | ✅ Envoyé 26/07 (date corrigée — pas 01/08) — en attente |
+| **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` | Grosse salle, réseau athlètes | ✅ Envoyé 26/07 (date corrigée — pas 01/08) — en attente |
+| **Samui Pro Nutrition** | Chaweng | ✉️ `pronutritionthailand@gmail.com` | Nutrition sportive, dotation | ✅ Envoyé 26/07 (date corrigée — pas 01/08) — en attente |
+| **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE workshop14 | Maillots custom | ✅ Envoyé 26/07 (date corrigée — pas 01/08) — en attente |
+| **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` | Réserve — brouillon néanmoins prêt | ✅ Envoyé 26/07 (date corrigée — pas 01/08) — en attente |
 
 **Sans email public → contact FB / téléphone / sur place**
 
@@ -199,6 +199,7 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 |---|---|
 | **Kumchai (avocat)** — `sungprapai_lawman@hotmail.com` | Dossier « ouverture de l'académie » de 07/2025, rendez-vous au IT Complex Lamai. Où en est le statut juridique ? Faut-il relancer ? |
 | Alerte « LCVIL Purchase reports » (`lockboxarecibo@gmail.com`, 07/2025) | Ressemble à du spam — à confirmer avant suppression manuelle (les agents ne suppriment jamais). |
+| **SBC Insurance — programme « affiliate »** (`office@sbc-insurance.live`, 24/07) | Deux mails automatiques distincts de l'échange sponsoring avec Irene : candidature à un programme d'affiliation acceptée (« Congratulations… application accepted »). Lien avec le partenariat en discussion `[À COMPLÉTER PAR CYRIL]` — à vérifier avant toute action (connexion au compte, etc.). |
 
 ## Règles de cadence (rappel du playbook)
 
