@@ -54,7 +54,7 @@ function touchPoster(dateFR, dateEN) {
       <div class="display" style="font-size:150px; color:${SAND}; margin-top:-14px;">Rugby</div>
 
       <div class="pill" style="background:#ffffff; color:${INK}; font-size:44px; padding:20px 48px; margin-top:36px;">${dateFR}</div>
-      <div style="font-size:30px; font-weight:700; color:${INK}; opacity:0.75; margin-top:16px;">${dateEN}</div>
+      <div style="font-size:30px; font-weight:700; color:#ffffff; text-shadow:0 1px 10px rgba(0,72,72,0.45); margin-top:16px;">${dateEN}</div>
 
       <div class="display" style="font-size:96px; color:#ffffff; margin-top:34px;">19:00 – 20:30</div>
       <div style="font-size:32px; font-weight:700; margin-top:20px;">📍 Koh's 33 Stadium · Lamai</div>
