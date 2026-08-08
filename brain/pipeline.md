@@ -203,13 +203,10 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 | **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) | `info@maraleina.com` · +66 77 233 888 · LINE lin.ee/1aZso7B · WhatsApp wa.me/+66801694276 | ⛔ **Refus reçu par email le 04/08** (Bim, Reservation Team) : « unable to offer our facilities for recurring academy sessions or external academy operations » — pas de tarif récurrent, pas de demi-terrain, pas d'usage académie régulier. **Un brouillon de réponse existe déjà sur ce fil (créé 04/08, non envoyé) — à relire dans Gmail.** Cyril a mentionné avoir reçu une autre réponse (WhatsApp/LINE ?) — `[À COMPLÉTER PAR CYRIL]` si elle apporte du nouveau. |
 | **PSG Academy Samui** | Académie de foot (Chaweng) opérant sur le site Maraleina | +66 910360361 · psgacademysamui.com · FB/IG @psgacademysamui | 🤝 Contacté sur Instagram 18/07 (sans réponse) → **relance envoyée par WhatsApp le 08/08** (disponibilités + conditions de location du terrain) — en attente de réponse |
 
-> **Tarifs Maraleina reçus le 19/07 (terrain gazon naturel 11-a-side, min. 1h)** :
-> - Sans éclairage (7h–18h) : **6 475 THB/h**
-> - Avec éclairage (18h–21h) : **7 650 THB/h**
-> Cyril a relancé le 01/08 pour demander un **tarif récurrent** (créneau hebdo fixe) et la
-> possibilité d'un **demi-terrain** pour les petits groupes — **réponse toujours attendue**.
-> Prochaine étape : caler une **visite du site** (date à choisir par Cyril) une fois ces points
-> clarifiés.
+> **Tarifs Maraleina reçus le 19/07** (terrain gazon naturel 11-a-side, min. 1h) — **caducs
+> depuis le refus du 04/08** (pas d'usage académie récurrent) : sans éclairage 6 475 THB/h,
+> avec éclairage (18h–21h) 7 650 THB/h. Restait valable uniquement pour une **location ponctuelle
+> classique** (non académie), si Cyril veut explorer cette option malgré le refus.
 
 ## ❓ À clarifier avec Cyril
 
@@ -218,6 +215,7 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 | **Kumchai (avocat)** — `sungprapai_lawman@hotmail.com` | Dossier « ouverture de l'académie » de 07/2025, rendez-vous au IT Complex Lamai. Où en est le statut juridique ? Faut-il relancer ? |
 | Alerte « LCVIL Purchase reports » (`lockboxarecibo@gmail.com`, 07/2025) | Ressemble à du spam — à confirmer avant suppression manuelle (les agents ne suppriment jamais). |
 | **SBC Insurance — programme « affiliate »** (`office@sbc-insurance.live`, 24/07) | Deux mails automatiques distincts de l'échange sponsoring avec Irene : candidature à un programme d'affiliation acceptée (« Congratulations… application accepted »). Lien avec le partenariat en discussion `[À COMPLÉTER PAR CYRIL]` — à vérifier avant toute action (connexion au compte, etc.). |
+| **7 emails auto-envoyés à toi-même le 08/08** (bug outil sur les brouillons de relance J+7) | En créant les 12 brouillons de relance en réponse aux fils existants, un bug a fait partir 7 d'entre eux (ISS, IFDS, Greenacre, Oonrak, Star Gym, Samui Pro Nutrition, Workshop Sport Design) comme de vrais emails **adressés à `coconutrugbyacademy@gmail.com` lui-même** — aucune cible externe n'a rien reçu, mais ces 7 messages traînent dans la boîte (Sent + Inbox). Les 12 relances ont été **recréées proprement en brouillon** (bons destinataires, vérifiés). Tu peux archiver/supprimer ces 7 messages parasites quand tu veux — aucun outil agent ne peut le faire à ta place. |
 
 ## Règles de cadence (rappel du playbook)
 
