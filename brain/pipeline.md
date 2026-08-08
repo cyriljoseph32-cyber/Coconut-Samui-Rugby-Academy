@@ -19,18 +19,18 @@
 
 | Contact | École | Prochaine action | Statut |
 |---|---|---|---|
-| `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
-| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
-| `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
+| `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | 🤝 Envoyé 27/07 — sans réponse → **2e relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
+| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | 🤝 Envoyé 27/07 — sans réponse → **2e relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
+| `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | 🤝 Envoyé 27/07 — sans réponse → **2e relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
 | `info@lis.ac.th` | Lamai International School | Couverte par le contact direct Alan (ci-dessus) — ne pas doublonner | ✅ Via Alan |
 
 ### Nouvelles cibles identifiées (recherche web 27/07) — premier contact
 
 | Contact | École | Statut |
 |---|---|---|
-| `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS (British International School of Samui), Chaweng Noi | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
-| `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
-| `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | ✅ Envoyé 27/07 (date corrigée — pas 01/08) — en attente |
+| `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS (British International School of Samui), Chaweng Noi | 🤝 Envoyé 27/07 — sans réponse → **relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
+| `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | 🤝 Envoyé 27/07 — sans réponse → **relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
+| `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | 🤝 Envoyé 27/07 — sans réponse → **relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
 
 Écoles publiques thaïlandaises (angle bourses) : aucun contact vérifié trouvé — voir piste
 recommandée dans `brain/prospection-ecoles.md` section C.
@@ -82,8 +82,8 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 
 | Prospect | Score | Canal | Statut |
 |---|---|---|---|
-| Rugby School Thailand (Fondation Veraphan) | 76/100 | `enquiries@rugbyschool.ac.th` | ✅ Envoyé 28/07 (date corrigée — pas 01/08) — en attente |
-| Six Senses Samui (fonds de durabilité) | 59/100 | `reservations-samui@sixsenses.com` | ✅ Envoyé 28/07 (date corrigée — pas 01/08) — en attente |
+| Rugby School Thailand (Fondation Veraphan) | 76/100 | `enquiries@rugbyschool.ac.th` | 🤝 Envoyé 28/07 — sans réponse → **relance en brouillon Gmail depuis le 05/08, à valider** |
+| Six Senses Samui (fonds de durabilité) | 59/100 | `reservations-samui@sixsenses.com` | 🤝 Envoyé 28/07 — sans réponse → **relance en brouillon Gmail depuis le 05/08, à valider** |
 | Thai Rugby Union | 84/100 | ☎️ +66 2 215 3839 (pas d'email public) | 📞 Script d'appel prêt — à passer par Cyril |
 | Eddie Evans (Nak Suu Rugby Academy) | 83/100 | LinkedIn (pas d'email public) | 💬 Message LinkedIn prêt — à envoyer par Cyril |
 | Bangkok Airways | 66/100 | Formulaire site (pas d'email public confirmé) | 📝 Texte prêt pour formulaire — à soumettre par Cyril |
@@ -161,12 +161,24 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 
 | Cible | Zone | Email | Angle | Statut |
 |---|---|---|---|---|
-| **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` | S&C + cross-promo, voisin du stade | ✅ Envoyé 29/07 (date corrigée — pas 01/08) — en attente |
-| **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` | Salle de quartier Lamai | ✅ Envoyé 26/07 (date corrigée — pas 01/08) — en attente |
-| **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` | Grosse salle, réseau athlètes | ✅ Envoyé 26/07 (date corrigée — pas 01/08) — en attente |
-| **Samui Pro Nutrition** | Chaweng | ✉️ `pronutritionthailand@gmail.com` | Nutrition sportive, dotation | ✅ Envoyé 26/07 (date corrigée — pas 01/08) — en attente |
-| **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE workshop14 | Maillots custom | ✅ Envoyé 26/07 (date corrigée — pas 01/08) — en attente |
-| **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` | Réserve — brouillon néanmoins prêt | ✅ Envoyé 26/07 (date corrigée — pas 01/08) — en attente |
+| **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` | S&C + cross-promo, voisin du stade | 🤝 Envoyé 29/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
+| **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` | Salle de quartier Lamai | 🤝 Envoyé 26/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
+| **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` | Grosse salle, réseau athlètes | 🤝 Envoyé 26/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
+| **Samui Pro Nutrition** | Chaweng | ✉️ `pronutritionthailand@gmail.com` | Nutrition sportive, dotation | 🤝 Envoyé 26/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
+| **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE workshop14 | Maillots custom | 🤝 Envoyé 26/07 — sans réponse → **relance en brouillon Gmail depuis le 08/08, à valider** |
+| **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` | Réserve — brouillon néanmoins prêt | 🤝 Envoyé 26/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
+
+**Sans email public → à contacter par Cyril (FB / téléphone / sur place, jamais par nous)**
+
+| Cible | Zone | Canal | Angle |
+|---|---|---|---|
+| **Lamai Fitness Retreat** | Lamai | `lamaifitnessretreat.com` (formulaire) · FB | Clientèle expat/familles, même zone que le stade |
+| **Samui Health Shop by Lamphu** | Lamai | ☎️ +66 96 634 8752 · FB `/samuihealthshop` | Santé/familles, proximité |
+| **Supersports** (Central Festival) | Bophut | Sur place — demander le responsable | Enseigne nationale → dotation ballons/maillots |
+| **Samui Physio Clinic** | Bophut | FB · IG · WhatsApp · linktr.ee/samuiphysioclinic | Référent physio + crédibilité sécurité |
+| **Physio on Samui** | Chaweng (Samui Intl Hospital) | FB `/physiotherapyonsamui` | Réserve — physio hôpital |
+
+> Détail des accroches/modèles par cible : `brain/prospection-vague3-sport-sante.md`.
 
 **Sans email public → contact FB / téléphone / sur place**
 
@@ -188,7 +200,7 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 
 | Cible | Rôle | Contact vérifié | Statut |
 |---|---|---|---|
-| **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) — c'est l'interlocuteur pour **louer un terrain** | `info@maraleina.com` · +66 77 233 888 · LINE lin.ee/1aZso7B · WhatsApp wa.me/+66801694276 | 🤝 **Réponse de Cyril envoyée 19/07** (demande de visite du site) → **relance envoyée 01/08** (tarif récurrent + demi-terrain, cf. ci-dessous) — **en attente de leur réponse** |
+| **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) | `info@maraleina.com` · +66 77 233 888 · LINE lin.ee/1aZso7B · WhatsApp wa.me/+66801694276 | ⛔ **Refus reçu par email le 04/08** (Bim, Reservation Team) : « unable to offer our facilities for recurring academy sessions or external academy operations » — pas de tarif récurrent, pas de demi-terrain, pas d'usage académie régulier. **Un brouillon de réponse existe déjà sur ce fil (créé 04/08, non envoyé) — à relire dans Gmail.** Cyril a mentionné avoir reçu une autre réponse (WhatsApp/LINE ?) — `[À COMPLÉTER PAR CYRIL]` si elle apporte du nouveau. |
 | **PSG Academy Samui** | Académie de foot (Chaweng) opérant sur le site Maraleina | +66 910360361 · psgacademysamui.com · FB/IG @psgacademysamui | 🤝 Contacté sur Instagram 18/07 (sans réponse) → **relance envoyée par WhatsApp le 08/08** (disponibilités + conditions de location du terrain) — en attente de réponse |
 
 > **Tarifs Maraleina reçus le 19/07 (terrain gazon naturel 11-a-side, min. 1h)** :
