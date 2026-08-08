@@ -189,7 +189,7 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 | Cible | Rôle | Contact vérifié | Statut |
 |---|---|---|---|
 | **Maraleina Sports Resort** (Bangkao) | **Exploitant des terrains** où s'entraîne PSG Academy Samui (pelouse naturelle UEFA, synthétique, 7 & 11 aside, beach) — c'est l'interlocuteur pour **louer un terrain** | `info@maraleina.com` · +66 77 233 888 · LINE lin.ee/1aZso7B · WhatsApp wa.me/+66801694276 | 🤝 **Réponse de Cyril envoyée 19/07** (demande de visite du site) → **relance envoyée 01/08** (tarif récurrent + demi-terrain, cf. ci-dessous) — **en attente de leur réponse** |
-| **PSG Academy Samui** | Académie de foot (Chaweng) opérant sur le site Maraleina | +66 910360361 · psgacademysamui.com · FB/IG @psgacademysamui | ✅ **Contacté sur Instagram 18/07** — en attente de réponse |
+| **PSG Academy Samui** | Académie de foot (Chaweng) opérant sur le site Maraleina | +66 910360361 · psgacademysamui.com · FB/IG @psgacademysamui | 🤝 Contacté sur Instagram 18/07 (sans réponse) → **relance envoyée par WhatsApp le 08/08** (disponibilités + conditions de location du terrain) — en attente de réponse |
 
 > **Tarifs Maraleina reçus le 19/07 (terrain gazon naturel 11-a-side, min. 1h)** :
 > - Sans éclairage (7h–18h) : **6 475 THB/h**
