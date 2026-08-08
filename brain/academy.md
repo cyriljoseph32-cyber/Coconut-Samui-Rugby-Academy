@@ -115,5 +115,5 @@ Koh Samui, province de Surat Thani, Thaïlande.
 - [ ] Activation FormSubmit (premier envoi + clic « Activate » dans l'email reçu)
 - [ ] Domaine définitif dans `site.ts`, `astro.config.mjs`, `robots.txt`
 - [ ] GA4 + Microsoft Clarity (stubs commentés dans `src/layouts/Base.astro`)
-- [ ] Dates de camps, vraies photos galerie, bios coachs
+- [ ] Dates de camps, bios coachs — **4 vraies photos reçues le 08/08** (`brain/marketing-assets/real-photos/`), consentement parental à confirmer avant intégration à la gallery
 - [ ] Google Business Profile + Search Console

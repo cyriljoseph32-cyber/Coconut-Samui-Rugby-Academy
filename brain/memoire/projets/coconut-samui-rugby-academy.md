@@ -51,6 +51,13 @@
   réponses aux emails envoyés le 01/08, et vérification que les 4 envois textile sont bien
   partis lundi 8h.
 
+## Actifs récents
+
+- **4 vraies photos de séances** reçues de Cyril le 08/08/2026 (coach + jeune joueur, échauffement
+  plage bear crawl, ados garçons et filles sur le terrain) — `brain/marketing-assets/real-photos/`.
+  Premières vraies photos de l'académie (le site n'affichait que des tuiles de marque). **Accord
+  parental à confirmer avant toute publication** (site `gallery.astro`, Instagram, Facebook).
+
 ## Pièges connus
 
 - Ne jamais inventer tarifs/horaires/dates : pas encore publiés.
