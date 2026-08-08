@@ -178,6 +178,12 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 | **Samui Physio Clinic** | Bophut | FB · IG · WhatsApp · linktr.ee/samuiphysioclinic | Référent physio + crédibilité sécurité | 🎯 À contacter (FB/WhatsApp) |
 | **Physio on Samui** | Chaweng | FB `/physiotherapyonsamui` | Réserve — physio hôpital | 🎯 Réserve (FB) |
 
+## 🌏 Réseau rugby régional — tournois extérieurs
+
+| Contact | Événement | Dernier échange | Statut |
+|---|---|---|---|
+| **Jacob** — Phuket Mixed Touch Rugby (WhatsApp `phukettouchrugby`) | **Phuket Mixed 3 Touch Rugby Tournament** — samedi **7 novembre 2026**, Alan Cooke Ground (Phuket). 6 000 THB/équipe, mixed 6-a-side, squad max 14 (1 joueuse + 1 inclusion sur le terrain), food/drink/music. Contact organisateur +44 7861 507232. | Invitation reçue par WhatsApp → **Cyril a répondu 08/08 : "count us in, I will talk to the team"** (accord de principe, pas encore confirmé formellement) | 🤝 Accord de principe 08/08 — événement posé au calendrier, **à confirmer** : composition équipe, inscription, logistique déplacement Phuket |
+
 ## 🏟️ Logistique — location de terrain
 
 | Cible | Rôle | Contact vérifié | Statut |
