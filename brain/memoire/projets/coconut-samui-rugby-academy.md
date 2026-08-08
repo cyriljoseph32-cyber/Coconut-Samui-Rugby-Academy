@@ -10,7 +10,8 @@
   Adults Touch (18+) · Corporate Team-Building.
 - https://coconutsamuirugby.com · Instagram @coconut_samui_rugby ·
   WhatsApp +66 63 375 3316 · coconutrugbyacademy@gmail.com
-- Lieux d'entraînement : Koh's 33 Stadium (Lamai) · PSG Academy (Chaweng).
+- Lieux d'entraînement : Koh's 33 Stadium (Lamai). PSG Academy (Chaweng) retiré le 08/08
+  (décision de Cyril, partenariat terrain non confirmé — cf. `brain/pipeline.md`).
 
 ## Stack & déploiement
 

@@ -69,7 +69,7 @@ coconutsamuirugby.com (programmes), WhatsApp et Instagram — c'est ce qui relie
 > and Teens (11–17) learn contact progressively, technique first. Coaching is in English and French.
 >
 > The quickest way to book the trial is WhatsApp: **+66 63 375 3316** — just tell us your child's
-> age and we'll confirm the next session at Koh's 33 Stadium (Lamai) or PSG Academy (Chaweng).
+> age and we'll confirm the next session at Koh's 33 Stadium (Lamai).
 >
 > Bring water, trainers and sunscreen — we provide the rest. See you on the pitch!
 >
@@ -88,7 +88,7 @@ coconutsamuirugby.com (programmes), WhatsApp et Instagram — c'est ce qui relie
 > progressivement, la technique d'abord. Le coaching est bilingue français/anglais.
 >
 > Le plus simple pour réserver : WhatsApp **+66 63 375 3316** — indiquez-nous l'âge de votre
-> enfant et nous confirmons la prochaine séance (Koh's 33 Stadium à Lamai ou PSG Academy à Chaweng).
+> enfant et nous confirmons la prochaine séance (Koh's 33 Stadium à Lamai).
 >
 > Prévoyez eau, baskets et crème solaire — nous fournissons le reste. À très vite sur le terrain !
 >

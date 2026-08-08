@@ -157,7 +157,7 @@ récupérer avant tout envoi, jamais d'email deviné) :
 - **Banques** (RSE locale) : Bangkok Bank, Kasikornbank (KBank), SCB, Krungsri — agences Samui
 - **Télécom** : AIS, True, dtac — boutiques de l'île
 - **Transport inter-îles & air** : Bangkok Airways (opère l'aéroport de Samui), Seatran / Raja / Lomprayah (ferries) — déplacements camps/tournois
-- **Muay Thai & autres sports** : camps Muay Thai, wakeboard, sailing, PSG Academy (foot, déjà contact terrain) — cross-promo sportive
+- **Muay Thai & autres sports** : camps Muay Thai, wakeboard, sailing — cross-promo sportive
 - **Bien-être & spa**, **dentistes**, **opticiens**, **pharmacies** — santé/famille
 - **Automobile** (concessions Toyota/Honda/Isuzu Samui), **hardware/construction** (HomePro, Thai Watsadu)
 - **Juridique & comptable** (dont Kumchai, déjà connu de Cyril) — services + réseau

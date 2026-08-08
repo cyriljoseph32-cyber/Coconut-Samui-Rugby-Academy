@@ -17,7 +17,7 @@ Ce dépôt contient deux choses :
 | WhatsApp | +66 63 375 3316 (`wa.me/66633753316`) |
 | Email | coconutrugbyacademy@gmail.com |
 | Instagram | [@coconut_samui_rugby](https://www.instagram.com/coconut_samui_rugby) |
-| Lieux | Koh's 33 Stadium (Lamai) · PSG Academy (Chaweng) — Koh Samui, Thaïlande |
+| Lieux | Koh's 33 Stadium (Lamai) — Koh Samui, Thaïlande |
 | Coaching | Bilingue français / anglais |
 | Programmes | Kids (4–10) · Teens (11–17) · Adults Touch (18+) · Corporate Team-Building |
 

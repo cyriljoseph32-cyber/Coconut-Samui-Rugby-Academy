@@ -24,9 +24,12 @@
 ## Lieux d'entraînement
 
 1. **Koh's 33 Stadium — Lamai** (terrain principal)
-2. **PSG Academy — Chaweng**
 
 Koh Samui, province de Surat Thani, Thaïlande.
+
+> PSG Academy (Chaweng) retiré des lieux affichés le 08/08 — décision de Cyril, le partenariat
+> terrain n'est pas confirmé (cf. `brain/pipeline.md`, logistique terrain). À réintégrer si la
+> situation se clarifie.
 
 ## Programmes
 
