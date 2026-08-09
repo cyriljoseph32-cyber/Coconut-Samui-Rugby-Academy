@@ -164,7 +164,7 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 | **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` | S&C + cross-promo, voisin du stade | 🤝 Envoyé 29/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
 | **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` | Salle de quartier Lamai | 🤝 Envoyé 26/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
 | **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` | Grosse salle, réseau athlètes | 🤝 Envoyé 26/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
-| **Samui Pro Nutrition** | Chaweng | ✉️ `pronutritionthailand@gmail.com` | Nutrition sportive, dotation | 🤝 Envoyé 26/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
+| ~~Samui Pro Nutrition~~ | Chaweng | ✉️ `pronutritionthailand@gmail.com` | Nutrition sportive, dotation | ⛔ Envoyé 26/07 → relance envoyée par Cyril (validée 09/08) → **réponse reçue 09/08 (admin@pronutritionthailand.com) : décline poliment, focus sur leur expansion nationale, garde la porte ouverte si leur situation change.** Clos — aucune relance supplémentaire. |
 | **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE workshop14 | Maillots custom | 🤝 Envoyé 26/07 — sans réponse → **relance en brouillon Gmail depuis le 08/08, à valider** |
 | **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` | Réserve — brouillon néanmoins prêt | 🤝 Envoyé 26/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
 
