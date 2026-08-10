@@ -8,6 +8,12 @@
 > n'existe, le canal (Facebook / WhatsApp / formulaire / sur place) est indiqué — **ne jamais
 > deviner d'adresse**. Le suivi des approches (envoyé / répondu) est tenu dans `brain/pipeline.md`.
 > Priorité : ⭐⭐⭐ forte affinité rugby/marque · ⭐⭐ bon fit · ⭐ opportuniste.
+>
+> **Batch de recherche 09/08/2026** (45 prospects scorés, agent externe) intégré ci-dessous —
+> nouvelles cibles ajoutées, doublons avec l'existant fusionnés (statut réel = celui du
+> `pipeline.md`, pas celui du batch). Le fichier `prospects_partenaires_koh_samui.csv` cité par
+> le batch n'a pas été reçu par les agents — seules la shortlist top 30 et les 5 cibles à email
+> vérifié ont pu être intégrées. Zones/catégories encore à creuser (batch 2) : voir section O.
 
 ## A. Bars sportifs & restauration — ⭐⭐⭐ (affinité rugby directe)
 
@@ -40,7 +46,7 @@
 |---|---|---|---|
 | **Supersports** (Central Festival Samui) | Bophut | via Central Festival — enseigne sport nationale (pas d'email local) | 🎯 À contacter (dotation/visibilité) |
 | **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE `workshop14` · +66 93 642 9645 | 🎯 À contacter (Vague 3) |
-| **Samui Pro Nutrition** | Chaweng (chez Elite Gym) | ✉️ `pronutritionthailand@gmail.com` · +66 82 112 7321 · FB `/samuipronutrition` | 🎯 À contacter (Vague 3) |
+| ~~Samui Pro Nutrition~~ | Chaweng (chez Elite Gym) | ✉️ `pronutritionthailand@gmail.com` · +66 82 112 7321 · FB `/samuipronutrition` | ⛔ Contacté puis relancé — a décliné le 09/08 (focus expansion nationale), voir pipeline |
 | **Samui Health Shop by Lamphu** | Lamai | `samuihealthshop.com` (formulaire) · +66 96 634 8752 · FB `/samuihealthshop` | 🎯 À contacter (pas d'email public) |
 
 ## D. Santé & sport (physio, cliniques) — ⭐⭐ (partenaire en nature, crédibilité)
@@ -77,6 +83,8 @@
 | **Samui Multimedia** | Web, graphisme, impression (depuis 2005) | `samui-multimedia.com` | 🎯 À contacter |
 | **Zupa Print** | Impression t-shirts | `zupaprint.com` | 🎯 Réserve |
 | **Samui Times** | Média (FB 24k+) | FB `/SamuiTimes` | 🎯 Relations presse |
+| **KohSamuiPhoto.com** | Photographe événementiel | ✉️ `contact@kohsamuiphoto.com` | 🎯 À contacter *(ajouté 09/08, email vérifié)* |
+| **Pui — Koh Samui Photography** | Photographe événementiel | ✉️ `pui@kohsamuiphotography.com` · IG `@kohsamuiphotography` | 🎯 À contacter *(ajouté 09/08, email vérifié)* |
 | **What's on Samui / Samui Express** · **Samui Wining & Dining** (Siam Map) · **Samui to the World** (annuaire) | Médias & annuaires locaux | sites / FB | 🎯 Visibilité |
 
 ## H. Assurance & finance — ⭐⭐ (RSE, sécurité familles)
@@ -105,14 +113,17 @@
 | **Silent Divers** | `info@silentdivers.com` · +66 81 933 6641 | 🎯 À contacter |
 | **Discovery Divers** (Amari) | `discoverydivers.com` · FB | 🎯 À contacter |
 | **Samui Go-Kart**, **Pink Elephant Water Park**, **Paradise Park Farm**, **Samui Canopy Adventure** | sites / FB | ⭐ Cross-promo famille |
+| **Coco Splash Water Park** · **Chaweng Aquapark** · **Escape Break** (Beach Republic) | sites / FB — à vérifier *(ajouté 09/08)* | ⭐ Cross-promo famille (flyers croisés) |
 
 ## K. Hôtels & resorts — ⭐⭐ (clients corporate team-building + visibilité)
 
 | Établissement | Zone | Contact vérifié |
 |---|---|---|
 | **Amari Koh Samui** | Chaweng | +66 7730 0306 |
-| **Holiday Inn Resort Samui** | Bophut | `holidayinnsamui.com` |
+| **Holiday Inn Resort Samui** | Bophut | `holidayinnsamui.com` — kids club, angle séjour-découverte famille |
 | **Four Seasons** · **Anantara Bophut** · **Santiburi** | Samui | sites officiels |
+| **Kimpton Kitalay Samui** | Samui | site officiel — kids club/playground, angle séjour-découverte *(ajouté 09/08)* |
+| **Melia Koh Samui Resort** | Samui | site officiel — angle séjour-découverte famille *(ajouté 09/08)* |
 
 ## L. Immobilier & services expat — ⭐ (budgets marketing/RSE)
 
@@ -145,10 +156,30 @@
 | **PBISS** (British International School of Samui) | `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | ✅ Brouillon premier contact créé 27/07 |
 | **Windfield International School** | `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | ✅ Brouillon premier contact créé 27/07 |
 | **Oonrak Koh Samui School** | `info@oonraksamui.ac.th` · ☎️ 077 332 040 | ✅ Brouillon premier contact créé 27/07 |
+| **PanyaDee British International School** | Contact à vérifier — culture rugby britannique | 🎯 À contacter *(ajouté 09/08)* |
+| **Samui Centre of Learning** | Contact à vérifier | 🎯 À contacter *(ajouté 09/08)* |
+
+## O. Padel & clubs sportifs — ⭐⭐ (public sportif actif, cross-promo) — *ajouté 09/08*
+
+| Établissement | Zone | Contact vérifié | Statut |
+|---|---|---|---|
+| **Padel Paradise Lamai** | Lamai | ✉️ `contact@padellamai.com` · `padellamai.com` | 🎯 À contacter (cross-promo flyers/réductions) |
+| **Padel Samui / Padel & Play in Paradise** | Samui | ✉️ `info@padelsamui.com` · `padelsamui.com` | 🎯 À contacter |
+| **Padel Tropical Club** | Samui | Téléphone vérifié `[À COMPLÉTER]` | 🎯 À contacter |
+| **Bantai Padel Samui** | Samui | Site/IG à vérifier | 🎯 Réserve |
+| **Lamai Football Club** | Lamai | Site/FB à vérifier — a déjà une academy enfants | 🎯 À contacter (mini-tournoi multisports) |
+| **FAN — Football for All Nations** | Samui | Site/FB à vérifier | 🎯 À contacter (location terrain événement) |
+| **Samui United F.C.** | Samui | Site/FB à vérifier | 🎯 À contacter (partenariat inter-clubs) |
+| **Samui Cobras F.C.** | Samui | Site/FB à vérifier | 🎯 À contacter |
+| **Samui Boxing Stadium** | Samui | Site/FB à vérifier | 🎯 À contacter (affichage croisé) |
+| **Punch It Gym** (Muay Thai/fitness) | Samui | Site/FB à vérifier | 🎯 À contacter |
+
+> Contacts encore à vérifier individuellement (site/téléphone à jour) avant tout envoi — le
+> batch du 09/08 les a scorés mais pas encore validés un par un. Ne pas deviner d'email.
 
 ---
 
-## O. « N'exclure personne » — catégories restantes à démarcher
+## P. « N'exclure personne » — catégories restantes à démarcher
 
 Cibles pertinentes pour une académie de rugby, à identifier au fil de l'eau (contacts à
 récupérer avant tout envoi, jamais d'email deviné) :
@@ -157,12 +188,19 @@ récupérer avant tout envoi, jamais d'email deviné) :
 - **Banques** (RSE locale) : Bangkok Bank, Kasikornbank (KBank), SCB, Krungsri — agences Samui
 - **Télécom** : AIS, True, dtac — boutiques de l'île
 - **Transport inter-îles & air** : Bangkok Airways (opère l'aéroport de Samui), Seatran / Raja / Lomprayah (ferries) — déplacements camps/tournois
-- **Muay Thai & autres sports** : camps Muay Thai, wakeboard, sailing — cross-promo sportive
+- **Autres sports** : wakeboard, sailing — cross-promo sportive (Muay Thai désormais couvert, section O)
 - **Bien-être & spa**, **dentistes**, **opticiens**, **pharmacies** — santé/famille
 - **Automobile** (concessions Toyota/Honda/Isuzu Samui), **hardware/construction** (HomePro, Thai Watsadu)
 - **Juridique & comptable** (dont Kumchai, déjà connu de Cyril) — services + réseau
-- **Photographes / vidéastes** événementiels — captation camps/tournois (partenariat en nature)
 - **Supérettes, boulangeries, glaciers** de quartier proches des terrains (Lamai/Chaweng) — micro-sponsors de proximité
+- **Beach clubs** (au-delà d'Escape Break/Beach Republic) — non recherché spécifiquement
+- **Crèches** (hors écoles internationales) — non recherché
+- **Agences marketing/médias locales** (au-delà des photographes) — non recherché
+
+**Zones géographiques non couvertes** (batch 09/08, à faire en batch 2) : Bangrak, Nathon, Lipa
+Noi, Taling Ngam — aucune recherche dédiée. Zones déjà couvertes : Lamai, Chaweng, Bophut/Fisherman's,
+Choeng Mon. Objectif du batch 2 : élargir vers 100 prospects puis vérifier chacun individuellement
+(site/téléphone à jour) avant tout envoi — non fait à ce stade pour les nouvelles cibles ci-dessus.
 
 ## Comment attaquer (recommandation)
 

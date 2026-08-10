@@ -8,7 +8,7 @@
 
 | Contact | Type | Dernier échange | Prochaine action | Statut |
 |---|---|---|---|---|
-| **Alan** — `alan@lis.ac.th` (prof EPS, Lamai International School) | Partenariat école | **2026-07-20 (a répondu, positif)** | Il rentre à Samui le **20/08** et appellera une fois installé (« cake & coffee »). Brouillon d'accusé prêt dans Gmail. **Relance si pas de nouvelles ~25/08.** Prévoir séance découverte à l'école (nouveau trimestre). | 🤝 Réponse positive 20/07 |
+| **Alan Proudfoot** — `alan@lis.ac.th` (prof EPS, Lamai International School) | Partenariat école | **2026-07-20 (a répondu, positif)** | Il rentre à Samui le **20/08** et appellera une fois installé (« cake & coffee »). Brouillon d'accusé prêt dans Gmail. **Relance si pas de nouvelles ~25/08.** Prévoir séance découverte à l'école (nouveau trimestre). | 🤝 Réponse positive 20/07 |
 | ~~Danielle Perchard~~ — `danielleperchard@hotmail.com` (3 garçons, 4/5/7 ans à l'inquiry initiale) | Lead parents | Reprise de contact envoyée 01/08 → **Danielle a répondu le 03/08 : elle ne vit plus à Samui, nous souhaite bonne chance.** | Aucune — lead non convertible (a quitté l'île). | ⛔ Clos (partie de l'île) |
 | **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (réponse tardive de Cyril à l'inquiry initiale de 09/2025) → suivi J+7 réellement envoyé le 29/07 (date corrigée après vérification Gmail — l'entrée précédente indiquait 01/08 par erreur)** | Aucune réponse depuis. Prochaine relance possible ~J+21 (~19/08) si accord de Cyril (déjà 1 relance envoyée). | ✅ Envoyé 29/07 — en attente |
 
