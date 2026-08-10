@@ -150,13 +150,12 @@
 | École | Contact | Statut |
 |---|---|---|
 | **ISS** (International School of Samui) | `HRmanager@iss.ac.th` | ✅ Brouillon relance créé 27/07 (pipeline) |
-| **Greenacre School** | `info@greenacre.ac.th` | ✅ Brouillon relance créé 27/07 (pipeline) |
+| **Greenacre School** | `info@greenacre.ac.th` | 🤝 Réponse positive 10/08, en attente du Head of School (pipeline) |
 | **IFDS** (école française) | `contact@ifds.pw` | ✅ Brouillon relance créé 27/07 (pipeline) |
 | **Lamai International School** | via Alan (`alan@lis.ac.th`) | Réponse positive 20/07 (pipeline) |
-| **PBISS** (British International School of Samui) | `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | ✅ Brouillon premier contact créé 27/07 |
+| **PBISS = PanyaDee British International School** (Chaweng Noi/Bo Phut) | `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 · `panyadee.ac.th` | 🤝 Relancé — réponse 10/08, en attente (pipeline) |
 | **Windfield International School** | `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | ✅ Brouillon premier contact créé 27/07 |
 | **Oonrak Koh Samui School** | `info@oonraksamui.ac.th` · ☎️ 077 332 040 | ✅ Brouillon premier contact créé 27/07 |
-| **PanyaDee British International School** | Contact à vérifier — culture rugby britannique | 🎯 À contacter *(ajouté 09/08)* |
 | **Samui Centre of Learning** | Contact à vérifier | 🎯 À contacter *(ajouté 09/08)* |
 
 ## O. Padel & clubs sportifs — ⭐⭐ (public sportif actif, cross-promo) — *ajouté 09/08*

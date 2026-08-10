@@ -20,7 +20,7 @@
 | Contact | École | Prochaine action | Statut |
 |---|---|---|---|
 | `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | 🤝 Envoyé 27/07 — sans réponse → **2e relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
-| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | 🤝 Envoyé 27/07 — sans réponse → **2e relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
+| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | 🤝 Envoyé 27/07 → relance envoyée 10/08 → **réponse positive 10/08 : « sounds like a fantastic initiative », le Head of School va prendre contact.** En attente qu'ils reviennent vers nous. |
 | `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | 🤝 Envoyé 27/07 — sans réponse → **2e relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
 | `info@lis.ac.th` | Lamai International School | Couverte par le contact direct Alan (ci-dessus) — ne pas doublonner | ✅ Via Alan |
 
@@ -28,7 +28,7 @@
 
 | Contact | École | Statut |
 |---|---|---|
-| `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS (British International School of Samui), Chaweng Noi | 🤝 Envoyé 27/07 — sans réponse → **relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
+| `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS = **PanyaDee British International School**, Chaweng Noi (Bo Phut) — même établissement, `panyadee.ac.th` | 🤝 Envoyé 27/07 → relance envoyée 10/08 → **réponse 10/08 (Katy, Admissions) : transmet au département concerné, reviendra vers nous.** En attente. |
 | `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | 🤝 Envoyé 27/07 — sans réponse → **relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
 | `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | 🤝 Envoyé 27/07 — sans réponse → **relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
 
