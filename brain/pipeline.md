@@ -30,7 +30,7 @@
 |---|---|---|
 | `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS = **PanyaDee British International School**, Chaweng Noi (Bo Phut) — même établissement, `panyadee.ac.th` | 🤝 Envoyé 27/07 → relance 10/08 → **réponse 10/08 (Katy, Admissions) : transmet au département concerné.** Cyril a répondu (proposé une visite ou une séance découverte, sans pression) → **Katy a reconfirmé 10/08 : « we'll keep this in mind », reviendra vers nous** — en attente, pas de créneau donné. |
 | `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | 🤝 Envoyé 27/07 → relance envoyée 10/08 (Cyril, directement) — sans réponse pour l'instant |
-| `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | 🤝 Envoyé 27/07 → relance **programmée par Cyril pour 08h00 le 11/08** (envoi différé, pas encore parti à l'heure de rédaction) |
+| `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | 🤝 Envoyé 27/07 → relance envoyée 11/08 08h00 (programmée par Cyril) — sans réponse pour l'instant |
 
 Écoles publiques thaïlandaises (angle bourses) : aucun contact vérifié trouvé — voir piste
 recommandée dans `brain/prospection-ecoles.md` section C.
