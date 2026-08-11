@@ -19,18 +19,18 @@
 
 | Contact | École | Prochaine action | Statut |
 |---|---|---|---|
-| `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | 🤝 Envoyé 27/07 — sans réponse → **2e relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
-| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | 🤝 Envoyé 27/07 → relance envoyée 10/08 → **réponse positive 10/08 : « sounds like a fantastic initiative », le Head of School va prendre contact.** En attente qu'ils reviennent vers nous. |
-| `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | 🤝 Envoyé 27/07 — sans réponse → **2e relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
+| `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | 🤝 Envoyé 27/07 → 2e relance envoyée 10/08 (Cyril, directement) — sans réponse pour l'instant |
+| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | 🤝 Envoyé 27/07 → relance 10/08 → **réponse positive 10/08 : « sounds like a fantastic initiative », le Head of School va prendre contact.** Cyril a répondu le jour même (checké ses spams, se dit flexible pour un appel ou un passage au campus de Na Mueang). **En attente que le Head of School propose un créneau.** |
+| `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | 🤝 Envoyé 27/07 → 2e relance envoyée 10/08 (Cyril, directement) — sans réponse pour l'instant |
 | `info@lis.ac.th` | Lamai International School | Couverte par le contact direct Alan (ci-dessus) — ne pas doublonner | ✅ Via Alan |
 
 ### Nouvelles cibles identifiées (recherche web 27/07) — premier contact
 
 | Contact | École | Statut |
 |---|---|---|
-| `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS = **PanyaDee British International School**, Chaweng Noi (Bo Phut) — même établissement, `panyadee.ac.th` | 🤝 Envoyé 27/07 → relance envoyée 10/08 → **réponse 10/08 (Katy, Admissions) : transmet au département concerné, reviendra vers nous.** En attente. |
-| `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | 🤝 Envoyé 27/07 — sans réponse → **relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
-| `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | 🤝 Envoyé 27/07 — sans réponse → **relance (tournoi inter-écoles) en brouillon Gmail depuis le 08/08, à valider** |
+| `admissions@pbiss.ac.th` · ☎️ +66 77 423 802 / +66 77 413 506 | PBISS = **PanyaDee British International School**, Chaweng Noi (Bo Phut) — même établissement, `panyadee.ac.th` | 🤝 Envoyé 27/07 → relance 10/08 → **réponse 10/08 (Katy, Admissions) : transmet au département concerné.** Cyril a répondu (proposé une visite ou une séance découverte, sans pression) → **Katy a reconfirmé 10/08 : « we'll keep this in mind », reviendra vers nous** — en attente, pas de créneau donné. |
+| `info.samui@windfield.ac.th` · ☎️ +66 77 332 420 | Windfield International School | 🤝 Envoyé 27/07 → relance envoyée 10/08 (Cyril, directement) — sans réponse pour l'instant |
+| `info@oonraksamui.ac.th` · ☎️ 077 332 040 | Oonrak Koh Samui School, Maenam | 🤝 Envoyé 27/07 → relance **programmée par Cyril pour 08h00 le 11/08** (envoi différé, pas encore parti à l'heure de rédaction) |
 
 Écoles publiques thaïlandaises (angle bourses) : aucun contact vérifié trouvé — voir piste
 recommandée dans `brain/prospection-ecoles.md` section C.
@@ -161,12 +161,12 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 
 | Cible | Zone | Email | Angle | Statut |
 |---|---|---|---|---|
-| **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` | S&C + cross-promo, voisin du stade | 🤝 Envoyé 29/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
-| **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` | Salle de quartier Lamai | 🤝 Envoyé 26/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
-| **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` | Grosse salle, réseau athlètes | 🤝 Envoyé 26/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
-| ~~Samui Pro Nutrition~~ | Chaweng | ✉️ `pronutritionthailand@gmail.com` | Nutrition sportive, dotation | ⛔ Envoyé 26/07 → relance envoyée par Cyril (validée 09/08) → **réponse reçue 09/08 (admin@pronutritionthailand.com) : décline poliment, focus sur leur expansion nationale, garde la porte ouverte si leur situation change.** Clos — aucune relance supplémentaire. |
-| **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE workshop14 | Maillots custom | 🤝 Envoyé 26/07 — sans réponse → **relance en brouillon Gmail depuis le 08/08, à valider** |
-| **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` | Réserve — brouillon néanmoins prêt | 🤝 Envoyé 26/07 — sans réponse → **relance (touch rugby hebdo) en brouillon Gmail depuis le 08/08, à valider** |
+| **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` | S&C + cross-promo, voisin du stade | 🤝 Envoyé 29/07 → relance 10/08 → **réponse positive 10/08 (Tanzi) : « Touch Rugby sessions sound great! », va en discuter en interne et revenir vers nous.** Cyril a répondu (comprend que l'équipe est en partie absente, aucune urgence). **En attente de leur retour.** |
+| **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` | Salle de quartier Lamai | 🤝 Envoyé 26/07 → relance envoyée 10/08 (Cyril, directement) — sans réponse pour l'instant |
+| **Elite Gym** | Chaweng/Bophut | ✉️ `elitegymsamui@hotmail.com` | Grosse salle, réseau athlètes | 🤝 Envoyé 26/07 → relance envoyée 10/08 (Cyril, directement) — sans réponse pour l'instant |
+| ~~Samui Pro Nutrition~~ | Chaweng | ✉️ `pronutritionthailand@gmail.com` | Nutrition sportive, dotation | ⛔ Envoyé 26/07 → relance envoyée par Cyril (validée 09/08) → **réponse reçue 09/08 (admin@pronutritionthailand.com) : décline poliment, focus sur leur expansion nationale, garde la porte ouverte si leur situation change.** Cyril a répondu 09/08 pour les remercier. Clos — aucune relance supplémentaire. |
+| **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE workshop14 | Maillots custom | 🤝 Envoyé 26/07 → relance envoyée 10/08 (Cyril, directement) — sans réponse pour l'instant |
+| **Star Gym** | Chaweng | ✉️ `kanderkastano@gmail.com` | Réserve — brouillon néanmoins prêt | 🤝 Envoyé 26/07 → relance envoyée 10/08 (Cyril, directement) — sans réponse pour l'instant |
 
 **Sans email public → à contacter par Cyril (FB / téléphone / sur place, jamais par nous)**
 
@@ -215,7 +215,7 @@ Ordre conseillé : **Lamai d'abord** (proximité Koh's 33). Suivi J+7 après con
 | **Kumchai (avocat)** — `sungprapai_lawman@hotmail.com` | Dossier « ouverture de l'académie » de 07/2025, rendez-vous au IT Complex Lamai. Où en est le statut juridique ? Faut-il relancer ? |
 | Alerte « LCVIL Purchase reports » (`lockboxarecibo@gmail.com`, 07/2025) | Ressemble à du spam — à confirmer avant suppression manuelle (les agents ne suppriment jamais). |
 | **SBC Insurance — programme « affiliate »** (`office@sbc-insurance.live`, 24/07) | Deux mails automatiques distincts de l'échange sponsoring avec Irene : candidature à un programme d'affiliation acceptée (« Congratulations… application accepted »). Lien avec le partenariat en discussion `[À COMPLÉTER PAR CYRIL]` — à vérifier avant toute action (connexion au compte, etc.). |
-| **7 emails auto-envoyés à toi-même le 08/08** (bug outil sur les brouillons de relance J+7) | En créant les 12 brouillons de relance en réponse aux fils existants, un bug a fait partir 7 d'entre eux (ISS, IFDS, Greenacre, Oonrak, Star Gym, Samui Pro Nutrition, Workshop Sport Design) comme de vrais emails **adressés à `coconutrugbyacademy@gmail.com` lui-même** — aucune cible externe n'a rien reçu, mais ces 7 messages traînent dans la boîte (Sent + Inbox). Les 12 relances ont été **recréées proprement en brouillon** (bons destinataires, vérifiés). Tu peux archiver/supprimer ces 7 messages parasites quand tu veux — aucun outil agent ne peut le faire à ta place. |
+| **7 emails auto-envoyés à toi-même le 08/08** (bug outil sur les brouillons de relance J+7) | En créant les 12 brouillons de relance en réponse aux fils existants, un bug a fait partir 7 d'entre eux (ISS, IFDS, Greenacre, Oonrak, Star Gym, Samui Pro Nutrition, Workshop Sport Design) comme de vrais emails **adressés à `coconutrugbyacademy@gmail.com` lui-même** — aucune cible externe n'a rien reçu. Tu peux archiver/supprimer ces 7 messages parasites quand tu veux. **Mise à jour 11/08 :** tu as finalement envoyé les 12 relances toi-même le 10/08 (contenu identique, via un autre chemin) — **les 12 brouillons que les agents avaient recréés dans Gmail sont donc désormais des doublons obsolètes**, jamais envoyés ni nécessaires ; tu peux les supprimer aussi. Aucun outil agent ne peut supprimer ces messages/brouillons à ta place. |
 
 ## Règles de cadence (rappel du playbook)
 
