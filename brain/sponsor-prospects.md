@@ -9,11 +9,12 @@
 > deviner d'adresse**. Le suivi des approches (envoyé / répondu) est tenu dans `brain/pipeline.md`.
 > Priorité : ⭐⭐⭐ forte affinité rugby/marque · ⭐⭐ bon fit · ⭐ opportuniste.
 >
-> **Batch de recherche 09/08/2026** (45 prospects scorés, agent externe) intégré ci-dessous —
-> nouvelles cibles ajoutées, doublons avec l'existant fusionnés (statut réel = celui du
-> `pipeline.md`, pas celui du batch). Le fichier `prospects_partenaires_koh_samui.csv` cité par
-> le batch n'a pas été reçu par les agents — seules la shortlist top 30 et les 5 cibles à email
-> vérifié ont pu être intégrées. Zones/catégories encore à creuser (batch 2) : voir section O.
+> **Batch de recherche 09/08/2026** (45 prospects scorés, agent externe, `prospects_partenaires_koh_samui.csv`
+> reçu et intégré en totalité le 11/08) — nouvelles cibles ajoutées, doublons avec l'existant
+> fusionnés (statut réel = celui du `pipeline.md`, pas celui du batch). Aucun email deviné : les
+> téléphones/sites du CSV sont repris tels quels, mais restent **à vérifier individuellement**
+> avant tout envoi (le batch n'a pas validé chaque contact un par un). Zones/catégories encore à
+> creuser (batch 2) : voir section P.
 
 ## A. Bars sportifs & restauration — ⭐⭐⭐ (affinité rugby directe)
 
@@ -48,6 +49,7 @@
 | **Workshop Sport Design** | Chaweng | ✉️ `aruwat_alek@hotmail.com` · LINE `workshop14` · +66 93 642 9645 | 🎯 À contacter (Vague 3) |
 | ~~Samui Pro Nutrition~~ | Chaweng (chez Elite Gym) | ✉️ `pronutritionthailand@gmail.com` · +66 82 112 7321 · FB `/samuipronutrition` | ⛔ Contacté puis relancé — a décliné le 09/08 (focus expansion nationale), voir pipeline |
 | **Samui Health Shop by Lamphu** | Lamai | `samuihealthshop.com` (formulaire) · +66 96 634 8752 · FB `/samuihealthshop` | 🎯 À contacter (pas d'email public) |
+| **Samui Whey & Sport Supplements** | Chaweng Noi | ☎️ 086 977 2595 · FB `/SamuiWheySportSupplements` | 🎯 À contacter *(ajouté 11/08)* |
 
 ## D. Santé & sport (physio, cliniques) — ⭐⭐ (partenaire en nature, crédibilité)
 
@@ -56,7 +58,8 @@
 | **Samui Physio Clinic** | Bophut | `samuiphysioclinic.com` · FB · IG | 🎯 À contacter |
 | **Physio on Samui** | Chaweng (Samui Intl Hospital) | FB `/physiotherapyonsamui` | 🎯 À contacter |
 | **Napapai Physiotherapy** | Samui | FB `/NapapaiPhysio` | 🎯 Réserve |
-| **Bangkok Hospital Samui** · **Samui Intl Hospital** | Chaweng | via hôpital | ⭐ Institutionnel |
+| **Angel's Beauty & Physiotherapy Samui** | Lamai | ☎️ +66 90 575 5793 | 🎯 À contacter *(ajouté 11/08)* |
+| **Bangkok Hospital Samui** (kiné) · **Samui Intl Hospital** | Bophut/Chaweng | `bangkokhospital.com/samui` — process plus lourd, via service communication | ⭐ Institutionnel |
 
 ## E. Boissons — ⭐⭐ (sponsors rugby classiques + identité insulaire)
 
@@ -83,8 +86,8 @@
 | **Samui Multimedia** | Web, graphisme, impression (depuis 2005) | `samui-multimedia.com` | 🎯 À contacter |
 | **Zupa Print** | Impression t-shirts | `zupaprint.com` | 🎯 Réserve |
 | **Samui Times** | Média (FB 24k+) | FB `/SamuiTimes` | 🎯 Relations presse |
-| **KohSamuiPhoto.com** | Photographe événementiel | ✉️ `contact@kohsamuiphoto.com` | 🎯 À contacter *(ajouté 09/08, email vérifié)* |
-| **Pui — Koh Samui Photography** | Photographe événementiel | ✉️ `pui@kohsamuiphotography.com` · IG `@kohsamuiphotography` | 🎯 À contacter *(ajouté 09/08, email vérifié)* |
+| **KohSamuiPhoto.com** | Photographe événementiel | ✉️ `contact@kohsamuiphoto.com` · +66 97 073 2094 | 🎯 À contacter — devis captation camps/séances *(ajouté 09/08)* |
+| **Pui — Koh Samui Photography** | Photographe événementiel | ✉️ `pui@kohsamuiphotography.com` · +66 85 155 0022 · IG `@kohsamuiphotography` | 🎯 À contacter *(ajouté 09/08)* |
 | **What's on Samui / Samui Express** · **Samui Wining & Dining** (Siam Map) · **Samui to the World** (annuaire) | Médias & annuaires locaux | sites / FB | 🎯 Visibilité |
 
 ## H. Assurance & finance — ⭐⭐ (RSE, sécurité familles)
@@ -113,7 +116,7 @@
 | **Silent Divers** | `info@silentdivers.com` · +66 81 933 6641 | 🎯 À contacter |
 | **Discovery Divers** (Amari) | `discoverydivers.com` · FB | 🎯 À contacter |
 | **Samui Go-Kart**, **Pink Elephant Water Park**, **Paradise Park Farm**, **Samui Canopy Adventure** | sites / FB | ⭐ Cross-promo famille |
-| **Coco Splash Water Park** · **Chaweng Aquapark** · **Escape Break** (Beach Republic) | sites / FB — à vérifier *(ajouté 09/08)* | ⭐ Cross-promo famille (flyers croisés) |
+| **Coco Splash Water Park** · **Chaweng Aquapark** · **Escape Break** (Beach Republic) · **Escape Hunt Experience** (Chaweng) | sites / FB — à vérifier *(ajouté 09-11/08)* | ⭐ Cross-promo famille (flyers croisés) |
 
 ## K. Hôtels & resorts — ⭐⭐ (clients corporate team-building + visibilité)
 
@@ -122,16 +125,21 @@
 | **Amari Koh Samui** | Chaweng | +66 7730 0306 |
 | **Holiday Inn Resort Samui** | Bophut | `holidayinnsamui.com` — kids club, angle séjour-découverte famille |
 | **Four Seasons** · **Anantara Bophut** · **Santiburi** | Samui | sites officiels |
-| **Kimpton Kitalay Samui** | Samui | site officiel — kids club/playground, angle séjour-découverte *(ajouté 09/08)* |
-| **Melia Koh Samui Resort** | Samui | site officiel — angle séjour-découverte famille *(ajouté 09/08)* |
+| **Kimpton Kitalay Samui** | Choeng Mon | site officiel — kids club/playground, angle séjour-découverte *(ajouté 09/08)* |
+| **Melia Koh Samui Resort** | Choeng Mon | site officiel — angle séjour-découverte famille *(ajouté 09/08)* |
+| **Baan Bophut Beach Hotel** | Bophut | `baanbophut.com` *(ajouté 11/08)* |
+| **The Waterfront Boutique Hotel** | Bophut | `thewaterfrontbophut.com` *(ajouté 11/08)* |
+| **SALA Samui Choengmon Beach Resort** | Choeng Mon | site officiel *(ajouté 11/08)* |
+| **Cape Fahn Hotel Samui** | Choeng Mon | site officiel — haut de gamme, moins familial *(ajouté 11/08)* |
 
 ## L. Immobilier & services expat — ⭐ (budgets marketing/RSE)
 
 | Établissement | Contact vérifié |
 |---|---|
 | **RE/MAX Island Real Estate** | +66 80 041 0420 |
-| **Samui Island Realty** (Chaweng Noi) | formulaire / WhatsApp / FB |
-| **Conrad Properties** · **DL Samui Properties** · **Kalara Real Estate** · **Three Seasons Properties** | sites officiels |
+| **Samui Island Realty** (Chaweng Noi) | formulaire / WhatsApp / FB · `samui-island-realty.com` |
+| **Samui Realty** | `samuirealty.com` *(ajouté 11/08)* |
+| **Conrad Properties** · **DL Samui Properties** · **Kalara Real Estate** · **Three Seasons Properties** | sites officiels (`three-seasons-properties.com`) |
 
 ## M. Communauté, fondations & clubs — ⭐⭐⭐ (bourses, réseau, crédibilité)
 
@@ -162,19 +170,21 @@
 
 | Établissement | Zone | Contact vérifié | Statut |
 |---|---|---|---|
-| **Padel Paradise Lamai** | Lamai | ✉️ `contact@padellamai.com` · `padellamai.com` | 🎯 À contacter (cross-promo flyers/réductions) |
-| **Padel Samui / Padel & Play in Paradise** | Samui | ✉️ `info@padelsamui.com` · `padelsamui.com` | 🎯 À contacter |
-| **Padel Tropical Club** | Samui | Téléphone vérifié `[À COMPLÉTER]` | 🎯 À contacter |
-| **Bantai Padel Samui** | Samui | Site/IG à vérifier | 🎯 Réserve |
-| **Lamai Football Club** | Lamai | Site/FB à vérifier — a déjà une academy enfants | 🎯 À contacter (mini-tournoi multisports) |
-| **FAN — Football for All Nations** | Samui | Site/FB à vérifier | 🎯 À contacter (location terrain événement) |
-| **Samui United F.C.** | Samui | Site/FB à vérifier | 🎯 À contacter (partenariat inter-clubs) |
-| **Samui Cobras F.C.** | Samui | Site/FB à vérifier | 🎯 À contacter |
-| **Samui Boxing Stadium** | Samui | Site/FB à vérifier | 🎯 À contacter (affichage croisé) |
-| **Punch It Gym** (Muay Thai/fitness) | Samui | Site/FB à vérifier | 🎯 À contacter |
+| **Padel Paradise Lamai** | Lamai | ✉️ `contact@padellamai.com` · +66 80 126 8250 · `padellamai.com` | 🎯 À contacter (cross-promo flyers/réductions) |
+| **Padel Samui / Padel & Play in Paradise** | Bophut/Plai Laem | ✉️ `info@padelsamui.com` · +66 80 487 0878 · `padelsamui.com` | 🎯 À contacter |
+| **Padel Tropical Club** | Bophut | ☎️ +66 82 640 0740 · `padeltropical.com` | 🎯 À contacter |
+| **Bantai Padel Samui** | Samui | `openresa.com/club/BantaiPadelSamui` (réservation en ligne) | 🎯 Réserve |
+| **Lamai Football Club** | Lamai | `lamaifootballclub.com` — a déjà une academy enfants | 🎯 À contacter (mini-tournoi multisports) |
+| **FAN — Football for All Nations** | Samui | Source tripadvisor — complexe multi-terrains | 🎯 À contacter (location terrain événement) |
+| **Samui United F.C.** | Samui | FB `/samuicobrasfc` *(lien partagé avec Cobras FC dans la source — à vérifier si même club)* | 🎯 À contacter (partenariat inter-clubs) |
+| **Samui Cobras F.C.** | Samui | FB `/samuicobrasfc` | 🎯 À contacter |
+| **Samui Football Golf** | Bo Put | ☎️ +66 77 426 600 / +66 89 771 7498 · `samuifootballgolf.com` | 🎯 À contacter (partenariat familles/loisirs) |
+| **Samui Boxing Stadium** | Chaweng | Source roamfit.net — contact à trouver | 🎯 À contacter (affichage croisé) |
+| **Punch It Gym** (Muay Thai/fitness) | Lamai | `bxbfightlab.com` (lié) | 🎯 À contacter |
 
-> Contacts encore à vérifier individuellement (site/téléphone à jour) avant tout envoi — le
-> batch du 09/08 les a scorés mais pas encore validés un par un. Ne pas deviner d'email.
+> Contacts encore à vérifier individuellement (téléphone/site à jour, email à trouver) avant
+> tout envoi — le batch du 09/08 les a scorés mais pas encore validés un par un. Ne pas deviner
+> d'email.
 
 ---
 
