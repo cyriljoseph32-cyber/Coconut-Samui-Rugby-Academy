@@ -20,5 +20,12 @@ Produis le brief quotidien selon les instructions de l'assistant personnel.
    - ✅ 3 actions max, classées par impact
    - Une question utile pour finir
 
+Avant de proposer un brouillon ou de redemander une décision déjà en suspens dans un brief
+précédent (ex. « je prépare le brouillon de relance ? »), **vérifier d'abord dans Gmail** (mails
+envoyés récents + `list_drafts`) si Cyril a déjà répondu ou déjà préparé un brouillon lui-même —
+il agit souvent directement depuis son téléphone sans passer par l'agent. Si c'est le cas,
+constater l'état réel (envoyé / brouillon en attente) au lieu de re-proposer une action déjà
+faite, et mettre à jour `brain/pipeline.md` avec le contenu trouvé.
+
 Si un connecteur est absent, produire le brief avec ce qui est disponible et indiquer
 clairement la section manquante.
