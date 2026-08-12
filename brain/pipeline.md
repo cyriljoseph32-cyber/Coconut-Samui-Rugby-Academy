@@ -134,7 +134,7 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 | Contact | Type | Dernier échange | Prochaine action | Statut |
 |---|---|---|---|---|
 | **Rachel** — `Rachelwands1@gmail.com` (enfant 8 ans, Kids) | Lead site | 2026-07-18 11:06 (réponse envoyée par Cyril) | **Pas de relance** — décision de Cyril (21/07). Laisser la balle dans son camp ; rouvrir seulement si elle réécrit. | ⏸️ Clos sans relance (choix Cyril) |
-| **Kelsey Family CIC** (fille 8 ans, joue depuis ses 3 ans au UK, ~20 semaines/an sur l'île) | Lead WhatsApp (`+66 63 375 3316`) | 2026-08-12 10:05 — a écrit après avoir vu la page Facebook, demande si le « groupe du mercredi soir » est ouvert à tous âges | Réponse en préparation : corriger — Kids Rugby (4-10 ans) a lieu le **samedi**, 1ère séance **29/08/2026** (info confirmée par Cyril 12/08, pas encore publiée sur le site). Inviter à l'essai gratuit. **Brouillon prêt, en attente du feu vert de Cyril pour l'envoi WhatsApp** (fenêtre 24h ouverte). | 🎯 Réponse à valider |
+| **Kelsey Family CIC** (fille 8 ans, joue depuis ses 3 ans au UK, ~20 semaines/an sur l'île) | Lead WhatsApp (`+66 63 375 3316`) | 2026-08-12 10:05 — a écrit après avoir vu la page Facebook, demande si le « groupe du mercredi soir » est ouvert à tous âges | Réponse rédigée : corrige — Kids Rugby (4-10 ans) a lieu le **samedi**, 1ère séance **29/08/2026** (info confirmée par Cyril 12/08). Invite à l'essai gratuit. ⚠️ **Non envoyée par les agents** — le connecteur Zapier WhatsApp Business n'est pas connecté (0 connexion, vérifié 12/08). **Cyril doit l'envoyer lui-même** depuis son téléphone (texte prêt fourni dans le chat). | 🎯 Texte prêt — envoi manuel par Cyril |
 
 ### Vague 1 — ✅ Brouillons envoyés (19/07)
 
