@@ -35,7 +35,7 @@
 | Établissement | Zone | Contact vérifié | Statut |
 |---|---|---|---|
 | **Koh Fit Thailand** | Lamai | ✉️ `bookings@kohfitthailand.com` · +66 80 393 4542 · WA +66 80 472 2356 | 🎯 À contacter (Vague 3) |
-| **Lamai Fitness Retreat** | Lamai | ✉️ `bookings@lamaifitnessretreat.com` · +66 96 983 8394 · `lamaifitnessretreat.com` | 🎯 À contacter *(email vérifié 11/08)* |
+| **Lamai Fitness Retreat** | Lamai | ✉️ `bookings@lamaifitnessretreat.com` · +66 96 983 8394 · `lamaifitnessretreat.com` | ✅ Brouillon premier contact créé 12/08 (pipeline) |
 | **Lamai Beach CrossFit / Samui Fitness Retreat** | Lamai | +66 98 690 3537 · `info@samuifitnessretreat.com` · FB `/lamaibeachcrossfit` | ✅ Contacté 19/07 (Vague 1) |
 | **Samui Fitness Lab** | Lamai | +66 92 294 0906 · `contact@samuifitnesslab.com` · IG `@samuifitnesslab` | ✅ Contacté 19/07 (Vague 1) |
 | **Ultra Bodies Gym** | Lamai | ✉️ `pu.dance16@gmail.com` · +66 87 347 6761 · FB `/Ultrabodiesgymlamai` | 🎯 À contacter (Vague 3) |
@@ -56,7 +56,7 @@
 
 | Établissement | Zone | Contact vérifié | Statut |
 |---|---|---|---|
-| **Samui Physio Clinic** | Bophut | ✉️ `samuiphysio2024@gmail.com` · 080-010-5781 · `samuiphysioclinic.com` | 🎯 À contacter *(email vérifié 11/08)* |
+| **Samui Physio Clinic** | Bophut | ✉️ `samuiphysio2024@gmail.com` · 080-010-5781 · `samuiphysioclinic.com` | ✅ Brouillon premier contact créé 12/08 (pipeline) |
 | **Physio on Samui** | Chaweng (Samui Intl Hospital) | FB `/physiotherapyonsamui` | 🎯 À contacter |
 | **Napapai Physiotherapy** | Samui | FB `/NapapaiPhysio` | 🎯 Réserve |
 | **Angel's Beauty & Physiotherapy Samui** | Lamai | ☎️ +66 90 575 5793 | 🎯 À contacter *(ajouté 11/08)* |
@@ -129,14 +129,14 @@
 | Établissement | Zone | Contact vérifié |
 |---|---|---|
 | **Amari Koh Samui** | Chaweng | +66 7730 0306 |
-| **Holiday Inn Resort Samui** | Bophut | ✉️ `usmrt.info@ihg.com` · +66 77 951 777 · `holidayinnsamui.com` — kids club, séjour-découverte famille |
-| **Anantara Bophut** | Bophut | ✉️ `bophutsamui@anantara.com` · +66 77 428 300 |
+| **Holiday Inn Resort Samui** | Bophut | ✉️ `usmrt.info@ihg.com` · +66 77 951 777 · `holidayinnsamui.com` — kids club, séjour-découverte famille — ✅ Brouillon premier contact créé 12/08 (pipeline) |
+| **Anantara Bophut** | Bophut | ✉️ `bophutsamui@anantara.com` · +66 77 428 300 — ✅ Brouillon premier contact créé 12/08 (pipeline) |
 | **Four Seasons** · **Santiburi** | Samui | sites officiels |
-| **Kimpton Kitalay Samui** | Choeng Mon | ✉️ `kimptonkitalay.info@ihg.com` · +66 77 951 999 · `kimptonkitalaysamui.com` — kids club/playground |
+| **Kimpton Kitalay Samui** | Choeng Mon | ✉️ `kimptonkitalay.info@ihg.com` · +66 77 951 999 · `kimptonkitalaysamui.com` — kids club/playground — ✅ Brouillon premier contact créé 12/08 (pipeline) |
 | **Melia Koh Samui Resort** | Choeng Mon | +66 77 938 899 · `melia.com` — séjour-découverte famille |
 | **Baan Bophut Beach Hotel** | Bophut | `baanbophut.com` *(ajouté 11/08)* |
 | **The Waterfront Boutique Hotel** | Bophut | `thewaterfrontbophut.com` *(ajouté 11/08)* |
-| **SALA Samui Choengmon Beach Resort** | Choeng Mon | ✉️ `reservations@salachoengmon.com` / `info@salachoengmon.com` · +66 77 245 888 |
+| **SALA Samui Choengmon Beach Resort** | Choeng Mon | ✉️ `reservations@salachoengmon.com` / `info@salachoengmon.com` · +66 77 245 888 — ✅ Brouillon premier contact créé 12/08 (pipeline) |
 | **Cape Fahn Hotel Samui** | Choeng Mon | site officiel — haut de gamme, moins familial *(ajouté 11/08)* |
 | **Nikki Beach Club & Resort** | **Lipa Noi** | ☎️ +66 77 914 500 — beach club haut de gamme, activation rugby plage *(ajouté 11/08 — 1ère cible Lipa Noi)* |
 | **InterContinental Samui Baan Taling Ngam** | **Taling Ngam** | ☎️ +66 2 656 0440 (Air Bar) — luxe isolé, activité ponctuelle *(ajouté 11/08 — 1ère cible Taling Ngam)* |
@@ -148,7 +148,7 @@
 | Établissement | Contact vérifié |
 |---|---|
 | **RE/MAX Island Real Estate** | +66 80 041 0420 |
-| **Samui Island Realty** (Chaweng Noi) | ✉️ `info@samui-island-realty.com` · +66 77 310 401 / +66 93 637 5550 |
+| **Samui Island Realty** (Chaweng Noi) | ✉️ `info@samui-island-realty.com` · +66 77 310 401 / +66 93 637 5550 — ✅ Brouillon premier contact créé 12/08 (pipeline) |
 | **Samui Realty** | `samuirealty.com` (formulaire uniquement, pas d'email direct) *(ajouté 11/08)* |
 | **Three Seasons Properties** | ☎️ +66 82 285 2919 / WhatsApp +66 92 373 9099 · `three-seasons-properties.com` |
 | **Conrad Properties** · **DL Samui Properties** · **Kalara Real Estate** | sites officiels |
@@ -184,11 +184,11 @@
 |---|---|---|---|
 | **Padel Paradise Lamai** | Lamai | ✉️ `contact@padellamai.com` · +66 80 126 8250 · `padellamai.com` | 🎯 À contacter (cross-promo flyers/réductions) |
 | **Padel Samui / Padel & Play in Paradise** | Bophut/Plai Laem | ✉️ `info@padelsamui.com` · +66 80 487 0878 · `padelsamui.com` | 🎯 À contacter |
-| **Padel Tropical Club** | Bophut | ✉️ `luispadeltropical@gmail.com` (Head Coach Antonio/Luis) · +66 82 640 0740 · `padeltropical.com` | 🎯 À contacter *(email vérifié 11/08)* |
+| **Padel Tropical Club** | Bophut | ✉️ `luispadeltropical@gmail.com` (Head Coach Antonio/Luis) · +66 82 640 0740 · `padeltropical.com` | ✅ Brouillon premier contact créé 12/08 (pipeline) |
 | **Bantai Padel Samui** | Samui | `openresa.com/club/BantaiPadelSamui` (réservation en ligne) | 🎯 Réserve |
 | **Lamai Football Club** | Lamai | `lamaifootballclub.com` (domaine mal résolu lors de la vérif — préférer FB/passage sur place) — a déjà une academy enfants | 🎯 À contacter (mini-tournoi multisports) |
-| **FAN — Football for All Nations** | Na Muang | ✉️ `contact@footballforallnations.com` · +66 77 955 107 · `footballforallnations.com` — complexe multi-terrains | 🎯 À contacter (location terrain événement) *(email vérifié 11/08)* |
-| **Samui United F.C.** (Samui United Academy) | Samui | ✉️ `info@samuiunited.com` · +66 89 745 580 · opère sur `maraleina.com/samui-united-academy` — **même site que Maraleina Sports Resort** (cf. pipeline, terrain refusé à CSRA mais héberge ce club de foot) | 🎯 À contacter (partenariat inter-clubs) *(email vérifié 11/08)* |
+| **FAN — Football for All Nations** | Na Muang | ✉️ `contact@footballforallnations.com` · +66 77 955 107 · `footballforallnations.com` — complexe multi-terrains | ✅ Brouillon premier contact créé 12/08 (pipeline) |
+| **Samui United F.C.** (Samui United Academy) | Samui | ✉️ `info@samuiunited.com` · +66 89 745 580 · opère sur `maraleina.com/samui-united-academy` — **même site que Maraleina Sports Resort** (cf. pipeline, terrain refusé à CSRA mais héberge ce club de foot) | ✅ Brouillon premier contact créé 12/08 (pipeline) |
 | **Samui Cobras F.C.** | Samui | FB `/samuicobrasfc` | 🎯 À contacter |
 | **Samui Football Golf** | Bo Put | ☎️ +66 77 426 600 / +66 89 771 7498 · `samuifootballgolf.com` | 🎯 À contacter (partenariat familles/loisirs) |
 | **Samui Boxing Stadium** | Chaweng | Source roamfit.net — contact à trouver | 🎯 À contacter (affichage croisé) |
@@ -202,8 +202,8 @@
 
 | Établissement | Zone | Contact vérifié | Statut |
 |---|---|---|---|
-| **Little Coconuts Early Learning Center** | Bophut | ✉️ `littlecoconutsdaycare@gmail.com` · +66 98 194 1797 · FB `/Nurserysamuithailand` | 🎯 À contacter (découverte rugby kids) |
-| **Samui Nanny** | Samui | ✉️ `info@samuinanny.com` · `samuinanny.com` | 🎯 À contacter (garde + activité) |
+| **Little Coconuts Early Learning Center** | Bophut | ✉️ `littlecoconutsdaycare@gmail.com` · +66 98 194 1797 · FB `/Nurserysamuithailand` | ✅ Brouillon premier contact créé 12/08 (pipeline) |
+| **Samui Nanny** | Samui | ✉️ `info@samuinanny.com` · `samuinanny.com` | ✅ Brouillon premier contact créé 12/08 (pipeline) |
 | **Lamai International Nursery** | Lamai | FB `/LamaiInternationalNursery` (pas d'email public) | 🎯 À contacter — proximité directe avec l'académie |
 | **Kiddie Garden Nursery and Preschool** | Bo Phut/Chaweng | ☎️ +66 94 108 1606 | 🎯 À contacter |
 | **IPC Green Samui Preschool & Nursery** | Samui | `ipcgreen.com/koh-samui` | 🎯 Réserve |

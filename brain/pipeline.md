@@ -78,6 +78,30 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 | Campagne de prospection sponsors | Modèles FR/EN prêts (playbook), niveaux Bronze→Platinum, dossier de sponsoring existant | Segment retenu par Cyril le 18/07 : **commerces expat** (voir ci-dessous) |
 | Crowdfunding 4fund.com « Become a partner… » | Campagne terminée ~09/2025 — résultat inconnu | `[À COMPLÉTER PAR CYRIL]` : bilan ? relancer les donateurs ? |
 
+### Premiers contacts batch 2 (`brain/sponsor-prospects.md`, 11/08) — brouillons créés 12/08
+
+> 12 cibles nouvellement vérifiées (✉️) lors du batch 2 du 11/08, non encore en correspondance —
+> brouillon de **premier contact** (prospection, pas relance) créé pour chacune via
+> `mcp__Superhuman_Mail__create_or_update_draft`, compte `coconutrugbyacademy@gmail.com`. Aucun
+> montant THB cité (niveaux de partenariat mentionnés génériquement, dossier complet proposé sur
+> demande) — **tout engagement reste une décision de Cyril**. À valider/envoyer dans Superhuman
+> Mail. Suivi J+7 après envoi si Cyril valide (~19/08).
+
+| Contact | Segment | Email | Angle | Statut |
+|---|---|---|---|---|
+| **Samui United F.C.** (Samui United Academy) | Club sportif (foot) | `info@samuiunited.com` | Partenariat inter-clubs foot↔rugby, cross-promo | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Little Coconuts Early Learning Center** (Bophut) | Crèche | `littlecoconutsdaycare@gmail.com` | Découverte rugby tout-petits → passerelle Kids (4-10) | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Samui Nanny** | Garde d'enfants | `info@samuinanny.com` | Activité physique encadrée en complément de la garde | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Lamai Fitness Retreat** | Salle de sport (Lamai) | `bookings@lamaifitnessretreat.com` | Cross-training/préparation physique, même zone que Koh's 33 | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Samui Physio Clinic** (Bophut) | Santé/physio | `samuiphysio2024@gmail.com` | Partenaire physio prévention/récupération joueurs | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Padel Tropical Club** (Bophut) | Club sportif (padel) | `luispadeltropical@gmail.com` | Cross-promo multisport, réductions croisées membres | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **FAN — Football for All Nations** (Na Muang) | Complexe multi-terrains | `contact@footballforallnations.com` | Location terrain pour événements/tournoi | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Holiday Inn Resort Samui** (Bophut) | Hôtel | `usmrt.info@ihg.com` | Kids club / séjour-découverte famille | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Anantara Bophut** | Hôtel | `bophutsamui@anantara.com` | Partenariat resort haut de gamme, séjour-découverte | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Kimpton Kitalay Samui** (Choeng Mon) | Hôtel | `kimptonkitalay.info@ihg.com` | Kids club/playground, séjour-découverte famille | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **SALA Samui Choengmon Beach Resort** | Hôtel | `reservations@salachoengmon.com` | Séjour-découverte famille | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Samui Island Realty** (Chaweng Noi) | Immobilier | `info@samui-island-realty.com` | Réseau expat, RSE locale, familles qui s'installent | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+
 ### Grands partenaires — investisseurs, mécènes, réseau rugby (annuaire complet : `brain/prospection-grands-partenaires.md`)
 
 | Prospect | Score | Canal | Statut |
