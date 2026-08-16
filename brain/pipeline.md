@@ -20,8 +20,8 @@
 | Contact | École | Prochaine action | Statut |
 |---|---|---|---|
 | `HRmanager@iss.ac.th` | ISS (International School of Samui) | Relance courtoise EN | 🤝 Envoyé 27/07 → 2e relance envoyée 10/08 (Cyril, directement) — sans réponse pour l'instant |
-| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | 🤝 Envoyé 27/07 → relance 10/08 → **réponse positive 10/08 : « sounds like a fantastic initiative », le Head of School va prendre contact.** Cyril a répondu le jour même (checké ses spams, se dit flexible pour un appel ou un passage au campus de Na Mueang). → **11/08 06h57 : l'admission redirige directement vers le Head of School, `Head@greenacre.ac.th`** (actuellement en congés, mais joignable). **Cyril a répondu 11/08 09h03 : contactera directement `Head@greenacre.ac.th`.** → Brouillon créé 12/08 → **envoyé par Cyril le 13/08 11h51** (To `Head@greenacre.ac.th`, Cc `info@greenacre.ac.th`) — en attente de sa réponse (il est en congés). |
-| `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | 🤝 Envoyé 27/07 → 2e relance envoyée 10/08 (Cyril, directement) — sans réponse pour l'instant |
+| `info@greenacre.ac.th` | Greenacre School | Relance courtoise EN | 🤝 Envoyé 27/07 → relance 10/08 → **réponse positive 10/08 : « sounds like a fantastic initiative », le Head of School va prendre contact.** Cyril a répondu le jour même (checké ses spams, se dit flexible pour un appel ou un passage au campus de Na Mueang). → **11/08 06h57 : l'admission redirige directement vers le Head of School, `Head@greenacre.ac.th`** (actuellement en congés, mais joignable). **Cyril a répondu 11/08 09h03 : contactera directement `Head@greenacre.ac.th`.** → Brouillon créé 12/08 → **envoyé par Cyril le 13/08 11h51** → **le Head of School (Dara) a répondu positivement le 14/08 03h23** : le rugby est déjà bien implanté à Greenacre, animé par un certain **Chris** (clubs existants). Cyril a répondu 14/08 10h12 pour remercier. **En attente de la suite (prochaine étape à préciser par Dara).** |
+| `contact@ifds.pw` | École française (IFDS) — directrice Sylvie Torrente | Relance courtoise FR | 🤝 Envoyé 27/07 → 2e relance envoyée 10/08 (Cyril, directement) → **réponse reçue 14/08 04h25 (depuis `ifds-samui@protonmail.com`) : propose un RDV le mardi 8 septembre 2026 à 17h.** Cyril a confirmé le 14/08 10h08 (dispo, demande si tél. ou visio/présentiel). **RDV posé au calendrier — mode d'échange encore à préciser par IFDS.** |
 | `info@lis.ac.th` | Lamai International School | Couverte par le contact direct Alan (ci-dessus) — ne pas doublonner | ✅ Via Alan |
 
 ### Nouvelles cibles identifiées (recherche web 27/07) — premier contact
@@ -96,11 +96,11 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 | **Samui Physio Clinic** (Bophut) | Santé/physio | `samuiphysio2024@gmail.com` | Partenaire physio prévention/récupération joueurs | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
 | **Padel Tropical Club** (Bophut) | Club sportif (padel) | `luispadeltropical@gmail.com` | Cross-promo multisport, réductions croisées membres | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
 | **FAN — Football for All Nations** (Na Muang) | Complexe multi-terrains | `contact@footballforallnations.com` | Location terrain pour événements/tournoi | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
-| **Holiday Inn Resort Samui** (Bophut) | Hôtel | `usmrt.info@ihg.com` | Kids club / séjour-découverte famille | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
-| **Anantara Bophut** | Hôtel | `bophutsamui@anantara.com` | Partenariat resort haut de gamme, séjour-découverte | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
-| **Kimpton Kitalay Samui** (Choeng Mon) | Hôtel | `kimptonkitalay.info@ihg.com` | Kids club/playground, séjour-découverte famille | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
-| **SALA Samui Choengmon Beach Resort** | Hôtel | `reservations@salachoengmon.com` | Séjour-découverte famille | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
-| **Samui Island Realty** (Chaweng Noi) | Immobilier | `info@samui-island-realty.com` | Réseau expat, RSE locale, familles qui s'installent | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Holiday Inn Resort Samui** (Bophut) | Hôtel | `usmrt.info@ihg.com` | Kids club / séjour-découverte famille | 🤝 Envoyé par Cyril 14/08 08h00 — sans réponse pour l'instant |
+| **Anantara Bophut** | Hôtel | `bophutsamui@anantara.com` | Partenariat resort haut de gamme, séjour-découverte | 🤝 Envoyé par Cyril 14/08 08h00 — sans réponse pour l'instant |
+| **Kimpton Kitalay Samui** (Choeng Mon) | Hôtel | `kimptonkitalay.info@ihg.com` | Kids club/playground, séjour-découverte famille | 🤝 Envoyé par Cyril 14/08 08h00 — sans réponse pour l'instant |
+| **SALA Samui Choengmon Beach Resort** | Hôtel | `reservations@salachoengmon.com` | Séjour-découverte famille | 🤝 Envoyé par Cyril 14/08 08h00 — sans réponse pour l'instant |
+| **Samui Island Realty** (Chaweng Noi) | Immobilier | `info@samui-island-realty.com` | Réseau expat, RSE locale, familles qui s'installent | 🤝 Envoyé par Cyril 14/08 08h00 — sans réponse pour l'instant |
 
 ### Grands partenaires — investisseurs, mécènes, réseau rugby (annuaire complet : `brain/prospection-grands-partenaires.md`)
 
