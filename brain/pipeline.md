@@ -90,12 +90,12 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 | Contact | Segment | Email | Angle | Statut |
 |---|---|---|---|---|
 | **Samui United F.C.** (Samui United Academy) | Club sportif (foot) | `info@samuiunited.com` | Partenariat inter-clubs foot↔rugby, cross-promo | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
-| **Little Coconuts Early Learning Center** (Bophut) | Crèche | `littlecoconutsdaycare@gmail.com` | Découverte rugby tout-petits → passerelle Kids (4-10) | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Little Coconuts Early Learning Center** (Bophut) | Crèche | `littlecoconutsdaycare@gmail.com` | Découverte rugby tout-petits → passerelle Kids (4-10) | 🤝 Envoyé par Cyril 17/08 08h00 — sans réponse pour l'instant |
 | **Samui Nanny** | Garde d'enfants | `info@samuinanny.com` | Activité physique encadrée en complément de la garde | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
-| **Lamai Fitness Retreat** | Salle de sport (Lamai) | `bookings@lamaifitnessretreat.com` | Cross-training/préparation physique, même zone que Koh's 33 | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
-| **Samui Physio Clinic** (Bophut) | Santé/physio | `samuiphysio2024@gmail.com` | Partenaire physio prévention/récupération joueurs | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **Lamai Fitness Retreat** | Salle de sport (Lamai) | `bookings@lamaifitnessretreat.com` | Cross-training/préparation physique, même zone que Koh's 33 | 🤝 Envoyé par Cyril 17/08 08h00 — sans réponse pour l'instant |
+| **Samui Physio Clinic** (Bophut) | Santé/physio | `samuiphysio2024@gmail.com` | Partenaire physio prévention/récupération joueurs | 🤝 Envoyé par Cyril 17/08 08h00 — sans réponse pour l'instant |
 | **Padel Tropical Club** (Bophut) | Club sportif (padel) | `luispadeltropical@gmail.com` | Cross-promo multisport, réductions croisées membres | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
-| **FAN — Football for All Nations** (Na Muang) | Complexe multi-terrains | `contact@footballforallnations.com` | Location terrain pour événements/tournoi | ✅ Brouillon premier contact créé 12/08, en attente de validation Cyril |
+| **FAN — Football for All Nations** (Na Muang) | Complexe multi-terrains | `contact@footballforallnations.com` | Location terrain pour événements/tournoi | 🤝 Envoyé par Cyril 17/08 08h00 — sans réponse pour l'instant |
 | **Holiday Inn Resort Samui** (Bophut) | Hôtel | `usmrt.info@ihg.com` | Kids club / séjour-découverte famille | 🤝 Envoyé par Cyril 14/08 08h00 — sans réponse pour l'instant |
 | **Anantara Bophut** | Hôtel | `bophutsamui@anantara.com` | Partenariat resort haut de gamme, séjour-découverte | 🤝 Envoyé par Cyril 14/08 08h00 — sans réponse pour l'instant |
 | **Kimpton Kitalay Samui** (Choeng Mon) | Hôtel | `kimptonkitalay.info@ihg.com` | Kids club/playground, séjour-découverte famille | 🤝 Envoyé par Cyril 14/08 08h00 — sans réponse pour l'instant |
