@@ -36,7 +36,7 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
 | `evenements` (`.claude/agents/evenements.md`) | Camps, tournoi inter-écoles, corporate : rétroplannings, checklists | `/events` |
 | `webmaster` (`.claude/agents/webmaster.md`) | Site Astro : contenus, SEO, checklist lancement, synchro brain↔src | `/site` |
 | `coach` (`.claude/agents/coach.md`) | Plans de séance, progressions, banques de jeux, sécurité | `/coach` |
-| `coco-command` (`.claude/agents/coco-command.md`) | Chef d'état-major transverse : journal des actions, niveaux 0→4, validations, brief et bilan, coordination de tous les agents de tous les projets | `/command` |
+| `coco-command` (`.claude/agents/coco-command.md`) | Chef d'état-major transverse : journal des actions, tâches et échéances, niveaux A0→A4, validations, brief/bilan/hebdo, coordination de tous les agents de tous les projets | `/command` |
 | `memory` (`.claude/agents/memory.md`) | Mémoire transverse de **tous** les projets de Cyril : fiches, journal, briefs de contexte pour les autres agents | `/memory` |
 
 ## Règles communes à tous les agents
@@ -82,9 +82,11 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
   via le connecteur Zapier WhatsApp Business (fenêtre 24 h, templates), validation obligatoire.
   Les conversations restent lues sur l'app du téléphone (pas de lecture par API).
 - `brain/coco-command-playbook.md` — doctrine de **COCO COMMAND** : activités et tags, niveaux
-  d'action 0→4, format des événements, formats Telegram (action, validation, alerte, brief,
-  bilan), catalogue des commandes, routage des 4 chats et des délégations. Le moteur qui
-  exécute tout ça en continu vit dans le dépôt `jamin-depth` (`src/command/`).
+  d'action A0→A4, format des événements, **contrat de tâche** (objectif mesurable, condition
+  de fin, échéance) et **preuve d'exécution**, formats Telegram (action, validation, alerte,
+  terminé, arbitrage, brief, bilan, hebdo), catalogue des commandes, routage `(activité,
+  catégorie) → agent`. Le moteur qui exécute tout ça en continu vit dans le dépôt
+  `jamin-depth` (`src/command/`).
 - `brain/memoire/` — **mémoire transverse des projets de Cyril** (index, journal, une fiche
   par dépôt GitHub) : tenue par l'agent `memory`, à consulter avant de travailler sur un
   autre projet et à mettre à jour après chaque session significative.

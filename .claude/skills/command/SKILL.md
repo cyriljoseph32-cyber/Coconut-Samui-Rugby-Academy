@@ -4,7 +4,7 @@ description: >
   Lance COCO COMMAND, le chef d'état-major : point transverse sur tous les projets de Cyril
   (rugby, plongée, Coco, global), arbitrage des priorités, délégation aux agents, préparation
   des actions qui demandent sa validation. Utiliser quand Cyril veut piloter l'ensemble plutôt
-  qu'un projet, ou tape /command [brief | bilan | status <projet> | delegate <tâche> | approve <id>].
+  qu'un projet, ou tape /command [brief | bilan | semaine | status <projet> | delegate <tâche> | kpi | approve <id>].
 ---
 
 # /command — le chef d'état-major
@@ -22,9 +22,15 @@ Demande : `$ARGUMENTS`
    - `delegate <tâche>` → choisir l'agent, préparer le brief de délégation, le proposer.
    - `approve <event_id>` / `reject <event_id>` → rappeler que la validation se fait sur
      Telegram, sur l'identifiant exact, et où en est l'action.
-   - `tasks` → tout ce qui est ouvert, du P0 au P3.
+   - `tasks` → tout ce qui est ouvert, du P0 au P3, échéances en tête.
+   - `semaine` / `week` → le bilan hebdomadaire : résultats, ce qui a créé de la valeur (avec
+     preuve), ce qui a échoué, une automatisation à améliorer, une seule décision recommandée.
+   - `kpi` → rappeler que les chiffres se saisissent sur Telegram
+     (`/kpi <projet> <métrique> <valeur>`) et lister ce qui manque encore.
 
-Rappels : niveaux 3 et 4 jamais exécutés sans accord explicite de Cyril ; zéro invention
-(`[À COMPLÉTER PAR CYRIL]`) ; réponse en français, directe, lisible sur téléphone.
+Rappels : niveaux A3 et A4 jamais exécutés sans accord explicite de Cyril ; zéro invention
+(`[À COMPLÉTER PAR CYRIL]`) ; une tâche déléguée porte toujours un objectif mesurable et une
+condition de fin ; « c'est fait » exige une référence vérifiable ; réponse en français,
+directe, lisible sur téléphone.
 Le moteur (journal, Telegram, briefs automatiques) vit dans le dépôt `jamin-depth`,
 `src/command/` — voir `brain/memoire/projets/jamin-depth.md`.
