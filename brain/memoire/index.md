@@ -14,8 +14,13 @@
 | [bot-trading-US](projets/bot-trading-us.md) | Signal Bot actifs US (RSI-2) + bot global temps réel | React 19 + Vite + TS | Vercel — `/trading.html` | 17/07 — merge PR #2 | 🟢 Actif |
 | [assistant-ai](projets/assistant-ai.md) | **Coco front desk** — réceptionniste IA WhatsApp/email + console | Next.js 14 + Claude + Supabase + Twilio | Vercel | 17/07 — PR #3 « client launch » | 🟢 Actif |
 | [coco2](projets/coco2.md) | **Coco Samui Concierge** — chatbot touristique + serveur MCP | Astro + serverless + Claude Haiku | Vercel — coco-samui-ai.com | 12/07 — base 20/20 catégories | 🟢 Actif |
+| [jamin-depth](projets/jamin-depth.md) | **Jammin's Depths** — plongée & récupération sous-marine : site + système d'agents + moteur COCO COMMAND | Next.js 15 + Supabase + WhatsApp + Telegram | Vercel | 18/08 — PR #6 COCO COMMAND (draft) | 🟢 Actif |
 | [Dancesoul-therapy](projets/dancesoul-therapy.md) | Marque movement-therapy de Hannah + site | Next.js 15 (SSG) | Vercel (main) | 04/07 — refonte home | 🟡 En veille |
 | [Koh-s-33-stadium](projets/koh-s-33-stadium.md) | `[À COMPLÉTER PAR CYRIL]` | — | — | Jamais (aucun commit) | ⚪ Non démarré |
+
+⚠️ **COCO COMMAND** — le chef d'état-major transverse : la doctrine et l'agent vivent ici
+(`.claude/agents/coco-command.md`, `brain/coco-command-playbook.md`), le moteur qui l'exécute
+en continu vit dans `jamin-depth` (`src/command/`).
 
 ⚠️ **Deux « Coco » distincts** : `assistant-ai` (produit front desk pour commerces de services)
 ≠ `coco2` (concierge touristique de Koh Samui). Toujours vérifier duquel on parle.
