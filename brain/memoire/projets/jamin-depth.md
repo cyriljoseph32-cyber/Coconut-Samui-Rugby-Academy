@@ -1,6 +1,6 @@
 # jamin-depth — Jammin's Depths (plongée & récupération sous-marine)
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-18.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-20.
 > Dépôt : `cyriljoseph32-cyber/jamin-depth` (branche par défaut `main`).
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
@@ -46,7 +46,7 @@ demande de disponibilité au partenaire, relancer, rappeler les documents, rendr
 
 Le dépôt héberge désormais **le moteur du chef d'état-major transverse de Cyril** : journal
 opérationnel commun à toutes les activités (DIVING, COCO, RUGBY, GLOBAL), niveaux d'action
-0→4, commandes Telegram (`/today`, `/tasks`, `/approve <event_id>`, `/status`, `/audit`…),
+A0→A4, commandes Telegram (`/today`, `/tasks`, `/approve <event_id>`, `/status`, `/audit`…),
 brief 08 h et bilan 19 h (Asia/Bangkok), récapitulatif groupé des P2/P3 toutes les 30 min,
 et une API d'ingestion `POST /api/command/events` pour que les autres dépôts y déposent
 leurs événements.
@@ -57,8 +57,40 @@ leurs événements.
   (validation exigée dès le niveau 3, quelle que soit la configuration des canaux).
 - Doc : `docs/agents/COCO-COMMAND.md` · mise en service : `docs/agents/DEPLOY.md` §5.
 - Doctrine et formats côté agents : `brain/coco-command-playbook.md` (dépôt CSRA).
-- **État** : PR #6 ouverte en draft le 18/08/2026 (branche
-  `claude/coco-chief-of-staff-pbmn8d`), non mergée, non configurée en production.
+- **État v1** : PR #6 **mergée** le 18/08/2026 (`56b38ca`), déployée en production.
+
+### v2 — les tâches, les chiffres, l'hebdo (2026-08-20)
+
+Le trou de la v1 : le journal disait ce qui s'était passé, rien ne suivait ce qui devait
+arriver. Un `/delegate` créait un événement `PLANNED` sans objectif mesurable, sans condition
+de réussite, sans échéance — donc personne ne pouvait constater qu'il avait été oublié.
+
+- **`tasks.ts`** — contrat de tâche (objectif, `definition_of_done`, échéance, plan B).
+  Une tâche vague est **refusée** à la création : objectif de moins de 15 caractères,
+  condition de fin vide, ou niveau A3 se dispensant de validation.
+  Tâche et événement naissent ensemble (`task_id` ↔ `event_id`).
+- **Preuve d'exécution** — un `DONE` de type `ACTION`/`RESULT` sans `reference_url` ni
+  `reference_id` ressort marqué « non vérifié ». Remplir soi-même `impact` n'y change rien :
+  la mention se surajoute. La contrainte vit dans `buildEvent`, pas dans un prompt.
+- **`routing.ts`** — routage `(activité, catégorie)` → agent réellement existant. Les 16 rôles
+  du mandat (`growth_director`, `diving_sales_agent`…) sont des **alias**, pas des fichiers.
+  `finance` n'a de titulaire nulle part : aucun agent ne touche à l'argent.
+- **`kpi.ts` + `/kpi`** — CA, réservations et inscriptions ne transitent par aucun outil :
+  Cyril les saisit. Toute métrique non saisie sort `[À COMPLÉTER PAR CYRIL]`, **jamais zéro**.
+- **Bilan hebdomadaire** (`/week`, cron dimanche 18 h Bangkok). « Ce qui a généré le plus de
+  valeur » ne retient que ce qui a laissé une preuve ; les gestes répétés ≥ 3× dans la semaine
+  ressortent comme candidats à l'automatisation.
+- **Veille des échéances** — une échéance à moins de 72 h sans suite écrite remonte seule,
+  y compris un jour sans le moindre événement.
+- Formats Telegram ajoutés : `[✅ TERMINÉ]` et l'arbitrage Option A / Option B / recommandation.
+- Vocabulaire aligné sur le mandat : les niveaux s'affichent `A0`…`A4` (le type reste 0–4).
+- **Décidé avec Cyril** : Helmetik retiré (copié d'une autre version de la spec) ; le schéma
+  d'événement n'est **pas** renommé (`venture`, `needs_owner` conservés), seuls des champs
+  facultatifs sont ajoutés.
+- **Non construit, volontairement** : les tables `leads`, `partners`, `content_items`,
+  `playbooks`, `incidents`, `approvals`… du mandat. Ces données vivent déjà ailleurs ou
+  n'existent pas ; dix tables vides donneraient l'illusion d'un suivi que rien n'alimente.
+- 367 tests (26 fichiers → 29), typecheck, lint et build verts.
 
 ## Variables d'environnement
 
@@ -71,8 +103,12 @@ Toutes optionnelles : un déploiement ne casse jamais parce qu'une clé manque.
 
 ## Pièges connus
 
-- ⚠️ `vercel.json` déclare **6 tâches cron** dont une toutes les 30 minutes depuis la PR #6 :
-  vérifier le quota de l'offre Vercel. Si elle ne l'autorise pas, retirer `command-digest`.
+- ⚠️ `vercel.json` déclare **7 tâches cron** dont une toutes les 30 minutes : vérifier le
+  quota de l'offre Vercel. Si elle ne l'autorise pas, retirer `command-digest` — mais c'est
+  aussi la veille des échéances qui disparaît, pas seulement le regroupement des P2/P3.
+- ⚠️ Les tables Supabase doivent exister **avant** le premier cron : leur absence a produit
+  des `500` toutes les 30 minutes le 20/08/2026 (`PGRST205`), corrigés en exécutant
+  `supabase/schema.sql`. Le fichier est idempotent et additif : il se rejoue sans risque.
 - Le `setWebhook` Telegram doit désormais inclure `"message"` dans `allowed_updates`, sinon
   les commandes texte n'arrivent jamais.
 - Hors de la fenêtre de 24 h WhatsApp, Meta refuse toute réponse libre : le système le
@@ -86,4 +122,7 @@ Toutes optionnelles : un déploiement ne casse jamais parce qu'une clé manque.
 - Politique d'annulation, acompte, moyens de paiement, point de rendez-vous, assurance,
   âge minimum : non confirmés à ce jour.
 - Mise en service de COCO COMMAND : création des 4 chats Telegram, jeton d'ingestion,
-  variables Vercel, exécution de la partie ajoutée de `supabase/schema.sql`.
+  variables Vercel. Le SQL de la v1 a été exécuté le 20/08/2026 ; **la partie v2
+  (`command_tasks`, `command_kpis`, colonnes ajoutées) reste à exécuter**.
+- Régénérer `CRON_SECRET` : la valeur a circulé en clair dans une conversation le 20/08/2026.
+- Agent contenu/marketing de la plongée : `content` assure le routage, à confirmer.
