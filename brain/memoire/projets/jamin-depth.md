@@ -92,13 +92,36 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   n'existent pas ; dix tables vides donneraient l'illusion d'un suivi que rien n'alimente.
 - 367 tests (26 fichiers → 29), typecheck, lint et build verts.
 
+## Communication (`command_content`, Instagram) — depuis le 2026-08-21
+
+- **Calendrier éditorial** (`src/command/content.ts`, table `command_content`) : canal, format,
+  objectif, audience, accroche, légende, asset manquant ; cycle
+  `DRAFT → WAITING_APPROVAL → APPROVED → SCHEDULED → PUBLISHED`. Un contenu sans légende,
+  accroche, CTA ou audience est **refusé à la création** — un créneau « couvert » par une
+  intention vide n'est pas couvert. `published_url` porte la preuve.
+- **`/contenu [activité]`** : ce qui sort dans les 7 jours, plus ce qui est prêt sans date
+  (sinon ça ne sort jamais). **`/silence`** : les activités muettes depuis plus de 72 h, en
+  distinguant « rien de prêt » (problème de production) de « prêt mais pas publié » (problème
+  de publication) — les deux ne se corrigent pas de la même façon.
+- **Adaptateur Instagram** (`src/agents/adapters/instagram.ts`, API Graph v21) : lecture des
+  publications et commentaires en **A0** ; `publishImage` et `replyToComment` en **A3**, à
+  n'appeler que depuis `release()`. Sans `IG_USER_ID` / `IG_ACCESS_TOKEN`, l'adaptateur rend
+  `null` et tout le reste continue de tourner.
+- ⚠️ **Messages privés Instagram hors périmètre** : la permission `instagram_manage_messages`
+  passe par une revue d'application Meta. Ce n'est pas un manque de code — ne pas le promettre.
+- ⚠️ **Helmetik a été écarté deux fois** (20/08 puis 21/08). Il apparaît dans les tableaux des
+  mandats successifs mais jamais dans les trois activités listées en tête de ces mêmes mandats,
+  et aucun dépôt ne lui correspond. Ne pas le réintroduire sans que Cyril le décide
+  explicitement.
+
 ## Variables d'environnement
 
 `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `WHATSAPP_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID`,
 `WHATSAPP_APP_SECRET`, `WHATSAPP_VERIFY_TOKEN`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`,
 `TELEGRAM_ALLOWED_CHAT_IDS`, `TELEGRAM_WEBHOOK_SECRET`, `CRON_SECRET`, `ANTHROPIC_API_KEY`,
 `NEXT_PUBLIC_SITE_URL` — plus, pour COCO COMMAND : `COMMAND_INGEST_TOKEN`,
-`TELEGRAM_CHAT_COMMAND | _ALERTS | _DAILY | _PROJECT_COCO | _PROJECT_DIVING | _PROJECT_RUGBY`.
+`TELEGRAM_CHAT_COMMAND | _ALERTS | _DAILY | _PROJECT_COCO | _PROJECT_DIVING | _PROJECT_RUGBY`,
+et pour Instagram : `IG_USER_ID`, `IG_ACCESS_TOKEN`.
 Toutes optionnelles : un déploiement ne casse jamais parce qu'une clé manque.
 
 ## Pièges connus
