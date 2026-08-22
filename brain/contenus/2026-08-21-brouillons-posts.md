@@ -340,6 +340,54 @@ alimente le mieux les questions fréquentes pour la FAQ.
 
 ---
 
+---
+
+## Médiathèque Drive — ce qui existe, et ce qui manque encore
+
+> Dossier fourni par Cyril le 22/08/2026 :
+> [Drive](https://drive.google.com/drive/u/0/folders/1tvkEJAa8MX_JKTnw-oHm27WOTMqR0bJu)
+>
+> ⚠️ **Métadonnées seulement.** Le téléchargement des fichiers n'était pas autorisé dans la
+> session : noms, dates, tailles et types sont vérifiés, **le contenu visuel ne l'est pas**.
+> Personne ne peut donc encore dire si ces images sont publiables — cadrage, netteté, visages
+> tiers. Un tri humain reste nécessaire avant tout montage.
+
+### Contenu du dossier
+
+| Sous-dossier | Contenu vérifié | Utilisable pour |
+|---|---|---|
+| `Sail rock 27.07.26` | 25 vidéos MP4 (DJI Mimo, 27/07/2026, 11 h 32 → 14 h 13, 45–195 Mo) + 8 photos JPG en rafale (~2–2,5 Mo) | **DIVING-2** |
+| `Sail Rock 26.06.26` | à inventorier | DIVING-2 |
+| `Sail rock 18.06.26` | à inventorier | DIVING-2 |
+| `27/06/2026` | à inventorier | — |
+| `Liveboard Similans` | déc. 2025 | ❌ **voir avertissement ci-dessous** |
+| `Discovery` | 2023, sous-dossiers `DIVING`, `Pier`, `skills`, `drone` | DIVING-1 (sous réserve d'âge) |
+
+### ⚠️ Ne pas utiliser les Similans pour Jammin's Depths
+
+Les îles Similan sont en **mer d'Andaman**, de l'autre côté du pays — à ~700 km de Koh Samui.
+Illustrer un post « fun dives au départ de Koh Samui » avec ces images ferait croire à une
+sortie qui n'existe pas, et le premier client qui le remarque a raison de se plaindre. Ces
+médias sont hors périmètre pour ce compte.
+
+### Effet sur les brouillons
+
+| Brouillon | Avant | Maintenant |
+|---|---|---|
+| **DIVING-2** Sail Rock | bloqué | **matière disponible** — 3 sorties, à trier |
+| **DIVING-1** premier souffle | bloqué | dossier `Discovery` (2023) à vérifier ; **accord du client filmé toujours requis** |
+| **DIVING-3** récupération | bloqué | rien trouvé — aucune photo de récupération dans ce dossier |
+| **RUGBY-1/2/3** | bloqué | **rien** — la médiathèque est exclusivement plongée |
+| **COCO-1/3** | bloqué | **rien** — captures d'écran à produire, pas des photos |
+
+### Ce qui manque toujours
+
+1. **Tout le rugby.** Aucun média d'entraînement dans ce dossier. Trois brouillons sur neuf en
+   dépendent, et c'est l'activité avec le plus fort besoin de preuve sociale locale.
+2. **Une récupération sous-marine en image** — c'est le service le plus différenciant de
+   Jammin's Depths et le seul sans aucun visuel.
+3. **Les captures Coco**, anonymisées : à produire depuis le chat, pas depuis un appareil photo.
+
 ## Ce qu'il manque pour publier
 
 | Brouillon | Bloquant |
