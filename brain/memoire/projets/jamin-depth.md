@@ -92,13 +92,68 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   n'existent pas ; dix tables vides donneraient l'illusion d'un suivi que rien n'alimente.
 - 367 tests (26 fichiers → 29), typecheck, lint et build verts.
 
+## Communication (`command_content`, Instagram) — depuis le 2026-08-21
+
+- **Calendrier éditorial** (`src/command/content.ts`, table `command_content`) : canal, format,
+  objectif, audience, accroche, légende, asset manquant ; cycle
+  `DRAFT → WAITING_APPROVAL → APPROVED → SCHEDULED → PUBLISHED`. Un contenu sans légende,
+  accroche, CTA ou audience est **refusé à la création** — un créneau « couvert » par une
+  intention vide n'est pas couvert. `published_url` porte la preuve.
+- **`/contenu [activité]`** : ce qui sort dans les 7 jours, plus ce qui est prêt sans date
+  (sinon ça ne sort jamais). **`/silence`** : les activités muettes depuis plus de 72 h, en
+  distinguant « rien de prêt » (problème de production) de « prêt mais pas publié » (problème
+  de publication) — les deux ne se corrigent pas de la même façon.
+- **Adaptateur Instagram** (`src/agents/adapters/instagram.ts`, API Graph v21) : lecture des
+  publications et commentaires en **A0** ; `publishImage` et `replyToComment` en **A3**, à
+  n'appeler que depuis `release()`. Sans `IG_USER_ID` / `IG_ACCESS_TOKEN`, l'adaptateur rend
+  `null` et tout le reste continue de tourner.
+- ⚠️ **Messages privés Instagram hors périmètre** : la permission `instagram_manage_messages`
+  passe par une revue d'application Meta. Ce n'est pas un manque de code — ne pas le promettre.
+- ⏸️ **Instagram/Meta mis en pause le 22/08**, à la demande explicite de Cyril (confirme et
+  réitère la décision du 21/08). L'adaptateur `instagram.ts` reste livré et inerte
+  (`instagramFromEnv()` rend `null` sans `IG_USER_ID`/`IG_ACCESS_TOKEN`) — aucun chantier
+  Meta (app, revue, token) tant qu'il ne redonne pas explicitement le feu vert.
+- ⚠️ **Helmetik a été écarté deux fois** (20/08 puis 21/08). Il apparaît dans les tableaux des
+  mandats successifs mais jamais dans les trois activités listées en tête de ces mêmes mandats,
+  et aucun dépôt ne lui correspond. Ne pas le réintroduire sans que Cyril le décide
+  explicitement.
+
+## Automatisation des brouillons — `coco-contenu` (depuis le 22/08)
+
+- **Un premier cron réel**, pas seulement un calendrier vide : `src/command/content-draft.ts`
+  compose un brouillon `command_content` chaque jour à partir de `CONTENT_PILLARS`
+  (`src/agents/roles/content.ts`, DIVING) — angle, plan, interdits déjà vérifiés. `pillarForDay()`
+  fait tourner les quatre piliers sans état à retenir (jour UTC modulo 4).
+- **Habillage** : `src/agents/adapters/anthropic-content.ts` appelle Claude
+  (`ANTHROPIC_API_KEY`, déjà en prod pour `/api/chat`) avec un prompt système qui cite les
+  interdits du pilier mot pour mot. Sans clé, en cas d'erreur API, ou si le texte généré glisse
+  quand même un interdit (`breaksRule`, contrôle de sous-chaînes), **repli déterministe** :
+  l'angle et le plan du pilier deviennent directement la légende — jamais de créneau vide,
+  jamais de brouillon fautif publié en silence.
+- **Portée honnête : DIVING seulement**. RUGBY et COCO n'ont pas d'équivalent de
+  `CONTENT_PILLARS` dans leur dépôt ni de point d'entrée cron — restent en brouillons manuels
+  jusqu'à ce qu'un chantier équivalent soit fait là-bas.
+- Câblé dans `src/command/jobs.ts` (`coco-contenu` ajouté à `commandJobs`) et `vercel.json`
+  (`15 1 * * *` UTC = 08 h 15 Bangkok). Chaque brouillon passe par `draftContent()`
+  (`content.ts`, déjà livré le 21/08) : `WAITING_APPROVAL`, niveau 3, `needs_owner: true` — le
+  `command-digest` existant (30 min) le notifie sur Telegram, pas de nouveau chemin d'envoi.
+- **Toujours bloquées**, sans changement : les routines `coco-relances` et `coco-partenaires`
+  (Routines planifiées refusées par permission MCP dans cette session).
+- **Le test que Cyril a demandé** : une fois la branche mergée et déployée, appeler
+  `GET https://www.jammins-depths.com/api/agents/cron/coco-contenu` avec
+  `Authorization: Bearer $CRON_SECRET`. Trois preuves attendues : une ligne dans
+  `command_content` (Supabase), un événement niveau 3 dans le journal, la carte Telegram
+  correspondante. Ce test échoue en 401 tant que `CRON_SECRET` (exposé en clair plus tôt) n'a
+  pas été régénéré côté Vercel — toujours en attente côté Cyril.
+
 ## Variables d'environnement
 
 `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `WHATSAPP_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID`,
 `WHATSAPP_APP_SECRET`, `WHATSAPP_VERIFY_TOKEN`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`,
 `TELEGRAM_ALLOWED_CHAT_IDS`, `TELEGRAM_WEBHOOK_SECRET`, `CRON_SECRET`, `ANTHROPIC_API_KEY`,
 `NEXT_PUBLIC_SITE_URL` — plus, pour COCO COMMAND : `COMMAND_INGEST_TOKEN`,
-`TELEGRAM_CHAT_COMMAND | _ALERTS | _DAILY | _PROJECT_COCO | _PROJECT_DIVING | _PROJECT_RUGBY`.
+`TELEGRAM_CHAT_COMMAND | _ALERTS | _DAILY | _PROJECT_COCO | _PROJECT_DIVING | _PROJECT_RUGBY`,
+et pour Instagram : `IG_USER_ID`, `IG_ACCESS_TOKEN`.
 Toutes optionnelles : un déploiement ne casse jamais parce qu'une clé manque.
 
 ## Pièges connus
