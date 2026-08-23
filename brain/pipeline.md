@@ -10,7 +10,7 @@
 |---|---|---|---|---|
 | **Alan Proudfoot** — `alan@lis.ac.th` (prof EPS, Lamai International School) | Partenariat école | **2026-07-20 (a répondu, positif)** | Il rentre à Samui le **20/08** et appellera une fois installé (« cake & coffee »). Brouillon d'accusé prêt dans Gmail. **Relance si pas de nouvelles ~25/08.** Prévoir séance découverte à l'école (nouveau trimestre). | 🤝 Réponse positive 20/07 |
 | ~~Danielle Perchard~~ — `danielleperchard@hotmail.com` (3 garçons, 4/5/7 ans à l'inquiry initiale) | Lead parents | Reprise de contact envoyée 01/08 → **Danielle a répondu le 03/08 : elle ne vit plus à Samui, nous souhaite bonne chance.** | Aucune — lead non convertible (a quitté l'île). | ⛔ Clos (partie de l'île) |
-| **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (réponse tardive de Cyril à l'inquiry initiale de 09/2025) → suivi J+7 réellement envoyé le 29/07 (date corrigée après vérification Gmail — l'entrée précédente indiquait 01/08 par erreur)** | Aucune réponse depuis. Prochaine relance possible ~J+21 (~19/08) si accord de Cyril (déjà 1 relance envoyée). | ✅ Envoyé 29/07 — en attente |
+| **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (réponse tardive de Cyril à l'inquiry initiale de 09/2025) → suivi J+7 envoyé le 29/07** — sans réponse depuis. **2e relance (J+21) préparée 23/08** (nouveauté : 1ère séance Kids le 29/08), accord explicite de Cyril donné 23/08. | 🎯 Brouillon prêt, en attente d'envoi |
 
 ## 📤 Prospection écoles (proposition périscolaire envoyée le 2026-05-05, sans réponse)
 
@@ -120,7 +120,7 @@ manuellement à chaque brouillon avant envoi (non joint automatiquement pour lim
 
 | Cible | Zone | Affinité | Canal de contact | Statut |
 |---|---|---|---|---|
-| **BR Munns International** (groupe food, CEO Bradley Munns) | Bangkok / Samui | **Groupe qui possède Bondi (rugby live), SALT, The Cliff, The Palms, The Outback** — 1 contact = plusieurs bars sportifs | `Info@brmunnsinternational.com` (vérifié) · +66 80 519 3931 | 🤝 Envoyé 18/07 → **suivi J+7 réellement envoyé le 29/07** (idée concrète : Touch Rugby hebdo) — aucune réponse depuis. Prochaine relance ~J+21 (~19/08) seulement avec accord explicite de Cyril (déjà 1 relance faite) |
+| **BR Munns International** (groupe food, CEO Bradley Munns) | Bangkok / Samui | **Groupe qui possède Bondi (rugby live), SALT, The Cliff, The Palms, The Outback** — 1 contact = plusieurs bars sportifs | `Info@brmunnsinternational.com` (vérifié) · +66 80 519 3931 | 🤝 Envoyé 18/07 → suivi J+7 envoyé 29/07 — sans réponse → **2e relance (J+21) préparée 23/08** (nouveauté : lancement Kids Rugby le 29/08), accord explicite de Cyril donné 23/08. **Brouillon prêt, en attente d'envoi.** |
 | **George Clancy** — communauté rugby de l'île | Koh Samui | Contact rugby (rôle à confirmer par Cyril) | `george.clancy@gmail.com` (fourni par Cyril) | 🤝 A répondu (positif) 18/07 — à l'étranger, RDV à caler à son retour mi/fin août. **Brouillon de calage préparé 16/08** (demande s'il est rentré, propose un café) — en attente de validation/envoi par Cyril. |
 | **Bondi Aussie Bar & Grill** | Chaweng | Diffuse le rugby en direct | Couvert via BR Munns (groupe) ci-dessus | 🔁 Via BR Munns |
 | **The Islander** | Chaweng | Sports pub, rugby EN/AUS/EU | Facebook / sur place | 🎯 À contacter (EN) |
