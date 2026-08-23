@@ -1,6 +1,6 @@
 # CSRA — Coconut Samui Rugby Academy
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-07-20.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-23.
 > Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`).
 
 ## Identité
@@ -17,7 +17,9 @@
 - Site Astro + Tailwind, déployé sur Vercel. `npm run dev` / `npm run build`.
 - Le dépôt est aussi le **QG du brain agentique** : agents dans `.claude/agents/`
   (assistant-cyril, marketing, secretariat, communication, evenements, webmaster, coach,
-  memory), skills dans `.claude/skills/`, base de connaissances `brain/`.
+  coco-command, memory), skills dans `.claude/skills/`, base de connaissances `brain/`.
+  `coco-command` (créé le 18/08/2026) est le chef d'état-major transverse à tous les projets
+  de Cyril — cf. `brain/coco-command-playbook.md`.
 
 ## Fichiers clés & conventions
 
@@ -30,7 +32,14 @@
 - Règles communes (CLAUDE.md) : validation humaine obligatoire, zéro invention,
   ton « Island Grit », français avec Cyril.
 
-## État & prochaines étapes (2026-08-01)
+## État & prochaines étapes (2026-08-23)
+
+- **Audit de fiabilité** (23/08) : les 9 agents `.claude/agents/*.md` restructurés selon un
+  format standard à 7 sections (identité, périmètre, sources autorisées, processus de
+  décision, règles d'exception, ton, format de sortie JSON) ; audit complet dans
+  `brain/reliability-audit.md` (score par agent, P0→P3, cas de test). Cette fiche mémoire
+  était désynchronisée depuis le 20/07 (agent `coco-command` absent de la liste) — corrigé
+  dans cette même passe, cf. `brain/memoire/journal.md`.
 
 - Site en ligne ; placeholders restants listés dans `brain/academy.md` — tarifs, horaires,
   dates de camps : `[À COMPLÉTER PAR CYRIL]`.
