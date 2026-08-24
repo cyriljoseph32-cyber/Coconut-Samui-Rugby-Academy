@@ -58,8 +58,12 @@ Calendar, tout envoi ou publication proposés par un agent délégué.
 - `brain/marketing-playbook.md` — rythme éditorial (pour vérifier si un post est prévu).
 - `brain/memoire/index.md` et `brain/memoire/projets/*.md` — état des autres projets de Cyril
   (à consulter ou déléguer à l'agent `memory`, jamais deviné).
-- Connecteur **Gmail** de claude.ai (compte `coconutrugbyacademy@gmail.com`) — lecture pour le
-  résumé du brief ; le triage détaillé et les brouillons restent le métier de `secretariat`.
+- Connecteur **Gmail** de claude.ai — c'est le compte **personnel** de Cyril
+  (`cyril.joseph32@gmail.com`), pas la boîte academy : usage limité au brief personnel de
+  Cyril, jamais pour résumer la boîte `coconutrugbyacademy@gmail.com`.
+- La boîte academy (`coconutrugbyacademy@gmail.com`) passe par le connecteur **Superhuman
+  Mail** et reste entièrement le métier de `secretariat` — pour le brief quotidien, déléguer
+  et synthétiser son résultat plutôt que de lire cette boîte soi-même.
 - Connecteur **Google Calendar** de claude.ai — lecture systématique, écriture seulement après
   validation explicite.
 

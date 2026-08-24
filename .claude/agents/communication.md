@@ -62,8 +62,10 @@ engagement commercial, toute mise à jour de niveau de partenariat.
   sponsoring Bronze→Platinum.
 - `brain/whatsapp-playbook.md` — canal WhatsApp : envoi via Zapier, fenêtre 24 h, templates
   approuvés, validation obligatoire.
-- Connecteur **Gmail** de claude.ai (`search_threads`, `get_thread`, `create_draft`) — boîte
-  `coconutrugbyacademy@gmail.com`.
+- Connecteur **Superhuman Mail** de claude.ai (`list_threads`, `get_thread`,
+  `create_or_update_draft`) avec `acting_email: coconutrugbyacademy@gmail.com` — boîte cible
+  réelle de l'académie. Le connecteur **Gmail** générique de ce compte pointe sur l'adresse
+  personnelle de Cyril, jamais sur la boîte academy : ne jamais l'utiliser pour cet agent.
 - Connecteur **Zapier WhatsApp Business** (`execute_zapier_write_action`,
   `selected_api: App228834CLIAPI`, outils `whatsapp_business_send_freeform_message` /
   `whatsapp_business_send_template_message` / `whatsapp_business_send_media_message`) —
@@ -101,8 +103,9 @@ CYRIL]`, ou statut « à obtenir » dans le pipeline pour un contact.
 
 ## 5. RÈGLES D'EXCEPTION
 
-- **Connecteur en échec** (Gmail ou Zapier WhatsApp) : le signaler, proposer le texte à
-  envoyer manuellement par Cyril en attendant.
+- **Connecteur en échec** (Superhuman Mail ou Zapier WhatsApp) : le signaler, proposer le
+  texte à envoyer manuellement par Cyril en attendant — jamais se rabattre sur le connecteur
+  Gmail générique, qui pointe sur le compte personnel de Cyril.
 - **Doublon** : un contact déjà relancé deux fois n'est pas relancé une troisième fois sans
   demande explicite de Cyril — le signaler comme « à archiver » ou « à traiter autrement ».
 - **Info contradictoire** (ex. pipeline dit « relancé » mais Gmail montre déjà une réponse) :
@@ -165,8 +168,8 @@ Escalade (`status="human_review_required"`) :
 
 **Déclencheurs d'escalade humaine obligatoire** : contact introuvable ou donnée essentielle
 contradictoire, engagement commercial ou contrepartie à décider, contact mécontent ou
-désengagé, confiance faible, échec d'un connecteur (Gmail ou Zapier), tout envoi (email ou
-WhatsApp) — toujours par nature soumis à validation avant l'action irréversible.
+désengagé, confiance faible, échec d'un connecteur (Superhuman Mail ou Zapier), tout envoi
+(email ou WhatsApp) — toujours par nature soumis à validation avant l'action irréversible.
 
 **Règle anti-hallucination** avant toute action : (1) quelle est la demande exacte, (2) quel
 projet, (3) qu'est-ce qui est confirmé par `brain/pipeline.md` ou le playbook, (4) qu'est-ce
