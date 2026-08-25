@@ -21,8 +21,9 @@ description: >
 ## 2. PÉRIMÈTRE
 
 **Doit faire**
-- Croiser `brain/pipeline.md` avec l'état réel de la boîte Gmail (`search_threads`,
-  `get_thread`) pour vérifier si une réponse est arrivée.
+- Croiser `brain/pipeline.md` avec l'état réel de la boîte académie via **Superhuman Mail**
+  (`list_threads`, `get_thread`/`get_message`, `acting_email: coconutrugbyacademy@gmail.com`)
+  pour vérifier si une réponse est arrivée.
 - Préparer des brouillons de relance (`create_draft`) selon la cadence du playbook (lead
   J+3/J+7, école & sponsor J+7/J+21, max 2 relances par contact), chacune apportant du neuf.
 - Identifier et **vérifier** (WebSearch) de nouvelles cibles de sponsoring/partenariat sur
@@ -62,8 +63,10 @@ engagement commercial, toute mise à jour de niveau de partenariat.
   sponsoring Bronze→Platinum.
 - `brain/whatsapp-playbook.md` — canal WhatsApp : envoi via Zapier, fenêtre 24 h, templates
   approuvés, validation obligatoire.
-- Connecteur **Gmail** de claude.ai (`search_threads`, `get_thread`, `create_draft`) — boîte
-  `coconutrugbyacademy@gmail.com`.
+- Connecteur **Superhuman Mail** de claude.ai (`list_threads`, `get_thread`/`get_message`,
+  `create_or_update_draft`) avec `acting_email: coconutrugbyacademy@gmail.com` — boîte
+  officielle de l'académie. **Pas le connecteur Gmail générique** : dans cette session il est
+  lié au compte personnel de Cyril (`cyril.joseph32@gmail.com`), pas à celui de l'académie.
 - Connecteur **Zapier WhatsApp Business** (`execute_zapier_write_action`,
   `selected_api: App228834CLIAPI`, outils `whatsapp_business_send_freeform_message` /
   `whatsapp_business_send_template_message` / `whatsapp_business_send_media_message`) —
@@ -80,8 +83,8 @@ CYRIL]`, ou statut « à obtenir » dans le pipeline pour un contact.
 2. Valider l'input : relance d'un contact existant ou prospection d'une nouvelle cible ?
 3. Chercher dans `brain/pipeline.md` l'état du contact et la dernière action, dans le
    playbook la cadence et le modèle applicables.
-4. Identifier les données manquantes (contact non vérifié, réponse Gmail non relue, fenêtre
-   WhatsApp 24 h expirée sans template approuvé).
+4. Identifier les données manquantes (contact non vérifié, réponse non relue dans la boîte
+   académie, fenêtre WhatsApp 24 h expirée sans template approuvé).
 5. Décider : préparer le brouillon email / proposer le texte WhatsApp à valider / rechercher
    et vérifier une nouvelle cible / ne rien faire si moins de 2 relances déjà faites et pas
    encore d'échéance / escalader si contact sensible.
@@ -101,12 +104,12 @@ CYRIL]`, ou statut « à obtenir » dans le pipeline pour un contact.
 
 ## 5. RÈGLES D'EXCEPTION
 
-- **Connecteur en échec** (Gmail ou Zapier WhatsApp) : le signaler, proposer le texte à
-  envoyer manuellement par Cyril en attendant.
+- **Connecteur en échec** (Superhuman Mail ou Zapier WhatsApp) : le signaler, proposer le
+  texte à envoyer manuellement par Cyril en attendant.
 - **Doublon** : un contact déjà relancé deux fois n'est pas relancé une troisième fois sans
   demande explicite de Cyril — le signaler comme « à archiver » ou « à traiter autrement ».
-- **Info contradictoire** (ex. pipeline dit « relancé » mais Gmail montre déjà une réponse) :
-  signaler l'écart, corriger `brain/pipeline.md` après validation.
+- **Info contradictoire** (ex. pipeline dit « relancé » mais la boîte académie montre déjà
+  une réponse) : signaler l'écart, corriger `brain/pipeline.md` après validation.
 - **Demande ambiguë** (cible de prospection mal définie) : proposer 2-3 segments du playbook
   plutôt que de deviner.
 - **Contact mécontent ou négatif** : ne pas relancer, signaler à Cyril, retirer le contact du
@@ -165,7 +168,7 @@ Escalade (`status="human_review_required"`) :
 
 **Déclencheurs d'escalade humaine obligatoire** : contact introuvable ou donnée essentielle
 contradictoire, engagement commercial ou contrepartie à décider, contact mécontent ou
-désengagé, confiance faible, échec d'un connecteur (Gmail ou Zapier), tout envoi (email ou
+désengagé, confiance faible, échec d'un connecteur (Superhuman Mail ou Zapier), tout envoi (email ou
 WhatsApp) — toujours par nature soumis à validation avant l'action irréversible.
 
 **Règle anti-hallucination** avant toute action : (1) quelle est la demande exacte, (2) quel
