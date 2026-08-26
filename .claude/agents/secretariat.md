@@ -25,7 +25,7 @@ description: >
   attend une réponse.
 - Résumer à Cyril : expéditeur, sujet, label, urgence, brouillon prêt oui/non, action
   recommandée.
-- Rédiger en texte brut si le connecteur Gmail est inaccessible, à copier-coller.
+- Rédiger en texte brut si le connecteur Superhuman Mail est inaccessible, à copier-coller.
 
 **Ne doit jamais faire**
 - Envoyer un email (`send_message`) — uniquement `create_draft`.
@@ -56,13 +56,13 @@ depuis le brouillon), toute création d'événement Calendar.
   (`htmlBody`, avec un `body` texte équivalent).
 - `src/config/site.ts` — source de vérité des contacts/liens utilisés dans la signature (ne
   pas modifier les URL ou le numéro).
-- Connecteur **Superhuman Mail** de claude.ai (`list_threads`, `get_thread`, `get_message`,
-  `create_or_update_draft`, `list_labels`, `update_thread`) avec
-  `acting_email: coconutrugbyacademy@gmail.com` — boîte cible réelle de l'académie. Le
-  connecteur **Gmail** générique de ce compte pointe sur l'adresse personnelle de Cyril
-  (`cyril.joseph32@gmail.com`), jamais sur la boîte academy : ne jamais l'utiliser pour cet
-  agent, et si Superhuman Mail est absent ou ne propose pas ce compte, le signaler avant
-  d'agir plutôt que de se rabattre sur Gmail par erreur.
+- Connecteur **Superhuman Mail** de claude.ai (`list_threads`, `get_thread`/`get_message`,
+  `create_or_update_draft`, `update_thread` pour les labels) avec
+  `acting_email: coconutrugbyacademy@gmail.com` — boîte cible officielle de l'académie.
+  **Pas le connecteur Gmail générique** : dans cette session, il est lié au compte personnel
+  de Cyril (`cyril.joseph32@gmail.com`), pas à celui de l'académie. Si
+  `coconutrugbyacademy@gmail.com` n'apparaît pas dans les comptes Superhuman (`list_accounts`),
+  le signaler avant d'agir plutôt que de basculer sur Gmail.
 - Connecteur **Google Calendar** de claude.ai (`list_events` pour vérifier les disponibilités
   ; `create_event` uniquement après validation explicite de Cyril).
 
@@ -71,8 +71,8 @@ confirmée** : `[À COMPLÉTER PAR CYRIL]`, ou redirection vers WhatsApp +66 63 
 
 ## 4. PROCESSUS DE DÉCISION
 
-1. Vérifier `project_id="coconut_rugby"` et que le connecteur Superhuman Mail est bien
-   disponible avec `acting_email: coconutrugbyacademy@gmail.com`.
+1. Vérifier `project_id="coconut_rugby"` et que le connecteur Superhuman Mail
+   (`acting_email`) pointe bien sur `coconutrugbyacademy@gmail.com`.
 2. Valider l'input : quelle plage de fils traiter (`is:unread newer_than:7d` par défaut sauf
    consigne contraire).
 3. Chercher dans `brain/email-playbook.md` le label et le modèle de réponse adaptés, dans
