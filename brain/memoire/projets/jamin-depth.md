@@ -1,6 +1,6 @@
 # jamin-depth — Jammin's Depths (plongée & récupération sous-marine)
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-20.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-26.
 > Dépôt : `cyriljoseph32-cyber/jamin-depth` (branche par défaut `main`).
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
@@ -155,6 +155,22 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
 `TELEGRAM_CHAT_COMMAND | _ALERTS | _DAILY | _PROJECT_COCO | _PROJECT_DIVING | _PROJECT_RUGBY`,
 et pour Instagram : `IG_USER_ID`, `IG_ACCESS_TOKEN`.
 Toutes optionnelles : un déploiement ne casse jamais parce qu'une clé manque.
+
+## Score de confiance des agents (26/08 — écart constaté)
+
+- Deux commits existent sur `claude/focused-allen-d348n8` : `1995425` (audit de fiabilité,
+  `docs/agents/RELIABILITY-AUDIT.md`) et `f407728` (« Ajouter un score de confiance numérique
+  (0-100) aux décisions d'agent », `src/agents/confidence.ts` + wiring
+  `src/agents/orchestrator.ts`). Les deux sont **poussés sur `origin/claude/focused-allen-
+  d348n8`**, confirmé par `git log`.
+- ⚠️ **Contrairement à ce qui a été rapporté à l'agent memory**, ces commits ne sont **pas
+  mergés sur `main`** (`git log origin/main..HEAD` les liste comme non intégrés) et **aucune
+  PR GitHub ne les référence** : la liste réelle des PR du dépôt (12 PR, jusqu'au #12 « Confirm
+  deposit and pick-up policies from the owner », ouverte) ne contient aucune PR sur le score
+  de confiance. Le moteur COCO COMMAND réutilisé aujourd'hui pour livrer les posts CSRA/coco2
+  sur Telegram (`src/agents/adapters/telegram.ts`, chats par projet — code confirmé présent et
+  inchangé) tourne donc toujours sur la version de `main` **sans** score de confiance. À
+  vérifier avec Cyril avant de considérer cette fonctionnalité comme en production.
 
 ## Pièges connus
 

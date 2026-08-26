@@ -1,7 +1,8 @@
 # CSRA — Coconut Samui Rugby Academy
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-23.
-> Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`).
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-26.
+> Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`,
+> travaux en cours sur `claude/focused-allen-d348n8`).
 
 ## Identité
 
@@ -32,14 +33,52 @@
 - Règles communes (CLAUDE.md) : validation humaine obligatoire, zéro invention,
   ton « Island Grit », français avec Cyril.
 
-## État & prochaines étapes (2026-08-23)
+## État & prochaines étapes (2026-08-26)
 
 - **Audit de fiabilité** (23/08) : les 9 agents `.claude/agents/*.md` restructurés selon un
   format standard à 7 sections (identité, périmètre, sources autorisées, processus de
   décision, règles d'exception, ton, format de sortie JSON) ; audit complet dans
-  `brain/reliability-audit.md` (score par agent, P0→P3, cas de test). Cette fiche mémoire
-  était désynchronisée depuis le 20/07 (agent `coco-command` absent de la liste) — corrigé
-  dans cette même passe, cf. `brain/memoire/journal.md`.
+  `brain/reliability-audit.md` (score par agent, P0→P3, cas de test). PR #15, **mergée sur
+  `main`** (`93ba4d9`, confirmé `git log origin/main`). Cette fiche mémoire était
+  désynchronisée depuis le 20/07 (agent `coco-command` absent de la liste) — corrigé dans
+  cette même passe, cf. `brain/memoire/journal.md`.
+
+- **Routage boîte academy vers Superhuman Mail** (24/08, commit `8aecb7a` sur
+  `claude/focused-allen-d348n8`, **pas encore mergé sur `main`**) : `secretariat.md`,
+  `communication.md` et `assistant-cyril.md` basculés sur le connecteur Superhuman Mail
+  (`acting_email=coconutrugbyacademy@gmail.com`) pour toute la boîte academy — le connecteur
+  Gmail générique du compte pointe sur l'adresse personnelle de Cyril, pas sur l'académie.
+  Reprend le contenu de l'ancienne PR #10 (fermée sans merge le 25/08, en conflit avec la
+  réécriture 7-sections de l'audit). L'ancienne PR #11 (corrections de dates
+  `brain/pipeline.md`) a aussi été fermée le 25/08, sans reprise — jugée trop obsolète
+  (3 semaines, fichier trop divergé). **Écart constaté** : une PR #17 supplémentaire
+  (« Route secretariat/communication/assistant-cyril to Superhuman for the academy inbox »),
+  non mentionnée par Cyril, a aussi été fermée le 25/08 sur ce même sujet — vraisemblablement
+  une tentative parallèle sur le même correctif ; à clarifier avec Cyril si besoin.
+
+- **Bloom devient l'outil visuel par défaut** (24/08, commit `3e0d542`, sur la même branche
+  non mergée) : `.claude/agents/marketing.md` et `brain/marketing-playbook.md` référencent
+  désormais le compte trybloom pro comme outil par défaut (workflow `bloom_list_brands` →
+  `bloom_onboard_brand` → `bloom_search_user_images` → `bloom_generate_image`), Canva en repli
+  seulement.
+
+- ⚠️ **Point de vigilance non résolu — Routines et connecteurs MCP** : les Routines créées ou
+  modifiées via l'outil `create_trigger`/`update_trigger` ne peuvent porter aucun connecteur
+  MCP dans cette organisation (erreur outil confirmée : « the connectors parameter is not
+  available for this organization »). Vérification du 26/08 (`list_triggers`, 42 entrées) :
+  aucune Routine nommée « Génération hebdo posts CSRA » ni « Génération hebdo posts coco2 »
+  n'existe, et l'identifiant `trig_019yumztFcAWMeL2Bvc6UbZG` cité par Cyril **n'apparaît nulle
+  part** dans la liste réelle des Routines de ce compte. **Écart à signaler explicitement à
+  Cyril** : soit ces deux Routines n'ont pas été créées/sauvegardées, soit elles ont été
+  créées ailleurs (autre compte/organisation) et ne sont pas visibles depuis cet
+  environnement — à vérifier avec lui avant de considérer la livraison Bloom→Telegram hebdo
+  comme opérationnelle. Les Routines confirmées existantes (Brief CSRA, Command brief
+  quotidien, Inbox quotidien, Coach mardi, « coco chief of staff ») portent en revanche bien
+  des connexions MCP listées (Superhuman-Mail, Google-Calendar, Vercel, trybloom, etc.), donc
+  ce risque ne les concerne pas forcément toutes de la même façon — à re-vérifier au cas par
+  cas plutôt que d'en déduire une règle générale.
+- **En attente de Cyril** : `TELEGRAM_BOT_TOKEN` + chat_id (RUGBY et COCO) — variables
+  d'environnement Claude Code non encore transmises dans cette session (`env` vérifié : vide).
 
 - Site en ligne ; placeholders restants listés dans `brain/academy.md` — tarifs, horaires,
   dates de camps : `[À COMPLÉTER PAR CYRIL]`.

@@ -1,6 +1,6 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-07-22.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-26.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
 
@@ -60,11 +60,34 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
     assertion dans `scripts/smoke-test.mjs`.
   - **Mergé sur `main` le 2026-07-22 (PR #7, merge `ead54fb`)** → déploiement Vercel automatique.
 
-## État & prochaines étapes (2026-07-22)
+## État & prochaines étapes (2026-08-26)
 
 - 2026-07-22 : intégration du partenaire location **Hakuna Matata** **mergée sur `main`**
   (PR #7, merge `ead54fb`) → déploiement Vercel auto — voir section Partenaires.
 - Base concierge complète (20/20 catégories de listings) depuis le 12/07.
+- **Audit de fiabilité + standardisation des 4 agents** : PR #12 (« Audit de fiabilité IA +
+  standardisation des agents .claude »), **mergée sur `main`** le 23/08 (`9391410`, confirmé
+  `git log origin/main`) — documentation uniquement, aucun code de prod touché.
+- ⚠️ **Écart constaté (26/08)** : le garde-fou chat.js décrit par Cyril — sécurité/prix,
+  rate-limit KV durable, CI, `notifyCommand` (commit `55feffb`, « Add safety escalation, price
+  guard, durable rate limiting, and COCO COMMAND events ») — **n'est PAS mergé sur `main`**.
+  Il n'existe que sur la branche `claude/focused-allen-d348n8`
+  (`git merge-base --is-ancestor 55feffb origin/main` → négatif) et aucune PR GitHub ne
+  correspond à ce contenu dans l'historique des PR de ce dépôt (la seule PR #12 réelle est
+  celle de l'audit de fiabilité, sans lien avec ces garde-fous). **Donc pas de déploiement
+  Vercel prod déclenché par ce travail** — à vérifier/relancer avec Cyril avant de considérer
+  ces protections comme actives sur https://coco-samui-ai.com.
+- **Connecteurs Vercel/Gmail/Windsor.ai/Canva documentés** (24/08, commit `274ebb6` sur la
+  même branche non mergée) dans `dev-concierge.md` / `partenariats-concierge.md` /
+  `growth-concierge.md`. Reprend le contenu de l'ancienne PR #10 (fermée sans merge le 25/08).
+- **Bloom par défaut** (24/08, commit `5c3facd`, même branche non mergée) : `growth-concierge`
+  utilise désormais Bloom (compte pro trybloom) par défaut pour les visuels, Canva en repli.
+- Ancienne PR #11 (« Add DanceSoulTherapy Instagram content plan ») : contenu Instagram
+  DanceSoulTherapy déposé par erreur sur ce dépôt — **fermée le 25/08 sans recréation
+  ailleurs** (à recréer côté `Dancesoul-therapy` si Cyril le souhaite encore).
+- ⚠️ Voir la fiche CSRA : les Routines hebdo « Génération hebdo posts CSRA/coco2 » censées
+  livrer les visuels Bloom sur Telegram chat `TELEGRAM_CHAT_PROJECT_COCO` ne sont **pas
+  retrouvées** dans la liste réelle des Routines du compte (26/08) — statut non confirmé.
 - Prospection (agences, comptes) : voir `Coco_AI_Prospection_RECAP.md` dans le dépôt ;
   avancement réel : `[À COMPLÉTER PAR CYRIL]`.
 
