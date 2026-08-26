@@ -8,7 +8,7 @@
 
 | Contact | Type | Dernier échange | Prochaine action | Statut |
 |---|---|---|---|---|
-| **Alan** — `alan@lis.ac.th` (prof EPS, Lamai International School) | Partenariat école | **2026-07-20 (a répondu, positif)** | Il rentre à Samui le **20/08** et appellera une fois installé (« cake & coffee »). Brouillon d'accusé prêt dans Gmail. **Relance si pas de nouvelles ~25/08.** Prévoir séance découverte à l'école (nouveau trimestre). | 🤝 Réponse positive 20/07 |
+| **Alan Proudfoot** — `alan@lis.ac.th` (prof EPS, Lamai International School) — **contact désormais par WhatsApp, plus par email (décision Cyril 26/08)** | Partenariat école | **2026-08-25/26 : RDV calé (coaching + visite école)** | **RDV reporté par Cyril au vendredi 28/08 16h** (initialement mercredi 26/08 16h). Fiche de préparation : `brain/rdv-prep/2026-08-28-alan-proudfoot-lis.md`. | 📅 RDV vendredi 28/08 16h |
 | **Danielle Perchard** — `danielleperchard@hotmail.com` (3 garçons, 4/5/7 ans à l'inquiry initiale) | Lead parents | **2025-09-04 (Danielle avait dit « catching up next week ») — correction : aucune relance n'a en fait été envoyée depuis, malgré une note précédente erronée** | Reprise de contact envoyée le 01/08 (brouillon créé 27/07). En attente de réponse. | ✅ Envoyé 01/08 |
 | **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (relance envoyée par Cyril, vérifié dans Gmail)** | Suivi J+7 envoyé le 01/08 (brouillon créé 27/07). En attente de réponse. | ✅ Envoyé 01/08 |
 

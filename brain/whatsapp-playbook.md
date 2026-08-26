@@ -5,6 +5,13 @@
 > messages WhatsApp — relances leads, réponses partenaires — via le connecteur **Zapier
 > WhatsApp Business**, dans le respect de la règle de marque (validation de Cyril obligatoire).
 
+> ⚠️ **Correction du 26/08/2026** : le connecteur WhatsApp Business Zapier décrit ci-dessous
+> **n'est pas utilisable actuellement** (essai Zapier expiré le 26/08, compte repassé en plan
+> gratuit). **Décision de Cyril : on ne réabonne pas Zapier pour l'instant — WhatsApp reste
+> entièrement manuel** (Cyril envoie lui-même depuis son téléphone). Les agents continuent de
+> **préparer le texte** des messages à proposer à Cyril (étape 1 du workflow ci-dessous), mais
+> l'étape 3 (envoi via l'action Zapier) est **hors service** jusqu'à nouvel ordre.
+
 ## Décision de Cyril (2026-07-20) — Option A
 
 - **Les conversations WhatsApp restent sur l'app du téléphone de Cyril.** C'est là qu'il lit
