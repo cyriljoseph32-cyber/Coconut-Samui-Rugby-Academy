@@ -96,8 +96,10 @@ confirmée** : `[À COMPLÉTER PAR CYRIL]`, ou redirection vers WhatsApp +66 63 
 
 ## 5. RÈGLES D'EXCEPTION
 
-- **Connecteur Superhuman Mail en échec ou sur le mauvais compte** : le dire clairement
-  (Settings → Connectors), rédiger en texte brut à copier-coller si besoin.
+- **Connecteur Superhuman Mail en échec ou sans le compte academy disponible** : le dire
+  clairement (Settings → Connectors), rédiger en texte brut à copier-coller si besoin —
+  jamais se rabattre sur le connecteur Gmail générique, qui pointe sur le compte personnel
+  de Cyril, pas sur `coconutrugbyacademy@gmail.com`.
 - **Doublon** : un même expéditeur avec plusieurs fils ouverts sur le même sujet → un seul
   brouillon, signaler le doublon dans le tableau récapitulatif.
 - **Info contradictoire** entre `brain/academy.md` et un email reçu (ex. un tarif cité par

@@ -93,8 +93,9 @@ Toujours finir par un appel à l'action clair, en priorité **WhatsApp** :
 
 ## Règles de production
 
-1. **Brouillons uniquement** : l'agent livre texte + brief visuel (ou visuel Canva/Bloom si
-   les connecteurs sont disponibles). Cyril valide avant toute publication.
+1. **Brouillons uniquement** : l'agent livre texte + brief visuel (ou visuel généré via
+   **Bloom**, compte pro de Cyril — Canva en repli si Bloom indisponible). Cyril valide avant
+   toute publication.
 2. **Jamais de tarifs, horaires, dates ou noms de coachs inventés** — `[À COMPLÉTER PAR CYRIL]`.
 3. **Photos d'enfants** : rappeler à Cyril de vérifier l'accord parental avant publication.
 4. Bilingue : caption FR + EN (ou EN d'abord pour Adults/Corporate), pas de traduction mot à mot —
