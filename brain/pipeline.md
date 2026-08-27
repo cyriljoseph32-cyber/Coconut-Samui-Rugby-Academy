@@ -8,9 +8,27 @@
 
 | Contact | Type | Dernier échange | Prochaine action | Statut |
 |---|---|---|---|---|
-| **Alan Proudfoot** — `alan@lis.ac.th` (prof EPS, Lamai International School) — contact désormais par **WhatsApp** `+44 7867 501966` (nouveau numéro), plus par email (décision Cyril 26/08) | Partenariat école | **2026-07-20 (a répondu, positif)** → **24/08 19h11 : écrit sur WhatsApp**, de retour et installé sur l'île → RDV calé mercredi 26/08 16h → **reporté par Cyril au vendredi 28/08 16h** | **RDV vendredi 28/08 16h** (coaching + visite école). Fiche de préparation : `brain/rdv-prep/2026-08-28-alan-proudfoot-lis.md`. | 📅 RDV vendredi 28/08 16h |
+| **Alan Proudfoot** — `alan@lis.ac.th` (prof EPS, Lamai International School) — contact désormais par **WhatsApp** `+44 7867 501966` | Partenariat école — **CONCLU** | **2026-07-20 (a répondu, positif)** → RDV réalisé **27/08** (avancé, initialement prévu le 28/08) → **accord de principe sur un programme périscolaire hebdomadaire** (détail dans l'encadré ci-dessous). | Choisir le jour de la semaine (lundi à jeudi), rassembler diplôme + casier judiciaire pour l'école, préparer le lancement (démarrage ~2 semaines, ≈ 10/09). | 🤝 Accord conclu 27/08 — logistique à finaliser |
 | ~~Danielle Perchard~~ — `danielleperchard@hotmail.com` (3 garçons, 4/5/7 ans à l'inquiry initiale) | Lead parents | Reprise de contact envoyée 01/08 → **Danielle a répondu le 03/08 : elle ne vit plus à Samui, nous souhaite bonne chance.** | Aucune — lead non convertible (a quitté l'île). | ⛔ Clos (partie de l'île) |
 | **Olympia** — `olympia.sinegualfamily@gmail.com` (fils de 7 ans) | Lead parents | **2026-07-18 (réponse tardive de Cyril à l'inquiry initiale de 09/2025) → suivi J+7 envoyé le 29/07** — sans réponse depuis. **2e relance (J+21) préparée 23/08** (nouveauté : 1ère séance Kids le 29/08), accord explicite de Cyril donné 23/08. | 🎯 Brouillon prêt, en attente d'envoi |
+
+> ### 🏫 Programme périscolaire LIS — accord du 27/08/2026 (RDV Alan Proudfoot)
+>
+> | | |
+> |---|---|
+> | **Format** | 1 séance d'1h par semaine, **lundi à jeudi 15h–16h** (jour exact à choisir par Cyril) |
+> | **Durée** | Cycle de **6 semaines** |
+> | **Âges** | Enfants **6–12 ans** |
+> | **Groupe** | Max **16 enfants** |
+> | **Terrain** | 15 m × 30 m (à l'école) |
+> | **Tarif** | **350 THB/enfant** (unité — par séance ou par cycle — `[À COMPLÉTER PAR CYRIL]`, à clarifier avant facturation) |
+> | **Démarrage** | Dans **2 semaines** (≈ 10/09/2026, à confirmer avec le jour retenu) |
+> | **Exigences école** | LIS demande un **diplôme** (lequel ? `[À COMPLÉTER PAR CYRIL]`) et un **casier judiciaire** (démarche à lancer — `[À COMPLÉTER PAR CYRIL]`) avant le démarrage |
+>
+> **Actions restantes avant le 10/09** : trancher le jour de la semaine, obtenir/fournir le
+> diplôme et le casier judiciaire à LIS, préparer le matériel pour un groupe de 16 (ballons,
+> plots, chasubles), confirmer l'unité de facturation des 350 THB. À signaler à l'agent
+> `evenements` pour un rétroplanning si besoin.
 
 ## 📤 Prospection écoles (proposition périscolaire envoyée le 2026-05-05, sans réponse)
 

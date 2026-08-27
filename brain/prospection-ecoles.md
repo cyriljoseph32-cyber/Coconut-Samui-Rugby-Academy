@@ -11,7 +11,7 @@
 | École | Zone | Contact | Statut prospection |
 |---|---|---|---|
 | **ISS** — International School of Samui (~300 élèves, cursus britannique/Cambridge) | Bophut | ✉️ `HRmanager@iss.ac.th` (vérifié) | ⏳ Relance due — proposition envoyée 05/05/2026, sans réponse |
-| **Lamai International School (LIS)** | Lamai | ✉️ `info@lis.ac.th` — contact direct : **Alan** (prof EPS), `alan@lis.ac.th` | 🤝 Réponse positive 20/07 — piste la plus chaude, voir `brain/pipeline.md` |
+| **Lamai International School (LIS)** | Lamai | ✉️ `info@lis.ac.th` — contact direct : **Alan** (prof EPS), désormais par WhatsApp `+44 7867 501966` | ✅ **Partenariat conclu 27/08/2026** — programme périscolaire hebdomadaire, 6-12 ans, cycle de 6 semaines. Détail complet : `brain/pipeline.md` |
 | **Greenacre International School** | Na Mueang | ✉️ `info@greenacre.ac.th` (vérifié) | ⏳ Relance due — proposition envoyée 05/05/2026, sans réponse |
 | **PBISS** (PanyaDee, The British International School of Samui — Cambridge + STEM+) | Chaweng Noi | ✉️ `admissions@pbiss.ac.th` (vérifié) · ☎️ +66 77 423 802 / +66 77 413 506 | ✅ Brouillon premier contact créé 27/07 |
 | **Windfield International School** | Koh Samui | ✉️ `info.samui@windfield.ac.th` (vérifié) · ☎️ +66 77 332 420 | ✅ Brouillon premier contact créé 27/07 |
