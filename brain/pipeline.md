@@ -21,14 +21,14 @@
 > | **Âges** | Enfants **6–12 ans** |
 > | **Groupe** | Max **16 enfants** |
 > | **Terrain** | 15 m × 30 m (à l'école) |
-> | **Tarif** | **350 THB/enfant** (unité — par séance ou par cycle — `[À COMPLÉTER PAR CYRIL]`, à clarifier avant facturation) |
+> | **Tarif** | **350 THB/enfant/séance** (confirmé par Cyril 27/08) |
 > | **Démarrage** | Dans **2 semaines** (≈ 10/09/2026, à confirmer avec le jour retenu) |
 > | **Exigences école** | LIS demande un **diplôme** (lequel ? `[À COMPLÉTER PAR CYRIL]`) et un **casier judiciaire** (démarche à lancer — `[À COMPLÉTER PAR CYRIL]`) avant le démarrage |
 >
 > **Actions restantes avant le 10/09** : trancher le jour de la semaine, obtenir/fournir le
 > diplôme et le casier judiciaire à LIS, préparer le matériel pour un groupe de 16 (ballons,
-> plots, chasubles), confirmer l'unité de facturation des 350 THB. À signaler à l'agent
-> `evenements` pour un rétroplanning si besoin.
+> plots, chasubles). Rétroplanning demandé à l'agent `evenements` le 27/08 —
+> voir `brain/events-playbook.md` / dossier dédié.
 
 ## 📤 Prospection écoles (proposition périscolaire envoyée le 2026-05-05, sans réponse)
 
