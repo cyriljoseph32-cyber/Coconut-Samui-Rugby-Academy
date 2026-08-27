@@ -90,6 +90,11 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
   retrouvées** dans la liste réelle des Routines du compte (26/08) — statut non confirmé.
 - Prospection (agences, comptes) : voir `Coco_AI_Prospection_RECAP.md` dans le dépôt ;
   avancement réel : `[À COMPLÉTER PAR CYRIL]`.
+- **27/08 (depuis la session CSRA)** : 4 brouillons Gmail créés (`coconutrugbyacademy@gmail.com`)
+  vers les 4 hôtels de Samui à email vérifié (`brain/sponsor-prospects.md` section K) — Holiday
+  Inn Resort Samui, Anantara Bophut, Kimpton Kitalay Samui, SALA Samui Choengmon. Aucun chiffre
+  de commission/tarif inclus (conditions partenariat toujours à trancher). En attente de
+  validation/envoi par Cyril.
 
 ## Pièges connus
 
