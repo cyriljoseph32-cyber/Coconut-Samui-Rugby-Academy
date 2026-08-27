@@ -24,9 +24,12 @@
 ## Lieux d'entraînement
 
 1. **Koh's 33 Stadium — Lamai** (terrain principal)
-2. **PSG Academy — Chaweng**
 
 Koh Samui, province de Surat Thani, Thaïlande.
+
+> PSG Academy (Chaweng) retiré des lieux affichés le 08/08 — décision de Cyril, le partenariat
+> terrain n'est pas confirmé (cf. `brain/pipeline.md`, logistique terrain). À réintégrer si la
+> situation se clarifie.
 
 ## Programmes
 
@@ -34,7 +37,8 @@ Koh Samui, province de Surat Thani, Thaïlande.
 
 - **Format** : tag rugby uniquement, **zéro contact**, zéro pression
 - **Groupes** : max 12 enfants par coach
-- **Séances** : 60 minutes, hebdomadaire
+- **Séances** : 60 minutes, hebdomadaire, **le samedi** — **toute première séance le 29/08/2026**
+  (confirmé par Cyril le 12/08/2026)
 - **Expérience** : aucune requise — la plupart des enfants partent de zéro
 - **À apporter** : gourde, baskets ou crampons, crème solaire
 - **CTA** : essai gratuit — message WhatsApp type :
@@ -105,7 +109,7 @@ Koh Samui, province de Surat Thani, Thaïlande.
 | Info | Statut |
 |---|---|
 | Tarifs (tous programmes) | `[À COMPLÉTER PAR CYRIL]` — rediriger vers WhatsApp |
-| Horaires précis des séances | **En attente des résultats du sondage Facebook (juillet 2026)** — d'ici là, rediriger vers WhatsApp |
+| Horaires précis des séances | **Kids : samedis, 1ère séance le 29/08/2026 (confirmé par Cyril 12/08)** ✅. Adults Touch : mardis 19h–20h30, Koh's 33 (déjà utilisé en communication, cf. `brain/marketing-assets/`). Teens : encore `[À COMPLÉTER PAR CYRIL]` — rediriger vers WhatsApp d'ici là. |
 | Dates des camps / événements | `[À COMPLÉTER PAR CYRIL]` (`src/pages/camps-events.astro`) |
 | Noms et bios des coachs | `[À COMPLÉTER PAR CYRIL]` (`src/pages/about.astro`) |
 
@@ -115,5 +119,5 @@ Koh Samui, province de Surat Thani, Thaïlande.
 - [ ] Activation FormSubmit (premier envoi + clic « Activate » dans l'email reçu)
 - [ ] Domaine définitif dans `site.ts`, `astro.config.mjs`, `robots.txt`
 - [ ] GA4 + Microsoft Clarity (stubs commentés dans `src/layouts/Base.astro`)
-- [ ] Dates de camps, vraies photos galerie, bios coachs
+- [ ] Dates de camps, bios coachs — **4 vraies photos reçues le 08/08** (`brain/marketing-assets/real-photos/`), consentement parental à confirmer avant intégration à la gallery
 - [ ] Google Business Profile + Search Console

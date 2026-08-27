@@ -27,6 +27,17 @@ all levels, social vibe. Just show up.
 
 **Hashtags** — #touchrugby #kohsamui #samuiexpats #lamai #adultsrugby #growstrongtogether
 
+## Régénérer les visuels
+
+Le générateur dédié `gen-touch-poster.cjs` produit les 3 mardis restants (11/08, 18/08, 25/08 —
+les 28/07 et 04/08 sont déjà publiés, ne pas les regénérer). Bloc central (titre, date, heure,
+lieu) **centré verticalement** dans l'espace entre l'en-tête et le bandeau WhatsApp.
+
+```bash
+node brain/marketing-assets/touch-mardis-2026-08/gen-touch-poster.cjs /chemin/de/sortie
+# puis rendre chaque .html en .png 1080×1350 via Chromium headless — voir ../README.md
+```
+
 ## Publication
 
 - **Postiz** (recommandé) : `node brain/marketing-assets/postiz-push.cjs brain/marketing-assets/touch-mardis-2026-08/manifest.json`

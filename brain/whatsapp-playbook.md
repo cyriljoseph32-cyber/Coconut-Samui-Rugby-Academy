@@ -10,7 +10,14 @@
 - **Les conversations WhatsApp restent sur l'app du téléphone de Cyril.** C'est là qu'il lit
   et gère ses échanges au quotidien. On **ne migre pas** le numéro vers l'API Cloud.
 - **Zapier sert uniquement à *envoyer*** des messages (relances, réponses) depuis les agents,
-  quand Cyril le demande. WhatsApp Business est **déjà connecté** dans le Zapier de Cyril.
+  quand Cyril le demande.
+
+> ⚠️ **Vérifié 12/08/2026** : contrairement à ce que ce playbook indiquait, le connecteur
+> **WhatsApp Business n'est pas connecté** dans le Zapier de Cyril (`inspect_zapier_actions` →
+> 0 connexion). Les agents ne peuvent donc **pas encore envoyer** de message WhatsApp — il faut
+> que Cyril ouvre `https://mcp.zapier.com/api/v1/connect-auth/App228834CLIAPI?accountId=28043037`
+> pour connecter le compte avant que cette fonctionnalité soit utilisable. D'ici là : les agents
+> préparent le texte, Cyril l'envoie lui-même depuis son téléphone.
 
 ## Ce que le connecteur permet — et ne permet pas
 
