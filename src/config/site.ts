@@ -26,6 +26,10 @@ export const SITE = {
       name: "Koh's 33 Stadium — Lamai",
       mapsUrl: "https://www.google.com/maps/search/?api=1&query=Koh%27s+33+Stadium+Lamai+Koh+Samui",
     },
+    {
+      name: "PSG Academy — Chaweng",
+      mapsUrl: "https://www.google.com/maps/search/?api=1&query=PSG+Academy+Samui+Chaweng",
+    },
   ],
 } as const;
 
