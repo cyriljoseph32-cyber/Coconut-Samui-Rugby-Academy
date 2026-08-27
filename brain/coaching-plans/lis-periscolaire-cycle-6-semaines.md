@@ -10,6 +10,15 @@
 > (matériel, diplôme/casier, planning d'installation) est traité par l'agent `evenements`,
 > voir `brain/pipeline.md`. Ce document ne remplace jamais le jugement du coach sur le terrain.
 
+## Matériel confirmé — juste des ballons et des plots
+
+Cyril a confirmé le 27/08 que le matériel disponible se limite à des **ballons et des plots**
+(pas de chasubles, pas de bandes de tag). Les jeux ci-dessous qui mentionnent des « chasubles »
+pour distinguer des rôles ou des équipes doivent être adaptés sur place par le coach avec une
+alternative simple : désigner les rôles à la voix (« toi et toi, vous êtes chasseurs »), utiliser
+un plot ou un objet visible tenu en main, ou marquer les zones au sol plutôt que les joueurs. Le
+tag reste **à 2 mains**, sans matériel dédié.
+
 ## Cadre pédagogique du cycle
 
 - **Chevauchement d'âge (6–12 ans)** : ce groupe déborde des deux catégories officielles du
@@ -32,17 +41,14 @@
 
 ## Sécurité — à lire avant la première séance
 
-- **Ratio coach/enfants — point d'attention** : le ratio officiel publié par l'académie pour
-  les enfants est **max 12 enfants par coach**. Ce groupe périscolaire compte **jusqu'à 16
-  enfants** : **un seul coach ne suffit pas** pour respecter ce ratio en toute sécurité. Il
-  faut soit un **2e coach présent à chaque séance**, soit une organisation en sous-groupes
-  strictement encadrés en permanence. Décision à trancher par Cyril avant le 10/09 →
-  `[À COMPLÉTER PAR CYRIL]`.
+- **Ratio coach/enfants — tranché par Cyril le 27/08** : Cyril coache, et le prof EPS (Alan)
+  est également présent à chaque séance — 2 adultes pour 16 enfants. Point réglé.
 - **Chaleur & hydratation** : pauses eau toutes les **15–20 min minimum**, plus fréquentes si
-  forte chaleur/humidité à 15h. Le terrain est à l'école, l'ombrage n'est pas confirmé —
-  repérer un point d'ombre (bâtiment, arbres) avant la séance et y placer les pauses/le huddle
-  si possible. Adapter l'intensité des jeux à la météo du jour, jamais l'inverse.
-- **Soleil** : crème solaire recommandée avant la séance (à rappeler aux familles/à l'école).
+  forte chaleur/humidité à 15h. **Terrain couvert (toit) — confirmé par Cyril le 27/08**, donc
+  pas de recherche de point d'ombre à faire : la séance entière se déroule à l'abri du soleil
+  direct. Adapter l'intensité des jeux à la météo/l'humidité du jour, jamais l'inverse.
+- **Soleil** : moins critique vu le terrain couvert, mais crème solaire reste une bonne habitude
+  à rappeler aux familles/à l'école pour les trajets/pauses.
 - **Commotion — zéro exception** : au moindre doute (choc à la tête, même léger, même sans
   contact direct — chute, collision entre enfants), sortie immédiate et définitive de la
   séance, information de l'école et des parents, avis médical avant toute reprise. Ce cycle
@@ -77,9 +83,10 @@ rigole, que **chaque enfant touche le ballon**.
 | 15h30–15h50 | Jeu — mini-matchs de tag | 20 min |
 | 15h50–16h00 | Huddle final | 10 min |
 
-- **Échauffement (10 min)** — *« Le poulailler » / "Chicken run"* : 2 chasubles = chasseurs,
-  les autres courent dans une zone 15×15 m délimitée par plots. Touché à 2 mains = accroupi,
-  libéré par un camarade qui vient le taper. Rotation des chasseurs toutes les 2 minutes.
+- **Échauffement (10 min)** — *« Le poulailler » / "Chicken run"* : 2 enfants désignés à la voix
+  = chasseurs (pas de chasubles disponibles — le coach les nomme clairement), les autres courent
+  dans une zone 15×15 m délimitée par plots. Touché à 2 mains = accroupi, libéré par un camarade
+  qui vient le taper. Rotation des chasseurs toutes les 2 minutes.
   Consigne clé : *« Two hands to tag, pas de plaquage! »*
 - **Skills (20 min)** — Passes statiques en cercles de 4 (5 min) puis passes en marchant en
   ligne par 4 (8 min) : *« Hands ready! / Mains prêtes! »*, *« Call for it! / Demande-le! »*.
@@ -221,14 +228,10 @@ clôturer le cycle.
 
 - **Jour exact de la semaine** (lundi/mardi/mercredi/jeudi, 15h–16h) → `[À COMPLÉTER PAR
   CYRIL]`.
-- **Nombre de coachs présents par séance** — voir point ratio en Sécurité ci-dessus : à 16
-  enfants, un 2e coach est fortement recommandé pour rester dans le ratio publié de
-  l'académie → `[À COMPLÉTER PAR CYRIL]`.
-- **Matériel réellement disponible à l'école** (ballons — combien, plots/coupelles, chasubles
-  de 4 couleurs pour les rotations d'équipes, marquage de zones/en-buts) → `[À COMPLÉTER PAR
-  CYRIL]`. Les jeux ci-dessus supposent au minimum : plots pour délimiter 2 zones de 15×15 m,
-  chasubles pour au moins 4 équipes distinctes, quelques ballons de mini-rugby adaptés à l'âge.
-- **Point d'ombre disponible sur le terrain de l'école** pour les pauses eau et le huddle
-  (chaleur de 15h) → `[À COMPLÉTER PAR CYRIL]`.
+- ~~Nombre de coachs présents par séance~~ — **réglé** : Cyril + le prof EPS Alan, présents à
+  chaque séance.
+- **Combien de ballons exactement** disponibles/à apporter → `[À COMPLÉTER PAR CYRIL]` (matériel
+  confirmé par ailleurs : ballons + plots uniquement, pas de chasubles).
+- ~~Point d'ombre disponible sur le terrain de l'école~~ — **réglé** : terrain couvert (toit).
 - **Trousse de premiers secours et contacts d'urgence sur place** (école ou académie) →
   `[À COMPLÉTER PAR CYRIL]`.

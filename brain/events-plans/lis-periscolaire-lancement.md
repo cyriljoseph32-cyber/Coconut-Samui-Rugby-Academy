@@ -36,14 +36,11 @@ brief coachs) tant qu'ils ne sont pas tranchés.
 | Démarrage visé | ~**10/09/2026** (semaine du 07–10/09, date exacte selon décision 1) |
 | Exigences école | Diplôme (nature à confirmer) + casier judiciaire, avant démarrage |
 
-## ⚠️ Point de vigilance — ratio d'encadrement
+## ✅ Ratio d'encadrement — tranché par Cyril le 27/08
 
-Le programme Kids publié sur le site engage l'académie sur un ratio **max 12 enfants/coach**
-(`brain/academy.md`). Le groupe LIS autorise jusqu'à **16 enfants**. Avec un seul coach sur
-place, ce serait au-dessus de l'engagement publié. À trancher par Cyril : un **2e adulte
-encadrant** sur les séances LIS (coach ou assistant), ou confirmation que ce ratio spécifique
-diffère pour ce partenariat. Ce n'est pas une des 3 décisions bloquantes ci-dessus, mais c'est
-un point sécurité/qualité à ne pas laisser filer avant le jour J.
+Pas de souci : Cyril sera le coach sur place, et le prof EPS (Alan) sera également présent à
+chaque séance. **2 adultes pour 16 enfants** — dans l'esprit du ratio publié (12 enfants/coach)
+même si Alan n'est pas un coach CSRA à proprement parler. Point clos.
 
 ## Rétroplanning semaine par semaine (à rebours depuis le démarrage ~10/09)
 
@@ -68,24 +65,27 @@ un point sécurité/qualité à ne pas laisser filer avant le jour J.
 > Quantités proposées par `evenements` pour un groupe de cette taille sur ce format de terrain
 > — à ajuster par Cyril selon le stock réel disponible.
 
+> **Matériel confirmé par Cyril le 27/08 : juste des ballons et des plots.** Pas de chasubles ni
+> de bandes de tag (tag confirmé à 2 mains, pas de matériel dédié). Les jeux du cycle pédagogique
+> qui s'appuyaient sur des chasubles (distinction d'équipes) sont à adapter sur place — voir note
+> dans `brain/coaching-plans/lis-periscolaire-cycle-6-semaines.md`.
+
 - [ ] **Ballons** taille adaptée 6–12 ans : 6 à 8 ballons (sous-groupes de 2–3 enfants pour que
       chaque enfant touche le ballon, cf. principe Kids du playbook coaching)
 - [ ] **Plots/coupelles** : ~24–30 (délimitation du terrain 15×30 + zones d'exercices/mini-buts)
-- [ ] **Chasubles** 2 couleurs : 8 + 8 (tailles enfant si disponibles)
-- [ ] **Bandes/ceintures de tag (velcro)** si ce matériel est utilisé pour le format tag CSRA —
-      `[À COMPLÉTER PAR CYRIL]` (le playbook coaching ne précise pas si le Kids program utilise
-      des ceintures velcro ou un tag à deux mains ; à trancher avant la 1ère séance)
 - [ ] **Trousse de premiers secours** complète + protocole coup de chaleur/commotion affiché
 - [ ] **Eau potable en quantité** pour 16 enfants + encadrants sur 1h (pauses toutes les
       15–20 min, climat Samui) — vérifier avec Alan l'accès à un point d'eau sur place, sinon
       prévoir une glacière CSRA
-- [ ] **Zones d'ombre** : à repérer sur le terrain LIS en amont (arbres, préau) — sinon prévoir
-      une solution (parasol/tente pop-up) pour les pauses
-- [ ] Rappel aux familles (via LIS) : **crème solaire, gourde, baskets/crampons** à apporter
+- [ ] Rappel aux familles (via LIS) : **gourde, baskets/crampons** à apporter (crème solaire
+      moins prioritaire — terrain couvert, voir ci-dessous)
 - [ ] Sifflet coach, chronomètre, plan de séance imprimé
 - [ ] Feuille de présence + fiche contacts d'urgence (16 enfants)
 - [ ] Sac/caisse de transport du matériel (aller-retour chaque semaine, pas de stockage
       permanent confirmé sur place — à vérifier avec Alan)
+
+> ✅ **Terrain couvert (toit) — confirmé par Cyril le 27/08.** Plus de souci de zones d'ombre à
+> repérer ni de solution parasol/tente à prévoir pour les pauses.
 
 ## Checklist administrative
 

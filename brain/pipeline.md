@@ -26,15 +26,16 @@
 > | **Exigences école** | LIS demande un **diplôme** (lequel ? `[À COMPLÉTER PAR CYRIL]`) et un **casier judiciaire** (démarche à lancer — `[À COMPLÉTER PAR CYRIL]`) avant le démarrage |
 >
 > **Actions restantes avant le 10/09** : trancher le jour de la semaine, obtenir/fournir le
-> diplôme et le casier judiciaire à LIS, préparer le matériel pour un groupe de 16 (ballons,
-> plots, chasubles). **Rétroplanning complet produit par l'agent `evenements` le 27/08** —
+> diplôme et le casier judiciaire à LIS, préparer le matériel confirmé (ballons, plots).
+> **Rétroplanning complet produit par l'agent `evenements` le 27/08** —
 > voir `brain/events-plans/lis-periscolaire-lancement.md` (3 décisions ouvertes en tête de
 > document, checklists matériel/admin, trame de séance). **Progression pédagogique des 6
 > séances produite par l'agent `coach` le 27/08** — voir
 > `brain/coaching-plans/lis-periscolaire-cycle-6-semaines.md`.
 >
-> ⚠️ **Alerte ratio confirmée par les deux agents** : le groupe de 16 enfants dépasse le max
-> 12 enfants/coach publié — un 2e coach est recommandé avant le démarrage.
+> **Points tranchés par Cyril le 27/08** : ratio réglé (Cyril coache + le prof EPS Alan est
+> aussi présent, 2 adultes pour 16 enfants) · matériel confirmé = **juste ballons et plots**
+> (pas de chasubles ni bandes de tag) · **terrain couvert (toit)** — plus de souci d'ombre.
 
 ## 📤 Prospection écoles (proposition périscolaire envoyée le 2026-05-05, sans réponse)
 
