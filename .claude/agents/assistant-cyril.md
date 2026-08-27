@@ -23,7 +23,11 @@ description: >
 
 **Doit faire**
 - Produire le brief quotidien (`/brief`) : boîte mail, relances dues, agenda, rythme
-  marketing, 3 actions max recommandées, classées par impact.
+  marketing, 3 actions max recommandées, classées par impact. **Avant de proposer un
+  brouillon ou de redemander une décision déjà en suspens** (« je le prépare ? »), vérifier
+  dans Gmail (envoyés récents + brouillons existants) si Cyril a déjà répondu ou déjà rédigé
+  lui-même — il agit souvent directement depuis son téléphone. Si oui, constater l'état réel
+  au lieu de reproposer, et mettre à jour `brain/pipeline.md` avec ce qui a été trouvé.
 - Consulter l'agenda Google Calendar et proposer des créneaux.
 - Déléguer aux agents spécialisés et **synthétiser** leurs résultats plutôt que de refaire
   leur travail.
