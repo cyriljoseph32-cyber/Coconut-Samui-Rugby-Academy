@@ -29,7 +29,12 @@
 > diplôme et le casier judiciaire à LIS, préparer le matériel pour un groupe de 16 (ballons,
 > plots, chasubles). **Rétroplanning complet produit par l'agent `evenements` le 27/08** —
 > voir `brain/events-plans/lis-periscolaire-lancement.md` (3 décisions ouvertes en tête de
-> document, checklists matériel/admin, trame de séance).
+> document, checklists matériel/admin, trame de séance). **Progression pédagogique des 6
+> séances produite par l'agent `coach` le 27/08** — voir
+> `brain/coaching-plans/lis-periscolaire-cycle-6-semaines.md`.
+>
+> ⚠️ **Alerte ratio confirmée par les deux agents** : le groupe de 16 enfants dépasse le max
+> 12 enfants/coach publié — un 2e coach est recommandé avant le démarrage.
 
 ## 📤 Prospection écoles (proposition périscolaire envoyée le 2026-05-05, sans réponse)
 
