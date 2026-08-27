@@ -10,14 +10,14 @@
 > (matériel, diplôme/casier, planning d'installation) est traité par l'agent `evenements`,
 > voir `brain/pipeline.md`. Ce document ne remplace jamais le jugement du coach sur le terrain.
 
-## Matériel confirmé — juste des ballons et des plots
+## Matériel confirmé — 13 ballons, plots, tags de couleurs
 
-Cyril a confirmé le 27/08 que le matériel disponible se limite à des **ballons et des plots**
-(pas de chasubles, pas de bandes de tag). Les jeux ci-dessous qui mentionnent des « chasubles »
-pour distinguer des rôles ou des équipes doivent être adaptés sur place par le coach avec une
-alternative simple : désigner les rôles à la voix (« toi et toi, vous êtes chasseurs »), utiliser
-un plot ou un objet visible tenu en main, ou marquer les zones au sol plutôt que les joueurs. Le
-tag reste **à 2 mains**, sans matériel dédié.
+Cyril a confirmé le 27/08 : **13 ballons**, des **plots**, et des **tags de couleurs**
+disponibles pour les séances. Les tags remplacent avantageusement les chasubles pour distinguer
+des rôles ou des équipes dans les jeux ci-dessous (ex. « équipe rouge » / « équipe bleue » selon
+la couleur du tag porté) — au coach de choisir sur le terrain s'il utilise le tag comme
+mécanique de jeu (le porteur doit se faire retirer son tag plutôt qu'être touché à 2 mains) ou
+seulement comme repère de couleur, selon ce qui fonctionne le mieux avec le groupe.
 
 ## Cadre pédagogique du cycle
 
@@ -83,10 +83,10 @@ rigole, que **chaque enfant touche le ballon**.
 | 15h30–15h50 | Jeu — mini-matchs de tag | 20 min |
 | 15h50–16h00 | Huddle final | 10 min |
 
-- **Échauffement (10 min)** — *« Le poulailler » / "Chicken run"* : 2 enfants désignés à la voix
-  = chasseurs (pas de chasubles disponibles — le coach les nomme clairement), les autres courent
-  dans une zone 15×15 m délimitée par plots. Touché à 2 mains = accroupi, libéré par un camarade
-  qui vient le taper. Rotation des chasseurs toutes les 2 minutes.
+- **Échauffement (10 min)** — *« Le poulailler » / "Chicken run"* : 2 enfants portant un **tag
+  d'une couleur distincte** = chasseurs, les autres courent dans une zone 15×15 m délimitée par
+  plots. Touché à 2 mains = accroupi, libéré par un camarade qui vient le taper. Rotation des
+  chasseurs (et des tags) toutes les 2 minutes.
   Consigne clé : *« Two hands to tag, pas de plaquage! »*
 - **Skills (20 min)** — Passes statiques en cercles de 4 (5 min) puis passes en marchant en
   ligne par 4 (8 min) : *« Hands ready! / Mains prêtes! »*, *« Call for it! / Demande-le! »*.
@@ -230,8 +230,7 @@ clôturer le cycle.
   CYRIL]`.
 - ~~Nombre de coachs présents par séance~~ — **réglé** : Cyril + le prof EPS Alan, présents à
   chaque séance.
-- **Combien de ballons exactement** disponibles/à apporter → `[À COMPLÉTER PAR CYRIL]` (matériel
-  confirmé par ailleurs : ballons + plots uniquement, pas de chasubles).
+- ~~Matériel disponible~~ — **réglé** : 13 ballons, plots, tags de couleurs.
 - ~~Point d'ombre disponible sur le terrain de l'école~~ — **réglé** : terrain couvert (toit).
 - **Trousse de premiers secours et contacts d'urgence sur place** (école ou académie) →
   `[À COMPLÉTER PAR CYRIL]`.

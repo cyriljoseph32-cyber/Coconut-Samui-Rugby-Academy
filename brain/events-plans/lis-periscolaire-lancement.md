@@ -65,14 +65,14 @@ même si Alan n'est pas un coach CSRA à proprement parler. Point clos.
 > Quantités proposées par `evenements` pour un groupe de cette taille sur ce format de terrain
 > — à ajuster par Cyril selon le stock réel disponible.
 
-> **Matériel confirmé par Cyril le 27/08 : juste des ballons et des plots.** Pas de chasubles ni
-> de bandes de tag (tag confirmé à 2 mains, pas de matériel dédié). Les jeux du cycle pédagogique
-> qui s'appuyaient sur des chasubles (distinction d'équipes) sont à adapter sur place — voir note
-> dans `brain/coaching-plans/lis-periscolaire-cycle-6-semaines.md`.
+> **Matériel confirmé par Cyril le 27/08 : 13 ballons, des plots, et des tags de couleurs**
+> (les tags servent aussi à distinguer les équipes dans les jeux). Pas de chasubles à
+> proprement parler — les couleurs de tags remplissent ce rôle.
 
-- [ ] **Ballons** taille adaptée 6–12 ans : 6 à 8 ballons (sous-groupes de 2–3 enfants pour que
-      chaque enfant touche le ballon, cf. principe Kids du playbook coaching)
+- [x] **Ballons** : **13 confirmés** (largement suffisant pour un groupe de 16 en sous-groupes)
 - [ ] **Plots/coupelles** : ~24–30 (délimitation du terrain 15×30 + zones d'exercices/mini-buts)
+- [x] **Tags de couleurs** : confirmés disponibles — à utiliser pour la mécanique de tag et/ou
+      la distinction d'équipes dans les jeux
 - [ ] **Trousse de premiers secours** complète + protocole coup de chaleur/commotion affiché
 - [ ] **Eau potable en quantité** pour 16 enfants + encadrants sur 1h (pauses toutes les
       15–20 min, climat Samui) — vérifier avec Alan l'accès à un point d'eau sur place, sinon
