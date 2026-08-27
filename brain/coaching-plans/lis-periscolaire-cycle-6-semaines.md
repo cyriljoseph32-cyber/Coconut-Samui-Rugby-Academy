@@ -1,8 +1,9 @@
 # Cycle périscolaire LIS — 6 semaines (6-12 ans)
 
 > **Lamai International School (LIS)** — partenariat périscolaire, accord du 27/08/2026
-> (RDV Alan Proudfoot, prof EPS). 1 séance d'1h/semaine, **lundi à jeudi 15h–16h**
-> (jour exact `[À COMPLÉTER PAR CYRIL]`) · **Cycle de 6 semaines** · Enfants **6–12 ans** ·
+> (RDV Alan Proudfoot, prof EPS). 1 séance d'1h/semaine, **jeudi 15h–16h** (penché par Cyril
+> le 27/08, pas encore définitif — S1→S6 si confirmé : 10/09, 17/09, 24/09, 01/10, 08/10,
+> 15/10) · **Cycle de 6 semaines** · Enfants **6–12 ans** ·
 > Groupe **max 16 enfants** · Terrain **15 m × 30 m** (à l'école) · **Tag rugby uniquement,
 > zéro contact**. Coaching bilingue FR/EN.
 >
@@ -226,8 +227,8 @@ clôturer le cycle.
 
 ## Ce qui reste à compléter par Cyril
 
-- **Jour exact de la semaine** (lundi/mardi/mercredi/jeudi, 15h–16h) → `[À COMPLÉTER PAR
-  CYRIL]`.
+- **Jour de la semaine** — penché vers **jeudi** (27/08), à confirmer définitivement →
+  `[À COMPLÉTER PAR CYRIL]`.
 - ~~Nombre de coachs présents par séance~~ — **réglé** : Cyril + le prof EPS Alan, présents à
   chaque séance.
 - ~~Matériel disponible~~ — **réglé** : 13 ballons, plots, tags de couleurs.

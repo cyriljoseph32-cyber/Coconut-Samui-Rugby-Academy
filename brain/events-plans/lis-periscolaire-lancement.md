@@ -18,7 +18,7 @@ brief coachs) tant qu'ils ne sont pas tranchés.
 
 | # | Décision | Impact si non tranché |
 |---|---|---|
-| 1 | **Jour de la semaine retenu** (lundi, mardi, mercredi ou jeudi, 15h–16h) | Impossible de fixer la date exacte de la 1ère séance (fenêtre actuelle : semaine du 07 au 10/09/2026) ni de communiquer un créneau ferme à Alan |
+| 1 | ~~Jour de la semaine retenu~~ — **penché vers le jeudi** (Cyril, 27/08), pas encore définitif | Confirmation finale nécessaire avant de communiquer un créneau ferme à Alan |
 | 2 | **Diplôme exact demandé par LIS** — nature du diplôme non précisée (`[À COMPLÉTER PAR CYRIL]`) | Démarche d'obtention/rassemblement du document ne peut pas démarrer |
 | 3 | **Statut de la démarche de casier judiciaire** — lancée ou non, délai estimé (`[À COMPLÉTER PAR CYRIL]`) | Risque de ne pas être prêt pour le démarrage si la démarche n'est pas déjà en cours (délais administratifs thaïlandais/consulaires à vérifier) |
 
@@ -27,13 +27,13 @@ brief coachs) tant qu'ils ne sont pas tranchés.
 | | |
 |---|---|
 | Partenaire | Lamai International School — contact Alan Proudfoot (`alan@lis.ac.th`, WhatsApp `+44 7867 501966`) |
-| Format | 1 séance d'1h/semaine, **lundi à jeudi 15h–16h** (jour exact = décision 1) |
+| Format | 1 séance d'1h/semaine, **jeudi 15h–16h** (penché par Cyril, décision 1 pas encore définitive) |
 | Durée du cycle | **6 semaines** |
 | Âges | **6–12 ans** |
 | Groupe | Max **16 enfants** |
 | Terrain | **15 m × 30 m**, sur le campus LIS (pas Koh's 33 Stadium) |
 | Tarif | **350 THB/enfant/séance** (confirmé par Cyril le 27/08) |
-| Démarrage visé | ~**10/09/2026** (semaine du 07–10/09, date exacte selon décision 1) |
+| Démarrage visé | **Jeudi 10/09/2026** si le jeudi est confirmé (S1→S6 : 10/09, 17/09, 24/09, 01/10, 08/10, 15/10) |
 | Exigences école | Diplôme (nature à confirmer) + casier judiciaire, avant démarrage |
 
 ## ✅ Ratio d'encadrement — tranché par Cyril le 27/08
@@ -50,12 +50,12 @@ même si Alan n'est pas un coach CSRA à proprement parler. Point clos.
 | Échéance | Action | Agent(s) |
 |---|---|---|
 | **27/08 (jeu) — J0** | Accord conclu avec Alan (fait). Point de départ du rétroplanning. | `evenements` |
-| **28–29/08** | Cyril tranche la **décision 1** (jour de semaine) et lance en parallèle les démarches **diplôme** et **casier judiciaire** (décisions 2 et 3 à clarifier au moins en interne, même si les documents prennent plus de temps à arriver) | Cyril |
-| **Semaine du 31/08–04/09** | Confirmation écrite à Alan du jour retenu et de la date de 1ère séance ; clarifier avec Alan : autorisations parentales (LIS gère en interne ou CSRA doit les faire signer ?), accès point d'eau/zones d'ombre sur le terrain 15×30, modalités de facturation des 350 THB/enfant (LIS collecte et reverse, ou CSRA facture les familles directement), stockage du matériel entre les séances | `communication` (liaison Alan), Cyril (validation avant tout envoi) |
+| **28–29/08** | ~~Cyril tranche la décision 1~~ — **penché vers le jeudi** (27/08). Lance en parallèle les démarches **diplôme** et **casier judiciaire** (décisions 2 et 3 à clarifier au moins en interne, même si les documents prennent plus de temps à arriver) | Cyril |
+| **Semaine du 31/08–04/09** | Confirmation écrite à Alan du jeudi 15h–16h et de la date de 1ère séance (10/09) ; clarifier avec Alan : autorisations parentales (LIS gère en interne ou CSRA doit les faire signer ?), accès point d'eau, modalités de facturation des 350 THB/enfant (LIS collecte et reverse, ou CSRA facture les familles directement), stockage du matériel entre les séances | `communication` (liaison Alan), Cyril (validation avant tout envoi) |
 | **Semaine du 31/08–04/09** | Vérifier la couverture assurance/responsabilité civile pour une intervention en milieu scolaire tiers (voir point de vigilance ci-dessous) | Cyril |
 | **Semaine du 31/08–04/09** | Rassembler/finaliser matériel pour un groupe de 16 (voir checklist) ; prévoir le sac de transport (le matériel doit voyager chaque semaine jusqu'à LIS, pas de stock permanent à Koh's 33 sur ce terrain) | `evenements` / Cyril |
 | **Semaine du 07–09/09** (J-3 à J-1 avant la 1ère séance) | Brief pédagogique final avec le(s) coach(s) assigné(s) (trame de séance ci-dessous) ; impression feuille de présence + fiche contacts d'urgence ; matériel prêt et chargé ; confirmation finale du créneau à Alan | `coach`, `evenements` |
-| **~10/09 (semaine du 07–10/09, jour = décision 1)** | 🏉 **Séance 1/6 — lancement** | Coach(s) sur place |
+| **Jeudi 10/09** (si confirmé) | 🏉 **Séance 1/6 — lancement** | Coach(s) sur place |
 | **Semaines 2 à 5 du cycle** | Séances hebdomadaires ; suivi présence, retours d'Alan, ajustements pédagogiques (niveaux dans le groupe 6–12 ans) | `coach` |
 | **Semaine 6 (dernière séance du cycle)** | Séance de clôture : petit bilan avec les enfants, remerciements à Alan/LIS | Coach(s) sur place |
 | **J+2 après la dernière séance** | Bilan interne (a-t-on des demandes de reconduction ? ratio à revoir ? retours des familles via LIS ?) ; échange avec Alan sur la suite (nouveau cycle ?) ; mise à jour de `brain/pipeline.md` | `evenements`, Cyril |
@@ -143,5 +143,6 @@ premiers secours et contacts d'urgence à chaque séance.
 
 ## Prochaine mise à jour de ce document
 
-À rouvrir dès que Cyril tranche les 3 décisions ouvertes, pour figer les dates exactes de S1 à
-S6 et lever les `[À COMPLÉTER PAR CYRIL]` restants.
+À rouvrir dès que Cyril confirme définitivement le jeudi et tranche diplôme/casier judiciaire,
+pour créer l'événement récurrent Google Calendar (via `assistant-cyril`, jamais automatique) et
+lever les `[À COMPLÉTER PAR CYRIL]` restants.

@@ -16,18 +16,18 @@
 >
 > | | |
 > |---|---|
-> | **Format** | 1 séance d'1h par semaine, **lundi à jeudi 15h–16h** (jour exact à choisir par Cyril) |
+> | **Format** | 1 séance d'1h par semaine, **jeudi 15h–16h** (penché par Cyril le 27/08, pas encore définitif) |
 > | **Durée** | Cycle de **6 semaines** |
 > | **Âges** | Enfants **6–12 ans** |
 > | **Groupe** | Max **16 enfants** |
 > | **Terrain** | 15 m × 30 m (à l'école) |
 > | **Tarif** | **350 THB/enfant/séance** (confirmé par Cyril 27/08) |
-> | **Démarrage** | Dans **2 semaines** (≈ 10/09/2026, à confirmer avec le jour retenu) |
+> | **Démarrage** | **Jeudi 10/09/2026** si le jeudi est confirmé (S1 à S6 : 10/09, 17/09, 24/09, 01/10, 08/10, 15/10) |
 > | **Exigences école** | LIS demande un **diplôme** (lequel ? `[À COMPLÉTER PAR CYRIL]`) et un **casier judiciaire** (démarche à lancer — `[À COMPLÉTER PAR CYRIL]`) avant le démarrage |
 >
-> **Actions restantes avant le 10/09** : trancher le jour de la semaine, obtenir/fournir le
-> diplôme et le casier judiciaire à LIS. **Rétroplanning complet produit par l'agent
-> `evenements` le 27/08** —
+> **Actions restantes avant le 10/09** : confirmer définitivement le jeudi (ou trancher
+> autrement), obtenir/fournir le diplôme et le casier judiciaire à LIS. **Rétroplanning complet
+> produit par l'agent `evenements` le 27/08** —
 > voir `brain/events-plans/lis-periscolaire-lancement.md` (3 décisions ouvertes en tête de
 > document, checklists matériel/admin, trame de séance). **Progression pédagogique des 6
 > séances produite par l'agent `coach` le 27/08** — voir
