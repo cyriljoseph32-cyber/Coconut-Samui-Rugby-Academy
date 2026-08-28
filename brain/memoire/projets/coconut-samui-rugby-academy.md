@@ -96,6 +96,10 @@
 - **Samui Fitness Lab** (sponsoring S&C) : email 19/07 → réponse positive 20/07 → reprise de
   contact WhatsApp par Omar (Samui Fitness Lab) le 30/07 → Cyril a répondu le 31/07 pour un RDV
   mardi soir, avant la séance touch rugby (Koh's 33 Stadium 19h). En attente de l'heure.
+- **RDV Alan Proudfoot (LIS) eu lieu** (28/08, confirmé directement par Cyril) — ⚠️ écart non
+  résolu avec le calage vendredi 28/08 16h du pipeline/calendrier (Cyril indique jeudi 27/08) ;
+  compte-rendu (coaching + visite école, suite à donner) `[À COMPLÉTER PAR CYRIL]`. Détail :
+  `brain/pipeline.md`.
 - Prochaine échéance : confirmation du RDV Samui Fitness Lab (mardi), suivi des premières
   réponses aux emails envoyés le 01/08, et vérification que les 4 envois textile sont bien
   partis lundi 8h.
