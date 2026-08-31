@@ -60,6 +60,13 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
     assertion dans `scripts/smoke-test.mjs`.
   - **Mergé sur `main` le 2026-07-22 (PR #7, merge `ead54fb`)** → déploiement Vercel automatique.
 
+## Cartographie du code (graphify) — 2026-08-31
+
+- **Cartographie de code locale ajoutée** : `graphify-out/` (AST tree-sitter, `--code-only`,
+  aucun LLM) généré et **mergé sur `main`** — PR #16 (données) et PR #17 (doc `CLAUDE.md`
+  pointant les agents vers `graphify query`/`explain`/`path`/`god-nodes` avant de grepper le
+  code brut). Fait partie d'une passe transverse sur les 7 dépôts (voir `journal.md`).
+
 ## État & prochaines étapes (2026-08-26)
 
 - 2026-07-22 : intégration du partenaire location **Hakuna Matata** **mergée sur `main`**

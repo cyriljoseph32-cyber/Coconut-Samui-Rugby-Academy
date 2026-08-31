@@ -37,6 +37,13 @@
 lancement, coordination — `/dst-lancement`). Garde-fous communs : ban-list design absolue,
 jamais de claim médical, brouillons uniquement, IP confidentielle jamais copiée.
 
+## Cartographie du code (graphify) — 2026-08-31
+
+- **Cartographie de code locale ajoutée** : `graphify-out/` (AST tree-sitter, `--code-only`,
+  aucun LLM) généré et **mergé sur `main`** — PR #4 (données) et PR #5 (doc `CLAUDE.md`
+  pointant les agents vers `graphify query`/`explain`/`path`/`god-nodes` avant de grepper le
+  code brut). Fait partie d'une passe transverse sur les 7 dépôts (voir `journal.md`).
+
 ## État & prochaines étapes (2026-07-20)
 
 - Dernier commit : 04/07 — refonte de la home (« conversion spine »).
