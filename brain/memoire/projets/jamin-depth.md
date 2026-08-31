@@ -146,6 +146,14 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   correspondante. Ce test échoue en 401 tant que `CRON_SECRET` (exposé en clair plus tôt) n'a
   pas été régénéré côté Vercel — toujours en attente côté Cyril.
 
+## Cartographie du code (graphify) — 2026-08-31
+
+- **Cartographie de code locale ajoutée** : `graphify-out/` (AST tree-sitter, `--code-only`,
+  aucun LLM) généré et **mergé sur `main`** — PR #14 (données) et PR #15 (le dépôt n'avait
+  pas de `CLAUDE.md` ; création d'un minimal pointant les agents vers `graphify
+  query`/`explain`/`path`/`god-nodes` avant de grepper le code brut). Fait partie d'une passe
+  transverse sur les 7 dépôts (voir `journal.md`).
+
 ## Variables d'environnement
 
 `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `WHATSAPP_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID`,
@@ -187,11 +195,25 @@ Toutes optionnelles : un déploiement ne casse jamais parce qu'une clé manque.
 - Sans Supabase, le journal et la file vivent en mémoire du processus : ils disparaissent au
   redéploiement.
 
+## Policies — état au 26/08/2026
+
+- **Confirmés** : `cancellation`, `flyingAfterDiving`, `medicalProtocol`, `openingHours`,
+  `staffLanguages`, `requiredDocuments` (centre partenaire) ; **`deposit`** (pas de montant
+  fixe, dépend de la réservation) et **`pickupIncluded`** (inclus, dépend de l'hôtel) —
+  confirmés directement par Cyril le 26/08, PR #12 (`claude/compassionate-bardeen-1bl9sb`).
+- **Toujours `TODO`** (à demander directement au centre partenaire, pas par message
+  automatique — Cyril a explicitement mis en pause cette relance le 26/08) : `paymentMethods`,
+  `meetingPoint`, `boatSchedule`, `insurance`, `minorMinimumAge`.
+- **File `ops` débloquée le 26/08** : 5 doublons de la même demande à Discovery Divers,
+  en attente depuis le 20/08 sans jamais être traités (bug de re-génération à surveiller côté
+  dev — la cause exacte n'a pas été investiguée), rejetés dans `queue_items` avec note de
+  décision plutôt qu'envoyés.
+
 ## À compléter par Cyril
 
-- Contacts, tarifs et horaires du centre partenaire (`POLICIES` largement en `TODO`).
-- Politique d'annulation, acompte, moyens de paiement, point de rendez-vous, assurance,
-  âge minimum : non confirmés à ce jour.
+- Contacts et horaires précis du centre partenaire (nom du contact, téléphone).
+- `paymentMethods`, `meetingPoint`, `boatSchedule`, `insurance`, `minorMinimumAge`
+  (cf. section Policies ci-dessus).
 - Mise en service de COCO COMMAND : création des 4 chats Telegram, jeton d'ingestion,
   variables Vercel. Le SQL de la v1 a été exécuté le 20/08/2026 ; **la partie v2
   (`command_tasks`, `command_kpis`, colonnes ajoutées) reste à exécuter**.

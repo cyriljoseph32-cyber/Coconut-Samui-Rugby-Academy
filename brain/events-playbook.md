@@ -23,7 +23,7 @@
 | Échéance | Action |
 |---|---|
 | J-45 | Concept validé par Cyril : format, public, lieu, capacité, prix `[À COMPLÉTER]` |
-| J-40 | Réservation lieu (Koh's 33 Stadium / PSG Academy / plage) + coachs confirmés |
+| J-40 | Réservation lieu (Koh's 33 Stadium / plage) + coachs confirmés |
 | J-35 | Visuels & page d'inscription (marketing + webmaster) |
 | J-30 | Annonce Instagram + emails aux familles (secretariat) + écoles (communication) |
 | J-14 | Relance inscriptions + point capacité |
