@@ -1,0 +1,293 @@
+{
+  "communities": {
+    "0": [
+      "astro",
+      "astrojs_sitemap",
+      "fontsource_noto_sans_thai",
+      "fontsource_variable_fraunces",
+      "fontsource_variable_schibsted_grotesk",
+      "package_dependencies",
+      "package_dependencies_astro",
+      "package_dependencies_astrojs_sitemap",
+      "package_dependencies_fontsource_noto_sans_thai",
+      "package_dependencies_fontsource_variable_fraunces",
+      "package_dependencies_fontsource_variable_schibsted_grotesk",
+      "package_dependencies_tailwindcss",
+      "package_dependencies_tailwindcss_vite",
+      "tailwindcss",
+      "tailwindcss_vite"
+    ],
+    "1": [
+      "scripts_check_agents",
+      "scripts_check_agents_academypath",
+      "scripts_check_agents_agentfiles",
+      "scripts_check_agents_agentnames",
+      "scripts_check_agents_agentsdir",
+      "scripts_check_agents_dirname",
+      "scripts_check_agents_extractfield",
+      "scripts_check_agents_fail",
+      "scripts_check_agents_failures",
+      "scripts_check_agents_memoirepath",
+      "scripts_check_agents_ok",
+      "scripts_check_agents_required_sections",
+      "scripts_check_agents_root",
+      "scripts_check_agents_sitepath"
+    ],
+    "2": [
+      "src_components_faq",
+      "src_data_programs",
+      "src_data_programs_program",
+      "src_data_programs_programs",
+      "src_lib_schema",
+      "src_lib_schema_courseschema",
+      "src_lib_schema_eventschema",
+      "src_lib_schema_faqitem",
+      "src_lib_schema_faqschema",
+      "src_pages_camps_events",
+      "src_pages_programs_index",
+      "src_pages_programs_index_schema",
+      "src_pages_programs_slug",
+      "src_pages_programs_slug_getstaticpaths"
+    ],
+    "3": [
+      "brain_marketing_assets_postiz_push",
+      "brain_marketing_assets_postiz_push_api_url",
+      "brain_marketing_assets_postiz_push_createpost",
+      "brain_marketing_assets_postiz_push_fs",
+      "brain_marketing_assets_postiz_push_headers",
+      "brain_marketing_assets_postiz_push_listintegrations",
+      "brain_marketing_assets_postiz_push_main",
+      "brain_marketing_assets_postiz_push_path",
+      "brain_marketing_assets_postiz_push_platformsettings",
+      "brain_marketing_assets_postiz_push_sleep",
+      "brain_marketing_assets_postiz_push_uploadimage"
+    ],
+    "4": [
+      "fraunces",
+      "noto_sans_thai",
+      "schibsted_grotesk",
+      "src_components_header",
+      "src_components_logo",
+      "src_components_whatsappbutton",
+      "src_layouts_base",
+      "src_layouts_base_allschema",
+      "src_layouts_base_canonical",
+      "src_layouts_base_orgschema",
+      "src_pages_about"
+    ],
+    "5": [
+      "package",
+      "package_name",
+      "package_private",
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_dev",
+      "package_scripts_preview",
+      "package_type",
+      "package_version"
+    ],
+    "6": [
+      "ref",
+      "ref_astro_tsconfigs_strict",
+      "ref_astro_types_d_ts",
+      "ref_dist",
+      "tsconfig",
+      "tsconfig_exclude",
+      "tsconfig_extends",
+      "tsconfig_include"
+    ],
+    "7": [
+      "src_components_footer",
+      "src_components_footer_year",
+      "src_config_site",
+      "src_config_site_form_endpoint",
+      "src_config_site_site",
+      "src_config_site_walink",
+      "src_pages_contact",
+      "src_pages_thanks"
+    ],
+    "8": [
+      "brain_marketing_assets_gen_posters",
+      "brain_marketing_assets_gen_posters_fs",
+      "brain_marketing_assets_gen_posters_logobytes",
+      "brain_marketing_assets_gen_posters_palm",
+      "brain_marketing_assets_gen_posters_path",
+      "brain_marketing_assets_gen_posters_posters",
+      "brain_marketing_assets_gen_posters_reporoot"
+    ],
+    "9": [
+      "brain_marketing_assets_touch_mardis_2026_08_gen_touch_poster",
+      "brain_marketing_assets_touch_mardis_2026_08_gen_touch_poster_fs",
+      "brain_marketing_assets_touch_mardis_2026_08_gen_touch_poster_logobytes",
+      "brain_marketing_assets_touch_mardis_2026_08_gen_touch_poster_path",
+      "brain_marketing_assets_touch_mardis_2026_08_gen_touch_poster_reporoot",
+      "brain_marketing_assets_touch_mardis_2026_08_gen_touch_poster_sessions",
+      "brain_marketing_assets_touch_mardis_2026_08_gen_touch_poster_touchposter"
+    ],
+    "10": [
+      "src_components_heroscene",
+      "src_components_marquee",
+      "src_components_marquee_loop",
+      "src_components_palmsilhouette",
+      "src_pages_index",
+      "src_pages_sponsorship"
+    ],
+    "11": [
+      "src_components_button",
+      "src_components_button_styles",
+      "src_components_logomark",
+      "src_pages_404"
+    ],
+    "12": [
+      "src_pages_gallery",
+      "src_pages_gallery_schema",
+      "src_pages_gallery_string",
+      "src_pages_gallery_tiles"
+    ],
+    "13": [
+      "brain_marketing_assets_semaine_2026_07_20_manifest",
+      "brain_marketing_assets_semaine_2026_07_20_manifest_comment",
+      "brain_marketing_assets_semaine_2026_07_20_manifest_posts"
+    ],
+    "14": [
+      "brain_marketing_assets_touch_mardis_2026_08_manifest",
+      "brain_marketing_assets_touch_mardis_2026_08_manifest_comment",
+      "brain_marketing_assets_touch_mardis_2026_08_manifest_posts"
+    ],
+    "15": [
+      "vercel",
+      "vercel_framework",
+      "vercel_schema"
+    ],
+    "16": [
+      "astro_config",
+      "astro_config_rationale_5"
+    ],
+    "17": [
+      "src_components_sectionhead"
+    ]
+  },
+  "cohesion": {
+    "0": 0.13333333333333333,
+    "1": 0.14285714285714285,
+    "2": 0.27472527472527475,
+    "3": 0.2727272727272727,
+    "4": 0.2,
+    "5": 0.2222222222222222,
+    "6": 0.25,
+    "7": 0.5357142857142857,
+    "8": 0.2857142857142857,
+    "9": 0.2857142857142857,
+    "10": 0.3333333333333333,
+    "11": 0.5,
+    "12": 0.5,
+    "13": 0.6666666666666666,
+    "14": 0.6666666666666666,
+    "15": 0.6666666666666666,
+    "16": 1.0,
+    "17": 1.0
+  },
+  "gods": [
+    {
+      "id": "src_config_site_walink",
+      "label": "waLink()",
+      "degree": 8
+    },
+    {
+      "id": "src_config_site_site",
+      "label": "SITE",
+      "degree": 7
+    },
+    {
+      "id": "brain_marketing_assets_postiz_push_main",
+      "label": "main()",
+      "degree": 6
+    },
+    {
+      "id": "src_lib_schema_courseschema",
+      "label": "courseSchema()",
+      "degree": 4
+    },
+    {
+      "id": "src_data_programs_programs",
+      "label": "programs",
+      "degree": 4
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 4
+    },
+    {
+      "id": "src_lib_schema_faqitem",
+      "label": "FaqItem",
+      "degree": 3
+    },
+    {
+      "id": "src_lib_schema_faqschema",
+      "label": "faqSchema()",
+      "degree": 3
+    },
+    {
+      "id": "tsconfig_include",
+      "label": "include",
+      "degree": 3
+    },
+    {
+      "id": "src_config_site_form_endpoint",
+      "label": "FORM_ENDPOINT",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Program",
+      "target": "FaqItem",
+      "source_files": [
+        "src/data/programs.ts",
+        "src/lib/schema.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "cross-file semantic connection"
+    },
+    {
+      "source": "schema",
+      "target": "courseSchema()",
+      "source_files": [
+        "src/pages/programs/index.astro",
+        "src/lib/schema.ts"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "cross-file semantic connection"
+    }
+  ],
+  "questions": [
+    {
+      "type": "bridge_node",
+      "question": "Why does `dependencies` connect `Community 0` to `Community 5`?",
+      "why": "High betweenness centrality (0.025) - this node is a cross-community bridge."
+    },
+    {
+      "type": "bridge_node",
+      "question": "Why does `waLink()` connect `Community 7` to `Community 2`, `Community 10`?",
+      "why": "High betweenness centrality (0.003) - this node is a cross-community bridge."
+    },
+    {
+      "type": "isolated_nodes",
+      "question": "What connects `astro`, `@astrojs/sitemap`, `@fontsource/noto-sans-thai` to the rest of the system?",
+      "why": "58 weakly-connected nodes found - possible documentation gaps or missing edges."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 0` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected."
+    },
+    {
+      "type": "low_cohesion",
+      "question": "Should `Community 1` be split into smaller, more focused modules?",
+      "why": "Cohesion score 0.14285714285714285 - nodes in this community are weakly interconnected."
+    }
+  ]
+}
