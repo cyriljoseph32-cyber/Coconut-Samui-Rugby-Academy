@@ -9,7 +9,7 @@ Contexte de la semaine : la **toute première séance Kids** a eu lieu **samedi 
 
 ---
 
-## Lundi 31/08 — Pilier 🏉 Terrain (recap week-end)
+## ✅ Lundi 31/08 — Pilier 🏉 Terrain (recap week-end) — PUBLIÉ (confirmé par Cyril)
 
 **FR** —
 Premier coup de sifflet, dans la boîte ✅
