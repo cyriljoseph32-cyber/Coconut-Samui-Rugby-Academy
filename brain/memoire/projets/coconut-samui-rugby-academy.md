@@ -34,6 +34,15 @@
 - Règles communes (CLAUDE.md) : validation humaine obligatoire, zéro invention,
   ton « Island Grit », français avec Cyril.
 
+## Cartographie du code (graphify) — 2026-08-31
+
+- **Cartographie de code locale ajoutée** : `graphify-out/` (AST tree-sitter, `--code-only`,
+  aucun LLM) généré et **mergé sur `main`** — PR #24 (données) et PR #25 (doc `CLAUDE.md`
+  pointant les agents vers `graphify query`/`explain`/`path`/`god-nodes` avant de grepper le
+  code brut). À régénérer après un refactor significatif (`graphify extract . --code-only &&
+  graphify cluster-only . --no-label`). Fait partie d'une passe transverse sur les 7 dépôts
+  (voir `journal.md`).
+
 ## État & prochaines étapes (2026-08-26)
 
 - **Audit de fiabilité** (23/08) : les 9 agents `.claude/agents/*.md` restructurés selon un
