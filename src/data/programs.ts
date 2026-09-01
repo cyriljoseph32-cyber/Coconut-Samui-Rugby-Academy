@@ -40,6 +40,7 @@ export const programs: Program[] = [
       { label: "Format", value: "Tag rugby (non-contact)" },
       { label: "Group size", value: "Max 12 kids per coach" },
       { label: "Duration", value: "60-minute sessions, weekly" },
+      { label: "Pricing", value: "350 THB per session, or 1,200 THB per month" },
       { label: "Experience", value: "None needed — most of our kids started at zero" },
       { label: "Language", value: "French & English coaching" },
       { label: "Bring", value: "Water bottle, trainers or boots, sunscreen" },
@@ -85,6 +86,7 @@ export const programs: Program[] = [
     details: [
       { label: "Format", value: "Contact rugby, introduced progressively by age and readiness" },
       { label: "Duration", value: "90-minute sessions, weekly" },
+      { label: "Pricing", value: "350 THB per session, or 1,200 THB per month" },
       { label: "Pathway", value: "Camps, inter-school tournament, touring sides visiting Samui" },
       { label: "Experience", value: "Beginners welcome — a separate skills track gets them up to speed" },
       { label: "Bring", value: "Boots, mouthguard, water — we provide the rest" },
@@ -130,6 +132,7 @@ export const programs: Program[] = [
     details: [
       { label: "Format", value: "Touch rugby (non-contact), mixed teams" },
       { label: "Who", value: "Residents, expats, travellers — all levels" },
+      { label: "Pricing", value: "350 THB per session, or 1,200 THB per month" },
       { label: "Commitment", value: "None. Pay per session, come when you can" },
       { label: "On holiday?", value: "Drop in — visiting players are how island rugby grows" },
     ],
