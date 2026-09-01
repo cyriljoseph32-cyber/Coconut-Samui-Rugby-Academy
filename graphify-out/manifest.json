@@ -1,0 +1,212 @@
+{
+  "astro.config.mjs": {
+    "mtime": 1787729114.8941503,
+    "seen": 1788163192.8952534,
+    "ast_hash": "65233d5713d4bf5f1a5850f8b0b1fb19",
+    "semantic_hash": "65233d5713d4bf5f1a5850f8b0b1fb19"
+  },
+  "brain/marketing-assets/gen-posters.cjs": {
+    "mtime": 1787729114.8990815,
+    "seen": 1788163192.8952577,
+    "ast_hash": "cb3f7117b885a138773db6f3f683a53f",
+    "semantic_hash": "cb3f7117b885a138773db6f3f683a53f"
+  },
+  "brain/marketing-assets/postiz-push.cjs": {
+    "mtime": 1787729114.8990815,
+    "seen": 1788163192.8952594,
+    "ast_hash": "005201bb0b40ca97a5636b87b6ab353f",
+    "semantic_hash": "005201bb0b40ca97a5636b87b6ab353f"
+  },
+  "brain/marketing-assets/semaine-2026-07-20/manifest.json": {
+    "mtime": 1787729114.9061217,
+    "seen": 1788163192.8952613,
+    "ast_hash": "359f8d7e736df8b43da297014cfe0d8c",
+    "semantic_hash": "359f8d7e736df8b43da297014cfe0d8c"
+  },
+  "brain/marketing-assets/touch-mardis-2026-08/gen-touch-poster.cjs": {
+    "mtime": 1788162837.1066213,
+    "seen": 1788163192.8952627,
+    "ast_hash": "33d95f8323fc7fdf0301439c32881ae3",
+    "semantic_hash": "33d95f8323fc7fdf0301439c32881ae3"
+  },
+  "brain/marketing-assets/touch-mardis-2026-08/manifest.json": {
+    "mtime": 1787729114.926122,
+    "seen": 1788163192.8952641,
+    "ast_hash": "057dc7948c610033c531fc6638992aa3",
+    "semantic_hash": "057dc7948c610033c531fc6638992aa3"
+  },
+  "package.json": {
+    "mtime": 1787729114.9505236,
+    "seen": 1788163192.895266,
+    "ast_hash": "d7fd1745ceb1534a3c6dcc431b042f72",
+    "semantic_hash": "d7fd1745ceb1534a3c6dcc431b042f72"
+  },
+  "scripts/check-agents.mjs": {
+    "mtime": 1787729114.9541218,
+    "seen": 1788163192.8952775,
+    "ast_hash": "28e23aee70424ebf32b6a8da037fb44d",
+    "semantic_hash": "28e23aee70424ebf32b6a8da037fb44d"
+  },
+  "src/components/Button.astro": {
+    "mtime": 1787729114.9592464,
+    "seen": 1788163192.8952794,
+    "ast_hash": "6e9ce6a7e8263871a1efe2ef1873c976",
+    "semantic_hash": "6e9ce6a7e8263871a1efe2ef1873c976"
+  },
+  "src/components/FAQ.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.8952808,
+    "ast_hash": "5d13d1f189148b7c41451e45d7bf13ba",
+    "semantic_hash": "5d13d1f189148b7c41451e45d7bf13ba"
+  },
+  "src/components/Footer.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.8952823,
+    "ast_hash": "dc69aa441acbad7f5171b1496dd44b23",
+    "semantic_hash": "dc69aa441acbad7f5171b1496dd44b23"
+  },
+  "src/components/Header.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.8952835,
+    "ast_hash": "78bafc85c7751a4b3a81280c9ba959ea",
+    "semantic_hash": "78bafc85c7751a4b3a81280c9ba959ea"
+  },
+  "src/components/HeroScene.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.8952844,
+    "ast_hash": "5d2173651469b73796082be57023b982",
+    "semantic_hash": "5d2173651469b73796082be57023b982"
+  },
+  "src/components/Logo.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.8952856,
+    "ast_hash": "e401dc917ec21225f9e041d6dcd6c892",
+    "semantic_hash": "e401dc917ec21225f9e041d6dcd6c892"
+  },
+  "src/components/LogoMark.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.8952868,
+    "ast_hash": "ef155dc531601f4996f5fd36c40237dc",
+    "semantic_hash": "ef155dc531601f4996f5fd36c40237dc"
+  },
+  "src/components/Marquee.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.8952878,
+    "ast_hash": "813ad3875acc6f38af8865cca9a2ec81",
+    "semantic_hash": "813ad3875acc6f38af8865cca9a2ec81"
+  },
+  "src/components/PalmSilhouette.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.895289,
+    "ast_hash": "13a44fb3573e7c76c2516cc23a491018",
+    "semantic_hash": "13a44fb3573e7c76c2516cc23a491018"
+  },
+  "src/components/SectionHead.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.8952901,
+    "ast_hash": "695292a9412e080d5d37dbbd146dc4fb",
+    "semantic_hash": "695292a9412e080d5d37dbbd146dc4fb"
+  },
+  "src/components/WhatsAppButton.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.895291,
+    "ast_hash": "9695bdeac1ff53e03bc42e17dfdf1fc2",
+    "semantic_hash": "9695bdeac1ff53e03bc42e17dfdf1fc2"
+  },
+  "src/config/site.ts": {
+    "mtime": 1788162837.1386213,
+    "seen": 1788163192.8952925,
+    "ast_hash": "55f5efc549af01efd26c5ad17fdd8a82",
+    "semantic_hash": "55f5efc549af01efd26c5ad17fdd8a82"
+  },
+  "src/data/programs.ts": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.895294,
+    "ast_hash": "b8997f65aa9982ffec5d9bb4a441ec94",
+    "semantic_hash": "b8997f65aa9982ffec5d9bb4a441ec94"
+  },
+  "src/layouts/Base.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.8952951,
+    "ast_hash": "3728e29f783062c5977f1a5ea1afb43d",
+    "semantic_hash": "3728e29f783062c5977f1a5ea1afb43d"
+  },
+  "src/lib/schema.ts": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.895299,
+    "ast_hash": "5a018031c382b99fefe983355d1b3594",
+    "semantic_hash": "5a018031c382b99fefe983355d1b3594"
+  },
+  "src/pages/404.astro": {
+    "mtime": 1787729114.9595835,
+    "seen": 1788163192.8953001,
+    "ast_hash": "c53f6003d4fb3a75b007ddc7fc3703fa",
+    "semantic_hash": "c53f6003d4fb3a75b007ddc7fc3703fa"
+  },
+  "src/pages/about.astro": {
+    "mtime": 1787729114.9638534,
+    "seen": 1788163192.895301,
+    "ast_hash": "06055c36c0ff35b407f53741234bd28a",
+    "semantic_hash": "06055c36c0ff35b407f53741234bd28a"
+  },
+  "src/pages/camps-events.astro": {
+    "mtime": 1787729114.9638534,
+    "seen": 1788163192.895302,
+    "ast_hash": "76b8c37eba8515a31ee6385d73eb7286",
+    "semantic_hash": "76b8c37eba8515a31ee6385d73eb7286"
+  },
+  "src/pages/contact.astro": {
+    "mtime": 1788162837.1386213,
+    "seen": 1788163192.895303,
+    "ast_hash": "10ef10fa6f2d4e9631cabe238b089498",
+    "semantic_hash": "10ef10fa6f2d4e9631cabe238b089498"
+  },
+  "src/pages/gallery.astro": {
+    "mtime": 1787729114.9638534,
+    "seen": 1788163192.895304,
+    "ast_hash": "d2fa1431b5ca0d63ef906af1ac2699f0",
+    "semantic_hash": "d2fa1431b5ca0d63ef906af1ac2699f0"
+  },
+  "src/pages/index.astro": {
+    "mtime": 1787729114.9638534,
+    "seen": 1788163192.895305,
+    "ast_hash": "bf4bdde87c078ab18f88b6562c72e68e",
+    "semantic_hash": "bf4bdde87c078ab18f88b6562c72e68e"
+  },
+  "src/pages/programs/[slug].astro": {
+    "mtime": 1787729114.9638534,
+    "seen": 1788163192.8953059,
+    "ast_hash": "648f3805aad2c24654da36c5c1e48b1f",
+    "semantic_hash": "648f3805aad2c24654da36c5c1e48b1f"
+  },
+  "src/pages/programs/index.astro": {
+    "mtime": 1787729114.9655135,
+    "seen": 1788163192.895307,
+    "ast_hash": "da1b9c4d7f0ecb04b4e8341bf2ffb5bd",
+    "semantic_hash": "da1b9c4d7f0ecb04b4e8341bf2ffb5bd"
+  },
+  "src/pages/sponsorship.astro": {
+    "mtime": 1787729114.9655135,
+    "seen": 1788163192.8953078,
+    "ast_hash": "f5eb6de7afd1a51b14b6e4733e059770",
+    "semantic_hash": "f5eb6de7afd1a51b14b6e4733e059770"
+  },
+  "src/pages/thanks.astro": {
+    "mtime": 1787729114.9655135,
+    "seen": 1788163192.895309,
+    "ast_hash": "4ecbb3d4769ee970ffcbef3dff289e5f",
+    "semantic_hash": "4ecbb3d4769ee970ffcbef3dff289e5f"
+  },
+  "tsconfig.json": {
+    "mtime": 1787729114.9655135,
+    "seen": 1788163192.8953104,
+    "ast_hash": "1d3613ac08bdda17e2b82251613dbc21",
+    "semantic_hash": "1d3613ac08bdda17e2b82251613dbc21"
+  },
+  "vercel.json": {
+    "mtime": 1787729114.9655135,
+    "seen": 1788163192.895311,
+    "ast_hash": "8eb3959b3f30215db0a3e9156bfc4876",
+    "semantic_hash": "8eb3959b3f30215db0a3e9156bfc4876"
+  }
+}
