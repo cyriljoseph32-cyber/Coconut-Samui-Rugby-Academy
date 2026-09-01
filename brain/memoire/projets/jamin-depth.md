@@ -154,6 +154,16 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   query`/`explain`/`path`/`god-nodes` avant de grepper le code brut). Fait partie d'une passe
   transverse sur les 7 dépôts (voir `journal.md`).
 
+## Contenu publié — 28/08/2026
+
+- **4 posts Instagram DIVING publiés**, confirmé directement par Cyril le 28/08 : les brouillons
+  générés par `coco-contenu` et en attente d'approbation depuis le 26–28/08 (« Voyageurs indiens
+  à Koh Samui… » ×2, « Première plongée à Koh Samui… », « Sail Rock, Koh Tao, Chumphon
+  Pinnacle… »). L'adaptateur Instagram (`src/agents/adapters/instagram.ts`) est toujours en
+  pause depuis le 22/08 (feu vert Meta non redonné) — publication vraisemblablement **manuelle**
+  par Cyril, à confirmer. Aucune URL de post fournie : les événements de clôture postés dans
+  COCO COMMAND ressortent **non vérifiés** faute de `reference_url` (doctrine §10 du playbook).
+
 ## Variables d'environnement
 
 `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, `WHATSAPP_TOKEN`, `WHATSAPP_PHONE_NUMBER_ID`,

@@ -1,6 +1,6 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-26.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-30.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
 
@@ -97,6 +97,18 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
   retrouvées** dans la liste réelle des Routines du compte (26/08) — statut non confirmé.
 - Prospection (agences, comptes) : voir `Coco_AI_Prospection_RECAP.md` dans le dépôt ;
   avancement réel : `[À COMPLÉTER PAR CYRIL]`.
+- **Mise à jour 30/08** : le garde-fou chat.js + connecteurs + Bloom par défaut cités
+  ci-dessus **sont désormais mergés sur `main`** (`e5390cd`, PR #13) — l'écart du 26/08 est
+  résolu, voir `journal.md`.
+- **Routine hebdo posts Instagram (30/08)** : `growth-concierge` a généré 4 brouillons
+  (captions + visuels Bloom, brand "Coco" déjà onboardée sur trybloom) selon
+  `COCO_Plan_Reseaux_Sociaux.md` + `Plan_Campagne_Samui_AI_Concierge_4semaines.md`.
+  **Confirme l'écart du 26/08** : `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_PROJECT_COCO`
+  toujours absents de la session → contenu déposé dans
+  `content/marketing-drafts/semaine-2026-08-31.md` sur `claude/focused-allen-d348n8`,
+  PR #15 (**draft, non mergée**) à la place de la livraison Telegram automatique. À
+  trancher avec Cyril : renseigner ces variables côté Routine, ou abandonner la cible
+  Telegram pour cette routine et rester sur le fichier de brouillon + validation manuelle.
 
 ## Pièges connus
 
