@@ -43,7 +43,12 @@
   graphify cluster-only . --no-label`). Fait partie d'une passe transverse sur les 7 dépôts
   (voir `journal.md`).
 
-## État & prochaines étapes (2026-08-26)
+## État & prochaines étapes (2026-08-31)
+
+- **Tarifs Kids/Teens/Adults Touch confirmés** (31/08) : **350 THB la séance, ou 1 200 THB le
+  mois**. Ajouté comme detail sur les trois pages programme (`src/data/programs.ts`, source de
+  vérité), resynchronisé dans `brain/academy.md`. Corporate Team-Building reste au devis,
+  non concerné. PR #28 (`claude/pricing-350-1200`), build vert, **pas encore mergée**.
 
 - **Audit de fiabilité** (23/08) : les 9 agents `.claude/agents/*.md` restructurés selon un
   format standard à 7 sections (identité, périmètre, sources autorisées, processus de
