@@ -91,6 +91,25 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
   par dépôt GitHub) : tenue par l'agent `memory`, à consulter avant de travailler sur un
   autre projet et à mettre à jour après chaque session significative.
 
+## Cartographie du code (graphify)
+
+`graphify-out/` contient une cartographie locale et déterministe du code (AST via
+tree-sitter, `graphify extract . --code-only` — pas de LLM, rien n'a quitté la machine).
+Avant de grepper le code pour une question d'architecture (« qui appelle X », « comment Y
+est connecté », « quels sont les modules les plus centraux »), préférer :
+
+```bash
+graphify query "<question>"        # sous-graphe ciblé pour une question en langage naturel
+graphify explain "<Symbole>"       # voisins + arêtes taguées EXTRACTED/INFERRED d'un nœud
+graphify path "<A>" "<B>"          # plus court chemin entre deux concepts
+graphify god-nodes                 # fichiers/symboles les plus connectés (hubs)
+```
+
+`graphify-out/graph.html` s'ouvre directement dans un navigateur pour une exploration
+visuelle. À régénérer après un refactor significatif : `graphify extract . --code-only &&
+graphify cluster-only . --no-label` (depuis la racine du dépôt ; nécessite `uv tool install
+graphifyy`, CLI [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)).
+
 ## Site web — développement
 
 ```bash

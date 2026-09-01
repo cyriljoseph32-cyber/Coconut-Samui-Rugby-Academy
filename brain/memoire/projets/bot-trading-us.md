@@ -32,6 +32,13 @@
 de conseil en investissement, jamais `ALPACA_LIVE`/`AUTOTRADE` sans décision explicite de
 Cyril.
 
+## Cartographie du code (graphify) — 2026-08-31
+
+- **Cartographie de code locale ajoutée** : `graphify-out/` (AST tree-sitter, `--code-only`,
+  aucun LLM) généré et **mergé sur `main`** — PR #5 (données) et PR #6 (doc `CLAUDE.md`
+  pointant les agents vers `graphify query`/`explain`/`path`/`god-nodes` avant de grepper le
+  code brut). Fait partie d'une passe transverse sur les 7 dépôts (voir `journal.md`).
+
 ## État & prochaines étapes (2026-07-20)
 
 - Dernier merge : PR #2 le 17/07. Le README documente les durcissements en place : token

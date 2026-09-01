@@ -10,12 +10,13 @@
 
 | Projet | Quoi | Stack | Déploiement | Dernière activité | Statut |
 |---|---|---|---|---|---|
-| [CSRA](projets/coconut-samui-rugby-academy.md) | Académie de rugby : site + brain agentique (QG des agents) | Astro + Tailwind | Vercel — coconutsamuirugby.com | 28/08 — RDV Alan Proudfoot (LIS) eu lieu | 🟢 Actif |
-| [bot-trading-US](projets/bot-trading-us.md) | Signal Bot actifs US (RSI-2) + bot global temps réel | React 19 + Vite + TS | Vercel — `/trading.html` | 17/07 — merge PR #2 | 🟢 Actif |
-| [assistant-ai](projets/assistant-ai.md) | **Coco front desk** — réceptionniste IA WhatsApp/email + console | Next.js 14 + Claude + Supabase + Twilio | Vercel | 17/07 — PR #3 « client launch » | 🟢 Actif |
-| [coco2](projets/coco2.md) | **Coco Samui Concierge** — chatbot touristique + serveur MCP | Astro + serverless + Claude Haiku | Vercel — coco-samui-ai.com | 24/08 — Bloom par défaut ; garde-fous chat.js **non mergés** (écart) | 🟢 Actif |
-| [jamin-depth](projets/jamin-depth.md) | **Jammin's Depths** — plongée & récupération sous-marine : site + système d'agents + moteur COCO COMMAND | Next.js 15 + Supabase + WhatsApp + Telegram | Vercel | 28/08 — 4 posts Instagram DIVING publiés (confirmé Cyril) | 🟢 Actif |
-| [Dancesoul-therapy](projets/dancesoul-therapy.md) | Marque movement-therapy de Hannah + site | Next.js 15 (SSG) | Vercel (main) | 04/07 — refonte home | 🟡 En veille |
+| [CSRA](projets/coconut-samui-rugby-academy.md) | Académie de rugby : site + brain agentique (QG des agents) | Astro + Tailwind | Vercel — coconutsamuirugby.com | 31/08 — cartographie graphify (mergée) ; 28/08 — RDV Alan Proudfoot (LIS) eu lieu ; 24/08 — Superhuman Mail + Bloom par défaut (branche non mergée) | 🟢 Actif |
+| [bot-trading-US](projets/bot-trading-us.md) | Signal Bot actifs US (RSI-2) + bot global temps réel | React 19 + Vite + TS | Vercel — `/trading.html` | 31/08 — cartographie graphify (mergée) | 🟢 Actif |
+| [assistant-ai](projets/assistant-ai.md) | **Coco front desk** — réceptionniste IA WhatsApp/email + console | Next.js 14 + Claude + Supabase + Twilio | Vercel | 31/08 — cartographie graphify (mergée) | 🟢 Actif |
+| [coco2](projets/coco2.md) | **Coco Samui Concierge** — chatbot touristique + serveur MCP | Astro + serverless + Claude Haiku | Vercel — coco-samui-ai.com | 31/08 — cartographie graphify (mergée) ; 24/08 — Bloom par défaut, garde-fous chat.js **non mergés** (écart) | 🟢 Actif |
+| [jamin-depth](projets/jamin-depth.md) | **Jammin's Depths** — plongée & récupération sous-marine : site + système d'agents + moteur COCO COMMAND | Next.js 15 + Supabase + WhatsApp + Telegram | Vercel | 31/08 — cartographie graphify (mergée) ; 28/08 — 4 posts Instagram DIVING publiés (confirmé Cyril) ; 24/08 — score de confiance poussé, **non mergé** sur `main` (écart) | 🟢 Actif |
+| [Dancesoul-therapy](projets/dancesoul-therapy.md) | Marque movement-therapy de Hannah + site | Next.js 15 (SSG) | Vercel (main) | 31/08 — cartographie graphify | 🟡 En veille |
+| [helmetik](projets/helmetik.md) | `[À COMPLÉTER PAR CYRIL]` (Foot/Padel/Pétanque/Fitness, à confirmer) | `[À COMPLÉTER PAR CYRIL]` | — | 31/08 — cartographie graphify (1re trace mémoire) | ⚪ Non audité |
 | [Koh-s-33-stadium](projets/koh-s-33-stadium.md) | `[À COMPLÉTER PAR CYRIL]` | — | — | Jamais (aucun commit) | ⚪ Non démarré |
 
 ⚠️ **COCO COMMAND** — le chef d'état-major transverse : la doctrine et l'agent vivent ici

@@ -146,6 +146,14 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   correspondante. Ce test échoue en 401 tant que `CRON_SECRET` (exposé en clair plus tôt) n'a
   pas été régénéré côté Vercel — toujours en attente côté Cyril.
 
+## Cartographie du code (graphify) — 2026-08-31
+
+- **Cartographie de code locale ajoutée** : `graphify-out/` (AST tree-sitter, `--code-only`,
+  aucun LLM) généré et **mergé sur `main`** — PR #14 (données) et PR #15 (le dépôt n'avait
+  pas de `CLAUDE.md` ; création d'un minimal pointant les agents vers `graphify
+  query`/`explain`/`path`/`god-nodes` avant de grepper le code brut). Fait partie d'une passe
+  transverse sur les 7 dépôts (voir `journal.md`).
+
 ## Contenu publié — 28/08/2026
 
 - **4 posts Instagram DIVING publiés**, confirmé directement par Cyril le 28/08 : les brouillons
