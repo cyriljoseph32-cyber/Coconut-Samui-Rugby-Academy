@@ -6,7 +6,7 @@
 
 ## Cadres de séance par programme
 
-### Kids (4–10) — 60 min, tag uniquement, max 12 enfants/coach
+### Kids (4–10) — samedis 15:30–16:30, 60 min, tag uniquement
 1. **Échauffement déguisé en jeu** (10 min) — chat-tag, épervier, courses variées
 2. **Skills ballon en main** (15 min) — passes en binômes/petits groupes, attraper, courir
 3. **Mini-matchs de tag** (25 min) — tout le monde joue, équipes refaites souvent
@@ -15,11 +15,11 @@
 Principes : chaque enfant touche le ballon à chaque séance ; personne ne « sort » pour niveau ;
 consignes bilingues FR/EN courtes ; victoire = effort et progrès, pas le score.
 
-### Teens (11–17) — 90 min, contact progressif
-1. **Warm-up structuré + préparation au mouvement** (15 min)
-2. **Bloc skills** (25 min) — manipulation, jeu au pied, technique de contact par étapes
-3. **Travail d'unité** (25 min) — formes d'attaque, ligne défensive, lecture du jeu
-4. **Jeux à contraintes + match** (25 min)
+### Teens (11–17) — samedis 16:30–17:30, 60 min, contact progressif
+1. **Warm-up structuré + préparation au mouvement** (10 min)
+2. **Bloc skills** (15 min) — manipulation, jeu au pied, technique de contact par étapes
+3. **Travail d'unité** (15 min) — formes d'attaque, ligne défensive, lecture du jeu
+4. **Jeux à contraintes + match** (20 min)
 
 Progression contact (règle absolue) : posture et technique de chute → contact sur boucliers →
 contact réel uniquement quand le coach valide, joueur par joueur. Plafond : directives
@@ -43,7 +43,8 @@ parallèle dans la même séance, intégration en 4–6 semaines.
 - **Soleil** : crème solaire exigée (elle est dans la liste « à apporter » officielle)
 - **Commotion** : au moindre doute → sortie immédiate et définitive de la séance, information
   des parents, avis médical avant reprise. Aucune exception.
-- **Ratios** : Kids max 12/coach (engagement publié sur le site)
+- **Ratios** : plus de plafond publié sur le site depuis le 01/09/2026 (retiré à la demande de
+  Cyril) — le coach garde son jugement sur la taille de groupe gérable en sécurité
 - Trousse de premiers secours et contacts d'urgence à chaque séance
 
 ## Ce que l'agent peut produire

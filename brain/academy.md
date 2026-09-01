@@ -36,9 +36,9 @@ Koh Samui, province de Surat Thani, Thaïlande.
 ### 1. Kids Rugby — 4 à 10 ans (« Fun first »)
 
 - **Format** : tag rugby uniquement, **zéro contact**, zéro pression
-- **Groupes** : max 12 enfants par coach
-- **Séances** : 60 minutes, hebdomadaire, **le samedi** — **toute première séance le 29/08/2026**
-  (confirmé par Cyril le 12/08/2026)
+- **Séances** : 60 minutes, hebdomadaire, **le samedi 15:30–16:30** — **toute première séance le
+  29/08/2026** (créneau confirmé par Cyril le 01/09/2026 ; date de lancement confirmée le
+  12/08/2026)
 - **Tarif** : 350 THB la séance, ou 1 200 THB le mois (confirmé par Cyril le 31/08/2026)
 - **Expérience** : aucune requise — la plupart des enfants partent de zéro
 - **À apporter** : gourde, baskets ou crampons, crème solaire
@@ -51,7 +51,8 @@ Koh Samui, province de Surat Thani, Thaïlande.
 
 - **Format** : rugby à contact, introduit **progressivement** selon l'âge et le niveau
   (technique sur boucliers avant tout contact réel ; plafond = directives World Rugby age-grade)
-- **Séances** : 90 minutes, hebdomadaire
+- **Séances** : 60 minutes, hebdomadaire, **le samedi 16:30–17:30** (créneau confirmé par Cyril
+  le 01/09/2026 — remplace l'ancienne estimation de 90 minutes, jamais confirmée par un horaire réel)
 - **Tarif** : 350 THB la séance, ou 1 200 THB le mois (confirmé par Cyril le 31/08/2026)
 - **Pathway** : camps intensifs, premier tournoi inter-écoles de l'île, matchs contre
   équipes de passage
@@ -113,7 +114,7 @@ Koh Samui, province de Surat Thani, Thaïlande.
 |---|---|
 | Tarifs Kids / Teens / Adults Touch | **350 THB la séance, ou 1 200 THB le mois** ✅ (confirmé par Cyril le 31/08/2026) |
 | Tarifs Corporate Team-Building | `[À COMPLÉTER PAR CYRIL]` — devis au cas par cas, rediriger vers WhatsApp |
-| Horaires précis des séances | **Kids : samedis, 1ère séance le 29/08/2026 (confirmé par Cyril 12/08)** ✅. Adults Touch : mardis 19h–20h30, Koh's 33 (déjà utilisé en communication, cf. `brain/marketing-assets/`). Teens : encore `[À COMPLÉTER PAR CYRIL]` — rediriger vers WhatsApp d'ici là. |
+| Horaires précis des séances | **Kids : samedis 15:30–16:30, 1ère séance le 29/08/2026** ✅ (créneau confirmé 01/09, date de lancement confirmée 12/08). **Teens : samedis 16:30–17:30** ✅ (confirmé par Cyril 01/09/2026). Adults Touch : mardis 19h–20h30, Koh's 33 (déjà utilisé en communication, cf. `brain/marketing-assets/`). |
 | Dates des camps / événements | `[À COMPLÉTER PAR CYRIL]` (`src/pages/camps-events.astro`) |
 | Noms et bios des coachs | `[À COMPLÉTER PAR CYRIL]` (`src/pages/about.astro`) |
 
