@@ -1,6 +1,6 @@
 # jamin-depth — Jammin's Depths (plongée & récupération sous-marine)
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-26.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-02.
 > Dépôt : `cyriljoseph32-cyber/jamin-depth` (branche par défaut `main`).
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
@@ -145,6 +145,13 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   `command_content` (Supabase), un événement niveau 3 dans le journal, la carte Telegram
   correspondante. Ce test échoue en 401 tant que `CRON_SECRET` (exposé en clair plus tôt) n'a
   pas été régénéré côté Vercel — toujours en attente côté Cyril.
+- ⚠️ **Correction d'écart (02/09)** : la PR #8 qui portait tout ce chantier (calendrier
+  éditorial, adaptateur Instagram, `coco-contenu`) avait en réalité été **fermée le 23/08 sans
+  merge**, alors que `main` avait déjà avancé (graphify, `confidence.ts`…) — rien de tout ce
+  qui précède n'était donc sur `main`, contrairement à ce qui avait été rapporté. Rebase propre
+  de `claude/coco-comms-ops-x4k2m` sur `main` à jour (aucun conflit), 416 tests / typecheck /
+  lint / build verts, **PR #16 rouverte** (draft), en attente de validation de Cyril avant merge
+  et déploiement.
 
 ## Cartographie du code (graphify) — 2026-08-31
 
