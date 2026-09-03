@@ -10,7 +10,7 @@
 
 | Projet | Quoi | Stack | Déploiement | Dernière activité | Statut |
 |---|---|---|---|---|---|
-| [CSRA](projets/coconut-samui-rugby-academy.md) | Académie de rugby : site + brain agentique (QG des agents) | Astro + Tailwind | Vercel — coconutsamuirugby.com | 31/08 — cartographie graphify (mergée) ; 24/08 — Superhuman Mail + Bloom par défaut (branche non mergée) | 🟢 Actif |
+| [CSRA](projets/coconut-samui-rugby-academy.md) | Académie de rugby : site + brain agentique (QG des agents) | Astro + Tailwind | Vercel — coconutsamuirugby.com | 03/09 — posts hebdo 31/08-06/09 publiés, horaire Teens confirmé (mergé) ; 31/08 — cartographie graphify (mergée) ; 24/08 — Superhuman Mail + Bloom par défaut (branche non mergée) | 🟢 Actif |
 | [bot-trading-US](projets/bot-trading-us.md) | Signal Bot actifs US (RSI-2) + bot global temps réel | React 19 + Vite + TS | Vercel — `/trading.html` | 31/08 — cartographie graphify (mergée) | 🟢 Actif |
 | [assistant-ai](projets/assistant-ai.md) | **Coco front desk** — réceptionniste IA WhatsApp/email + console | Next.js 14 + Claude + Supabase + Twilio | Vercel | 31/08 — cartographie graphify (mergée) | 🟢 Actif |
 | [coco2](projets/coco2.md) | **Coco Samui Concierge** — chatbot touristique + serveur MCP | Astro + serverless + Claude Haiku | Vercel — coco-samui-ai.com | 31/08 — cartographie graphify (mergée) ; 24/08 — Bloom par défaut, garde-fous chat.js **non mergés** (écart) | 🟢 Actif |

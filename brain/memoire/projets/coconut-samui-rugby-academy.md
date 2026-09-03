@@ -1,6 +1,6 @@
 # CSRA — Coconut Samui Rugby Academy
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-26.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-03.
 > Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`,
 > travaux en cours sur `claude/focused-allen-d348n8`).
 
@@ -42,6 +42,21 @@
   code brut). À régénérer après un refactor significatif (`graphify extract . --code-only &&
   graphify cluster-only . --no-label`). Fait partie d'une passe transverse sur les 7 dépôts
   (voir `journal.md`).
+
+## État & prochaines étapes (2026-09-03)
+
+- **Routine « Génération hebdo posts CSRA » confirmée opérationnelle** : contrairement au point
+  de vigilance du 26/08 ci-dessous (Routine introuvable dans `list_triggers`), elle s'est bien
+  déclenchée la semaine du 30/08 — calendrier éditorial généré (4 posts FR/EN), visuels Bloom
+  produits (marque « Coconut Samui Rugby Academy »), livraison en brouillon fichier +
+  PR (Telegram non configuré) puis les 4 posts validés et publiés par Cyril entre le 31/08 et
+  le 04/09. Voir `journal.md` (entrée du 03/09) et
+  `brain/marketing-drafts/semaine-2026-08-30/programme.md`. Reste non résolu : la livraison
+  Telegram automatique (`TELEGRAM_BOT_TOKEN` / `TELEGRAM_CHAT_PROJECT_RUGBY` toujours absents de
+  cette session).
+- **Teens Rugby — horaire temporaire confirmé** (03/09) : partage le créneau Kids du samedi
+  16h30-17h30 le temps d'avoir assez d'inscrits dans les deux groupes ; deux horaires distincts
+  ensuite. `brain/academy.md` mis à jour (Kids + Teens + tableau des placeholders).
 
 ## État & prochaines étapes (2026-08-26)
 

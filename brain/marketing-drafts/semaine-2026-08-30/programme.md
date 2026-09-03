@@ -65,39 +65,44 @@ https://www.trybloom.ai/img/d3f973ef-7fd3-4970-aaff-c76ed359cce9
 
 ---
 
-## Vendredi 04/09 — Pilier 📣 Conversion (essai gratuit + rappel séances)
+## ✅ Vendredi 04/09 — Pilier 📣 Conversion — PUBLIÉ (confirmé par Cyril, contenu remplacé par
+l'annonce Kids & Teens ci-dessous)
+
+> Remplace le post générique « essai gratuit » initialement prévu : Cyril a confirmé le 03/09
+> que Teens partage temporairement le créneau Kids du samedi (16h30-17h30) le temps d'avoir
+> assez d'inscrits dans les deux groupes — deux horaires distincts suivront. `brain/academy.md`
+> mis à jour en conséquence.
 
 **FR** —
-Ce week-end, on joue 🏉
-- **Samedi** : Kids Rugby (4-10 ans), Koh's 33 Stadium (Lamai) — essai gratuit
-- **Mardi prochain** : Touch Rugby Adultes, 19h-20h30 — viens comme tu es
-Teens : horaires `[À COMPLÉTER PAR CYRIL]` — contacte-nous en attendant !
-Pas encore essayé ? C'est le moment. Premier essai offert, sans engagement.
-📲 WhatsApp +66 63 375 3316
+Ce samedi, on est deux groupes sur le terrain 🏉
+**Kids (4-10 ans) & Teens (11-17 ans)**, même créneau : **16h30-17h30**, Koh's 33 Stadium (Lamai).
+Kids en tag rugby zéro contact, Teens en progression douce vers le contact — coaching bilingue
+FR/EN.
+(Le temps de remplir les deux groupes, Kids et Teens partagent le créneau — deux horaires
+séparés arrivent bientôt.)
+📲 Essai gratuit : WhatsApp +66 63 375 3316
 
 **EN** —
-This weekend, we play 🏉
-- **Saturday**: Kids Rugby (ages 4-10), Koh's 33 Stadium (Lamai) — free trial
-- **Next Tuesday**: Adults Touch Rugby, 7-8:30pm — just show up
-Teens schedule: `[À COMPLÉTER PAR CYRIL]` — message us in the meantime!
-Haven't tried us yet? No better time. First trial's on us, zero commitment.
-📲 WhatsApp +66 63 375 3316
+Two groups on the field this Saturday 🏉
+**Kids (ages 4-10) & Teens (ages 11-17)**, same slot: **4:30-5:30pm**, Koh's 33 Stadium (Lamai).
+Kids in zero-contact tag rugby, Teens with progressive contact — bilingual FR/EN coaching.
+(Sharing the slot for now while both groups fill up — separate times coming soon.)
+📲 Free trial: WhatsApp +66 63 375 3316
 
-**Hashtags** — `#kohsamui #rugbyacademy #kidsrugby #touchrugby #samuiexpats #growstrongtogether
-#freetrial`
+**Hashtags** — `#kohsamui #rugbyacademy #kidsrugby #teensrugby #samuikids #samuiexpats
+#growstrongtogether`
 
 **Visuel** — Visuel généré via Bloom (action energique, ambiance accueillante essai gratuit) :
-https://www.trybloom.ai/img/4b1c837d-e21c-46f7-aa4e-6d31f26bc988
-**Format** : post statique + story avec countdown "Samedi — Kids Rugby".
+https://www.trybloom.ai/img/59d6358f-c249-48c2-9e80-a29ffbbecd22
+**Format** : post statique + story avec countdown "Samedi — Kids & Teens Rugby".
 **Créneau conseillé** : 17h-18h (heure Samui), avant le week-end.
 
 ---
 
-## 🔁 Dimanche — Post récurrent permanent : Touch Rugby du mardi
+## ✅ 🔁 Dimanche — Post récurrent permanent : Touch Rugby du mardi — PUBLIÉ (confirmé par Cyril)
 
 > Décision de Cyril (21/07) : ce post part **chaque dimanche 18h (heure Samui)**, sans qu'on ait
-> à le redemander. Cette semaine, la génération est arrivée en léger différé (session prolongée) —
-> à publier dès validation de Cyril, la séance visée (mardi 01/09) reste à venir.
+> à le redemander. Cette semaine, la génération est arrivée en léger différé (session prolongée).
 
 **FR** — Touch rugby ce mardi 🌴🏉 Mardi 1er septembre, 19h–20h30, Koh's 33 Stadium (Lamai). Sans
 contact, tous niveaux, ambiance conviviale — résidents, expats, voyageurs : viens comme tu es.
