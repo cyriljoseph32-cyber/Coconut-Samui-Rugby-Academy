@@ -37,8 +37,8 @@ Koh Samui, province de Surat Thani, Thaïlande.
 
 - **Format** : tag rugby uniquement, **zéro contact**, zéro pression
 - **Groupes** : max 12 enfants par coach
-- **Séances** : 60 minutes, hebdomadaire, **le samedi** — **toute première séance le 29/08/2026**
-  (confirmé par Cyril le 12/08/2026)
+- **Séances** : 60 minutes, hebdomadaire, **le samedi 16h30-17h30** — **toute première séance le
+  29/08/2026** (confirmé par Cyril le 12/08/2026 ; horaire confirmé le 03/09/2026)
 - **Expérience** : aucune requise — la plupart des enfants partent de zéro
 - **À apporter** : gourde, baskets ou crampons, crème solaire
 - **CTA** : essai gratuit — message WhatsApp type :
@@ -50,7 +50,9 @@ Koh Samui, province de Surat Thani, Thaïlande.
 
 - **Format** : rugby à contact, introduit **progressivement** selon l'âge et le niveau
   (technique sur boucliers avant tout contact réel ; plafond = directives World Rugby age-grade)
-- **Séances** : 90 minutes, hebdomadaire
+- **Séances** : 90 minutes, hebdomadaire — **temporairement alignées sur le créneau Kids
+  (samedi 16h30-17h30) le temps d'avoir assez d'inscrits dans les deux groupes** ; deux
+  horaires distincts prévus ensuite (confirmé par Cyril le 03/09/2026)
 - **Pathway** : camps intensifs, premier tournoi inter-écoles de l'île, matchs contre
   équipes de passage
 - **Débutants** : bienvenus — piste « skills » parallèle dans la même séance (à niveau en 4–6 semaines)
@@ -109,7 +111,7 @@ Koh Samui, province de Surat Thani, Thaïlande.
 | Info | Statut |
 |---|---|
 | Tarifs (tous programmes) | `[À COMPLÉTER PAR CYRIL]` — rediriger vers WhatsApp |
-| Horaires précis des séances | **Kids : samedis, 1ère séance le 29/08/2026 (confirmé par Cyril 12/08)** ✅. Adults Touch : mardis 19h–20h30, Koh's 33 (déjà utilisé en communication, cf. `brain/marketing-assets/`). Teens : encore `[À COMPLÉTER PAR CYRIL]` — rediriger vers WhatsApp d'ici là. |
+| Horaires précis des séances | **Kids : samedis 16h30-17h30, 1ère séance le 29/08/2026 (confirmé par Cyril 12/08 et 03/09)** ✅. Adults Touch : mardis 19h–20h30, Koh's 33 (déjà utilisé en communication, cf. `brain/marketing-assets/`). **Teens : temporairement même créneau que Kids (samedi 16h30-17h30), le temps d'avoir assez d'inscrits — deux horaires distincts ensuite (confirmé par Cyril 03/09)** ✅. |
 | Dates des camps / événements | `[À COMPLÉTER PAR CYRIL]` (`src/pages/camps-events.astro`) |
 | Noms et bios des coachs | `[À COMPLÉTER PAR CYRIL]` (`src/pages/about.astro`) |
 
