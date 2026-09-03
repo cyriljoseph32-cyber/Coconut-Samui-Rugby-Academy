@@ -38,7 +38,7 @@ https://www.trybloom.ai/img/59d6358f-c249-48c2-9e80-a29ffbbecd22
 
 ---
 
-## Mercredi 02/09 — Pilier 👨‍👩‍👧 Confiance parents (sécurité)
+## ✅ Mercredi 02/09 — Pilier 👨‍👩‍👧 Confiance parents (sécurité) — PUBLIÉ (confirmé par Cyril)
 
 **FR** —
 « Mais... il y a du contact ? » 🙅‍♂️
