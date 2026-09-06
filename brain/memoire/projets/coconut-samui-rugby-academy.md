@@ -1,8 +1,7 @@
 # CSRA — Coconut Samui Rugby Academy
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-26.
-> Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`,
-> travaux en cours sur `claude/focused-allen-d348n8`).
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-06 (`/memory sync`).
+> Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`).
 
 ## Identité
 
@@ -43,12 +42,20 @@
   graphify cluster-only . --no-label`). Fait partie d'une passe transverse sur les 7 dépôts
   (voir `journal.md`).
 
-## État & prochaines étapes (2026-08-31)
+## État & prochaines étapes (2026-09-06)
 
-- **Tarifs Kids/Teens/Adults Touch confirmés** (31/08) : **350 THB la séance, ou 1 200 THB le
-  mois**. Ajouté comme detail sur les trois pages programme (`src/data/programs.ts`, source de
-  vérité), resynchronisé dans `brain/academy.md`. Corporate Team-Building reste au devis,
-  non concerné. PR #28 (`claude/pricing-350-1200`), build vert, **pas encore mergée**.
+- **Tarifs Kids/Teens/Adults Touch confirmés et horaires du samedi fixés** (01/09) :
+  **350 THB la séance, ou 1 200 THB le mois** pour les trois programmes récurrents (Kids,
+  Teens, Adults Touch) ; Corporate Team-Building reste au devis, non concerné. Horaires
+  samedi : **Kids 15:30–16:30, Teens 16:30–17:30** (remplace l'ancienne estimation de 90 min
+  pour Teens, jamais adossée à un horaire réel). Le plafond « max 12 enfants par coach » est
+  **retiré** du site et de `brain/coaching-playbook.md` (demande explicite de Cyril — le coach
+  garde son jugement sur la taille de groupe). `src/data/programs.ts` (source de vérité),
+  `brain/academy.md` et `brain/coaching-playbook.md` resynchronisés. **PR #28 mergée sur
+  `main`** (`a8cfed1`), build vert (13 pages).
+  ⚠️ **Contradiction corrigée par ce sync** : cette même fiche indiquait encore « pas encore
+  mergée » pour la PR #28 — c'était faux, elle est mergée depuis le 02/09 (vérifié `git log
+  origin/main`).
 
 - **Audit de fiabilité** (23/08) : les 9 agents `.claude/agents/*.md` restructurés selon un
   format standard à 7 sections (identité, périmètre, sources autorisées, processus de
@@ -58,24 +65,23 @@
   désynchronisée depuis le 20/07 (agent `coco-command` absent de la liste) — corrigé dans
   cette même passe, cf. `brain/memoire/journal.md`.
 
-- **Routage boîte academy vers Superhuman Mail** (24/08, commit `8aecb7a` sur
-  `claude/focused-allen-d348n8`, **pas encore mergé sur `main`**) : `secretariat.md`,
-  `communication.md` et `assistant-cyril.md` basculés sur le connecteur Superhuman Mail
+- **Routage boîte academy vers Superhuman Mail** : `secretariat.md`, `communication.md` et
+  `assistant-cyril.md` basculés sur le connecteur Superhuman Mail
   (`acting_email=coconutrugbyacademy@gmail.com`) pour toute la boîte academy — le connecteur
   Gmail générique du compte pointe sur l'adresse personnelle de Cyril, pas sur l'académie.
-  Reprend le contenu de l'ancienne PR #10 (fermée sans merge le 25/08, en conflit avec la
-  réécriture 7-sections de l'audit). L'ancienne PR #11 (corrections de dates
-  `brain/pipeline.md`) a aussi été fermée le 25/08, sans reprise — jugée trop obsolète
-  (3 semaines, fichier trop divergé). **Écart constaté** : une PR #17 supplémentaire
-  (« Route secretariat/communication/assistant-cyril to Superhuman for the academy inbox »),
-  non mentionnée par Cyril, a aussi été fermée le 25/08 sur ce même sujet — vraisemblablement
-  une tentative parallèle sur le même correctif ; à clarifier avec Cyril si besoin.
+  **Mergé sur `main` — PR #17 (`adfef48`)**, confirmé `git log --follow` sur
+  `.claude/agents/secretariat.md`. (L'ancienne PR #10, contenu repris, et l'ancienne PR #11,
+  jugée trop obsolète, avaient été fermées sans merge le 25/08 ; une PR #17 parallèle sur le
+  même sujet, un temps non identifiée, est celle qui a effectivement été mergée.)
 
-- **Bloom devient l'outil visuel par défaut** (24/08, commit `3e0d542`, sur la même branche
-  non mergée) : `.claude/agents/marketing.md` et `brain/marketing-playbook.md` référencent
-  désormais le compte trybloom pro comme outil par défaut (workflow `bloom_list_brands` →
-  `bloom_onboard_brand` → `bloom_search_user_images` → `bloom_generate_image`), Canva en repli
-  seulement.
+- **Bloom devient l'outil visuel par défaut** : `.claude/agents/marketing.md` et
+  `brain/marketing-playbook.md` référencent le compte trybloom pro comme outil par défaut
+  (workflow `bloom_list_brands` → `bloom_onboard_brand` → `bloom_search_user_images` →
+  `bloom_generate_image`), Canva en repli seulement. **Mergé sur `main` — PR #19** (`aaf4fe6`),
+  confirmé `git log --follow` sur `.claude/agents/marketing.md`.
+  ⚠️ **Contradiction corrigée par ce sync** : cette fiche décrivait encore ces deux points comme
+  « pas encore mergés » / « branche non mergée » — les deux sont sur `main` et vérifiés dans le
+  code actuel (pas seulement rapportés).
 
 - ⚠️ **Point de vigilance non résolu — Routines et connecteurs MCP** : les Routines créées ou
   modifiées via l'outil `create_trigger`/`update_trigger` ne peuvent porter aucun connecteur
@@ -107,6 +113,16 @@
   dossier fournisseur (one-pager + fiches produit + tableau tailles) préparé le 01/08 ; 4
   brouillons créés (X-Treme Sports Gear, CS Sport Thailand, Fabrion, Thai T-Shirt Factory) —
   **programmés par Cyril pour un envoi lundi 03/08 8h** via la fonction native de Gmail.
+  Design validé le 08/08 (X-Treme, devis QT2026080001). **En pause depuis le 31/08** (PR #27,
+  `f0124f7`) : Cyril attend un retour de son partenaire avant de trancher l'écart de
+  quantités (40/40/5 livré au devis vs 48/48/6 avec rechanges au dossier initial) et
+  reprendra contact avec Darryn **fin septembre** — rien à envoyer à X-Treme d'ici là. Détail
+  dans `brain/pipeline.md`.
+- **Calendrier éditorial hebdo marketing** (31/08–06/09, PR #26 `53d151e`) : 4 posts (recap
+  Kids, sécurité tag rugby, essai gratuit, Touch Rugby du mardi) avec captions FR/EN et
+  visuels Bloom, déposés dans `content/marketing-drafts/semaine-2026-08-30/programme.md` —
+  livraison Telegram automatique non disponible (variables non configurées côté Routine),
+  brouillon dans le dépôt à la place. Post du lundi 31/08 confirmé publié par Cyril.
 - **Samui Fitness Lab** (sponsoring S&C) : email 19/07 → réponse positive 20/07 → reprise de
   contact WhatsApp par Omar (Samui Fitness Lab) le 30/07 → Cyril a répondu le 31/07 pour un RDV
   mardi soir, avant la séance touch rugby (Koh's 33 Stadium 19h). En attente de l'heure.

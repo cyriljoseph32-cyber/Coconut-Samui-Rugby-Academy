@@ -1,6 +1,6 @@
 # jamin-depth — Jammin's Depths (plongée & récupération sous-marine)
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-02.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-06 (`/memory sync`).
 > Dépôt : `cyriljoseph32-cyber/jamin-depth` (branche par défaut `main`).
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
@@ -150,8 +150,22 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   merge**, alors que `main` avait déjà avancé (graphify, `confidence.ts`…) — rien de tout ce
   qui précède n'était donc sur `main`, contrairement à ce qui avait été rapporté. Rebase propre
   de `claude/coco-comms-ops-x4k2m` sur `main` à jour (aucun conflit), 416 tests / typecheck /
-  lint / build verts, **PR #16 rouverte** (draft), en attente de validation de Cyril avant merge
-  et déploiement.
+  lint / build verts, PR #16 rouverte en draft.
+- ✅ **PR #16 mergée sur `main` le 02/09** (`d105f9e`, confirmé `git log`) : le calendrier
+  éditorial, l'adaptateur Instagram et le cron `coco-contenu` sont désormais réellement sur
+  `main` — ce n'est plus « en attente de validation », c'est fait. ⚠️ **Contradiction corrigée
+  par ce sync** : cette fiche disait encore « PR #16 rouverte, en attente de validation de
+  Cyril avant merge » — c'était vrai le 02/09 au matin, obsolète depuis. Reste à vérifier
+  séparément : le déploiement Vercel effectif de ce merge, et la régénération de
+  `CRON_SECRET` (toujours en attente côté Cyril, cf. section suivante) sans laquelle le test
+  demandé par Cyril échoue en 401.
+- **PR #17 mergée sur `main` le 02/09** (`235877c`) : `/approve` ne faisait avancer que
+  l'événement (DONE/BLOCKED), jamais le `command_content` lié — trouvé après 13 approbations
+  manuelles la veille qui n'avaient pas débloqué le calendrier éditorial (resté en
+  `WAITING_APPROVAL`). `decide()` lit désormais `content_id` dans les `links` de l'événement et
+  fait avancer le contenu (`APPROVED` si approuvé, `ABANDONED` si rejeté), seulement s'il
+  attend encore une décision — idempotent si déjà programmé/publié ailleurs. **Toujours aucune
+  publication automatique** : `APPROVED` reste un feu vert, pas un acte.
 
 ## Cartographie du code (graphify) — 2026-08-31
 
@@ -181,21 +195,15 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
 et pour Instagram : `IG_USER_ID`, `IG_ACCESS_TOKEN`.
 Toutes optionnelles : un déploiement ne casse jamais parce qu'une clé manque.
 
-## Score de confiance des agents (26/08 — écart constaté)
+## Score de confiance des agents
 
-- Deux commits existent sur `claude/focused-allen-d348n8` : `1995425` (audit de fiabilité,
-  `docs/agents/RELIABILITY-AUDIT.md`) et `f407728` (« Ajouter un score de confiance numérique
-  (0-100) aux décisions d'agent », `src/agents/confidence.ts` + wiring
-  `src/agents/orchestrator.ts`). Les deux sont **poussés sur `origin/claude/focused-allen-
-  d348n8`**, confirmé par `git log`.
-- ⚠️ **Contrairement à ce qui a été rapporté à l'agent memory**, ces commits ne sont **pas
-  mergés sur `main`** (`git log origin/main..HEAD` les liste comme non intégrés) et **aucune
-  PR GitHub ne les référence** : la liste réelle des PR du dépôt (12 PR, jusqu'au #12 « Confirm
-  deposit and pick-up policies from the owner », ouverte) ne contient aucune PR sur le score
-  de confiance. Le moteur COCO COMMAND réutilisé aujourd'hui pour livrer les posts CSRA/coco2
-  sur Telegram (`src/agents/adapters/telegram.ts`, chats par projet — code confirmé présent et
-  inchangé) tourne donc toujours sur la version de `main` **sans** score de confiance. À
-  vérifier avec Cyril avant de considérer cette fonctionnalité comme en production.
+- ✅ **Mergé sur `main` — PR #13** (`8374f3c`, « Score de confiance (confidence.ts) câblé dans
+  l'orchestrateur »), confirmé `git log origin/main`. `src/agents/confidence.ts` + wiring
+  `src/agents/orchestrator.ts` sont donc bien en production.
+  ⚠️ **Contradiction corrigée par ce sync** : cette fiche indiquait encore (constat du 26/08)
+  que ces commits n'étaient « pas mergés sur `main` » et « qu'aucune PR ne les référence » —
+  c'était vrai au moment de l'audit du 26/08, résolu depuis par la PR #13, non repris à jour
+  dans cette fiche jusqu'à ce sync.
 
 ## Pièges connus
 

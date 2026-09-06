@@ -1,6 +1,6 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-30.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-06 (`/memory sync`).
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
 
@@ -109,6 +109,13 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
   PR #15 (**draft, non mergée**) à la place de la livraison Telegram automatique. À
   trancher avec Cyril : renseigner ces variables côté Routine, ou abandonner la cible
   Telegram pour cette routine et rester sur le fichier de brouillon + validation manuelle.
+- **Script Postiz prêt à lancer (PR #18, `165c7dd`, mergée)** : la question Telegram
+  ci-dessus a été contournée par un autre canal plutôt que résolue —
+  `content/marketing-drafts/postiz-semaine-2026-08-31.sh` crée les 4 posts de la semaine du
+  31/08 en **brouillon** dans Postiz (captions + visuels Bloom déjà validés en PR #15), à
+  exécuter **par Cyril lui-même avec sa propre `POSTIZ_API_KEY`** — `growth-concierge` ne
+  programme ni ne publie jamais lui-même sur les réseaux sociaux. Post du 31/08 (« Ask
+  Coco ») confirmé publié manuellement par Cyril, hors de l'agent.
 
 ## Pièges connus
 
