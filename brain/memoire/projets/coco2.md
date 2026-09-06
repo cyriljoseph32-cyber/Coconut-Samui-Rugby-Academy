@@ -109,6 +109,21 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
   PR #15 (**draft, non mergée**) à la place de la livraison Telegram automatique. À
   trancher avec Cyril : renseigner ces variables côté Routine, ou abandonner la cible
   Telegram pour cette routine et rester sur le fichier de brouillon + validation manuelle.
+  **Suite (06/09)** : PR #15 et #18 (script Postiz) confirmées fermées côté GitHub sans
+  passer par le bouton merge, mais leur contenu est bien présent sur `main` (vérifié
+  `git ls-tree origin/main` + `git log`) — pas de contenu perdu.
+- **Routine hebdo posts Instagram (06/09, semaine du 07/09)** : nouvelle branche
+  désignée pour ce dépôt cette session, `claude/eager-ride-0bv477` (à jour avec `main`,
+  qui contient déjà tout `claude/focused-allen-d348n8`). 4 nouveaux brouillons générés
+  (Ask Coco/ferry, Real Samui/cascade jungle, practical tips/météo saison des pluies,
+  hôtels B2B/argument 6 langues — claim vérifié dans `api/chat.js` avant rédaction) +
+  visuels Bloom (brand "Coco", déjà onboardée, `e32bd8b2-9537-447d-a7ac-1be78b76dad1`),
+  angles délibérément différents de la semaine du 31/08. `TELEGRAM_BOT_TOKEN`/
+  `TELEGRAM_CHAT_PROJECT_COCO` **toujours absents** → brouillon dans
+  `content/marketing-drafts/semaine-2026-09-07.md`, **PR #19 (draft)** sur
+  `claude/eager-ride-0bv477`. Événement COCO COMMAND `evt_20260906_0825_469cfa16` (P2,
+  WAITING_APPROVAL). **Toujours à trancher avec Cyril** : renseigner les variables
+  Telegram, ou acter que cette routine reste sur le mode fichier de brouillon.
 
 ## Pièges connus
 
