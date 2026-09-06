@@ -84,11 +84,21 @@ Toujours finir par un appel à l'action clair, en priorité **WhatsApp** :
 > automatiquement, sans qu'on ait à le redemander.
 
 - **Chaque dimanche 18h (heure Samui)** → publier l'**annonce Touch Rugby du mardi** sur
-  **Instagram + Facebook** (post + visuel daté). Visuel = même design que la série
-  `brain/marketing-assets/touch-mardis-2026-08/` (touch rugby, 19h–20h30, Koh's 33 Lamai).
-- **Visuels déjà générés** jusqu'au **mardi 25/08**. Au-delà, régénérer les visuels datés avec
-  `brain/marketing-assets/gen-posters.cjs` (ou le générateur de la série) pour les mardis suivants.
-- Légende type (FR + EN) + hashtags : voir `touch-mardis-2026-08/programme.md`.
+  **Instagram + Facebook** (post + visuel daté). Visuel = poster graphique de la série
+  `brain/marketing-assets/touch-mardis-2026-09/` (touch rugby, 19h–20h30, Koh's 33 Lamai) —
+  suite de `touch-mardis-2026-08/`, même design (Fraunces + Schibsted Grotesk, palette Island
+  Grit).
+- **Visuels déjà générés** jusqu'au **mardi 13/10**. Au-delà, régénérer les visuels datés avec
+  `brain/marketing-assets/touch-mardis-2026-09/gen-touch-poster.cjs` (ou le générateur de la
+  série) pour les mardis suivants.
+- Légende type (FR + EN, avec le tarif 350 THB/séance ou 1 200 THB/mois désormais confirmé) +
+  hashtags : voir `touch-mardis-2026-09/programme.md`.
+- **Exception ponctuelle (8/09)** : ce mardi-là seulement, le poster a été remplacé par un
+  visuel photo-réaliste généré via Bloom (brand CSRA), faute de vraie photo exploitable pour
+  ce post précis — voir `brain/memoire/journal.md` (2026-09-06). Ce n'est **pas** un
+  changement de format pour la série : le poster graphique reste la référence par défaut (voir
+  justification coût/temps/cohérence dans `touch-mardis-2026-09/programme.md`) sauf décision
+  contraire explicite de Cyril.
 - Publication **en brouillon** (Postiz) ou livraison à Cyril — **rien en ligne sans sa validation**.
 
 ## Règles de production
