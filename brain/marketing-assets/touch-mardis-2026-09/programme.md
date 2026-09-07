@@ -118,3 +118,17 @@ des 5 dates (brand CSRA déjà onboardée sur Bloom, `bloom_list_brands` /
 > ⚠️ Rien n'est publié sans la validation de Cyril. Publication en **brouillon** par défaut.
 > Horaires/lieu confirmés (Koh's 33 Stadium, mardi 19h–20h30). Tarif confirmé (350 THB/séance,
 > 1 200 THB/mois) — `brain/academy.md` ligne 68.
+
+## Version thaï (à la demande de Cyril, 07/09/2026)
+
+`poster-touch-2026-09-15-th.png` — même poster que `poster-touch-2026-09-15.png`, texte
+traduit en thaï (police locale **Loma**, seule police thaï disponible dans la sandbox —
+pas d'accès réseau à Google Fonts au moment du rendu). Généré via `gen-touch-poster-th.cjs`
+(hardcodé sur la date du 15/09 pour l'instant — dupliquer/adapter pour d'autres dates si
+besoin d'une série thaï complète).
+
+⚠️ **Traduction non relue par un locuteur natif thaï** — à valider avant publication.
+Titre "Touch Rugby" traduit en ทัชรักบี้ (translitération phonétique, pas un terme figé
+officiel) ; tagline "Grow Strong Together." laissée en anglais (marque). Tarif non affiché
+sur cette version (pas demandé) — à ajouter si besoin, cohérent avec le texte FR/EN
+(350 THB/séance ou 1 200 THB/mois).
