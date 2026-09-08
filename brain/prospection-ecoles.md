@@ -21,7 +21,7 @@
 
 | École | Zone | Contact | Statut prospection |
 |---|---|---|---|
-| **IFDS** — Institut Français de Développement Samui (préscolaire → terminale, examens via Lycée Français de Bangkok) | Bophut/Chaweng | ✉️ `contact@ifds.pw` (vérifié) · directrice **Sylvie Torrente** · ☎️ +66 84 331 7873 | ⏳ Relance due (FR) — proposition envoyée 05/05/2026, sans réponse |
+| **IFDS** — Institut Français de Développement Samui (préscolaire → terminale, examens via Lycée Français de Bangkok) | Bophut/Chaweng | ✉️ `contact@ifds.pw` (vérifié) · directrice **Sylvie Torrente** · ☎️ +66 84 331 7873 | ❌ RDV présentiel eu lieu 08/09/2026 — refus de la séance découverte/périscolaire, Sylvie invoque un empêchement légal/réglementaire côté école (détail non précisé). Reste ouverte au tournoi inter-écoles (souhaite bonne chance à Cyril) mais doute que rassembler les écoles entre elles soit réalisable. Dossier périscolaire clos ; ne recontacter que si le tournoi obtient une date concrète. |
 
 ## C. Écoles publiques thaïlandaises (angle bourses / impact social — pas périscolaire payant)
 
