@@ -43,7 +43,15 @@
   graphify cluster-only . --no-label`). Fait partie d'une passe transverse sur les 7 dépôts
   (voir `journal.md`).
 
-## État & prochaines étapes (2026-09-06)
+## État & prochaines étapes (2026-09-09)
+
+- **Post Instagram publié — mardi 9 septembre 2026** : photo d'un ado en pleine course, ballon
+  sous le bras (maillot teal n°7), envoyée directement par Cyril — **consentement parental
+  confirmé par Cyril avant publication** (question posée explicitement en session, mineur
+  reconnaissable). Sauvegardée dans `brain/marketing-assets/real-photos/teen-course-ballon-7.png`,
+  README mis à jour. À ne pas confondre avec les 4 photos du 08/08 ci-dessous, dont le
+  consentement reste `[À CONFIRMER PAR CYRIL]`. Aucune URL de post fournie — non vérifiable par
+  preuve traçable. Détail complet : `brain/memoire/journal.md` (entrée 2026-09-09).
 
 - **Post Instagram Touch Rugby publié — mardi 8 septembre 2026** (confirmé par Cyril « c'est
   fait » en session le 06/09) : légende FR/EN + hashtags rédigés par l'agent `marketing`,
