@@ -1,6 +1,6 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-30.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-06.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
 
@@ -105,10 +105,38 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
   `COCO_Plan_Reseaux_Sociaux.md` + `Plan_Campagne_Samui_AI_Concierge_4semaines.md`.
   **Confirme l'écart du 26/08** : `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_PROJECT_COCO`
   toujours absents de la session → contenu déposé dans
-  `content/marketing-drafts/semaine-2026-08-31.md` sur `claude/focused-allen-d348n8`,
-  PR #15 (**draft, non mergée**) à la place de la livraison Telegram automatique. À
+  `content/marketing-drafts/semaine-2026-08-31.md`, à la place de la livraison Telegram
+  automatique.
+
+### Statut réel des posts Instagram — resynchronisé le 2026-09-06
+
+- **Écart corrigé** : la fiche indiquait « PR #15 draft, non mergée » (30/08) — vérification
+  `git log origin/main` du dépôt `coco2` : **PR #15 a bien été mergée** (`625de53`, 31/08),
+  suivie de **PR #16/#17** (cartographie graphify, cf. section dédiée) puis **PR #18 « Script
+  Postiz prêt à lancer — semaine du 31/08 »** (`165c7dd`, 02/09) qui ajoute
+  `content/marketing-drafts/postiz-semaine-2026-08-31.sh` : un script **à lancer par Cyril
+  lui-même** (clé API Postiz personnelle requise, `growth-concierge` ne l'exécute jamais) qui
+  crée les 4 posts **en brouillon** dans Postiz (`postiz posts:create -t draft`) — ce n'est pas
+  une publication automatique.
+- **Statut réel par post** (table « Récap livraison » de `content/marketing-drafts/semaine-2026-08-31.md`
+  sur `main`) :
+  - Post 1 — « Ask Coco » (lundi 31/08) : **✅ Publié**, confirmé par Cyril, publication
+    manuelle (commit `4865012`, « publié manuellement (pas via l'agent, conforme à la règle
+    growth-concierge de ne jamais publier lui-même) »).
+  - Post 2 — « Hidden gems » (mercredi 02/09) : **Brouillon — à valider**, aucune trace de
+    publication dans le dépôt.
+  - Post 3 — « Practical tips » (vendredi 04/09) : **Brouillon — à valider**, idem.
+  - Post 4 — « Hôtels B2B » (dimanche 06/09) : **Brouillon — à valider**, idem.
+- **Nouvelle salve de brouillons — semaine du 07/09** (générée le 06/09,
+  `content/marketing-drafts/semaine-2026-09-07.md`, 4 captions + visuels Bloom : Ask
+  Coco/ferry, Real Samui/jungle, practical tips/météo, hôtels B2B/6 langues) : existe sur la
+  branche `claude/eager-ride-0bv477`, **non mergée, non validée par Cyril**. Même blocage
+  Telegram que les semaines précédentes.
+- `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_PROJECT_COCO` (ou `TELEGRAM_CHAT_ID`) : toujours
+  `[À COMPLÉTER PAR CYRIL]` — livraison Telegram automatique toujours non fonctionnelle. À
   trancher avec Cyril : renseigner ces variables côté Routine, ou abandonner la cible
-  Telegram pour cette routine et rester sur le fichier de brouillon + validation manuelle.
+  Telegram et rester sur brouillon fichier + validation manuelle (workflow actuellement en
+  place de facto).
 
 ## Pièges connus
 

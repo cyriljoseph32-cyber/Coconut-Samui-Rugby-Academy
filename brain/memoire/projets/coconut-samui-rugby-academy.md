@@ -1,6 +1,6 @@
 # CSRA — Coconut Samui Rugby Academy
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-26.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-06.
 > Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`,
 > travaux en cours sur `claude/focused-allen-d348n8`).
 
@@ -43,7 +43,18 @@
   graphify cluster-only . --no-label`). Fait partie d'une passe transverse sur les 7 dépôts
   (voir `journal.md`).
 
-## État & prochaines étapes (2026-08-31)
+## État & prochaines étapes (2026-09-06)
+
+- **Post Instagram Touch Rugby publié — mardi 8 septembre 2026** (confirmé par Cyril « c'est
+  fait » en session le 06/09) : légende FR/EN + hashtags rédigés par l'agent `marketing`,
+  premier post de la série `touch-mardis-2026-08` (calendrier éditorial habituel : poster
+  graphique plat) à sortir avec un **vrai visuel photo-réaliste généré via Bloom** (action de
+  passe, coucher de soleil, palette Island Grit) — faute des 4 vraies photos Kids/Teens de
+  l'académie, toujours bloquées (consentement parental non confirmé, cf. « Actifs récents »
+  ci-dessous). Publication faite **manuellement par Cyril**, pas d'automatisation (adaptateur
+  Instagram toujours en pause). Aucune URL de post fournie : publication **non vérifiable
+  par preuve traçable** (`reference_url` absente), à compléter si besoin. Détail complet :
+  `brain/memoire/journal.md` (entrée 2026-09-06).
 
 - **Tarifs Kids/Teens/Adults Touch confirmés** (31/08) : **350 THB la séance, ou 1 200 THB le
   mois**. Ajouté comme detail sur les trois pages programme (`src/data/programs.ts`, source de
