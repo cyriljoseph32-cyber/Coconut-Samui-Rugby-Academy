@@ -141,9 +141,9 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
 - Photo de cascade en forêt envoyée directement par Cyril (pas issue d'une génération Bloom du
   calendrier hebdo) — légende pilier "Hidden gems" rédigée en session, publiée le 09/09. Nom du
   lieu non précisé par Cyril, resté générique dans la légende (`[À COMPLÉTER PAR CYRIL]` si
-  besoin de le nommer pour un futur post). Aucune URL de post fournie — non vérifié faute de
-  `reference_url`. Ne pas confondre avec le Post 2 "Hidden gems" (02/09) du calendrier
-  hebdo ci-dessus, toujours en brouillon.
+  besoin de le nommer pour un futur post). **Vérifié** — preuve traçable fournie par Cyril :
+  https://www.instagram.com/p/DdDPbiTz_uy/ . Ne pas confondre avec le Post 2 "Hidden gems"
+  (02/09) du calendrier hebdo ci-dessus, toujours en brouillon.
   Telegram et rester sur brouillon fichier + validation manuelle (workflow actuellement en
   place de facto).
 
