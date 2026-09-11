@@ -147,6 +147,13 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
   Telegram et rester sur brouillon fichier + validation manuelle (workflow actuellement en
   place de facto).
 
+### Post supplémentaire hors calendrier — 11/09/2026
+
+- Photo scooter/route côtière envoyée directement par Cyril — légende EN/FR pilier
+  découverte/road trip rédigée en session, publiée le 11/09. Aucune URL fournie — **non
+  vérifié** faute de `reference_url`. La version "plus développée" proposée ensuite a été
+  explicitement abandonnée par Cyril ; c'est la légende courte initiale qui a été publiée.
+
 ## Pièges connus
 
 - **Gotcha Tailwind v4** : les utilitaires translate utilisent la propriété CSS `translate`,
