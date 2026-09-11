@@ -45,11 +45,12 @@
 
 ## État & prochaines étapes (2026-09-11)
 
-- **Post Instagram publié — annonce training samedi 12/09** : légende FR/EN annonçant le
-  nouveau créneau fusionné Kids (4-12 ans) + Teens (11-17 ans), 16h30-17h30, avec les 2 visuels
-  (poster typographique + version illustrée générée via Bloom). Publié par Cyril, **aucune URL
-  fournie — non vérifié** faute de `reference_url`. La version "plus développée" proposée
-  ensuite a été abandonnée ; c'est la légende courte initiale qui est partie.
+- **Post Instagram publié — annonce training samedi 12/09 — vérifié** : légende FR/EN
+  annonçant le nouveau créneau fusionné Kids (4-12 ans) + Teens (11-17 ans), 16h30-17h30, avec
+  les 2 visuels (poster typographique + version illustrée générée via Bloom). **Preuve
+  traçable fournie par Cyril** : https://www.instagram.com/p/DdIVbDYJMts/ . La version "plus
+  développée" proposée ensuite a été abandonnée ; c'est la légende courte initiale qui est
+  partie.
 
 - **Kids Rugby : 4-12 ans, samedis 16h30-17h30 — fusion de créneau avec Teens** (changement
   permanent confirmé par Cyril le 11/09, chevauchement 11-12 ans avec Teens assumé). Livré via
