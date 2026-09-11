@@ -161,6 +161,23 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   query`/`explain`/`path`/`god-nodes` avant de grepper le code brut). Fait partie d'une passe
   transverse sur les 7 dépôts (voir `journal.md`).
 
+## Pipeline commercial (leads / réservations)
+
+> Registre vivant des réservations en cours, à l'image de `brain/pipeline.md` côté CSRA —
+> pas encore de fichier dédié dans le dépôt `jamin-depth` lui-même, à créer si le volume le
+> justifie. Sources : chats WhatsApp exportés par Cyril, à vérifier avant toute écriture.
+
+- **Groupe Mario (Cho Ratchawat, agent/revendeur) — 6 DSD, dimanche 13/09/2026** : 6 personnes,
+  débutants ("some has dive before but some new"), sortie **Koh Tao, 2 plongées**, tout inclus
+  (pick-up, équipement, repas, boissons, instructeur, drop-off). Noms transmis par Mario :
+  Juan Carlos, Cesar, Andres, Sofi, Aaron, Hector. Email de contact pour la confirmation de
+  résa : `Aaronpm28@gmail.com`. **Caution demandée : 2000 THB par plongeur (12 000 THB total)**,
+  à récupérer en personne **ce soir 11/09, lobby de l'hôtel, après 20h30** — RDV calé avec
+  Mario dans le chat, rappel calendrier posé (20h00, 30 min avant). **Nom de l'hôtel
+  `[À COMPLÉTER PAR CYRIL]`** — envoyé en photo dans le chat WhatsApp, image non accessible
+  depuis cette session. **Statut : à confirmer** — la réservation n'est définitive qu'après
+  récupération effective de la caution ce soir.
+
 ## Contenu publié — 28/08/2026
 
 - **4 posts Instagram DIVING publiés**, confirmé directement par Cyril le 28/08 : les brouillons
