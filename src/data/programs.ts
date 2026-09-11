@@ -20,14 +20,14 @@ export const programs: Program[] = [
   {
     slug: "kids-rugby",
     name: "Kids Rugby",
-    ages: "Ages 4–10",
+    ages: "Ages 4–12",
     tag: "Fun first",
     short:
       "Tag rugby, games and small wins. No tackling, no pressure — just kids learning to pass, run and back each other up.",
-    seoTitle: "Kids Rugby Classes Koh Samui (Ages 4–10) | Coconut Samui Rugby Academy",
+    seoTitle: "Kids Rugby Classes Koh Samui (Ages 4–12) | Coconut Samui Rugby Academy",
     seoDescription:
-      "Fun-first tag rugby for kids aged 4–10 on Koh Samui. No contact, no experience needed. Small groups, French- and English-speaking pro coaches, free trial session.",
-    h1: "Kids Rugby — Ages 4 to 10",
+      "Fun-first tag rugby for kids aged 4–12 on Koh Samui. No contact, no experience needed. Small groups, French- and English-speaking pro coaches, free trial session.",
+    h1: "Kids Rugby — Ages 4 to 12",
     intro:
       "At this age, rugby is a game of chase, laughter and tiny victories. Our youngest players learn to catch, pass and run with the ball through games they don't want to stop playing. There is no tackling — it's tag rugby only — and no child ever sits out because they're 'not good enough'. Every kid gets ball-in-hand time, every single session.",
     sessionLooksLike: [
@@ -38,7 +38,7 @@ export const programs: Program[] = [
     ],
     details: [
       { label: "Format", value: "Tag rugby (non-contact)" },
-      { label: "Schedule", value: "Saturdays, 15:30–16:30" },
+      { label: "Schedule", value: "Saturdays, 16:30–17:30" },
       { label: "Duration", value: "60-minute sessions, weekly" },
       { label: "Pricing", value: "350 THB per session, or 1,200 THB per month" },
       { label: "Experience", value: "None needed — most of our kids started at zero" },
@@ -47,7 +47,7 @@ export const programs: Program[] = [
     ],
     cta: {
       label: "Book a Free Trial",
-      whatsapp: "Hi! I'd like to book a free trial for the Kids program (ages 4-10).",
+      whatsapp: "Hi! I'd like to book a free trial for the Kids program (ages 4-12).",
     },
     faq: [
       {
