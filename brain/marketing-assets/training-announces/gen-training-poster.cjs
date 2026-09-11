@@ -48,16 +48,11 @@ function trainingPoster() {
 
       <div class="pill" style="background:#ffffff; color:${INK}; font-size:40px; padding:20px 46px; margin-top:36px;">SAMEDI 12 SEPTEMBRE</div>
 
-      <div style="margin-top:34px; display:flex; gap:48px; align-items:center;">
-        <div style="text-align:center;">
-          <div class="display" style="font-size:60px; color:#ffffff;">15:30</div>
-          <div style="font-size:26px; font-weight:700; color:${SAND}; margin-top:4px;">KIDS 4–10</div>
-        </div>
-        <div style="width:2px; height:70px; background:rgba(255,255,255,0.35);"></div>
-        <div style="text-align:center;">
-          <div class="display" style="font-size:60px; color:#ffffff;">16:30</div>
-          <div style="font-size:26px; font-weight:700; color:${SAND}; margin-top:4px;">TEENS 11–17</div>
-        </div>
+      <div class="display" style="font-size:96px; color:#ffffff; margin-top:34px;">16:30 – 17:30</div>
+      <div style="margin-top:14px; display:flex; gap:36px; align-items:center; justify-content:center;">
+        <div style="font-size:28px; font-weight:700; color:${SAND};">KIDS 4–12</div>
+        <div style="width:2px; height:34px; background:rgba(255,255,255,0.35);"></div>
+        <div style="font-size:28px; font-weight:700; color:${SAND};">TEENS 11–17</div>
       </div>
 
       <div style="font-size:32px; font-weight:700; margin-top:34px;">📍 Koh's 33 Stadium · Lamai</div>
