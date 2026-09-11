@@ -43,7 +43,22 @@
   graphify cluster-only . --no-label`). Fait partie d'une passe transverse sur les 7 dépôts
   (voir `journal.md`).
 
-## État & prochaines étapes (2026-09-09)
+## État & prochaines étapes (2026-09-11)
+
+- **Kids Rugby : 4-12 ans, samedis 16h30-17h30 — fusion de créneau avec Teens** (changement
+  permanent confirmé par Cyril le 11/09, chevauchement 11-12 ans avec Teens assumé). Livré via
+  agent `webmaster`, **PR #34 mergée sur `main`** : `src/data/programs.ts` (source de vérité),
+  `contact.astro`, `programs/index.astro`, `brain/academy.md` resynchronisés. Build vert
+  (13 pages). Visuels d'annonce mis à jour en cohérence (poster typographique + version
+  illustrée générée via Bloom, style demandé par Cyril) — `brain/marketing-assets/
+  training-announces/`. Deux brouillons de post plus développés (training CSRA + coco2 scooter)
+  proposés en session, **abandonnés à la demande de Cyril**, jamais publiés.
+
+- **RDV Greenacre (Dara Nagle) — 10/09, résultat très positif** : Chris anime le rugby à
+  Greenacre depuis un peu plus d'un an, ambitions qui grandissent. Greenacre très intéressée
+  par le tournoi inter-écoles, prête à démarrer même avec juste LIS pour l'instant. Suite
+  donnée le jour même : relances urgentes envoyées à Windfield, ISS, PBISS et Oonrak (accord
+  explicite de Cyril pour dépasser le plafond habituel de 2 relances) — voir `brain/pipeline.md`.
 
 - **Post Instagram publié — mardi 9 septembre 2026** : photo d'un ado en pleine course, ballon
   sous le bras (maillot teal n°7), envoyée directement par Cyril — **consentement parental
