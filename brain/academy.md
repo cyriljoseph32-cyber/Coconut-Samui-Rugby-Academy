@@ -33,17 +33,18 @@ Koh Samui, province de Surat Thani, Thaïlande.
 
 ## Programmes
 
-### 1. Kids Rugby — 4 à 10 ans (« Fun first »)
+### 1. Kids Rugby — 4 à 12 ans (« Fun first »)
 
 - **Format** : tag rugby uniquement, **zéro contact**, zéro pression
-- **Séances** : 60 minutes, hebdomadaire, **le samedi 15:30–16:30** — **toute première séance le
-  29/08/2026** (créneau confirmé par Cyril le 01/09/2026 ; date de lancement confirmée le
-  12/08/2026)
+- **Séances** : 60 minutes, hebdomadaire, **le samedi 16:30–17:30** — même créneau que Teens
+  (fusion de créneaux confirmée par Cyril le 11/09/2026 ; âge élargi de 4-10 à 4-12 ans en
+  même temps) — **toute première séance le 29/08/2026** (créneau initial confirmé par Cyril le
+  01/09/2026 ; date de lancement confirmée le 12/08/2026)
 - **Tarif** : 350 THB la séance, ou 1 200 THB le mois (confirmé par Cyril le 31/08/2026)
 - **Expérience** : aucune requise — la plupart des enfants partent de zéro
 - **À apporter** : gourde, baskets ou crampons, crème solaire
 - **CTA** : essai gratuit — message WhatsApp type :
-  *« Hi! I'd like to book a free trial for the Kids program (ages 4-10). »*
+  *« Hi! I'd like to book a free trial for the Kids program (ages 4-12). »*
 - **Points FAQ** : sécurité (pas de plaquage ni mêlée), débutants bienvenus,
   coaching bilingue FR/EN dès le premier jour
 
@@ -114,7 +115,7 @@ Koh Samui, province de Surat Thani, Thaïlande.
 |---|---|
 | Tarifs Kids / Teens / Adults Touch | **350 THB la séance, ou 1 200 THB le mois** ✅ (confirmé par Cyril le 31/08/2026) |
 | Tarifs Corporate Team-Building | `[À COMPLÉTER PAR CYRIL]` — devis au cas par cas, rediriger vers WhatsApp |
-| Horaires précis des séances | **Kids : samedis 15:30–16:30, 1ère séance le 29/08/2026** ✅ (créneau confirmé 01/09, date de lancement confirmée 12/08). **Teens : samedis 16:30–17:30** ✅ (confirmé par Cyril 01/09/2026). Adults Touch : mardis 19h–20h30, Koh's 33 (déjà utilisé en communication, cf. `brain/marketing-assets/`). |
+| Horaires précis des séances | **Kids : samedis 16:30–17:30, 4-12 ans, 1ère séance le 29/08/2026** ✅ (fusion de créneau avec Teens + âge élargi confirmés par Cyril le 11/09/2026 ; créneau initial 15:30-16:30 confirmé 01/09, date de lancement confirmée 12/08). **Teens : samedis 16:30–17:30, 11-17 ans, inchangé** ✅ (confirmé par Cyril 01/09/2026 ; chevauchement 11-12 ans avec Kids assumé, pas une erreur). Adults Touch : mardis 19h–20h30, Koh's 33 (déjà utilisé en communication, cf. `brain/marketing-assets/`). |
 | Dates des camps / événements | `[À COMPLÉTER PAR CYRIL]` (`src/pages/camps-events.astro`) |
 | Noms et bios des coachs | `[À COMPLÉTER PAR CYRIL]` (`src/pages/about.astro`) |
 
