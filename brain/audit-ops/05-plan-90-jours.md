@@ -49,8 +49,8 @@ En parallèle du chantier 0. Ce sont des pertes sèches qui courent aujourd'hui.
 | 1.2 | Purger les 12 brouillons doublons obsolètes | **A** | ⬜ à faire | Identifiés dans `pipeline.md` — distinct des 15 doublons Gmail de 1.4bis |
 | 1.3 | **Trancher les 16 messages en attente** | **C** | ⬜ à faire | Un par un : envoyer / réécrire / archiver |
 | ~~1.4~~ | ~~Corriger le lien `project-xm4pf`~~ | — | ✅ **faux positif, corrigé quand même** | Le lien redirige (302) — n'était pas mort. **18 brouillons corrigés** (traceur retiré, langues corrigées EN/FR/DE/**SV/TH**/ZH). Voir R7 du registre des risques |
-| 1.4bis | **Décider : supprimer les 15 doublons Gmail ?** | **C** | ⬜ **en attente de ta décision** | 33 brouillons pour 18 destinataires — le lot du 12/06 a été recopié à l'identique le 27/07. Suppression irréversible, non faite sans accord |
-| 1.4ter | **Décider : numéro WhatsApp FR → TH sur les 18 brouillons ?** | **C** | ⬜ **en attente de ta décision** | Signature porte `+33 6 62 72 61 99`, le reste de Coco utilise `+66 63 375 3316` |
+| ~~1.4bis~~ | ~~Supprimer les 15 doublons Gmail~~ | — | ✅ **clos sans action (12/09)** | Cyril a approuvé la suppression ; vérification dans Gmail montre que la boîte ne contient que 18 brouillons — aucun doublon à supprimer. Voir R7bis |
+| ~~1.4ter~~ | ~~Basculer le numéro WhatsApp FR → TH~~ | — | ✅ **clos sans action (12/09)** | Cyril a approuvé la bascule ; les 18 brouillons portent déjà `+66 63 375 3316`. Voir R7ter |
 | 1.5 | **Trancher les 9 `TODO` de `config.ts`** | **C** | ⬜ à faire | `paymentMethods` · `deposit` · `cancellation` · `meetingPoint` · `boatSchedule` · `pickupIncluded` · `insurance` · `minorMinimumAge` · `partnerResponseHours` + les 3 `APPROVERS` |
 | 1.6 | **Unifier les tarifs plongée** | **C** | ⬜ à faire | OW 17 900 (`catalog.ts`) vs 16 728 (`coco2/api/chat.js`). Choisir, propager |
 | 1.7 | Corriger « essai gratuit » → 200 THB | **A** | ✅ **fait** | `brain/marketing-drafts/semaine-2026-09-07.md` — CSRA PR #38, en attente de merge |
