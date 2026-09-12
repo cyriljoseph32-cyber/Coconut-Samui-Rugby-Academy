@@ -5,6 +5,39 @@
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
 
+## 🔴 12/09 — P0 corrigé (PR #21) + le système tourne depuis le 20/08, contrairement à l'audit
+
+**Le système est vivant et l'était déjà avant l'audit.** Vérifié par requêtes SQL directes sur
+le projet Supabase `prhjuuupxojjwzynohak` (`ACTIVE_HEALTHY`, créé le 17/08) : **104 événements**
+depuis le **20/08**, **104/104 notifiés sur Telegram**, quatre agents émetteurs sur les quatre
+activités. Le chantier 0 était donc terminé trois semaines avant que l'audit ne le déclare en
+attente — corrigé dans `audit-ops/00-synthese.md` et `05-plan-90-jours.md`.
+
+**Mais `leads` = 0, `command_tasks` = 0, `command_kpis` = 0.** La boucle journal + notification
+fonctionne ; le CRM, le contrat de tâche et la mesure sont écrits et inutilisés.
+
+**P0 (R14)** — le journal était **gelé depuis ~11 h** (dernier événement 01:18 UTC) : la
+passerelle PostgREST rend des `504 Gateway Timeout` par intermittence pendant que la base répond
+normalement, et un `fetch` sans réessai ni timeout tuait le cron entier (16 exécutions sur ~75).
+`request()` réessaie désormais 3 fois (backoff 300/600 ms, timeout 8 s) sur 502/503/504 et
+coupure réseau. **Les écritures simples ne sont pas rejouées** — une écriture aboutie dont la
+réponse s'est perdue créerait un doublon dans le journal ; seul l'upsert `merge-duplicates`,
+idempotent par `ON CONFLICT`, est réessayé. Aucune alerte n'existe encore quand le journal cesse
+d'avancer : à ajouter (chantier 4).
+
+**Chantier 2** — `src/command/people.ts` dérive une personne dédupliquée d'un événement, en
+**réutilisant `contactKey()`** des agents plongée plutôt qu'en réinventant la règle de fusion.
+Défaut trouvé en écrivant les tests et corrigé : `+66 81 234 5678` (WhatsApp) et `081 234 5678`
+(formulaire) produisaient deux fiches — le cas le plus courant à Samui. `normalisePhone()`
+ramène le format local à l'indicatif pays (limite documentée : un numéro français saisi en local
+serait lu comme thaï). Contrat d'ingestion étendu (`contact`/`channel`/`source`), **non stockés
+dans `command_events`** pour ne pas éparpiller de coordonnées dans une table qui part en
+notification. **457 tests verts** (38 fichiers, +37).
+
+**Migration exécutée en production** (accord explicite de Cyril) : `venture`/`ventures`/`source`
+sur `leads`, 2 index créés, 2 index dupliqués supprimés — les jumeaux identiques
+(`command_kpis_lookup_idx`, `command_tasks_due_idx`) ont été vérifiés présents avant suppression.
+
 ## ⚡ 12/09 — PR #20 ouverte (`activation/chantier-0-et-ci`), CI verte, non mergée
 
 Suite de l'[audit opérationnel](../../audit-ops/00-synthese.md) : `.github/workflows/ci.yml`

@@ -8,17 +8,25 @@
 
 ---
 
-## 🔴 Chantier 0 — Activation · Semaine 1
+## ✅ Chantier 0 — Activation · **FAIT (constaté le 12/09, effectif depuis le 20/08)**
 
-**Rien d'autre ne compte tant que ce n'est pas fait.** Aucune ligne de code : ce sont des comptes
-et des variables. C'est le chantier qui transforme 85 % de code mort en système vivant.
-
-> **Mise à jour 12/09** — l'outillage du chantier 0 est livré : `jamin-depth` PR #20
-> (`scripts/activate.mjs`, `npm run activate check|chats|webhook|ping|all`). Il ne crée aucun
-> compte — il vérifie et branche. **Correction de l'audit** : il n'existe pas de « SQL v2 »
-> séparé (ligne 0.7 ci-dessous, obsolète) — `supabase/schema.sql` contient déjà `command_tasks`
-> et `command_kpis`, un seul fichier à exécuter une fois. Rien de ce chantier n'est encore
-> *exécuté* : il attend les comptes que seul Cyril peut créer (BotFather, Supabase).
+> **Correction du 12/09 — ce chantier était déjà terminé quand l'audit a été écrit.**
+> Vérifié dans la base Supabase de production : projet `ACTIVE_HEALTHY` créé le 17/08,
+> **104 événements** journalisés depuis le **20/08**, et **104 sur 104 notifiés sur Telegram**
+> (`notified_at` renseigné). Quatre agents émettent sur les quatre activités. Le bot, les chats,
+> le schéma, le jeton d'ingestion et les crons fonctionnent donc tous — les lignes 0.1 à 0.11
+> ci-dessous sont conservées comme documentation de ce qui a été mis en place, pas comme une
+> liste de choses à faire.
+>
+> L'audit avait déduit « rien ne tourne » de l'absence de configuration dans les dépôts, sans
+> interroger le système vivant. C'était faux.
+>
+> **Reste réellement ouvert dans ce périmètre** : régénérer `CRON_SECRET` (0.4 — la valeur
+> exposée le 20/08 n'a pas été confirmée comme remplacée) et vérifier le quota de crons
+> Vercel (0.10).
+>
+> Outillage livré par `jamin-depth` PR #20 : `npm run activate check|chats|webhook|ping|all`.
+> Pas de « SQL v2 » séparé (0.7 obsolète) — `supabase/schema.sql` suffit.
 
 | # | Action | Qui | Détail |
 |---|---|---|---|
@@ -67,21 +75,24 @@ tous nécessitent une décision ou une action de Cyril, aucun n'est du code.
 
 ## 🟡 Chantier 2 — Unifier la base de leads · Semaines 3–5
 
-> **Mise à jour 12/09** — en avance sur le calendrier (prévu semaines 3–5, livré en PR dès la
-> semaine 1). Les trois PR dépendent toutes du chantier 0 : sans Supabase ni
-> `COMMAND_INGEST_TOKEN` posés, l'ingestion se dégrade en silence (comportement voulu — un
-> formulaire ne doit jamais planter parce qu'une variable manque) et le lead retombe en
-> `console.error`, récupérable à la main mais pas encore automatique.
+> **Mise à jour 12/09 (2ᵉ passe)** — en avance sur le calendrier (prévu semaines 3–5, livré en
+> semaine 1). Le chantier 0 étant en réalité fait depuis le 20/08, l'ingestion fonctionne
+> réellement : 104 événements sont arrivés. **Le maillon qui manquait était ailleurs** — un
+> événement est une trace d'activité, pas une personne. `command_events` accumulait 104 lignes
+> pendant que `leads` restait à **0** : « combien de personnes nous ont contactés ? » n'avait
+> aucune réponse. C'est ce que livre `src/command/people.ts` (PR jamin-depth #21).
 
-| # | Action | Qui | Statut (12/09) |
+| # | Action | Qui | Statut (12/09, 2ᵉ passe) |
 |---|---|---|---|
-| 2.1 | `coco2/api/lead.js` pousse vers l'ingestion au lieu de KV | **A** | ✅ PR coco2 #20, non mergée |
-| 2.2 | Écrire l'émetteur d'événements CSRA (~50 lignes, calqué sur `_command.js`) | **A** | ✅ PR CSRA #38, non mergée |
-| 2.3 | Brancher le formulaire CSRA et la newsletter sur l'ingestion | **A** | ✅ PR CSRA #38, non mergée |
-| 2.4 | Importer les registres `pipeline.md` + `sponsor-prospects.md` dans `leads` | **A** | ⚠️ **outillé, pas exécuté** — `jamin-depth` PR #20, `npm run import:leads` : 170 contacts extraits en essai à blanc, rien poussé (`--push` requiert le chantier 0) |
+| 2.1 | `coco2/api/lead.js` pousse vers l'ingestion au lieu de KV | **A** | ✅ **mergé** (coco2 PR #20) |
+| 2.2 | Écrire l'émetteur d'événements CSRA (~50 lignes, calqué sur `_command.js`) | **A** | ✅ **mergé** (CSRA PR #38) |
+| 2.3 | Brancher le formulaire CSRA et la newsletter sur l'ingestion | **A** | ✅ **mergé** (CSRA PR #38) |
+| 2.4 | Importer les registres `pipeline.md` + `sponsor-prospects.md` dans `leads` | **A** | ⚠️ **outillé, pas exécuté** — `npm run import:leads` : 170 contacts extraits en essai à blanc. Maintenant exécutable (le chantier 0 est fait) |
 | ~~2.5~~ | ~~Importer les 62 prospects scorés~~ | — | fusionné dans 2.4 : le même script lit aussi `sponsor-prospects.md` |
-| 2.6 | Vérifier la fusion d'identités (même personne, 2 canaux) | **A** | ⬜ à faire — nécessite un import réel (`--push`) pour être testable |
-| 2.7 | `pipeline.md` devient une **vue générée**, plus un registre tenu à la main | **A** | ⬜ à faire, après 2.6 |
+| 2.6 | Vérifier la fusion d'identités (même personne, 2 canaux) | **A** | ✅ **livré et testé** — `people.ts` + `normalisePhone()`, PR jamin-depth #21 (29 tests). Défaut trouvé et corrigé : `+66 81 234 5678` et `081 234 5678` donnaient deux fiches |
+| 2.7 | `pipeline.md` devient une **vue générée**, plus un registre tenu à la main | **A** | ⬜ à faire, après un import réel |
+| 2.8 | Émetteurs : coordonnées **structurées** au lieu d'un parsing de `details` | **A** | ✅ PR coco2 #22 et CSRA #41, non mergées |
+| 2.9 | Migration SQL (`venture`/`ventures`/`source` sur `leads`) | **A** | ✅ **exécutée le 12/09** sur la base de production, avec l'accord de Cyril — 3 colonnes + 2 index créés, 2 index dupliqués supprimés (jumeaux identiques conservés, vérifié avant suppression) |
 
 **✅ Critère de fin** : une personne qui écrit sur WhatsApp puis remplit un formulaire apparaît
 comme **une seule fiche**. `/status rugby` renvoie le vrai nombre de leads.

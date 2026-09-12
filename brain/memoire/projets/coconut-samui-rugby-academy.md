@@ -4,7 +4,22 @@
 > Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`,
 > travaux en cours sur `claude/focused-allen-d348n8`).
 
-## ⚡ 12/09 — PR #40 ouverte (`fix/domaine-redirection-csra`), CI verte, non mergée
+## ⚡ 12/09 — PR #41 (chantier 2 : coordonnées structurées), non mergée
+
+`api/lead.js` ajoute `contact`/`channel`/`source` à l'événement COCO COMMAND : le rattachement
+à la fiche unique ne dépend plus d'un parsing de la chaîne `details`. Une personne qui écrit sur
+WhatsApp puis remplit ce formulaire est reconnue comme la même, y compris avec un numéro au
+format local d'un côté et international de l'autre. Ces champs ne sont **pas** stockés dans
+`command_events`. Côté consommateur : `jamin-depth` PR #21. Build 13 pages, `check-agents` 11/11.
+
+⚠️ Le patch reçu contenait 3 commits dont les 2 premiers étaient **déjà mergés** (PR #40) —
+seul le 3ᵉ a été appliqué, pour ne pas rejouer du déjà-fait.
+
+**Contexte corrigé** : l'émetteur CSRA (PR #38) fonctionne réellement en production — les
+requêtes SQL du 12/09 montrent 17 événements `venture: RUGBY` émis par `coco-command`. L'audit
+supposait à tort que rien ne tournait faute de variables d'environnement.
+
+## ⚡ 12/09 — PR #40 mergée (`fix/domaine-redirection-csra`)
 
 **`coconutsamuirugby.com` n'est enregistré chez aucun registrar** — vérifié disponible à
 l'achat le 12/09, alors que le code (`api/lead.js`, `astro.config.mjs`, `src/config/site.ts`,

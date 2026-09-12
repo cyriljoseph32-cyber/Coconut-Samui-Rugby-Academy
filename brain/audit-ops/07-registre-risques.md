@@ -126,6 +126,38 @@ destinataire s'en plaint ; sinon sans conséquence pratique.
 
 ---
 
+## 🔴 R14 — Le journal COCO COMMAND s'arrête sans alerte sur un 504 de passerelle
+
+**Constat (12/09, mesuré en base)** : dernier événement écrit à **01:18 UTC** (08:18 Bangkok)
+alors que les crons tournaient toujours — **~11 h de silence**. 16 exécutions sur ~75 (21 %)
+mouraient sur `PostgrestError: Supabase 504: Gateway Timeout`. Ni mise en veille (projet
+`ACTIVE_HEALTHY`), ni volume (104 lignes), ni saturation de connexions : la passerelle PostgREST
+rend un 504 par intermittence **pendant que la base répond normalement**. Un seul `fetch` sans
+réessai ni timeout suffisait à tuer le cron entier.
+**Impact** : le système qui pilote tous les projets devient muet, **et personne n'est prévenu** —
+c'est la panne la plus coûteuse possible pour un outil dont le rôle est précisément de prévenir.
+**Traitement** : réessai borné (3 tentatives, backoff 300/600 ms, timeout 8 s) sur 502/503/504 et
+coupure réseau — PR jamin-depth #21, 8 tests figent le contrat. Les écritures simples ne sont
+**pas** rejouées (un doublon dans le journal coûterait plus cher qu'un échec visible) ; seul
+l'upsert `merge-duplicates`, idempotent, l'est.
+**Reste ouvert** : rien n'alerte quand le journal cesse d'avancer. Un « chien de garde » (si
+aucun événement depuis N heures → alerte Telegram) n'existe pas encore. À ajouter au chantier 4.
+
+---
+
+## 🟠 R15 — 29 validations en attente dans le journal, sans échéance
+
+**Constat (12/09, mesuré en base)** : **29 des 104 événements** portent `needs_owner = true` —
+donc 29 actions attendent l'accord de Cyril. Le plus ancien remonte au 20/08.
+**Impact** : c'est le vrai goulot d'étranglement du système, et il était invisible dans l'audit
+initial qui cherchait le blocage du côté de l'activation. Une boucle B ne sert à rien si les
+cartes de validation s'empilent sans être traitées.
+**Traitement** : à trier avec Cyril — `/command` liste les `needs_owner` en attente. Décider
+pour chacun : valider, rejeter, ou requalifier en A0–A2 (pas besoin de validation). Un événement
+qui attend depuis trois semaines n'avait probablement pas besoin d'une validation humaine.
+
+---
+
 ## ✅ R13 — Domaine canonique `coconutsamuirugby.com` non enregistré — CORRIGÉ (12/09, PR #40)
 
 **Constat** : le domaine annoncé partout comme site officiel — `src/config/site.ts`,
@@ -207,10 +239,15 @@ décrivaient n'existait déjà plus — les deux sont classés clos sans action.
 
 | Gravité | Nombre | Délai |
 |---|---|---|
-| 🔴 | 3 | Cette semaine |
-| 🟠 | 3 | Sous 30 jours |
+| 🔴 | 4 (dont **R14, actif en production**) | Cette semaine |
+| 🟠 | 4 (dont **R15, 29 validations en attente**) | Sous 30 jours |
 | 🟡 | 6 (+ R7quater) | À surveiller |
 | ✅ | 4 (R7, R7bis, R7ter, R13) | Clos le 12/09 |
+
+**Deux risques ajoutés le 12/09 après interrogation directe de la base de production** — ni
+l'un ni l'autre n'était visible en lisant seulement les dépôts : R14 (journal gelé 11 h sur des
+504 de passerelle, sans alerte) et R15 (29 validations en attente, la plus ancienne depuis le
+20/08). C'est le même angle mort qui avait fait conclure à tort que « rien ne tourne ».
 
 **Les 3 risques rouges se traitent en moins de 2 heures cumulées.**
 
