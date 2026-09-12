@@ -5,6 +5,30 @@
 > Méthode : lecture du code et des registres, zéro invention. Tout chiffre sans source vérifiable
 > est écrit `[À COMPLÉTER PAR CYRIL]`.
 
+## ⚡ Mise à jour 12/09 — début d'exécution
+
+Le lendemain de la remise de cet audit, une session de suivi a déjà livré du code pour 6 des
+chantiers ci-dessous, en 3 PR (`jamin-depth` #20, `coco2` #20, CSRA #38 — toutes en CI verte,
+en attente de merge) et traité 18 brouillons Gmail de prospection. Détail complet :
+`05-plan-90-jours.md` (statuts par ligne) et `07-registre-risques.md` (R7 corrigé — faux
+positif — et deux nouvelles décisions ouvertes : R7bis, R7ter).
+
+**Ce qui a changé depuis hier** :
+- L'outillage du chantier 0 existe (`npm run activate`) — reste à créer les comptes (BotFather,
+  Supabase) que seul Cyril peut créer.
+- Les fuites n°2 (leads coco2 perdus) et n°5 (201 fiches mortes) sont **corrigées dans le
+  code**, en attente de merge.
+- CSRA a désormais son émetteur programmatique — la 3ᵉ base de leads incompatible n'en est
+  plus une, dès que les PR sont mergées et les variables posées.
+- CI ajoutée sur `jamin-depth` : 428/428 tests tournent enfin sur chaque PR.
+- **R7 (lien mort) était un faux positif** — corrigé quand même pour deux vrais problèmes
+  trouvés en le vérifiant (traceur visible, erreur sur les langues parlées par Coco).
+- **Aggravation découverte** : les brouillons de prospection hôtels dorment depuis 92 et 47
+  jours, pas 37 — R1/fuite n°1 était sous-estimée.
+
+Rien de tout cela ne *tourne* encore en production : le code attend d'être mergé, et le
+chantier 0 attend les comptes de Cyril. Le diagnostic ci-dessous reste la référence.
+
 ---
 
 ## Le diagnostic en une phrase

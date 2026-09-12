@@ -1,9 +1,19 @@
 # jamin-depth — Jammin's Depths (plongée & récupération sous-marine)
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-02.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-12.
 > Dépôt : `cyriljoseph32-cyber/jamin-depth` (branche par défaut `main`).
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
+
+## ⚡ 12/09 — PR #20 ouverte (`activation/chantier-0-et-ci`), CI verte, non mergée
+
+Suite de l'[audit opérationnel](../../audit-ops/00-synthese.md) : `.github/workflows/ci.yml`
+ajouté — les 35 fichiers de tests (428 cas) ne tournaient auparavant nulle part, désormais
+vérifiés sur chaque PR (**428/428 verts**, typecheck OK, lint OK). `scripts/activate.mjs`
+(`npm run activate`) outille le chantier 0 (Telegram, Supabase, webhook) sans créer de compte.
+`scripts/import-leads.mjs` extrait 170 contacts de CSRA en essai à blanc (`--push` requiert
+`COMMAND_API_URL`/`COMMAND_INGEST_TOKEN`, non posés). **Correction** : pas de « SQL v2 »
+séparé — `supabase/schema.sql` contient déjà `command_tasks`/`command_kpis`.
 
 ## Identité
 

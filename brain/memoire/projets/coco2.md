@@ -1,8 +1,24 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-06.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-12.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
+
+## ⚡ 12/09 — PR #20 ouverte (`activation/coco2-leads-et-donnees`), CI verte, non mergée
+
+Suite de l'[audit opérationnel](../../audit-ops/00-synthese.md), fuites n°2 et n°5 corrigées
+dans le code (en attente de merge) : `api/lead.js` appelle désormais **toujours** l'ingestion
+COCO COMMAND (le KV redevient un simple cache pour le dashboard hôtel — un lead ne dépend
+plus de sa configuration) ; `api/_directory.js` (nouveau) indexe les **201 fiches** de
+`data/concierge-db` au démarrage à froid et les injecte dans le prompt du chat selon la
+question posée, sans appel réseau ni latence ajoutée — table d'alias FR/EN vérifiée
+(scooter, plongée, restaurant, dentiste). Build 19 pages vert. Variables encore à poser :
+`COMMAND_API_URL`, `COMMAND_INGEST_TOKEN`.
+
+**18 brouillons Gmail de prospection corrigés** (lien traceur retiré, langues corrigées —
+« Russian » était erroné, remplacé par « Thai »). Deux décisions encore ouvertes : supprimer
+15 doublons exacts ? Basculer le numéro WhatsApp de la signature (`+33…` → `+66 63 375
+3316`) ?
 
 ## Identité
 
