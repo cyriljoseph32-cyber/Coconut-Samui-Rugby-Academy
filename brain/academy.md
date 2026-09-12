@@ -70,9 +70,10 @@ Koh Samui, province de Surat Thani, Thaïlande.
 
 - **Format** : touch rugby (sans contact), équipes mixtes refaites chaque semaine
 - **Public** : résidents, expats, voyageurs — tous niveaux, ambiance sociale d'abord
-- **Tarif** : 350 THB la séance, ou 1 200 THB le mois (confirmé par Cyril le 31/08/2026) —
-  **essai à 200 THB** pour un premier passage (nouvelle politique tarifaire confirmée par Cyril
-  le 11/09/2026, l'essai n'est plus gratuit)
+- **Tarif** : **200 THB la séance, tarif unique — plus d'offre mensuelle** (changement confirmé
+  par Cyril le 12/09/2026 ; remplace l'ancien tarif 350 THB/séance ou 1 200 THB/mois. Ce
+  changement ne concerne QUE Adults Touch — Kids et Teens restent à 350 THB/séance ou
+  1 200 THB/mois, essai à 200 THB)
 - **Engagement** : aucun — paiement à la séance, drop-in bienvenu même pour une semaine sur l'île
 - **CTA** : *« Hi! I'd like to join an adults touch rugby session. »*
 
@@ -119,7 +120,8 @@ Koh Samui, province de Surat Thani, Thaïlande.
 
 | Info | Statut |
 |---|---|
-| Tarifs Kids / Teens / Adults Touch | **350 THB la séance, ou 1 200 THB le mois** ✅ (confirmé par Cyril le 31/08/2026) — **essai : 200 THB** (l'essai n'est plus gratuit, politique confirmée par Cyril le 11/09/2026) |
+| Tarifs Kids / Teens | **350 THB la séance, ou 1 200 THB le mois** ✅ (confirmé par Cyril le 31/08/2026) — **essai : 200 THB** (l'essai n'est plus gratuit, politique confirmée par Cyril le 11/09/2026) |
+| Tarifs Adults Touch | **200 THB la séance, tarif unique — plus d'offre mensuelle** ✅ (changement confirmé par Cyril le 12/09/2026, remplace l'ancien 350 THB/séance ou 1 200 THB/mois) |
 | Tarifs Corporate Team-Building | `[À COMPLÉTER PAR CYRIL]` — devis au cas par cas, rediriger vers WhatsApp |
 | Horaires précis des séances | **Kids : samedis 16:30–17:30, 4-12 ans, 1ère séance le 29/08/2026** ✅ (fusion de créneau avec Teens + âge élargi confirmés par Cyril le 11/09/2026 ; créneau initial 15:30-16:30 confirmé 01/09, date de lancement confirmée 12/08). **Teens : samedis 16:30–17:30, 11-17 ans, inchangé** ✅ (confirmé par Cyril 01/09/2026 ; chevauchement 11-12 ans avec Kids assumé, pas une erreur). Adults Touch : mardis 19h–20h30, Koh's 33 (déjà utilisé en communication, cf. `brain/marketing-assets/`). |
 | Dates des camps / événements | `[À COMPLÉTER PAR CYRIL]` (`src/pages/camps-events.astro`) |

@@ -133,7 +133,7 @@ export const programs: Program[] = [
     details: [
       { label: "Format", value: "Touch rugby (non-contact), mixed teams" },
       { label: "Who", value: "Residents, expats, travellers — all levels" },
-      { label: "Pricing", value: "350 THB per session, or 1,200 THB per month — 200 THB for a first-time trial session" },
+      { label: "Pricing", value: "200 THB per session — pay as you go, no membership" },
       { label: "Commitment", value: "None. Pay per session, come when you can" },
       { label: "On holiday?", value: "Drop in — visiting players are how island rugby grows" },
     ],
