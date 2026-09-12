@@ -29,10 +29,17 @@ export const SITE = {
   ],
 } as const;
 
-// Forms are handled by FormSubmit (https://formsubmit.co) — no API key needed.
-// Submissions are emailed to SITE.email. The very first submission triggers a
-// one-time activation email to that inbox: click "Activate" once and the form
-// is live for good.
+// Forms post to our own serverless endpoint (api/lead.js). It records the lead
+// in COCO COMMAND — the single lead base — and mirrors it to SITE.email through
+// FormSubmit, so the inbox copy Cyril is used to keeps arriving.
+//
+// Native (no-JS) submissions work: the endpoint answers 303 → /thanks/.
+export const LEAD_ENDPOINT = "/api/lead";
+
+// Kept as the fallback used server-side by api/lead.js, and as the emergency
+// action if the serverless function is ever unavailable. FormSubmit emails to
+// SITE.email; the very first submission triggers a one-time activation email to
+// that inbox — click "Activate" once and it is live for good.
 export const FORM_ENDPOINT = `https://formsubmit.co/${SITE.email}`;
 
 export function waLink(message: string): string {
