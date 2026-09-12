@@ -5,7 +5,9 @@ export const SITE = {
   name: "Coconut Samui Rugby Academy",
   shortName: "CSRA",
   tagline: "Grow Strong Together.",
-  domain: "https://coconutsamuirugby.com",
+  // Source unique de l'URL publique — voir astro.config.mjs. Surchargeable par
+  // PUBLIC_SITE_URL sans toucher au code.
+  domain: (import.meta.env.PUBLIC_SITE_URL as string | undefined) || "https://coconut-samui-rugby-academy.vercel.app",
   // WhatsApp number in international format, digits only (e.g. "66812345678").
   whatsappNumber: "66633753316",
   email: "coconutrugbyacademy@gmail.com",
