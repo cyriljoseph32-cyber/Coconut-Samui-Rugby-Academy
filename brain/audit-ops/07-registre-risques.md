@@ -126,6 +126,27 @@ destinataire s'en plaint ; sinon sans conséquence pratique.
 
 ---
 
+## ✅ R13 — Domaine canonique `coconutsamuirugby.com` non enregistré — CORRIGÉ (12/09, PR #40)
+
+**Constat** : le domaine annoncé partout comme site officiel — `src/config/site.ts`,
+`astro.config.mjs`, JSON-LD de 3 pages, sitemap, `robots.txt`, et la redirection 303 de
+`api/lead.js` — **n'est enregistré chez aucun registrar** (vérifié disponible à l'achat le
+12/09).
+**Impact réel** : un visiteur soumettant le formulaire d'essai sans JavaScript était redirigé
+vers un domaine qui ne résout pas (erreur DNS) alors que son lead était bien enregistré côté
+serveur — perte de conversion perçue sur un formulaire d'essai à 200 THB. Côté SEO, Google
+recevait des canoniques/sitemap non indexables : aucune page n'était référençable sous
+l'adresse déclarée.
+**Traitement** : PR #40 — l'origine réelle de la requête remplace le domaine en dur
+(`x-forwarded-host` côté API, `PUBLIC_SITE_URL` avec repli sur l'URL Vercel réelle côté site).
+`SITE_DOMAIN`/`PUBLIC_SITE_URL` restent l'échappatoire si un domaine est acheté.
+**Reste ouvert, pour Cyril seul** : `brain/academy.md` et le `CLAUDE.md` racine du dépôt
+affichent toujours `https://coconutsamuirugby.com` comme site en ligne — à corriger le jour où
+la décision de marque (racheter ce domaine ou en choisir un autre) est prise. Ce n'est pas un
+risque technique, c'est une question de marque hors périmètre de cette correction.
+
+---
+
 ## 🟡 R8 — Quota de tâches planifiées Vercel
 
 **Constat** : `jamin-depth/vercel.json` déclare **8 crons**, dont `command-digest` toutes les
@@ -189,7 +210,7 @@ décrivaient n'existait déjà plus — les deux sont classés clos sans action.
 | 🔴 | 3 | Cette semaine |
 | 🟠 | 3 | Sous 30 jours |
 | 🟡 | 6 (+ R7quater) | À surveiller |
-| ✅ | 3 (R7, R7bis, R7ter) | Clos le 12/09 |
+| ✅ | 4 (R7, R7bis, R7ter, R13) | Clos le 12/09 |
 
 **Les 3 risques rouges se traitent en moins de 2 heures cumulées.**
 

@@ -20,7 +20,29 @@
 import { notifyCommand } from "./_command.js";
 
 const FALLBACK_EMAIL = process.env.LEAD_FALLBACK_EMAIL || "coconutrugbyacademy@gmail.com";
-const SITE_DOMAIN = process.env.SITE_DOMAIN || "https://coconutsamuirugby.com";
+/**
+ * L'origine réelle de la requête, jamais un domaine écrit en dur.
+ *
+ * Le 12/09, `coconutsamuirugby.com` n'était enregistré chez aucun registrar : la
+ * redirection 303 des soumissions sans JavaScript envoyait donc le visiteur sur
+ * un domaine inexistant — le lead était enregistré, mais la personne tombait sur
+ * une erreur DNS et pensait que sa demande avait échoué.
+ *
+ * On déduit désormais l'origine des en-têtes que Vercel pose sur chaque requête.
+ * Le site répond ainsi correctement sur `*.vercel.app` aujourd'hui et sur le
+ * domaine définitif le jour où il est branché, sans redéploiement ni variable à
+ * penser. `SITE_DOMAIN` reste prioritaire si on veut forcer une valeur.
+ */
+function siteOrigin(req) {
+  const forced = (process.env.SITE_DOMAIN || "").trim().replace(/\/$/, "");
+  if (forced) return forced;
+  const host = req.headers["x-forwarded-host"] || req.headers.host;
+  const proto = req.headers["x-forwarded-proto"] || "https";
+  if (host) return `${proto}://${host}`;
+  // Dernier recours : un chemin relatif fonctionne pour la redirection, et les
+  // liens de l'événement restent lisibles même sans origine absolue.
+  return "";
+}
 
 function cors(res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -75,6 +97,7 @@ export default async function handler(req, res) {
   if (req.method === "OPTIONS") return res.status(204).end();
   if (req.method !== "POST") return res.status(405).json({ error: "Method Not Allowed" });
 
+  const origin = siteOrigin(req);
   const body = readBody(req);
 
   // Pot de miel : rempli = robot. On répond 204 sans rien enregistrer.
@@ -97,7 +120,7 @@ export default async function handler(req, res) {
     message: clean(body.message, 1000),
     kind,
     receivedAt: new Date().toISOString(),
-    source: clean(body.source, 60) || "coconutsamuirugby.com",
+    source: clean(body.source, 60) || "site-csra",
   };
 
   const who = lead.name || lead.email;
@@ -123,7 +146,7 @@ export default async function handler(req, res) {
     // Pas de PII dans le résumé : il part en notification Telegram.
     summary: `${spec.label} — ${lead.program || "CSRA"}`,
     details: detailLines,
-    links: [`${SITE_DOMAIN}/contact/`],
+    links: [`${origin}/contact/`],
     next_action:
       kind === "newsletter"
         ? "Ajouter à la liste de diffusion."
@@ -132,7 +155,7 @@ export default async function handler(req, res) {
     // Le brouillon de réponse passera par Telegram, pas par un envoi auto.
     needs_owner: kind !== "newsletter",
     category: kind === "sponsor" ? "partner" : "sales",
-    reference_url: `${SITE_DOMAIN}/contact/`,
+    reference_url: origin ? `${origin}/contact/` : undefined,
   });
 
   // 2. Le filet e-mail. Inchangé pour Cyril : l'e-mail continue d'arriver.
@@ -163,7 +186,7 @@ export default async function handler(req, res) {
   // Soumission native (sans JS) : on renvoie l'utilisateur sur /thanks/.
   const wantsHtml = (req.headers.accept || "").includes("text/html");
   if (wantsHtml) {
-    res.setHeader("Location", `${SITE_DOMAIN}/thanks/`);
+    res.setHeader("Location", `${origin}/thanks/`);
     return res.status(303).end();
   }
 
