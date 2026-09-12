@@ -67,6 +67,17 @@
   donnée le jour même : relances urgentes envoyées à Windfield, ISS, PBISS et Oonrak (accord
   explicite de Cyril pour dépasser le plafond habituel de 2 relances) — voir `brain/pipeline.md`.
 
+- **Flyers Kids/Teens + Touch Rugby — 12/09** : deux flyers A4 imprimables créés (typographique
+  HTML puis version illustrée Bloom, à la demande de Cyril). **Cyril a validé le style Bloom
+  comme préféré** — les versions typographiques HTML retirées de `brain/marketing-assets/
+  flyers-print/`, seules `flyer-kids-teens-bloom.png` et `flyer-touch-rugby-bloom.png` restent.
+  À cette occasion, Cyril a confirmé un **changement de tarif Adults Touch Rugby (permanent)** :
+  200 THB/séance, pay-as-you-go, **plus d'offre mensuelle** (au lieu de 350 THB/séance ou
+  1 200 THB/mois) — Kids et Teens inchangés (350/1200, essai 200 THB). Flyer Touch corrigé en
+  conséquence via `bloom_edit_image`. Site : livré via agent `webmaster`, **PR #37 ouverte,
+  en attente de review de Cyril** (branche `pricing-adults-touch-200thb` depuis `main` →
+  `src/data/programs.ts`, `brain/academy.md`, build vert 13 pages) — **pas encore mergée**.
+
 - **Post Instagram publié — mardi 9 septembre 2026** : photo d'un ado en pleine course, ballon
   sous le bras (maillot teal n°7), envoyée directement par Cyril — **consentement parental
   confirmé par Cyril avant publication** (question posée explicitement en session, mineur
