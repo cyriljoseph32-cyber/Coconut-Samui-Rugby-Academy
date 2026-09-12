@@ -155,6 +155,18 @@ export default async function handler(req, res) {
     // Le brouillon de réponse passera par Telegram, pas par un envoi auto.
     needs_owner: kind !== "newsletter",
     category: kind === "sponsor" ? "partner" : "sales",
+
+    // Chantier 2 — les coordonnées structurées alimentent la fiche unique.
+    // Elles ne sont pas stockées dans le journal : COCO COMMAND s'en sert pour
+    // rattacher la personne, puis les oublie. Une même personne qui écrit sur
+    // WhatsApp puis remplit ce formulaire ne comptera donc qu'une fois.
+    contact: {
+      name: lead.name || undefined,
+      email: lead.email,
+      phone: lead.phone || undefined,
+    },
+    channel: "site_form",
+    source: lead.source,
     reference_url: origin ? `${origin}/contact/` : undefined,
   });
 
