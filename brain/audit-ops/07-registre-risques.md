@@ -5,15 +5,42 @@
 
 ---
 
-## 🔴 R1 — Relances envoyées après un refus
+## 🟠 R1 — Relances envoyées après un refus — **cause racine trouvée et colmatée (12/09)**
 
 **Constat** : les séquences Superhuman non coupées ont réexpédié des mails à **Samui Pro
 Nutrition les 11/08 et 24/08, alors qu'il avait refusé le 09/08**. Également Koh Fit (24/08) et
 Elite Gym (15/08).
 **Source** : `brain/pipeline.md`
 **Impact** : réputation, sur une île où le réseau professionnel est petit et bavard.
-**Traitement** : couper toutes les séquences automatiques (chantier 1.1). Tout envoi repasse par
-brouillon validé, comme la règle du dépôt l'a toujours prévu.
+
+**⚠️ Correction du 12/09 — l'audit n'avait vu qu'une moitié du problème.** Il attribuait R1 aux
+seules séquences Superhuman à couper. En réalité **le code avait aussi un trou** : la garde
+existait (`dueFollowUps()` ignore les leads au stade `lost`) mais elle était
+**structurellement inatteignable** — `setStage()` existait sans qu'aucun appelant ne l'utilise
+jamais, donc **aucun lead n'était jamais marqué `lost`**. *Une garde que personne ne déclenche
+ne protège de rien.* Couper Superhuman n'aurait donc pas suffi : la première boucle de relance
+automatisée aurait reproduit l'incident.
+
+**Pire, découvert en instrumentant** : `mergeLead()` faisait `stage: input.stage` sans
+condition, et l'ingestion inter-projets du chantier 2 upsert avec `stage: "new"` à **chaque
+événement**. Un refus enregistré aurait été effacé au premier upsert suivant — R1 réintroduit
+quotidiennement par le code d'activation lui-même.
+
+**Traitement (PR jamin-depth #21, chantier 3)** — circuit refermé en trois points redondants :
+1. `src/agents/refusal.ts` : détection d'un refus net FR/EN/TH (le refus **net** seulement —
+   « je vais réfléchir » reste un lead à relancer) ;
+2. `mergeLead()` : `lost` et `won` ne se rouvrent plus tout seuls, `optedOut` ne redevient
+   jamais faux — seule une décision humaine rouvre ;
+3. `execute.ts` : verrou avant **tout** envoi, quel que soit le chemin — c'est le seul point par
+   lequel tout message sortant passe, donc le seul qui attrape un refus arrivé pendant qu'un
+   brouillon attendait en validation.
+
+Plus la colonne `opted_out` en base (exécutée le 12/09), qui double le stade `lost` — redondance
+assumée : R1 a coûté assez cher pour mériter deux verrous plutôt qu'un.
+**Reste vrai** : couper les séquences Superhuman (chantier 1.1) est toujours nécessaire — le
+code ne protège que les envois qui passent par lui.
+**Reclassé 🟠** : le mécanisme est colmaté et testé (scénario R1 rejoué à l'identique), mais le
+volet Superhuman reste ouvert.
 
 ---
 

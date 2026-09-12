@@ -5,6 +5,35 @@
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
 
+## 🔴 12/09 — Chantier 3 : la cause racine de R1 (PR #21, 3ᵉ commit)
+
+**L'audit n'avait vu qu'une moitié de R1.** Il attribuait les relances après refus aux seules
+séquences Superhuman. Le code avait pourtant la bonne garde — `dueFollowUps()` ignore les leads
+au stade `lost` — mais elle était **structurellement inatteignable** : `setStage()` existait
+sans qu'aucun appelant ne l'utilise jamais, donc **aucun lead n'était jamais marqué `lost`**.
+Une garde que personne ne déclenche ne protège de rien. Couper Superhuman n'aurait pas suffi :
+la première boucle de relance automatisée aurait reproduit l'incident du 11/08.
+
+**Et le chantier 2 allait l'aggraver** : `mergeLead()` faisait `stage: input.stage` sans
+condition, alors que `upsertPerson()` upsert avec `stage: "new"` à chaque événement — un refus
+aurait été effacé quotidiennement. Le commit a donc été ajouté **à la PR #21 elle-même**, pas
+dans une PR séparée : il colmate un trou que les commits précédents de cette PR ouvraient.
+
+**Trois verrous redondants** : `refusal.ts` (refus net FR/EN/TH, jamais l'hésitation) ;
+`mergeLead()` (`lost`/`won` ne se rouvrent plus seuls, `optedOut` jamais remis à faux) ;
+`execute.ts` (verrou avant tout envoi — le seul point par lequel tout message sortant passe).
+Plus la colonne `opted_out` en base, qui double le stade `lost`.
+
+**`loops.ts`** : un interrupteur par boucle B via `LOOPS_ENABLED`, **tout éteint par défaut**.
+Allumer ou éteindre sans redéploiement. B2 branchée et testée ; B1/B4/B5/B6 ont interrupteur et
+critère de fin, pas encore leur mécanique.
+
+**472 tests verts** (39 fichiers). Migration `opted_out` + index partiel exécutée en production.
+⚠️ L'index `leads_relançables_idx` porte une cédille — accepté par PostgreSQL (qui l'a mis entre
+guillemets), à renommer si un outil s'en plaint.
+
+**À la main de Cyril** : `LOOPS_ENABLED="B2"` sur Vercel pour allumer les relances.
+
 ## 🔴 12/09 — P0 corrigé (PR #21) + le système tourne depuis le 20/08, contrairement à l'audit
 
 **Le système est vivant et l'était déjà avant l'audit.** Vérifié par requêtes SQL directes sur

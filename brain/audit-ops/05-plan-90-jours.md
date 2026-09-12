@@ -104,15 +104,37 @@ comme **une seule fiche**. `/status rugby` renvoie le vrai nombre de leads.
 **Une boucle par semaine, jamais deux.** Une boucle qui part de travers doit être identifiable du
 premier coup.
 
-| Sem. | Boucle | Critère de fin |
-|---|---|---|
-| 4 | **B1 — Réponse à un lead entrant** | 10 leads traités, 0 promesse non tenable dans les brouillons |
-| 5 | **B2 — Relances de cadence** | Les échéances J+3/J+7 et J+7/J+21 tombent seules. **0 relance après un refus** |
-| 6 | **B4 — Contenu quotidien** | Un brouillon + visuel t'attend chaque matin. Publication validée via Postiz |
-| 7 | **B6 — Demande d'avis** | Branché sur Google Business Profile. Premier avis obtenu |
-| 8 | **B5 — Approches partenaires** | Plafond 3/jour respecté, cibles > 70/100 envoyées une par une |
+> **Mise à jour 12/09 — la règle ne tient plus à la discipline, elle tient au code.**
+> `src/agents/loops.ts` (PR jamin-depth #21) donne **un interrupteur par boucle**, piloté par la
+> variable `LOOPS_ENABLED` (ex. `LOOPS_ENABLED="B2"`). Conséquences pratiques :
+> - **Tout est éteint par défaut** — un oubli de configuration laisse le système silencieux,
+>   jamais bavard. Un déploiement ne réveille jamais tout seul une mécanique qui écrit à des
+>   clients.
+> - Allumer la semaine suivante **ne demande aucun déploiement**, et éteindre une boucle qui
+>   déraille non plus : c'est ce qui compte à 3 h du matin.
+> - L'état de chaque boucle s'affiche dans le brief (🟢 allumée / ⚪ éteinte).
+>
+> **B2 est déjà branchée sur son interrupteur.** B1, B4, B5 et B6 ont leur interrupteur et leur
+> critère de fin déclarés, mais **pas encore leur mécanique** — les allumer demande d'abord que
+> le chantier 2 tourne en production et remplisse `leads`.
+
+| Sem. | Boucle | Critère de fin | État (12/09) |
+|---|---|---|---|
+| 4 | **B1 — Réponse à un lead entrant** | 10 leads traités, 0 promesse non tenable dans les brouillons | ⚪ interrupteur prêt, mécanique à écrire |
+| 5 | **B2 — Relances de cadence** | Les échéances J+3/J+7 et J+7/J+21 tombent seules. **0 relance après un refus** | ⚪ **mécanique prête et testée** — reste à allumer |
+| 6 | **B4 — Contenu quotidien** | Un brouillon + visuel t'attend chaque matin. Publication validée via Postiz | ⚪ interrupteur prêt, mécanique à écrire |
+| 7 | **B6 — Demande d'avis** | Branché sur Google Business Profile. Premier avis obtenu | ⚪ interrupteur prêt, mécanique à écrire |
+| 8 | **B5 — Approches partenaires** | Plafond 3/jour respecté, cibles > 70/100 envoyées une par une | ⚪ interrupteur prêt, mécanique à écrire |
+
+**Le critère « 0 relance après un refus » de B2 est désormais atteignable** — il ne l'était pas.
+`setStage()` n'était appelé par personne, donc aucun lead n'était jamais marqué `lost` et la
+garde de `dueFollowUps()` ne se déclenchait jamais. Voir R1 dans le registre des risques :
+c'est la correction la plus importante du 12/09.
 
 **✅ Critère de fin global** : tu valides depuis Telegram, tu n'écris plus de premier jet.
+
+**Action à ta main** : poser `LOOPS_ENABLED="B2"` sur Vercel quand tu veux allumer les relances.
+Rien d'autre à faire, et rien ne part avant.
 
 ---
 
