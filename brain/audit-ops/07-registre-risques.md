@@ -69,12 +69,40 @@ mention.
 
 ---
 
-## 🟠 R7 — 34 brouillons de prospection avec un lien mort
+## ✅ R7 — 34 brouillons de prospection avec un lien mort — CLOS (12/09)
 
-**Constat** : les 34 brouillons Gmail de `Coco_AI_Prospection_RECAP.md` contiennent encore
-l'ancien lien `project-xm4pf`.
-**Impact** : 34 premiers contacts avec un lien cassé — un seul essai par prospect.
-**Traitement** : corriger **avant** tout envoi (chantier 1.4).
+**Constat initial** : les 34 brouillons Gmail de `Coco_AI_Prospection_RECAP.md` contiennent
+encore l'ancien lien `project-xm4pf`.
+**Correction (12/09)** : vérifié en direct — `coco-samui-concierge.vercel.app` répond en
+**302 vers `coco-samui-ai.com`**. Le lien n'était donc **pas mort** : les mails auraient
+fonctionné. R7 était un faux positif de l'audit. Ce qui clochait réellement : le traceur
+`google.com/url` visible en clair dans le lien, et une erreur de fait sur les langues
+proposées (« Russian » cité au lieu de « Thai » — Coco ne parle pas russe et parle thaï).
+**Traitement** : **18 brouillons corrigés** (lien direct + langues + nettoyage HTML) sur les
+18 destinataires distincts. Un doute distinct reste ouvert : voir R7bis.
+**Impact réel, plus grave que R1 chiffré** : ces brouillons dorment depuis **92 jours** (lot du
+12/06) et **47 jours** (lot du 27/07) — pire que les 37 jours annoncés dans R1/fuite n°1.
+
+---
+
+## 🟠 R7bis — 15 doublons exacts dans les brouillons de prospection
+
+**Constat (12/09)** : 33 brouillons pour 18 destinataires distincts. Le lot du 12/06 a été
+recréé à l'identique le 27/07 (même texte, à l'octet près) — 15 brouillons sont donc des
+doublons morts.
+**Impact** : confusion à l'envoi, risque d'envoyer deux fois le même mail au même hôtel.
+**Traitement** : suppression **non faite** — irréversible, en attente de l'accord explicite de
+Cyril.
+
+---
+
+## 🟡 R7ter — numéro WhatsApp français dans la signature des 18 brouillons
+
+**Constat (12/09)** : la signature des 18 brouillons porte `+33 6 62 72 61 99` (numéro
+français), alors que tout le reste de Coco (cartes, QR, site) utilise `+66 63 375 3316`
+(numéro thaï).
+**Impact** : un hôtel de Samui devrait appeler la France pour joindre son concierge local.
+**Traitement** : bascule **non faite** — en attente de la décision de Cyril.
 
 ---
 
@@ -131,10 +159,18 @@ sache quel délai annoncer (chantier 1.5).
 
 ## Synthèse
 
+*Mise à jour 12/09 — R7 clos (faux positif), R7bis et R7ter ouverts (décisions de Cyril
+en attente).*
+
 | Gravité | Nombre | Délai |
 |---|---|---|
 | 🔴 | 3 | Cette semaine |
-| 🟠 | 4 | Sous 30 jours |
-| 🟡 | 5 | À surveiller |
+| 🟠 | 4 (R7 → clos, R7bis ouvert) | Sous 30 jours |
+| 🟡 | 6 (+ R7ter) | À surveiller |
+| ✅ | 1 (R7) | Clos le 12/09 |
 
 **Les 3 risques rouges se traitent en moins de 2 heures cumulées.**
+
+**Correction de contexte (12/09)** : R1 (16 messages non envoyés, jusqu'à 37 jours) est en
+réalité **plus grave côté prospection Coco AI** que ce que l'audit initial mesurait — les
+brouillons d'approche hôtels dorment depuis **92 et 47 jours**, pas 37. Voir R7 ci-dessus.

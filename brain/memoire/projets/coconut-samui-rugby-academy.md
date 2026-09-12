@@ -1,8 +1,20 @@
 # CSRA — Coconut Samui Rugby Academy
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-06.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-12.
 > Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`,
 > travaux en cours sur `claude/focused-allen-d348n8`).
+
+## ⚡ 12/09 — PR #38 ouverte (`activation/csra-ingestion`), CI verte, non mergée
+
+Suite de l'[audit opérationnel](../../audit-ops/00-synthese.md) : CSRA reçoit son **premier
+émetteur programmatique** (`api/_command.js`, `venture: RUGBY`, calqué sur celui de `coco2`)
+— jusqu'ici le formulaire et la newsletter ne partaient que vers FormSubmit, une boîte
+e-mail, et nulle part ailleurs. `api/lead.js` (nouveau) repointe `contact.astro` et
+`Footer.astro` : ingestion COCO COMMAND d'abord, FormSubmit en filet e-mail ; un lead non
+enregistré nulle part ressort en 502 + log complet, plus de disparition silencieuse.
+« Essai gratuit » corrigé en 200 THB dans les brouillons de la semaine du 07/09. Build 13
+pages vert, `check-agents.mjs` 11/11. Variables à poser : `COMMAND_API_URL`,
+`COMMAND_INGEST_TOKEN` (même jeton que `jamin-depth` et `coco2`).
 
 ## Identité
 
