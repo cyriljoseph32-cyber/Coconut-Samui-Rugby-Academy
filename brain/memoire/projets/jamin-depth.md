@@ -175,8 +175,21 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   à récupérer en personne **ce soir 11/09, lobby de l'hôtel, après 20h30** — RDV calé avec
   Mario dans le chat, rappel calendrier posé (20h00, 30 min avant). **Nom de l'hôtel
   `[À COMPLÉTER PAR CYRIL]`** — envoyé en photo dans le chat WhatsApp, image non accessible
-  depuis cette session. **Statut : à confirmer** — la réservation n'est définitive qu'après
-  récupération effective de la caution ce soir.
+  depuis cette session. **Statut : réalisé** — sortie faite le 13/09/2026 (confirmé par
+  Cyril : « Aujourd'hui j'ai fait 6 discovery scuba divers »). Voir revenus ci-dessous.
+
+## Revenus — DSD (Discover Scuba Diving)
+
+> Cyril touche **15 % du prix total** sur les plongées vendues via un revendeur/agent (ex.
+> Mario/Cho Ratchawat) — le reste va à l'agent et/ou Discovery Divers. Tarif DSD de référence :
+> **฿5 850/personne** (`jamin-depth` `src/content/en.ts`, `courses[0].priceFrom` — tarif
+> affiché sur le site, à confirmer par Cyril si le prix réellement facturé à ce groupe diffère).
+
+- **13/09/2026 — 6 DSD (groupe Mario, Koh Tao)** : 6 × 5 850 THB = **35 100 THB de prix total**.
+  Part de Cyril (15 %) = **5 265 THB**. Caution de 2 000 THB/plongeur (12 000 THB) déjà
+  collectée le 11/09 — distincte du calcul ci-dessus (caution, pas un revenu en soi ; à
+  déduire/rapprocher du prix total selon les modalités réelles avec Mario,
+  `[À COMPLÉTER PAR CYRIL]` si le mode de règlement diffère de l'hypothèse "prix catalogue").
 
 ## Contenu publié — 28/08/2026
 

@@ -6,6 +6,7 @@
 
 | Date | Projet | Événement / décision | Source |
 |---|---|---|---|
+| 2026-09-13 | jamin-depth | **6 DSD réalisées (groupe Mario, Koh Tao) — revenu calculé** : tarif site ฿5 850/pers × 6 = 35 100 THB prix total ; part Cyril (15 % confirmé par Cyril) = **5 265 THB**. Caution 2 000 THB/plongeur déjà collectée le 11/09, traitée à part (voir `jamin-depth.md`). Réservation pipeline passée de "à confirmer" à "réalisé". | Cyril (déclaratif, cette session) |
 | 2026-09-13 | CSRA | **Post Instagram Touch Rugby publié** (« ce mardi », visuel Bloom `flyer-touch-rugby-bloom.png`, légende FR/EN générée en session — horaire mardi 19h00-20h30, tarif 200 THB/séance à jour, WhatsApp CTA). Confirmé par Cyril (« Post fait ! ») mais **aucune URL fournie — non vérifiable par preuve traçable**, à compléter si besoin. | Cyril (déclaratif, cette session) |
 | 2026-09-13 | CSRA | **PR #37 mergée sur `main`** — tarif Adults Touch Rugby 200 THB/séance (pay-as-you-go, sans offre mensuelle) désormais en production, `src/data/programs.ts` + `brain/academy.md`. | GitHub (webhook merge) |
 | 2026-09-12 | CSRA | **Visuel d'annulation — séance Kids Rugby du 12/09, conditions météo** : édition ciblée du visuel Bloom déjà publié pour cette séance (`bloom_edit_image`, titre "SESSION CANCELLED" + mention météo, reste identique). Sauvegardé `brain/marketing-assets/training-announces/kids-rugby-cancelled-weather-2026-09-12.png`, envoyé à Cyril pour diffusion (WhatsApp/Instagram) — **publication à sa charge**. | Cyril (déclaratif, cette session) |
