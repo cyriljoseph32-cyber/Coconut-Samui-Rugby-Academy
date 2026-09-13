@@ -26,23 +26,48 @@ positif — et deux nouvelles décisions ouvertes : R7bis, R7ter).
 - **Aggravation découverte** : les brouillons de prospection hôtels dorment depuis 92 et 47
   jours, pas 37 — R1/fuite n°1 était sous-estimée.
 
-Rien de tout cela ne *tourne* encore en production : le code attend d'être mergé, et le
-chantier 0 attend les comptes de Cyril. Le diagnostic ci-dessous reste la référence.
+---
+
+## ⚠️ Correction majeure du 12/09 — la thèse centrale de cet audit était fausse
+
+**Vérifié en interrogeant directement la base Supabase de production** (ce que l'audit du 11/09
+n'avait pas fait — il a déduit l'état du système de l'absence de configuration dans les dépôts) :
+
+| Mesure | Valeur réelle |
+|---|---|
+| Projet Supabase | `ACTIVE_HEALTHY`, créé le **17/08** |
+| `command_events` | **104 événements**, le premier daté du **20/08** |
+| Notifiés sur Telegram | **104 sur 104** (`notified_at` renseigné partout) |
+| Agents émetteurs | `coco-command`, `content`, `growth-concierge`, `marketing` — sur GLOBAL, DIVING, RUGBY et COCO |
+| `leads` · `command_tasks` · `command_kpis` | **0 · 0 · 0** |
+| En attente de validation (`needs_owner`) | **29 événements** |
+
+**Ce qui était faux** : « ~8 variables d'environnement ne sont pas renseignées et 4 chats
+Telegram n'ont jamais été créés », « rien ne tourne ». Le chantier 0 était **déjà fait** —
+Telegram compris — depuis **trois semaines avant** la rédaction de l'audit. Le journal tournait
+et notifiait quotidiennement.
+
+**Ce qui reste vrai, et c'est le vrai diagnostic** : la boucle *journal + notification Telegram*
+fonctionne, mais les trois couches au-dessus sont écrites et **inutilisées** — `leads` (le CRM),
+`command_tasks` (le contrat de tâche) et `command_kpis` (la mesure) sont à zéro. Le système
+raconte ce qu'il fait ; il ne sait ni qui sont les clients, ni ce qu'il doit finir, ni où il en
+est.
+
+**Et le nombre qui compte aujourd'hui : 29 événements attendent ta validation.** C'est le vrai
+goulot d'étranglement — pas l'activation.
+
+**Leçon de méthode** : un audit qui conclut « rien ne tourne » à partir de la seule lecture des
+dépôts se trompe si le système est configuré ailleurs (variables Vercel, comptes tiers). Une
+requête SQL sur la base de production l'aurait démenti en dix secondes. Vérifier le système
+vivant, pas seulement son code source.
 
 ---
 
-## Le diagnostic en une phrase
+## Le diagnostic en une phrase (corrigé le 12/09)
 
-**Le problème n'est pas le manque d'automatisation. C'est que ~85 % du système est déjà écrit,
-testé, documenté — et jamais branché.**
-
-Un moteur d'orchestration transverse complet existe (`jamin-depth/src/command/`, ~6 360 lignes,
-35 fichiers de tests). Les adaptateurs Telegram, WhatsApp Cloud API, Supabase et Instagram sont
-implémentés. Treize agents sont écrits et audités. Rien ne tourne, parce que **~8 variables
-d'environnement ne sont pas renseignées et 4 chats Telegram n'ont jamais été créés.**
-
-La conséquence est contre-intuitive et coûteuse : écrire plus d'automatisation n'apporterait
-strictement rien aujourd'hui. Le seul chantier rentable à court terme est l'**activation**.
+**Le système tourne, notifie et journalise depuis le 20/08. Ce qui manque n'est pas
+l'activation : c'est le passage de la trace d'activité à la connaissance client — et une
+fiabilité qui ne cède pas au premier 504.**
 
 ---
 

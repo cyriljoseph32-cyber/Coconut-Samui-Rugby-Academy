@@ -4,7 +4,19 @@
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
 
-## ⚡ 12/09 — PR #20 ouverte (`activation/coco2-leads-et-donnees`), CI verte, non mergée
+## ⚡ 12/09 — PR #22 (chantier 2 : coordonnées structurées), non mergée
+
+`api/lead.js` ajoute `contact`/`channel`/`source` à l'événement COCO COMMAND. Les coordonnées
+voyageaient déjà dans `details` et restent relues par le filet côté `jamin-depth`, mais faire
+dépendre l'identité d'une personne d'un parsing de chaîne n'est pas un chemin sur lequel
+construire. Ces champs ne sont **pas** stockés dans `command_events`. Build 19 pages.
+Côté consommateur : `jamin-depth` PR #21 (`src/command/people.ts`).
+
+**Contexte corrigé** : l'ingestion fonctionne réellement — les requêtes SQL du 12/09 montrent
+4 événements `venture: COCO` émis par `growth-concierge`. Mais `leads` est à **0** : les
+événements arrivaient sans jamais créer de fiche personne, ce que corrige la PR #21.
+
+## ⚡ 12/09 — PR #20 mergée (`activation/coco2-leads-et-donnees`)
 
 Suite de l'[audit opérationnel](../../audit-ops/00-synthese.md), fuites n°2 et n°5 corrigées
 dans le code (en attente de merge) : `api/lead.js` appelle désormais **toujours** l'ingestion
