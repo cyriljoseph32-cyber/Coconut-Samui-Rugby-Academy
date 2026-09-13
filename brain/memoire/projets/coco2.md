@@ -1,8 +1,28 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-12.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-13.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
+
+## ⚡ 13/09 — Routine hebdo posts Instagram, semaine 14/09 : PR #23 draft ouverte
+
+`growth-concierge` a généré 4 captions bilingues EN/FR (Ask Coco itinéraire complet, Real
+Samui viewpoint lever du jour, Practical tips sécurité scooter, Hôtels B2B QR code en
+chambre) selon `COCO_Plan_Reseaux_Sociaux.md` + `Plan_Campagne_Samui_AI_Concierge_4semaines.md`,
+angles différents des semaines du 31/08 et du 07/09 pour ne pas répéter. 3/4 visuels Bloom
+générés (brand "Coco", `ready`) ; le 4e (hôtels) a échoué en `INSUFFICIENT_CREDITS` —
+crédits workspace Bloom épuisés en cours de génération, pas un problème de contenu, pas de
+retry possible sans recharge (https://www.trybloom.ai/pricing). Post 4 livré en caption
+seule.
+
+**Blocage Telegram inchangé** : `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_PROJECT_COCO` toujours
+non définis dans la session → contenu déposé dans
+`content/marketing-drafts/semaine-2026-09-14.md`, branche `claude/eager-ride-bnk9o7`, **PR
+#23 ouverte en draft** sur `main` (non mergée, non validée par Cyril). Même blocage
+signalé chaque semaine depuis le 30/08 — toujours `[À COMPLÉTER PAR CYRIL]`.
+
+Événement COCO COMMAND loggé (`COMMAND_API_URL`/`COMMAND_INGEST_TOKEN` définis cette
+session) : `evt_20260913_0823_79399c37`, `WAITING_APPROVAL`, niveau 3.
 
 ## ⚡ 12/09 — PR #20 ouverte (`activation/coco2-leads-et-donnees`), CI verte, non mergée
 
