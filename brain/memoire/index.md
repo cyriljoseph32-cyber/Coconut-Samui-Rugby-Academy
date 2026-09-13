@@ -33,10 +33,20 @@ L'audit opérationnel et stratégique transverse (11/09/2026) vit dans
 80/20, architecture cible, plan 90 jours, runbook solo et registre des risques.
 Point d'entrée : [`00-synthese.md`](../audit-ops/00-synthese.md).
 
-⚠️ **Constat central de l'audit** : le déficit n'est pas l'automatisation mais l'**activation**.
-Le moteur, les adaptateurs et les agents sont écrits et testés ; il leur manque ~8 variables
-d'environnement et 4 chats Telegram. Tout agent qui envisage d'écrire une nouvelle
-automatisation doit d'abord vérifier qu'elle n'existe pas déjà, inerte.
+⚠️ **Constat central de l'audit — CORRIGÉ le 12/09.** L'audit affirmait que « le déficit est
+l'activation : il manque ~8 variables d'environnement et 4 chats Telegram ». **C'était faux** :
+les requêtes SQL sur la base de production montrent 104 événements journalisés depuis le
+**20/08** et **104/104 notifiés sur Telegram**. Le chantier 0 était fait avant l'audit.
+
+Le vrai constat : la boucle *journal + notification* tourne, mais `leads`, `command_tasks` et
+`command_kpis` sont à **0 · 0 · 0** — le CRM, le contrat de tâche et la mesure sont écrits et
+inutilisés. Et **29 événements attendent la validation de Cyril**, le plus ancien depuis le
+20/08.
+
+**Règle qui en découle, pour tout agent** : ne jamais conclure qu'un système ne tourne pas à
+partir de la seule lecture des dépôts — la configuration vit dans Vercel et les comptes tiers.
+Interroger le système vivant (`list_projects`, une requête SQL, un appel d'API) avant
+d'affirmer qu'il est inerte. Et toujours vérifier qu'une automatisation n'existe pas déjà.
 
 ## 📓 Journal
 

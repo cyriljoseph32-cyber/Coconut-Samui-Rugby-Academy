@@ -5,15 +5,42 @@
 
 ---
 
-## 🔴 R1 — Relances envoyées après un refus
+## 🟠 R1 — Relances envoyées après un refus — **cause racine trouvée et colmatée (12/09)**
 
 **Constat** : les séquences Superhuman non coupées ont réexpédié des mails à **Samui Pro
 Nutrition les 11/08 et 24/08, alors qu'il avait refusé le 09/08**. Également Koh Fit (24/08) et
 Elite Gym (15/08).
 **Source** : `brain/pipeline.md`
 **Impact** : réputation, sur une île où le réseau professionnel est petit et bavard.
-**Traitement** : couper toutes les séquences automatiques (chantier 1.1). Tout envoi repasse par
-brouillon validé, comme la règle du dépôt l'a toujours prévu.
+
+**⚠️ Correction du 12/09 — l'audit n'avait vu qu'une moitié du problème.** Il attribuait R1 aux
+seules séquences Superhuman à couper. En réalité **le code avait aussi un trou** : la garde
+existait (`dueFollowUps()` ignore les leads au stade `lost`) mais elle était
+**structurellement inatteignable** — `setStage()` existait sans qu'aucun appelant ne l'utilise
+jamais, donc **aucun lead n'était jamais marqué `lost`**. *Une garde que personne ne déclenche
+ne protège de rien.* Couper Superhuman n'aurait donc pas suffi : la première boucle de relance
+automatisée aurait reproduit l'incident.
+
+**Pire, découvert en instrumentant** : `mergeLead()` faisait `stage: input.stage` sans
+condition, et l'ingestion inter-projets du chantier 2 upsert avec `stage: "new"` à **chaque
+événement**. Un refus enregistré aurait été effacé au premier upsert suivant — R1 réintroduit
+quotidiennement par le code d'activation lui-même.
+
+**Traitement (PR jamin-depth #21, chantier 3)** — circuit refermé en trois points redondants :
+1. `src/agents/refusal.ts` : détection d'un refus net FR/EN/TH (le refus **net** seulement —
+   « je vais réfléchir » reste un lead à relancer) ;
+2. `mergeLead()` : `lost` et `won` ne se rouvrent plus tout seuls, `optedOut` ne redevient
+   jamais faux — seule une décision humaine rouvre ;
+3. `execute.ts` : verrou avant **tout** envoi, quel que soit le chemin — c'est le seul point par
+   lequel tout message sortant passe, donc le seul qui attrape un refus arrivé pendant qu'un
+   brouillon attendait en validation.
+
+Plus la colonne `opted_out` en base (exécutée le 12/09), qui double le stade `lost` — redondance
+assumée : R1 a coûté assez cher pour mériter deux verrous plutôt qu'un.
+**Reste vrai** : couper les séquences Superhuman (chantier 1.1) est toujours nécessaire — le
+code ne protège que les envois qui passent par lui.
+**Reclassé 🟠** : le mécanisme est colmaté et testé (scénario R1 rejoué à l'identique), mais le
+volet Superhuman reste ouvert.
 
 ---
 
@@ -126,6 +153,38 @@ destinataire s'en plaint ; sinon sans conséquence pratique.
 
 ---
 
+## 🔴 R14 — Le journal COCO COMMAND s'arrête sans alerte sur un 504 de passerelle
+
+**Constat (12/09, mesuré en base)** : dernier événement écrit à **01:18 UTC** (08:18 Bangkok)
+alors que les crons tournaient toujours — **~11 h de silence**. 16 exécutions sur ~75 (21 %)
+mouraient sur `PostgrestError: Supabase 504: Gateway Timeout`. Ni mise en veille (projet
+`ACTIVE_HEALTHY`), ni volume (104 lignes), ni saturation de connexions : la passerelle PostgREST
+rend un 504 par intermittence **pendant que la base répond normalement**. Un seul `fetch` sans
+réessai ni timeout suffisait à tuer le cron entier.
+**Impact** : le système qui pilote tous les projets devient muet, **et personne n'est prévenu** —
+c'est la panne la plus coûteuse possible pour un outil dont le rôle est précisément de prévenir.
+**Traitement** : réessai borné (3 tentatives, backoff 300/600 ms, timeout 8 s) sur 502/503/504 et
+coupure réseau — PR jamin-depth #21, 8 tests figent le contrat. Les écritures simples ne sont
+**pas** rejouées (un doublon dans le journal coûterait plus cher qu'un échec visible) ; seul
+l'upsert `merge-duplicates`, idempotent, l'est.
+**Reste ouvert** : rien n'alerte quand le journal cesse d'avancer. Un « chien de garde » (si
+aucun événement depuis N heures → alerte Telegram) n'existe pas encore. À ajouter au chantier 4.
+
+---
+
+## 🟠 R15 — 29 validations en attente dans le journal, sans échéance
+
+**Constat (12/09, mesuré en base)** : **29 des 104 événements** portent `needs_owner = true` —
+donc 29 actions attendent l'accord de Cyril. Le plus ancien remonte au 20/08.
+**Impact** : c'est le vrai goulot d'étranglement du système, et il était invisible dans l'audit
+initial qui cherchait le blocage du côté de l'activation. Une boucle B ne sert à rien si les
+cartes de validation s'empilent sans être traitées.
+**Traitement** : à trier avec Cyril — `/command` liste les `needs_owner` en attente. Décider
+pour chacun : valider, rejeter, ou requalifier en A0–A2 (pas besoin de validation). Un événement
+qui attend depuis trois semaines n'avait probablement pas besoin d'une validation humaine.
+
+---
+
 ## ✅ R13 — Domaine canonique `coconutsamuirugby.com` non enregistré — CORRIGÉ (12/09, PR #40)
 
 **Constat** : le domaine annoncé partout comme site officiel — `src/config/site.ts`,
@@ -207,10 +266,15 @@ décrivaient n'existait déjà plus — les deux sont classés clos sans action.
 
 | Gravité | Nombre | Délai |
 |---|---|---|
-| 🔴 | 3 | Cette semaine |
-| 🟠 | 3 | Sous 30 jours |
+| 🔴 | 4 (dont **R14, actif en production**) | Cette semaine |
+| 🟠 | 4 (dont **R15, 29 validations en attente**) | Sous 30 jours |
 | 🟡 | 6 (+ R7quater) | À surveiller |
 | ✅ | 4 (R7, R7bis, R7ter, R13) | Clos le 12/09 |
+
+**Deux risques ajoutés le 12/09 après interrogation directe de la base de production** — ni
+l'un ni l'autre n'était visible en lisant seulement les dépôts : R14 (journal gelé 11 h sur des
+504 de passerelle, sans alerte) et R15 (29 validations en attente, la plus ancienne depuis le
+20/08). C'est le même angle mort qui avait fait conclure à tort que « rien ne tourne ».
 
 **Les 3 risques rouges se traitent en moins de 2 heures cumulées.**
 

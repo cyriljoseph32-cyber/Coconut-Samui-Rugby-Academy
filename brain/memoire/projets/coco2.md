@@ -17,14 +17,32 @@ seule.
 
 **Blocage Telegram inchangé** : `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_PROJECT_COCO` toujours
 non définis dans la session → contenu déposé dans
-`content/marketing-drafts/semaine-2026-09-14.md`, branche `claude/eager-ride-bnk9o7`, **PR
-#23 ouverte en draft** sur `main` (non mergée, non validée par Cyril). Même blocage
-signalé chaque semaine depuis le 30/08 — toujours `[À COMPLÉTER PAR CYRIL]`.
+`content/marketing-drafts/semaine-2026-09-14.md` — **PR #23 mergée le 13/09** sur demande de
+Cyril. ⚠️ Le merge dépose les brouillons dans le dépôt, **il ne vaut pas validation du
+contenu** : les 4 légendes et les 3 visuels restent à valider avant toute publication, et le
+4ᵉ visuel reste à générer après recharge des crédits Bloom.
+
+**Précision sur le blocage Telegram** : `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_PROJECT_COCO` sont
+absents **de l'environnement des sessions Claude Code**, pas de la production — les requêtes
+SQL du 12/09 montrent que Telegram fonctionne en prod (104 événements sur 104 notifiés depuis
+le 20/08). Ce sont deux configurations distinctes ; seule celle des sessions manque.
 
 Événement COCO COMMAND loggé (`COMMAND_API_URL`/`COMMAND_INGEST_TOKEN` définis cette
 session) : `evt_20260913_0823_79399c37`, `WAITING_APPROVAL`, niveau 3.
 
-## ⚡ 12/09 — PR #20 ouverte (`activation/coco2-leads-et-donnees`), CI verte, non mergée
+## ⚡ 12/09 — PR #22 mergée (chantier 2 : coordonnées structurées)
+
+`api/lead.js` ajoute `contact`/`channel`/`source` à l'événement COCO COMMAND. Les coordonnées
+voyageaient déjà dans `details` et restent relues par le filet côté `jamin-depth`, mais faire
+dépendre l'identité d'une personne d'un parsing de chaîne n'est pas un chemin sur lequel
+construire. Ces champs ne sont **pas** stockés dans `command_events`. Build 19 pages.
+Côté consommateur : `jamin-depth` PR #21 (`src/command/people.ts`).
+
+**Contexte corrigé** : l'ingestion fonctionne réellement — les requêtes SQL du 12/09 montrent
+4 événements `venture: COCO` émis par `growth-concierge`. Mais `leads` est à **0** : les
+événements arrivaient sans jamais créer de fiche personne, ce que corrige la PR #21.
+
+## ⚡ 12/09 — PR #20 mergée (`activation/coco2-leads-et-donnees`)
 
 Suite de l'[audit opérationnel](../../audit-ops/00-synthese.md), fuites n°2 et n°5 corrigées
 dans le code (en attente de merge) : `api/lead.js` appelle désormais **toujours** l'ingestion
