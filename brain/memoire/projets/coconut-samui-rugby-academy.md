@@ -74,9 +74,15 @@
   À cette occasion, Cyril a confirmé un **changement de tarif Adults Touch Rugby (permanent)** :
   200 THB/séance, pay-as-you-go, **plus d'offre mensuelle** (au lieu de 350 THB/séance ou
   1 200 THB/mois) — Kids et Teens inchangés (350/1200, essai 200 THB). Flyer Touch corrigé en
-  conséquence via `bloom_edit_image`. Site : livré via agent `webmaster`, **PR #37 ouverte,
-  en attente de review de Cyril** (branche `pricing-adults-touch-200thb` depuis `main` →
-  `src/data/programs.ts`, `brain/academy.md`, build vert 13 pages) — **pas encore mergée**.
+  conséquence via `bloom_edit_image`. Site : livré via agent `webmaster`, **PR #37 mergée sur
+  `main` le 13/09** (branche `pricing-adults-touch-200thb` → `src/data/programs.ts`,
+  `brain/academy.md`, build vert 13 pages) — tarif Adults Touch 200 THB/séance **en production**.
+
+- **Visuel d'annulation — séance Kids Rugby du 12/09, conditions météo** : édition ciblée
+  (`bloom_edit_image`) du visuel déjà publié pour cette séance, titre remplacé par "SESSION
+  CANCELLED" + mention météo, reste identique. Sauvegardé `brain/marketing-assets/
+  training-announces/kids-rugby-cancelled-weather-2026-09-12.png`, envoyé à Cyril — diffusion
+  (WhatsApp/Instagram) à sa charge.
 
 - **Post Instagram publié — mardi 9 septembre 2026** : photo d'un ado en pleine course, ballon
   sous le bras (maillot teal n°7), envoyée directement par Cyril — **consentement parental
