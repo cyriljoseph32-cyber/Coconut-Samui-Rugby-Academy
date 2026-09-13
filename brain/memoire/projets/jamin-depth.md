@@ -190,6 +190,9 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   collectée le 11/09 — distincte du calcul ci-dessus (caution, pas un revenu en soi ; à
   déduire/rapprocher du prix total selon les modalités réelles avec Mario,
   `[À COMPLÉTER PAR CYRIL]` si le mode de règlement diffère de l'hypothèse "prix catalogue").
+  **Enregistré dans le vrai système de comptes** : table Supabase `command_kpis` du projet
+  `jamin-depth` (`prhjuuupxojjwzynohak`), métrique `revenue_thb`, venture `DIVING`, valeur
+  **5 265**, `recorded_by: Cyril` — visible via `/kpi` (COCO COMMAND) et le bilan hebdo.
 
 ## Contenu publié — 28/08/2026
 
