@@ -1,9 +1,81 @@
 # jamin-depth — Jammin's Depths (plongée & récupération sous-marine)
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-02.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-12.
 > Dépôt : `cyriljoseph32-cyber/jamin-depth` (branche par défaut `main`).
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
+
+## 🔴 12/09 — Chantier 3 : la cause racine de R1 (PR #21, 3ᵉ commit)
+
+**L'audit n'avait vu qu'une moitié de R1.** Il attribuait les relances après refus aux seules
+séquences Superhuman. Le code avait pourtant la bonne garde — `dueFollowUps()` ignore les leads
+au stade `lost` — mais elle était **structurellement inatteignable** : `setStage()` existait
+sans qu'aucun appelant ne l'utilise jamais, donc **aucun lead n'était jamais marqué `lost`**.
+Une garde que personne ne déclenche ne protège de rien. Couper Superhuman n'aurait pas suffi :
+la première boucle de relance automatisée aurait reproduit l'incident du 11/08.
+
+**Et le chantier 2 allait l'aggraver** : `mergeLead()` faisait `stage: input.stage` sans
+condition, alors que `upsertPerson()` upsert avec `stage: "new"` à chaque événement — un refus
+aurait été effacé quotidiennement. Le commit a donc été ajouté **à la PR #21 elle-même**, pas
+dans une PR séparée : il colmate un trou que les commits précédents de cette PR ouvraient.
+
+**Trois verrous redondants** : `refusal.ts` (refus net FR/EN/TH, jamais l'hésitation) ;
+`mergeLead()` (`lost`/`won` ne se rouvrent plus seuls, `optedOut` jamais remis à faux) ;
+`execute.ts` (verrou avant tout envoi — le seul point par lequel tout message sortant passe).
+Plus la colonne `opted_out` en base, qui double le stade `lost`.
+
+**`loops.ts`** : un interrupteur par boucle B via `LOOPS_ENABLED`, **tout éteint par défaut**.
+Allumer ou éteindre sans redéploiement. B2 branchée et testée ; B1/B4/B5/B6 ont interrupteur et
+critère de fin, pas encore leur mécanique.
+
+**472 tests verts** (39 fichiers). Migration `opted_out` + index partiel exécutée en production.
+⚠️ L'index `leads_relançables_idx` porte une cédille — accepté par PostgreSQL (qui l'a mis entre
+guillemets), à renommer si un outil s'en plaint.
+
+**À la main de Cyril** : `LOOPS_ENABLED="B2"` sur Vercel pour allumer les relances.
+
+## 🔴 12/09 — P0 corrigé (PR #21) + le système tourne depuis le 20/08, contrairement à l'audit
+
+**Le système est vivant et l'était déjà avant l'audit.** Vérifié par requêtes SQL directes sur
+le projet Supabase `prhjuuupxojjwzynohak` (`ACTIVE_HEALTHY`, créé le 17/08) : **104 événements**
+depuis le **20/08**, **104/104 notifiés sur Telegram**, quatre agents émetteurs sur les quatre
+activités. Le chantier 0 était donc terminé trois semaines avant que l'audit ne le déclare en
+attente — corrigé dans `audit-ops/00-synthese.md` et `05-plan-90-jours.md`.
+
+**Mais `leads` = 0, `command_tasks` = 0, `command_kpis` = 0.** La boucle journal + notification
+fonctionne ; le CRM, le contrat de tâche et la mesure sont écrits et inutilisés.
+
+**P0 (R14)** — le journal était **gelé depuis ~11 h** (dernier événement 01:18 UTC) : la
+passerelle PostgREST rend des `504 Gateway Timeout` par intermittence pendant que la base répond
+normalement, et un `fetch` sans réessai ni timeout tuait le cron entier (16 exécutions sur ~75).
+`request()` réessaie désormais 3 fois (backoff 300/600 ms, timeout 8 s) sur 502/503/504 et
+coupure réseau. **Les écritures simples ne sont pas rejouées** — une écriture aboutie dont la
+réponse s'est perdue créerait un doublon dans le journal ; seul l'upsert `merge-duplicates`,
+idempotent par `ON CONFLICT`, est réessayé. Aucune alerte n'existe encore quand le journal cesse
+d'avancer : à ajouter (chantier 4).
+
+**Chantier 2** — `src/command/people.ts` dérive une personne dédupliquée d'un événement, en
+**réutilisant `contactKey()`** des agents plongée plutôt qu'en réinventant la règle de fusion.
+Défaut trouvé en écrivant les tests et corrigé : `+66 81 234 5678` (WhatsApp) et `081 234 5678`
+(formulaire) produisaient deux fiches — le cas le plus courant à Samui. `normalisePhone()`
+ramène le format local à l'indicatif pays (limite documentée : un numéro français saisi en local
+serait lu comme thaï). Contrat d'ingestion étendu (`contact`/`channel`/`source`), **non stockés
+dans `command_events`** pour ne pas éparpiller de coordonnées dans une table qui part en
+notification. **457 tests verts** (38 fichiers, +37).
+
+**Migration exécutée en production** (accord explicite de Cyril) : `venture`/`ventures`/`source`
+sur `leads`, 2 index créés, 2 index dupliqués supprimés — les jumeaux identiques
+(`command_kpis_lookup_idx`, `command_tasks_due_idx`) ont été vérifiés présents avant suppression.
+
+## ⚡ 12/09 — PR #20 ouverte (`activation/chantier-0-et-ci`), CI verte, non mergée
+
+Suite de l'[audit opérationnel](../../audit-ops/00-synthese.md) : `.github/workflows/ci.yml`
+ajouté — les 35 fichiers de tests (428 cas) ne tournaient auparavant nulle part, désormais
+vérifiés sur chaque PR (**428/428 verts**, typecheck OK, lint OK). `scripts/activate.mjs`
+(`npm run activate`) outille le chantier 0 (Telegram, Supabase, webhook) sans créer de compte.
+`scripts/import-leads.mjs` extrait 170 contacts de CSRA en essai à blanc (`--push` requiert
+`COMMAND_API_URL`/`COMMAND_INGEST_TOKEN`, non posés). **Correction** : pas de « SQL v2 »
+séparé — `supabase/schema.sql` contient déjà `command_tasks`/`command_kpis`.
 
 ## Identité
 
