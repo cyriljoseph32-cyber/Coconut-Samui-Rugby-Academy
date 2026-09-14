@@ -194,6 +194,18 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   `jamin-depth` (`prhjuuupxojjwzynohak`), métrique `revenue_thb`, venture `DIVING`, valeur
   **5 265**, `recorded_by: Cyril` — visible via `/kpi` (COCO COMMAND) et le bilan hebdo.
 
+## Contenu publié — 14/09/2026
+
+- **Reel Chumphon Pinnacle + White Rock publié — vérifié**. Légende FR/EN rédigée en session
+  (ton personnel, « belle journée au bureau », pas de promesse d'espèce/visibilité — reportage
+  factuel d'une sortie réelle du jour). Publié à la fois sur **Instagram** et partagé sur
+  **Facebook**. Preuves fournies par Cyril :
+  - Instagram : https://www.instagram.com/reel/DdQ-QJhzeDZ/
+  - Facebook : https://www.facebook.com/share/r/1JZEjgBTrF/
+  Un message de promotion pour groupes Facebook (même accroche, ton communautaire non-pub) a
+  aussi été rédigé en session — statut de publication sur des groupes spécifiques non précisé,
+  à confirmer si besoin.
+
 ## Contenu publié — 28/08/2026
 
 - **4 posts Instagram DIVING publiés**, confirmé directement par Cyril le 28/08 : les brouillons
