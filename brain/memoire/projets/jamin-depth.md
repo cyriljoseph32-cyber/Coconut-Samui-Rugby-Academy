@@ -203,8 +203,8 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   - Instagram : https://www.instagram.com/reel/DdQ-QJhzeDZ/
   - Facebook : https://www.facebook.com/share/r/1JZEjgBTrF/
   Un message de promotion pour groupes Facebook (même accroche, ton communautaire non-pub) a
-  aussi été rédigé en session — statut de publication sur des groupes spécifiques non précisé,
-  à confirmer si besoin.
+  aussi été rédigé en session — **pas encore publié** (confirmé par Cyril : « juste Instagram
+  et Facebook pour l'instant »), brouillon disponible si Cyril veut le poster plus tard.
 
 ## Contenu publié — 28/08/2026
 
