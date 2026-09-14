@@ -6,6 +6,7 @@
 
 | Date | Projet | Événement / décision | Source |
 |---|---|---|---|
+| 2026-09-14 | CSRA | **Flyer rugby périscolaire LIS créé** (mercredis 15h-16h, 9/09-14/10/2026, toutes classes, 200 THB/séance, inscription via l'école) — envoyé à Cyril pour affichage école + diffusion parents. Tarif et modalité d'inscription confirmés par Cyril en session, horaire vérifié via Google Calendar (événement Alan Proudfoot). | Cyril (déclaratif, cette session) |
 | 2026-09-13 | jamin-depth | **6 DSD réalisées (groupe Mario, Koh Tao) — revenu calculé** : tarif site ฿5 850/pers × 6 = 35 100 THB prix total ; part Cyril (15 % confirmé par Cyril) = **5 265 THB**. Caution 2 000 THB/plongeur déjà collectée le 11/09, traitée à part (voir `jamin-depth.md`). Réservation pipeline passée de "à confirmer" à "réalisé". | Cyril (déclaratif, cette session) |
 | 2026-09-13 | CSRA | **Post Instagram Touch Rugby publié** (« ce mardi », visuel Bloom `flyer-touch-rugby-bloom.png`, légende FR/EN générée en session — horaire mardi 19h00-20h30, tarif 200 THB/séance à jour, WhatsApp CTA). Confirmé par Cyril (« Post fait ! ») mais **aucune URL fournie — non vérifiable par preuve traçable**, à compléter si besoin. | Cyril (déclaratif, cette session) |
 | 2026-09-13 | CSRA | **PR #37 mergée sur `main`** — tarif Adults Touch Rugby 200 THB/séance (pay-as-you-go, sans offre mensuelle) désormais en production, `src/data/programs.ts` + `brain/academy.md`. | GitHub (webhook merge) |

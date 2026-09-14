@@ -169,6 +169,13 @@
 - **Samui Fitness Lab** (sponsoring S&C) : email 19/07 → réponse positive 20/07 → reprise de
   contact WhatsApp par Omar (Samui Fitness Lab) le 30/07 → Cyril a répondu le 31/07 pour un RDV
   mardi soir, avant la séance touch rugby (Koh's 33 Stadium 19h). En attente de l'heure.
+- **Flyer rugby périscolaire LIS — 14/09** : créé et envoyé à Cyril pour affichage à l'école et
+  diffusion aux parents. Faits confirmés : séances hebdomadaires le mercredi 15h-16h (9, 16, 23,
+  30/09 + 7, 14/10/2026 — Google Calendar, événement Alan Proudfoot), toutes classes (Kids+Teens
+  mixte, confirmé par Cyril), **200 THB/séance** (confirmé par Cyril), inscription **via l'école**
+  (pas par WhatsApp CSRA, confirmé par Cyril). Aucun nom de coach affiché (non confirmé).
+  `brain/marketing-assets/flyers-print/flyer-lis-periscolaire.png` (+ générateur `.cjs`).
+
 - **RDV Alan Proudfoot (LIS) eu lieu** (28/08, confirmé directement par Cyril) — ⚠️ écart non
   résolu avec le calage vendredi 28/08 16h du pipeline/calendrier (Cyril indique jeudi 27/08) ;
   compte-rendu (coaching + visite école, suite à donner) `[À COMPLÉTER PAR CYRIL]`. Détail :
