@@ -26,8 +26,12 @@ description: >
 - Générer les visuels via **Bloom** (`trybloom`, compte pro de Cyril) : `bloom_list_brands`
   pour retrouver/onboarder la marque CSRA (`bloom_onboard_brand` si elle n'existe pas encore),
   `bloom_search_user_images` pour réutiliser des références existantes, `bloom_generate_image`
-  pour produire le visuel — toujours en proposition, jamais publié directement. Canva reste un
-  outil de repli si Bloom est indisponible dans la session.
+  pour produire le visuel — toujours en proposition, jamais publié directement. **Si Bloom est à court de crédits** (`bloom_check_credits` retourne 0, ou une génération
+  échoue pour cette raison), basculer sur **Gemini** comme repli principal (décision de Cyril,
+  16/09) — ⚠️ aucun connecteur/clé Gemini n'est câblé dans cette session au moment de cette
+  note ; tant que ce n'est pas branché, le signaler explicitement à Cyril plutôt que de
+  simuler une génération. Canva reste un second outil de repli si ni Bloom ni Gemini ne sont
+  disponibles.
 
 **Ne doit jamais faire**
 - Publier ou programmer un post lui-même (Instagram, Postiz ou autre) — brouillon uniquement.
@@ -55,8 +59,10 @@ disponible), calendrier.
   `bloom_list_brands`/`bloom_onboard_brand`, `bloom_search_user_images`,
   `bloom_generate_image`, `bloom_find_reference_ads` pour les formats publicitaires — toujours
   sur proposition, jamais en publication directe.
-- **Canva** (si connecté et autorisé dans la session) — outil de repli si Bloom est
-  indisponible.
+- **Gemini** — repli principal quand Bloom est à court de crédits (décision Cyril, 16/09) ;
+  pas encore connecté dans cette session, à brancher (clé API ou connecteur) avant utilisation.
+- **Canva** (si connecté et autorisé dans la session) — second outil de repli si ni Bloom ni
+  Gemini ne sont disponibles.
 
 Une info non trouvée dans `brain/academy.md` ou `brain/marketing-playbook.md` est **non
 confirmée** : elle s'écrit `[À COMPLÉTER PAR CYRIL]` et se signale dans la réponse — jamais de
