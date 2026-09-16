@@ -176,6 +176,13 @@
   (pas par WhatsApp CSRA, confirmé par Cyril). Aucun nom de coach affiché (non confirmé).
   `brain/marketing-assets/flyers-print/flyer-lis-periscolaire.png` (+ générateur `.cjs`).
 
+- **LIS — périscolaire du mercredi mis en pause (15/09)** : Alan Proudfoot (manque d'intérêt des
+  enfants) enseigne désormais le Tag Rugby en classe pour relancer l'envie, espère faire revenir
+  Cyril en coaching après les vacances de la mi-trimestre d'octobre. **5 séances calendrier
+  restantes (16/09→14/10) annulées.** Cyril a répondu positivement + proposé un **match amical
+  Greenacre-LIS en octobre**. **Le flyer périscolaire LIS (créé le 14/09) ne doit pas être
+  affiché à l'école pour l'instant** — voir `brain/pipeline.md`.
+
 - **RDV Alan Proudfoot (LIS) eu lieu** (28/08, confirmé directement par Cyril) — ⚠️ écart non
   résolu avec le calage vendredi 28/08 16h du pipeline/calendrier (Cyril indique jeudi 27/08) ;
   compte-rendu (coaching + visite école, suite à donner) `[À COMPLÉTER PAR CYRIL]`. Détail :
