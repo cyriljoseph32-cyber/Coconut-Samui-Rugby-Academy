@@ -61,6 +61,7 @@
 | **Napapai Physiotherapy** | Samui | FB `/NapapaiPhysio` | 🎯 Réserve |
 | **Angel's Beauty & Physiotherapy Samui** | Lamai | ☎️ +66 90 575 5793 | 🎯 À contacter *(ajouté 11/08)* |
 | **Bangkok Hospital Samui** (kiné) · **Samui Intl Hospital** | Bophut/Chaweng | `bangkokhospital.com/samui` — process plus lourd, via service communication | ⭐ Institutionnel |
+| **Samui Home Clinic** | Bangrak/Bophut | ✉️ `info@samuihomeclinic.com` · ☎️ +66 92 278 1988 / 080 669 6915 · WA +66 93 651 2888 · `samuihomeclinic.com` | 🎯 À contacter *(ajouté 16/09)* — clinique familiale, angle santé/sécurité des enfants sur les séances |
 
 ## E. Boissons — ⭐⭐ (sponsors rugby classiques + identité insulaire)
 
@@ -152,6 +153,8 @@
 | **Samui Realty** | `samuirealty.com` (formulaire uniquement, pas d'email direct) *(ajouté 11/08)* |
 | **Three Seasons Properties** | ☎️ +66 82 285 2919 / WhatsApp +66 92 373 9099 · `three-seasons-properties.com` |
 | **Conrad Properties** · **DL Samui Properties** · **Kalara Real Estate** | sites officiels |
+| **Samui Law Firm** | ✉️ `office@samuilawfirm.com` · ☎️ 082 447 8244 · Bangrak Village (Plaza The Green) · FB `/samuilawfirm` *(ajouté 16/09)* — sert directement les familles expat (visas, société, immobilier) : réseau + RSE |
+| **Samui Storage & Moving Solutions** | ✉️ `info@samuistorage.co` · ☎️ +66 83 392 8049 · `samuistorage.co` — société **familiale britannique** depuis 2009 *(ajoutée 16/09)* — accompagne les familles expat qui s'installent sur l'île, fit direct avec l'audience familles de l'académie |
 
 ## M. Communauté, fondations & clubs — ⭐⭐⭐ (bourses, réseau, crédibilité)
 
