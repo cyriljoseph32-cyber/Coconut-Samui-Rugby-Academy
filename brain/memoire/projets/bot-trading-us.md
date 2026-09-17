@@ -1,7 +1,9 @@
 # bot-trading-US — Signal Bot Actifs US
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-07-20.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-17 (resynchronisation
+> complète, `git log origin/main` — écart graphify corrigé, aucun autre changement constaté).
 > Dépôt : `cyriljoseph32-cyber/bot-trading-US` (branche par défaut `main`).
+> Dernier commit `main` : `40ca95d` (21/07/2026) — aucune activité depuis, vérifié le 17/09.
 
 ## Identité
 
@@ -32,12 +34,16 @@
 de conseil en investissement, jamais `ALPACA_LIVE`/`AUTOTRADE` sans décision explicite de
 Cyril.
 
-## Cartographie du code (graphify) — 2026-08-31
+## Cartographie du code (graphify) — ⚠️ corrigé le 2026-09-17, jamais mergée ici
 
-- **Cartographie de code locale ajoutée** : `graphify-out/` (AST tree-sitter, `--code-only`,
-  aucun LLM) généré et **mergé sur `main`** — PR #5 (données) et PR #6 (doc `CLAUDE.md`
-  pointant les agents vers `graphify query`/`explain`/`path`/`god-nodes` avant de grepper le
-  code brut). Fait partie d'une passe transverse sur les 7 dépôts (voir `journal.md`).
+- La ligne du 31/08 affirmait `graphify-out/` **« mergé sur `main` »** (PR #5/#6) sur ce
+  dépôt — **vérifié faux le 17/09** : `git log --oneline --all` (toutes branches, y compris
+  distantes) ne contient aucun commit mentionnant « graphify », il n'existe aucun dossier
+  `graphify-out/` dans le répo, et `CLAUDE.md` n'a pas de section « Cartographie du code ».
+  Le dernier commit sur `main` reste `40ca95d` (21/07, ajout de l'équipe d'agents). Écart
+  probable : la passe transverse du 31/08 a réellement touché CSRA, coco2 et jamin-depth,
+  mais la ligne de journal généralisait à tort aux 7 dépôts. Non refait dans cette session
+  (aucune demande de Cyril de lancer graphify ici) — seule la mémoire est corrigée.
 
 ## État & prochaines étapes (2026-07-20)
 

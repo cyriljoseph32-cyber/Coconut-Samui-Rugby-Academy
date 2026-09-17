@@ -1,8 +1,65 @@
 # CSRA — Coconut Samui Rugby Academy
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-06.
-> Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`,
-> travaux en cours sur `claude/focused-allen-d348n8`).
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-17 (resynchronisation
+> complète, `git log origin/main`).
+> Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`).
+> Aucun commit sur `main` depuis le 13/09 09h33 (PR #37, dernière PR mergée), vérifié le 17/09.
+
+## ⚡ 17/09 — Resynchronisation : PR #37 à #44 confirmées mergées, rien depuis le 13/09
+
+`git log origin/main` montre `main` s'arrêtant à `ded3434` (PR #37, 13/09 09h33). Toutes les
+PR listées ci-dessous comme « non mergée » ou « en attente de review » l'ont été depuis :
+**#37** (tarif Adults Touch 200 THB, confirmé), **#38** (chantier 2+1.7, CSRA écrit dans la
+base unique COCO COMMAND), **#39** (mémoire, plan 90 jours), **#40** (fix domaine
+`coconutsamuirugby.com` non enregistré), **#41** (chantier 2, coordonnées structurées —
+cf. section ci-dessous, marquée « non mergée » à tort), **#42** (correction de la thèse de
+l'audit), **#43** (brouillons marketing semaine 14/09), **#44** (mémoire, routine posts
+coco2). `list_pull_requests` GitHub confirme **zéro PR ouverte** sur ce dépôt à ce jour.
+
+## ⚡ 12/09 — PR #41 (chantier 2 : coordonnées structurées) — **mergée le 13/09** (voir ci-dessus)
+
+`api/lead.js` ajoute `contact`/`channel`/`source` à l'événement COCO COMMAND : le rattachement
+à la fiche unique ne dépend plus d'un parsing de la chaîne `details`. Une personne qui écrit sur
+WhatsApp puis remplit ce formulaire est reconnue comme la même, y compris avec un numéro au
+format local d'un côté et international de l'autre. Ces champs ne sont **pas** stockés dans
+`command_events`. Côté consommateur : `jamin-depth` PR #21. Build 13 pages, `check-agents` 11/11.
+
+⚠️ Le patch reçu contenait 3 commits dont les 2 premiers étaient **déjà mergés** (PR #40) —
+seul le 3ᵉ a été appliqué, pour ne pas rejouer du déjà-fait.
+
+**Contexte corrigé** : l'émetteur CSRA (PR #38) fonctionne réellement en production — les
+requêtes SQL du 12/09 montrent 17 événements `venture: RUGBY` émis par `coco-command`. L'audit
+supposait à tort que rien ne tournait faute de variables d'environnement.
+
+## ⚡ 12/09 — PR #40 mergée (`fix/domaine-redirection-csra`)
+
+**`coconutsamuirugby.com` n'est enregistré chez aucun registrar** — vérifié disponible à
+l'achat le 12/09, alors que le code (`api/lead.js`, `astro.config.mjs`, `src/config/site.ts`,
+3 pages `.astro`, `robots.txt`) le déclarait à six endroits comme domaine canonique. Impact
+réel : un visiteur soumettant le formulaire d'essai sans JavaScript était redirigé en 303 vers
+un domaine qui ne résout pas (le lead était bien enregistré côté serveur, mais la personne
+pouvait croire son inscription à 200 THB perdue) ; Google recevait des canoniques/JSON-LD/
+sitemap non indexables. Patch reçu de Cyril, appliqué sur une branche fraîche depuis
+`origin/main`, corrige les deux : l'origine vient maintenant de `x-forwarded-host` côté API
+et de `PUBLIC_SITE_URL` (repli sur l'URL Vercel réelle) côté site — plus de domaine en dur nulle
+part, `SITE_DOMAIN`/`PUBLIC_SITE_URL` restent l'échappatoire si un domaine est acheté un jour.
+Build 13 pages vert, zéro occurrence résiduelle dans `dist/`, `check-agents.mjs` 11/11.
+**Non tranché** : la question de marque (racheter ce domaine ou en choisir un autre) reste
+entièrement à Cyril — `brain/academy.md` et le tableau du `CLAUDE.md` racine affichent encore
+`https://coconutsamuirugby.com` comme site en ligne, à corriger le jour où la décision est
+prise (le site tourne en réalité sur l'URL Vercel `coconut-samui-rugby-academy.vercel.app`).
+
+## ⚡ 12/09 — PR #38 (`activation/csra-ingestion`) — **mergée le 12/09** (`91ebe8f`)
+
+Suite de l'[audit opérationnel](../../audit-ops/00-synthese.md) : CSRA reçoit son **premier
+émetteur programmatique** (`api/_command.js`, `venture: RUGBY`, calqué sur celui de `coco2`)
+— jusqu'ici le formulaire et la newsletter ne partaient que vers FormSubmit, une boîte
+e-mail, et nulle part ailleurs. `api/lead.js` (nouveau) repointe `contact.astro` et
+`Footer.astro` : ingestion COCO COMMAND d'abord, FormSubmit en filet e-mail ; un lead non
+enregistré nulle part ressort en 502 + log complet, plus de disparition silencieuse.
+« Essai gratuit » corrigé en 200 THB dans les brouillons de la semaine du 07/09. Build 13
+pages vert, `check-agents.mjs` 11/11. Variables à poser : `COMMAND_API_URL`,
+`COMMAND_INGEST_TOKEN` (même jeton que `jamin-depth` et `coco2`).
 
 ## Identité
 
