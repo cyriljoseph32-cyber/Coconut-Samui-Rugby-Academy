@@ -1,11 +1,28 @@
 # jamin-depth — Jammin's Depths (plongée & récupération sous-marine)
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-12.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-18.
 > Dépôt : `cyriljoseph32-cyber/jamin-depth` (branche par défaut `main`).
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
 
-## 🔴 12/09 — Chantier 3 : la cause racine de R1 (PR #21, 3ᵉ commit)
+## ⚡ 16/09 — `coco-contenu` (DIVING) éteinte à la demande de Cyril (PR #22)
+
+Retour direct de Cyril : « je veux la suppression des post jammins, je les ferai moi-même ».
+`coco-contenu` suit désormais le même interrupteur que B2 (`LOOPS_ENABLED` doit nommer `B4`),
+**éteinte par défaut** — rien n'est supprimé côté code, une ligne de config suffit à la
+rallumer sans redéploiement si le besoin revient. Nettoyage fait directement en base, action
+demandée explicitement : les 29 brouillons `command_content` en attente et les 29 événements
+de journal correspondants (catégorie contenu/marketing) ont été supprimés — le reste du
+journal et la file `ops` fournisseur ne sont pas touchés.
+
+## ⚡ 12/09 — Chantier 3 : la cause racine de R1 (PR #21, 3ᵉ commit) — **PR #21 mergée le 13/09**
+
+**⚠️ Mise à jour 18/09 : cette PR décrite ci-dessous comme « ouverte, non mergée » a en réalité
+été mergée le 2026-09-13 à 02h27 UTC (`1c8253f`)** — les trois chantiers (P0 passerelle
+PostgREST, chantier 2 fiche unique, chantier 3 refus indélébile) sont donc en production.
+472 tests verts au moment du merge. Confirmé également par requête SQL directe : le journal
+`command_events` n'a plus regelé depuis (dernier événement 18/09 01h00 UTC, 0 `FAILED`/`ERROR`
+sur 94 lignes).
 
 **L'audit n'avait vu qu'une moitié de R1.** Il attribuait les relances après refus aux seules
 séquences Superhuman. Le code avait pourtant la bonne garde — `dueFollowUps()` ignore les leads
@@ -304,7 +321,8 @@ Toutes optionnelles : un déploiement ne casse jamais parce qu'une clé manque.
 - `paymentMethods`, `meetingPoint`, `boatSchedule`, `insurance`, `minorMinimumAge`
   (cf. section Policies ci-dessus).
 - Mise en service de COCO COMMAND : création des 4 chats Telegram, jeton d'ingestion,
-  variables Vercel. Le SQL de la v1 a été exécuté le 20/08/2026 ; **la partie v2
-  (`command_tasks`, `command_kpis`, colonnes ajoutées) reste à exécuter**.
+  variables Vercel. Le SQL de la v1 a été exécuté le 20/08/2026 ; **la partie v2 tourne
+  réellement** (vérifié SQL le 18/09 : `command_kpis` a sa première ligne, saisie par Cyril
+  le 13/09) — **`command_tasks` reste à 0**, aucun `/delegate` n'a encore créé de tâche.
 - Régénérer `CRON_SECRET` : la valeur a circulé en clair dans une conversation le 20/08/2026.
 - Agent contenu/marketing de la plongée : `content` assure le routage, à confirmer.
