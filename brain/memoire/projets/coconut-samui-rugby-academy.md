@@ -127,6 +127,16 @@ pages vert, `check-agents.mjs` 11/11. Variables à poser : `COMMAND_API_URL`,
   non mentionnée par Cyril, a aussi été fermée le 25/08 sur ce même sujet — vraisemblablement
   une tentative parallèle sur le même correctif ; à clarifier avec Cyril si besoin.
 
+- ⚠️ **Les 7 labels CSRA du playbook n'existent pas dans la boîte** (constaté 19/09, passage
+  `/inbox`) : `list_labels` sur `coconutrugbyacademy@gmail.com` ne renvoie que les labels
+  système Superhuman (`[Superhuman]/AI/*`, `.../Is Snoozed`, `.../Muted`, `.../ru`) — aucun
+  `CSRA/Inscriptions`, `CSRA/Essais-gratuits`, `CSRA/Corporate`, `CSRA/Sponsors`, `CSRA/Site`,
+  `CSRA/Admin` ni `CSRA/Autre` documentés dans `brain/email-playbook.md`. Superhuman Mail ne
+  crée pas de nouveau label via l'API (`update_thread`/`create_or_update_draft` ne peuvent
+  qu'ajouter un label existant) — le triage automatisé ne peut donc labelliser aucun fil tant
+  que Cyril n'a pas créé ces 7 labels côté boîte (interface Superhuman ou Gmail). **Action à
+  la main de Cyril**, sinon prochains passages `/inbox` continueront à trier sans étiqueter.
+
 - **Bloom devient l'outil visuel par défaut** (24/08, commit `3e0d542`, sur la même branche
   non mergée) : `.claude/agents/marketing.md` et `brain/marketing-playbook.md` référencent
   désormais le compte trybloom pro comme outil par défaut (workflow `bloom_list_brands` →
