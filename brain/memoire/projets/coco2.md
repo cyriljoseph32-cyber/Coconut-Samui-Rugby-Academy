@@ -4,6 +4,21 @@
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
 
+## ⚡ 20/09 — Post "vraie cuisine locale" publié — vérifié, premier post sous les nouvelles règles
+
+**Post Instagram publié et vérifié** : https://www.instagram.com/p/DdfluruMSIa/ — légende
+FR/EN pilier "Real Samui / hidden gems", photo réelle envoyée par Cyril (poisson grillé,
+curry maison, riz, petite gargote de bord de route). Premier post appliquant la règle du
+20/09 (§ ci-dessous) : accroche qui se comprend sans "voir plus", lien explicite avec le
+produit ("ce que Coco te trouve"), CTA vers le site. **PR #25 mergée sur `main`** le 20/09
+(`a8f8639`) — la règle et le registre partenaires sont donc en production dans le dépôt,
+pas seulement proposés.
+
+**Partenaires ajoutés au pipeline sur cette base** : `Coco_Partenariats_Pipeline.md` mis à
+jour avec **MrSamui.com** et **Samui & Koh** (conciergeries locales déjà orientées
+recommandations, `samui_contacts_complets.md`) comme premières cibles liées à ce thème —
+statut toujours "pas contacté", aucune approche envoyée à ce jour.
+
 ## ⚡ 20/09 — Objectif fixé par Cyril : 15 resorts partenaires signés avant le 15/12/2026
 
 Nouvelle règle permanente ajoutée à `growth-concierge` (chaque post : CTA trafic vers
@@ -15,8 +30,8 @@ défini dans les kits existants — **aucun hôtel contacté ni signé au 20/09*
 porté par `partenariats-concierge`, avec un rappel explicite dans les deux fichiers agent :
 ni la portée d'un post sur l'algorithme Meta, ni la signature d'un partenaire ne peuvent
 être garanties par un agent — ce sont des résultats commerciaux que Cyril doit conclure
-lui-même. **PR #25 ouverte sur `coco2` (`claude/coco-chief-of-staff-pbmn8d` → `main`),
-en attente de review de Cyril.**
+lui-même. **PR #25 mergée sur `main`** (`a8f8639`, 20/09).
+
 
 ## ⚡ 17/09 — Resynchronisation : `main` a beaucoup avancé depuis le 13/09, non journalisé
 
