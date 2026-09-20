@@ -1,9 +1,22 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-17 (resynchronisation
-> complète, `git log origin/main`).
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-20.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
+
+## ⚡ 20/09 — Objectif fixé par Cyril : 15 resorts partenaires signés avant le 15/12/2026
+
+Nouvelle règle permanente ajoutée à `growth-concierge` (chaque post : CTA trafic vers
+coco-samui-ai.com, alternance posts "awareness"/"publicitaire direct-response",
+mécaniques d'engagement Meta, suggestion de 1-3 partenaires locaux pertinents par post —
+tiré uniquement de `samui_contacts_complets.md`, jamais inventé). Nouveau registre
+`Coco_Partenariats_Pipeline.md` (racine du dépôt), seedé avec l'ordre d'approche déjà
+défini dans les kits existants — **aucun hôtel contacté ni signé au 20/09**. Objectif
+porté par `partenariats-concierge`, avec un rappel explicite dans les deux fichiers agent :
+ni la portée d'un post sur l'algorithme Meta, ni la signature d'un partenaire ne peuvent
+être garanties par un agent — ce sont des résultats commerciaux que Cyril doit conclure
+lui-même. **PR #25 ouverte sur `coco2` (`claude/coco-chief-of-staff-pbmn8d` → `main`),
+en attente de review de Cyril.**
 
 ## ⚡ 17/09 — Resynchronisation : `main` a beaucoup avancé depuis le 13/09, non journalisé
 
