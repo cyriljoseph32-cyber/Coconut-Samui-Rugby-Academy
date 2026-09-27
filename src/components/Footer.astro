@@ -1,7 +1,7 @@
 ---
 import Logo from "./Logo.astro";
 import PalmSilhouette from "./PalmSilhouette.astro";
-import { SITE, FORM_ENDPOINT, waLink } from "../config/site";
+import { SITE, LEAD_ENDPOINT, waLink } from "../config/site";
 
 const year = new Date().getFullYear();
 ---
@@ -50,11 +50,9 @@ const year = new Date().getFullYear();
           }
         </ul>
 
-        <form action={FORM_ENDPOINT} method="POST" class="mt-7" aria-label="Newsletter signup">
-          <input type="hidden" name="_subject" value="Newsletter signup — CSRA website" />
-          <input type="hidden" name="_template" value="table" />
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_next" value={`${SITE.domain}/thanks/`} />
+        <form action={LEAD_ENDPOINT} method="POST" class="mt-7" aria-label="Newsletter signup">
+          <input type="hidden" name="kind" value="newsletter" />
+          <input type="hidden" name="source" value="footer-newsletter" />
           <input type="text" name="_honey" class="hidden" style="display:none" tabindex="-1" aria-hidden="true" />
           <label for="newsletter-email" class="block text-sm font-medium text-paper/80">Island news &amp; match days</label>
           <div class="mt-2 flex overflow-hidden rounded-md border border-paper/25 focus-within:border-clay">

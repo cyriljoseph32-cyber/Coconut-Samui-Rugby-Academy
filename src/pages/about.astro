@@ -3,13 +3,14 @@ import Base from "../layouts/Base.astro";
 import Button from "../components/Button.astro";
 import Logo from "../components/Logo.astro";
 import PalmSilhouette from "../components/PalmSilhouette.astro";
+import { SITE } from "../config/site";
 
 const schema = [
   {
     "@context": "https://schema.org",
     "@type": "AboutPage",
     name: "About Coconut Samui Rugby Academy",
-    url: "https://coconutsamuirugby.com/about/",
+    url: `${SITE.domain}/about/`,
   },
 ];
 

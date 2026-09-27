@@ -20,14 +20,14 @@ export const programs: Program[] = [
   {
     slug: "kids-rugby",
     name: "Kids Rugby",
-    ages: "Ages 4–10",
+    ages: "Ages 4–12",
     tag: "Fun first",
     short:
       "Tag rugby, games and small wins. No tackling, no pressure — just kids learning to pass, run and back each other up.",
-    seoTitle: "Kids Rugby Classes Koh Samui (Ages 4–10) | Coconut Samui Rugby Academy",
+    seoTitle: "Kids Rugby Classes Koh Samui (Ages 4–12) | Coconut Samui Rugby Academy",
     seoDescription:
-      "Fun-first tag rugby for kids aged 4–10 on Koh Samui. No contact, no experience needed. Small groups, French- and English-speaking pro coaches, free trial session.",
-    h1: "Kids Rugby — Ages 4 to 10",
+      "Fun-first tag rugby for kids aged 4–12 on Koh Samui. No contact, no experience needed. Small groups, French- and English-speaking pro coaches, 200 THB trial session.",
+    h1: "Kids Rugby — Ages 4 to 12",
     intro:
       "At this age, rugby is a game of chase, laughter and tiny victories. Our youngest players learn to catch, pass and run with the ball through games they don't want to stop playing. There is no tackling — it's tag rugby only — and no child ever sits out because they're 'not good enough'. Every kid gets ball-in-hand time, every single session.",
     sessionLooksLike: [
@@ -38,20 +38,21 @@ export const programs: Program[] = [
     ],
     details: [
       { label: "Format", value: "Tag rugby (non-contact)" },
-      { label: "Group size", value: "Max 12 kids per coach" },
+      { label: "Schedule", value: "Saturdays, 16:30–17:30" },
       { label: "Duration", value: "60-minute sessions, weekly" },
+      { label: "Pricing", value: "350 THB per session, or 1,200 THB per month — 200 THB for a first-time trial session" },
       { label: "Experience", value: "None needed — most of our kids started at zero" },
       { label: "Language", value: "French & English coaching" },
       { label: "Bring", value: "Water bottle, trainers or boots, sunscreen" },
     ],
     cta: {
-      label: "Book a Free Trial",
-      whatsapp: "Hi! I'd like to book a free trial for the Kids program (ages 4-10).",
+      label: "Book a Trial (200 THB)",
+      whatsapp: "Hi! I'd like to book a trial session (200 THB) for the Kids program (ages 4-12).",
     },
     faq: [
       {
         q: "Is rugby safe for a 4-year-old?",
-        a: "At this age we play tag rugby only — no tackling, no scrums. Sessions are built around running, catching and evasion games, coached at a max ratio of 12 kids per coach.",
+        a: "At this age we play tag rugby only — no tackling, no scrums. Sessions are built around running, catching and evasion games, coached by our pro coaches throughout.",
       },
       {
         q: "My child has never played any sport. Is that a problem?",
@@ -84,14 +85,16 @@ export const programs: Program[] = [
     ],
     details: [
       { label: "Format", value: "Contact rugby, introduced progressively by age and readiness" },
-      { label: "Duration", value: "90-minute sessions, weekly" },
+      { label: "Schedule", value: "Saturdays, 16:30–17:30" },
+      { label: "Duration", value: "60-minute sessions, weekly" },
+      { label: "Pricing", value: "350 THB per session, or 1,200 THB per month — 200 THB for a first-time trial session" },
       { label: "Pathway", value: "Camps, inter-school tournament, touring sides visiting Samui" },
       { label: "Experience", value: "Beginners welcome — a separate skills track gets them up to speed" },
       { label: "Bring", value: "Boots, mouthguard, water — we provide the rest" },
     ],
     cta: {
-      label: "Book a Free Trial",
-      whatsapp: "Hi! I'd like to book a free trial for the Teens program (ages 11-17).",
+      label: "Book a Trial (200 THB)",
+      whatsapp: "Hi! I'd like to book a trial session (200 THB) for the Teens program (ages 11-17).",
     },
     faq: [
       {
@@ -130,6 +133,7 @@ export const programs: Program[] = [
     details: [
       { label: "Format", value: "Touch rugby (non-contact), mixed teams" },
       { label: "Who", value: "Residents, expats, travellers — all levels" },
+      { label: "Pricing", value: "200 THB per session — pay as you go, no membership" },
       { label: "Commitment", value: "None. Pay per session, come when you can" },
       { label: "On holiday?", value: "Drop in — visiting players are how island rugby grows" },
     ],

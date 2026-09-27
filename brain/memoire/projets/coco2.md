@@ -1,8 +1,62 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-08-26.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-13.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
+
+## ⚡ 13/09 — Routine hebdo posts Instagram, semaine 14/09 : PR #23 draft ouverte
+
+`growth-concierge` a généré 4 captions bilingues EN/FR (Ask Coco itinéraire complet, Real
+Samui viewpoint lever du jour, Practical tips sécurité scooter, Hôtels B2B QR code en
+chambre) selon `COCO_Plan_Reseaux_Sociaux.md` + `Plan_Campagne_Samui_AI_Concierge_4semaines.md`,
+angles différents des semaines du 31/08 et du 07/09 pour ne pas répéter. 3/4 visuels Bloom
+générés (brand "Coco", `ready`) ; le 4e (hôtels) a échoué en `INSUFFICIENT_CREDITS` —
+crédits workspace Bloom épuisés en cours de génération, pas un problème de contenu, pas de
+retry possible sans recharge (https://www.trybloom.ai/pricing). Post 4 livré en caption
+seule.
+
+**Blocage Telegram inchangé** : `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_PROJECT_COCO` toujours
+non définis dans la session → contenu déposé dans
+`content/marketing-drafts/semaine-2026-09-14.md` — **PR #23 mergée le 13/09** sur demande de
+Cyril. ⚠️ Le merge dépose les brouillons dans le dépôt, **il ne vaut pas validation du
+contenu** : les 4 légendes et les 3 visuels restent à valider avant toute publication, et le
+4ᵉ visuel reste à générer après recharge des crédits Bloom.
+
+**Précision sur le blocage Telegram** : `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_PROJECT_COCO` sont
+absents **de l'environnement des sessions Claude Code**, pas de la production — les requêtes
+SQL du 12/09 montrent que Telegram fonctionne en prod (104 événements sur 104 notifiés depuis
+le 20/08). Ce sont deux configurations distinctes ; seule celle des sessions manque.
+
+Événement COCO COMMAND loggé (`COMMAND_API_URL`/`COMMAND_INGEST_TOKEN` définis cette
+session) : `evt_20260913_0823_79399c37`, `WAITING_APPROVAL`, niveau 3.
+
+## ⚡ 12/09 — PR #22 mergée (chantier 2 : coordonnées structurées)
+
+`api/lead.js` ajoute `contact`/`channel`/`source` à l'événement COCO COMMAND. Les coordonnées
+voyageaient déjà dans `details` et restent relues par le filet côté `jamin-depth`, mais faire
+dépendre l'identité d'une personne d'un parsing de chaîne n'est pas un chemin sur lequel
+construire. Ces champs ne sont **pas** stockés dans `command_events`. Build 19 pages.
+Côté consommateur : `jamin-depth` PR #21 (`src/command/people.ts`).
+
+**Contexte corrigé** : l'ingestion fonctionne réellement — les requêtes SQL du 12/09 montrent
+4 événements `venture: COCO` émis par `growth-concierge`. Mais `leads` est à **0** : les
+événements arrivaient sans jamais créer de fiche personne, ce que corrige la PR #21.
+
+## ⚡ 12/09 — PR #20 mergée (`activation/coco2-leads-et-donnees`)
+
+Suite de l'[audit opérationnel](../../audit-ops/00-synthese.md), fuites n°2 et n°5 corrigées
+dans le code (en attente de merge) : `api/lead.js` appelle désormais **toujours** l'ingestion
+COCO COMMAND (le KV redevient un simple cache pour le dashboard hôtel — un lead ne dépend
+plus de sa configuration) ; `api/_directory.js` (nouveau) indexe les **201 fiches** de
+`data/concierge-db` au démarrage à froid et les injecte dans le prompt du chat selon la
+question posée, sans appel réseau ni latence ajoutée — table d'alias FR/EN vérifiée
+(scooter, plongée, restaurant, dentiste). Build 19 pages vert. Variables encore à poser :
+`COMMAND_API_URL`, `COMMAND_INGEST_TOKEN`.
+
+**18 brouillons Gmail de prospection corrigés** (lien traceur retiré, langues corrigées —
+« Russian » était erroné, remplacé par « Thai »). Deux décisions encore ouvertes : supprimer
+15 doublons exacts ? Basculer le numéro WhatsApp de la signature (`+33…` → `+66 63 375
+3316`) ?
 
 ## Identité
 
@@ -97,6 +151,46 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
   retrouvées** dans la liste réelle des Routines du compte (26/08) — statut non confirmé.
 - Prospection (agences, comptes) : voir `Coco_AI_Prospection_RECAP.md` dans le dépôt ;
   avancement réel : `[À COMPLÉTER PAR CYRIL]`.
+- **Mise à jour 30/08** : le garde-fou chat.js + connecteurs + Bloom par défaut cités
+  ci-dessus **sont désormais mergés sur `main`** (`e5390cd`, PR #13) — l'écart du 26/08 est
+  résolu, voir `journal.md`.
+- **Routine hebdo posts Instagram (30/08)** : `growth-concierge` a généré 4 brouillons
+  (captions + visuels Bloom, brand "Coco" déjà onboardée sur trybloom) selon
+  `COCO_Plan_Reseaux_Sociaux.md` + `Plan_Campagne_Samui_AI_Concierge_4semaines.md`.
+  **Confirme l'écart du 26/08** : `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_PROJECT_COCO`
+  toujours absents de la session → contenu déposé dans
+  `content/marketing-drafts/semaine-2026-08-31.md`, à la place de la livraison Telegram
+  automatique.
+
+### Statut réel des posts Instagram — resynchronisé le 2026-09-06
+
+- **Écart corrigé** : la fiche indiquait « PR #15 draft, non mergée » (30/08) — vérification
+  `git log origin/main` du dépôt `coco2` : **PR #15 a bien été mergée** (`625de53`, 31/08),
+  suivie de **PR #16/#17** (cartographie graphify, cf. section dédiée) puis **PR #18 « Script
+  Postiz prêt à lancer — semaine du 31/08 »** (`165c7dd`, 02/09) qui ajoute
+  `content/marketing-drafts/postiz-semaine-2026-08-31.sh` : un script **à lancer par Cyril
+  lui-même** (clé API Postiz personnelle requise, `growth-concierge` ne l'exécute jamais) qui
+  crée les 4 posts **en brouillon** dans Postiz (`postiz posts:create -t draft`) — ce n'est pas
+  une publication automatique.
+- **Statut réel par post** (table « Récap livraison » de `content/marketing-drafts/semaine-2026-08-31.md`
+  sur `main`) :
+  - Post 1 — « Ask Coco » (lundi 31/08) : **✅ Publié**, confirmé par Cyril, publication
+    manuelle (commit `4865012`, « publié manuellement (pas via l'agent, conforme à la règle
+    growth-concierge de ne jamais publier lui-même) »).
+  - Post 2 — « Hidden gems » (mercredi 02/09) : **Brouillon — à valider**, aucune trace de
+    publication dans le dépôt.
+  - Post 3 — « Practical tips » (vendredi 04/09) : **Brouillon — à valider**, idem.
+  - Post 4 — « Hôtels B2B » (dimanche 06/09) : **Brouillon — à valider**, idem.
+- **Nouvelle salve de brouillons — semaine du 07/09** (générée le 06/09,
+  `content/marketing-drafts/semaine-2026-09-07.md`, 4 captions + visuels Bloom : Ask
+  Coco/ferry, Real Samui/jungle, practical tips/météo, hôtels B2B/6 langues) : existe sur la
+  branche `claude/eager-ride-0bv477`, **non mergée, non validée par Cyril**. Même blocage
+  Telegram que les semaines précédentes.
+- `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_PROJECT_COCO` (ou `TELEGRAM_CHAT_ID`) : toujours
+  `[À COMPLÉTER PAR CYRIL]` — livraison Telegram automatique toujours non fonctionnelle. À
+  trancher avec Cyril : renseigner ces variables côté Routine, ou abandonner la cible
+  Telegram et rester sur brouillon fichier + validation manuelle (workflow actuellement en
+  place de facto).
 
 ## Pièges connus
 

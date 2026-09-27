@@ -33,16 +33,20 @@ Koh Samui, province de Surat Thani, Thaïlande.
 
 ## Programmes
 
-### 1. Kids Rugby — 4 à 10 ans (« Fun first »)
+### 1. Kids Rugby — 4 à 12 ans (« Fun first »)
 
 - **Format** : tag rugby uniquement, **zéro contact**, zéro pression
-- **Groupes** : max 12 enfants par coach
-- **Séances** : 60 minutes, hebdomadaire, **le samedi 16h30-17h30** — **toute première séance le
-  29/08/2026** (confirmé par Cyril le 12/08/2026 ; horaire confirmé le 03/09/2026)
+- **Séances** : 60 minutes, hebdomadaire, **le samedi 16:30–17:30** — même créneau que Teens
+  (fusion de créneaux confirmée par Cyril le 11/09/2026 ; âge élargi de 4-10 à 4-12 ans en
+  même temps) — **toute première séance le 29/08/2026** (créneau initial confirmé par Cyril le
+  01/09/2026 ; date de lancement confirmée le 12/08/2026)
+- **Tarif** : 350 THB la séance, ou 1 200 THB le mois (confirmé par Cyril le 31/08/2026) —
+  **essai à 200 THB** (nouvelle politique tarifaire confirmée par Cyril le 11/09/2026, l'essai
+  n'est plus gratuit)
 - **Expérience** : aucune requise — la plupart des enfants partent de zéro
 - **À apporter** : gourde, baskets ou crampons, crème solaire
-- **CTA** : essai gratuit — message WhatsApp type :
-  *« Hi! I'd like to book a free trial for the Kids program (ages 4-10). »*
+- **CTA** : essai à 200 THB — message WhatsApp type :
+  *« Hi! I'd like to book a trial session (200 THB) for the Kids program (ages 4-12). »*
 - **Points FAQ** : sécurité (pas de plaquage ni mêlée), débutants bienvenus,
   coaching bilingue FR/EN dès le premier jour
 
@@ -50,20 +54,26 @@ Koh Samui, province de Surat Thani, Thaïlande.
 
 - **Format** : rugby à contact, introduit **progressivement** selon l'âge et le niveau
   (technique sur boucliers avant tout contact réel ; plafond = directives World Rugby age-grade)
-- **Séances** : 90 minutes, hebdomadaire — **temporairement alignées sur le créneau Kids
-  (samedi 16h30-17h30) le temps d'avoir assez d'inscrits dans les deux groupes** ; deux
-  horaires distincts prévus ensuite (confirmé par Cyril le 03/09/2026)
+- **Séances** : 60 minutes, hebdomadaire, **le samedi 16:30–17:30** (créneau confirmé par Cyril
+  le 01/09/2026 — remplace l'ancienne estimation de 90 minutes, jamais confirmée par un horaire réel)
+- **Tarif** : 350 THB la séance, ou 1 200 THB le mois (confirmé par Cyril le 31/08/2026) —
+  **essai à 200 THB** (nouvelle politique tarifaire confirmée par Cyril le 11/09/2026, l'essai
+  n'est plus gratuit)
 - **Pathway** : camps intensifs, premier tournoi inter-écoles de l'île, matchs contre
   équipes de passage
 - **Débutants** : bienvenus — piste « skills » parallèle dans la même séance (à niveau en 4–6 semaines)
 - **À apporter** : crampons, protège-dents, eau — le reste est fourni
-- **CTA** : essai gratuit — message WhatsApp type :
-  *« Hi! I'd like to book a free trial for the Teens program (ages 11-17). »*
+- **CTA** : essai à 200 THB — message WhatsApp type :
+  *« Hi! I'd like to book a trial session (200 THB) for the Teens program (ages 11-17). »*
 
 ### 3. Adults Touch Rugby — 18+ (« Sunset sessions »)
 
 - **Format** : touch rugby (sans contact), équipes mixtes refaites chaque semaine
 - **Public** : résidents, expats, voyageurs — tous niveaux, ambiance sociale d'abord
+- **Tarif** : **200 THB la séance, tarif unique — plus d'offre mensuelle** (changement confirmé
+  par Cyril le 12/09/2026 ; remplace l'ancien tarif 350 THB/séance ou 1 200 THB/mois. Ce
+  changement ne concerne QUE Adults Touch — Kids et Teens restent à 350 THB/séance ou
+  1 200 THB/mois, essai à 200 THB)
 - **Engagement** : aucun — paiement à la séance, drop-in bienvenu même pour une semaine sur l'île
 - **CTA** : *« Hi! I'd like to join an adults touch rugby session. »*
 
@@ -110,8 +120,10 @@ Koh Samui, province de Surat Thani, Thaïlande.
 
 | Info | Statut |
 |---|---|
-| Tarifs (tous programmes) | `[À COMPLÉTER PAR CYRIL]` — rediriger vers WhatsApp |
-| Horaires précis des séances | **Kids : samedis 16h30-17h30, 1ère séance le 29/08/2026 (confirmé par Cyril 12/08 et 03/09)** ✅. Adults Touch : mardis 19h–20h30, Koh's 33 (déjà utilisé en communication, cf. `brain/marketing-assets/`). **Teens : temporairement même créneau que Kids (samedi 16h30-17h30), le temps d'avoir assez d'inscrits — deux horaires distincts ensuite (confirmé par Cyril 03/09)** ✅. |
+| Tarifs Kids / Teens | **350 THB la séance, ou 1 200 THB le mois** ✅ (confirmé par Cyril le 31/08/2026) — **essai : 200 THB** (l'essai n'est plus gratuit, politique confirmée par Cyril le 11/09/2026) |
+| Tarifs Adults Touch | **200 THB la séance, tarif unique — plus d'offre mensuelle** ✅ (changement confirmé par Cyril le 12/09/2026, remplace l'ancien 350 THB/séance ou 1 200 THB/mois) |
+| Tarifs Corporate Team-Building | `[À COMPLÉTER PAR CYRIL]` — devis au cas par cas, rediriger vers WhatsApp |
+| Horaires précis des séances | **Kids : samedis 16:30–17:30, 4-12 ans, 1ère séance le 29/08/2026** ✅ (fusion de créneau avec Teens + âge élargi confirmés par Cyril le 11/09/2026 ; créneau initial 15:30-16:30 confirmé 01/09, date de lancement confirmée 12/08). **Teens : samedis 16:30–17:30, 11-17 ans, inchangé** ✅ (confirmé par Cyril 01/09/2026 ; chevauchement 11-12 ans avec Kids assumé, pas une erreur). Adults Touch : mardis 19h–20h30, Koh's 33 (déjà utilisé en communication, cf. `brain/marketing-assets/`). |
 | Dates des camps / événements | `[À COMPLÉTER PAR CYRIL]` (`src/pages/camps-events.astro`) |
 | Noms et bios des coachs | `[À COMPLÉTER PAR CYRIL]` (`src/pages/about.astro`) |
 
