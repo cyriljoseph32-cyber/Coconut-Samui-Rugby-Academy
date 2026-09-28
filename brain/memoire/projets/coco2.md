@@ -1,8 +1,22 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-13.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-18.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
+
+## ⚡ 18/09 — Posts Instagram semaine du 07/09 : confirmés publiés par Cyril
+
+L'événement `evt_20260906_0825_469cfa16` (`WAITING_APPROVAL` depuis le 06/09, portant sur les
+4 brouillons Instagram de la semaine du 07/09, déposés via la PR #19 mergée le 10/09 — un
+dépôt de brouillon, pas une publication) est clos : **Cyril confirme oralement le 18/09 que
+ces posts ont depuis été publiés**. Aucune `reference_url` fournie — clôture déclarative,
+non vérifiée par une preuve traçable au sens strict de la doctrine COCO COMMAND (à compléter
+si une preuve devient utile). Statut par post à corriger en conséquence si Cyril précise
+lesquels des 4 (Ask Coco/ferry, Real Samui/jungle, practical tips/météo, hôtels B2B) sont
+concernés — `[À COMPLÉTER PAR CYRIL]` pour le détail par post et les URLs. ⚠️ La ligne
+`command_events` reste affichée `WAITING_APPROVAL` en base (écriture directe refusée par le
+classifieur de permissions de la session) — à clore via `/approve evt_20260906_0825_469cfa16`
+côté Telegram si on veut que le statut en base reflète la décision.
 
 ## ⚡ 13/09 — Routine hebdo posts Instagram, semaine 14/09 : PR #23 draft ouverte
 
