@@ -10,11 +10,11 @@
 
 | Projet | Quoi | Stack | Déploiement | Dernière activité | Statut |
 |---|---|---|---|---|---|
-| [CSRA](projets/coconut-samui-rugby-academy.md) | Académie de rugby : site + brain agentique (QG des agents) | Astro + Tailwind | Vercel — coconutsamuirugby.com | 12/09 — **PR #38 activation (émetteur COCO COMMAND, `api/lead.js`, essai 200 THB), CI verte, non mergée** ; 11/09 — **audit opérationnel multi-projets** (`brain/audit-ops/`, 8 documents) ; 11/09 — essai payant 200 THB (PR #35) et fusion du créneau Kids/Teens 4-12 ans samedis 16:30-17:30 (PR #34) ; 08/09 — RDV IFDS (Sylvie Torrente) : refus séance découverte/périscolaire, dossier clos | 🟢 Actif |
+| [CSRA](projets/coconut-samui-rugby-academy.md) | Académie de rugby : site + brain agentique (QG des agents) | Astro + Tailwind | Vercel — coconutsamuirugby.com | 18/09 — écart COCO COMMAND fermé : PR #21 « retrait PSG Academy » était mergée depuis le 27/08 (README corrigé) ; 13/09 — Adults Touch Rugby : tarif unique 200 THB/séance (PR #37) ; 12/09 — PR #38/#40/#41 (activation, fix domaine, coordonnées structurées) mergées | 🟢 Actif |
 | [bot-trading-US](projets/bot-trading-us.md) | Signal Bot actifs US (RSI-2) + bot global temps réel | React 19 + Vite + TS | Vercel — `/trading.html` | 31/08 — cartographie graphify (mergée) | 🟢 Actif |
 | [assistant-ai](projets/assistant-ai.md) | **Coco front desk** — réceptionniste IA WhatsApp/email + console | Next.js 14 + Claude + Supabase + Twilio | Vercel | 31/08 — cartographie graphify (mergée) | 🟢 Actif |
-| [coco2](projets/coco2.md) | **Coco Samui Concierge** — chatbot touristique + serveur MCP | Astro + serverless + Claude Haiku | Vercel — coco-samui-ai.com | 12/09 — **PR #20 activation (fuites n°2 et n°5 corrigées : ingestion toujours appelée, 201 fiches branchées), CI verte, non mergée** ; 12/09 — 18 brouillons Gmail de prospection corrigés ; 06/09 — resynchro posts Instagram : seul le post « Ask Coco » (31/08) réellement publié | 🟢 Actif |
-| [jamin-depth](projets/jamin-depth.md) | **Jammin's Depths** — plongée & récupération sous-marine : site + système d'agents + moteur COCO COMMAND | Next.js 15 + Supabase + WhatsApp + Telegram | Vercel | 12/09 — **PR #20 activation (CI ajoutée, 428/428 tests verts ; `npm run activate`/`import:leads`), non mergée** ; 02/09 — PR #16 `coco-contenu` + calendrier éditorial rouverte | 🟢 Actif |
+| [coco2](projets/coco2.md) | **Coco Samui Concierge** — chatbot touristique + serveur MCP | Astro + serverless + Claude Haiku | Vercel — coco-samui-ai.com | 18/09 — posts Instagram semaine 07/09 confirmés publiés par Cyril (event COCO COMMAND clos) ; 13/09 — PR #22 chantier 2 mergée, PR #23 brouillons semaine 14/09 mergée | 🟢 Actif |
+| [jamin-depth](projets/jamin-depth.md) | **Jammin's Depths** — plongée & récupération sous-marine : site + système d'agents + moteur COCO COMMAND | Next.js 15 + Supabase + WhatsApp + Telegram | Vercel | 16/09 — `coco-contenu` (DIVING) éteinte à la demande de Cyril (PR #22), 29 brouillons/événements purgés ; 13/09 — PR #21 (P0 passerelle PostgREST + chantiers 2/3) mergée, 472 tests verts | 🟢 Actif |
 | [Dancesoul-therapy](projets/dancesoul-therapy.md) | Marque movement-therapy de Hannah + site | Next.js 15 (SSG) | Vercel (main) | 31/08 — cartographie graphify | 🟡 En veille |
 | [helmetik](projets/helmetik.md) | `[À COMPLÉTER PAR CYRIL]` (Foot/Padel/Pétanque/Fitness, à confirmer) | `[À COMPLÉTER PAR CYRIL]` | — | 31/08 — cartographie graphify (1re trace mémoire) | ⚪ Non audité |
 | [Koh-s-33-stadium](projets/koh-s-33-stadium.md) | `[À COMPLÉTER PAR CYRIL]` | — | — | Jamais (aucun commit) | ⚪ Non démarré |
@@ -38,10 +38,14 @@ l'activation : il manque ~8 variables d'environnement et 4 chats Telegram ». **
 les requêtes SQL sur la base de production montrent 104 événements journalisés depuis le
 **20/08** et **104/104 notifiés sur Telegram**. Le chantier 0 était fait avant l'audit.
 
-Le vrai constat : la boucle *journal + notification* tourne, mais `leads`, `command_tasks` et
-`command_kpis` sont à **0 · 0 · 0** — le CRM, le contrat de tâche et la mesure sont écrits et
-inutilisés. Et **29 événements attendent la validation de Cyril**, le plus ancien depuis le
-20/08.
+Le vrai constat : la boucle *journal + notification* tourne, mais `command_tasks` reste à
+**0** — le contrat de tâche est écrit et inutilisé (`leads` et `command_kpis` ont bougé depuis,
+voir ci-dessous). **Mise à jour 18/09** : sur les 29 événements en attente relevés par l'audit
+du 12/09, une requête SQL directe n'en trouve plus que 2 au statut `WAITING_APPROVAL` réel
+(les deux ont été clôturés cette session, confirmation de Cyril à l'appui — voir `journal.md`
+18/09) ; le reste a dû être résolu individuellement sans que le flag `needs_owner` soit toujours
+retombé en base — pas de raison de croire à un rattrapage massif en une fois, à re-vérifier au
+prochain audit plutôt que supposé réglé.
 
 **Règle qui en découle, pour tout agent** : ne jamais conclure qu'un système ne tourne pas à
 partir de la seule lecture des dépôts — la configuration vit dans Vercel et les comptes tiers.
