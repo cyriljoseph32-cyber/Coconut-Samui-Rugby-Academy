@@ -1,8 +1,24 @@
 # CSRA — Coconut Samui Rugby Academy
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-12.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-18.
 > Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`,
 > travaux en cours sur `claude/focused-allen-d348n8`).
+
+## ⚡ 18/09 — Écart COCO COMMAND fermé : PR #21 « retrait PSG Academy » était mergée depuis le 27/08
+
+L'événement `evt_20260827_0931_a0eed5f8` (`WAITING_APPROVAL` depuis le 27/08, demandant à
+Cyril de trancher sur la CSRA PR #21) était resté ouvert en base **après coup** : la PR a en
+réalité été **mergée le jour même** (27/08 13h44 UTC) — `src/config/site.ts` et
+`src/pages/contact.astro` ne listent plus PSG Academy (Chaweng) depuis. Seul `README.md`
+gardait encore une case à cocher obsolète (« Koh's 33 Stadium + PSG Academy ») — corrigée.
+Confirmé explicitement par Cyril le 18/09 (« nous supprimons PSG Academy ») : rien à changer
+côté code, le sujet est clos côté mémoire comme déjà exécuté. ⚠️ La ligne `command_events`
+elle-même reste affichée `WAITING_APPROVAL` en base — l'écriture directe a été refusée par le
+classifieur de permissions de la session ; à clore via `/approve evt_20260827_0931_a0eed5f8`
+côté Telegram si on veut que le statut en base reflète la décision. `brain/pipeline.md` distingue toujours ce
+retrait (site vitrine) de la prospection PSG Academy en cours comme partenaire de location de
+terrain (`brain/pipeline.md` § Logistique) — les deux sujets ne se recouvrent pas, la
+prospection terrain reste ouverte.
 
 ## ⚡ 12/09 — PR #41 (chantier 2 : coordonnées structurées), non mergée
 
