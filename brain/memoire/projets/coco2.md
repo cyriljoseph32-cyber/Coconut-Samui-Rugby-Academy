@@ -1,8 +1,30 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-18.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-20.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
+
+## ⚡ 20/09 — Routine hebdo posts Instagram, semaine 21/09 : PR #24 draft ouverte
+
+`growth-concierge` a généré 4 captions bilingues EN/FR (Ask Coco transfert aéroport, Real
+Samui marché de nuit, Practical tips soleil/chaleur, Hôtels B2B moins de questions
+répétitives à la réception) selon `COCO_Plan_Reseaux_Sociaux.md` +
+`Plan_Campagne_Samui_AI_Concierge_4semaines.md`, angles inédits vs. les semaines du 31/08,
+07/09 et 14/09.
+
+**Bloom — 2ᵉ semaine consécutive à crédit épuisé** : `bloom_check_credits` (workspace
+"Cyril's Team") renvoie `balance: 0` avant toute tentative de génération — pas de retry
+lancé (inutile sur un crédit à zéro, contrairement au cas `INSUFFICIENT_CREDITS` en cours de
+génération du 14/09). Les 4 posts sont livrés en caption seule avec un brief de génération
+par angle, prêts dès la recharge (https://www.trybloom.ai/pricing).
+
+**Blocage Telegram inchangé, 4ᵉ semaine consécutive** : `TELEGRAM_BOT_TOKEN`/
+`TELEGRAM_CHAT_PROJECT_COCO` toujours non définis dans la session → contenu déposé dans
+`content/marketing-drafts/semaine-2026-09-21.md`, **PR #24 draft ouverte** sur
+`claude/eager-ride-tunxd2`, non mergée à ce stade. Événement COCO COMMAND
+`evt_20260920_0823_7cdb40f6` (`WAITING_APPROVAL`, niveau 3). Cyril notifié en push sur les
+deux blocages récurrents (Bloom + Telegram) à lever pour retrouver une livraison hebdo
+entièrement automatisée.
 
 ## ⚡ 18/09 — Posts Instagram semaine du 07/09 : confirmés publiés par Cyril
 
