@@ -1,9 +1,16 @@
 # CSRA — Coconut Samui Rugby Academy
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-17 (resynchronisation
-> complète, `git log origin/main`).
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-10-05 (pause activité CSRA).
 > Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`).
-> Aucun commit sur `main` depuis le 13/09 09h33 (PR #37, dernière PR mergée), vérifié le 17/09.
+
+## 🔴 05/10 — Pause complète de l'activité et de l'automatisation, plusieurs semaines (décision Cyril)
+
+Routines désactivées : `Génération hebdo posts CSRA` (marketing Instagram/Facebook, Bloom),
+`Inbox quotidien CSRA` (triage Gmail `coconutrugbyacademy@gmail.com`), `Coach — plan séances`
+(plan touch du mardi). Laissées actives à la demande de Cyril (couvrent aussi DIVING/COCO) :
+`Command brief quotidien CSRA` et `Cowork — Tâches du jour` — leur section RUGBY reflétera
+simplement l'activité en pause. Aucune action rétroactive sur les séances déjà passées ou le
+site ; à réactiver manuellement (routines + `enabled: true`) quand Cyril relance l'activité.
 
 ## ⚡ 17/09 — Resynchronisation : PR #37 à #44 confirmées mergées, rien depuis le 13/09
 
@@ -16,7 +23,23 @@ cf. section ci-dessous, marquée « non mergée » à tort), **#42** (correction
 l'audit), **#43** (brouillons marketing semaine 14/09), **#44** (mémoire, routine posts
 coco2). `list_pull_requests` GitHub confirme **zéro PR ouverte** sur ce dépôt à ce jour.
 
-## ⚡ 12/09 — PR #41 (chantier 2 : coordonnées structurées) — **mergée le 13/09** (voir ci-dessus)
+## ⚡ 18/09 — Écart COCO COMMAND fermé : PR #21 « retrait PSG Academy » était mergée depuis le 27/08
+
+L'événement `evt_20260827_0931_a0eed5f8` (`WAITING_APPROVAL` depuis le 27/08, demandant à
+Cyril de trancher sur la CSRA PR #21) était resté ouvert en base **après coup** : la PR a en
+réalité été **mergée le jour même** (27/08 13h44 UTC) — `src/config/site.ts` et
+`src/pages/contact.astro` ne listent plus PSG Academy (Chaweng) depuis. Seul `README.md`
+gardait encore une case à cocher obsolète (« Koh's 33 Stadium + PSG Academy ») — corrigée.
+Confirmé explicitement par Cyril le 18/09 (« nous supprimons PSG Academy ») : rien à changer
+côté code, le sujet est clos côté mémoire comme déjà exécuté. ⚠️ La ligne `command_events`
+elle-même reste affichée `WAITING_APPROVAL` en base — l'écriture directe a été refusée par le
+classifieur de permissions de la session ; à clore via `/approve evt_20260827_0931_a0eed5f8`
+côté Telegram si on veut que le statut en base reflète la décision. `brain/pipeline.md` distingue toujours ce
+retrait (site vitrine) de la prospection PSG Academy en cours comme partenaire de location de
+terrain (`brain/pipeline.md` § Logistique) — les deux sujets ne se recouvrent pas, la
+prospection terrain reste ouverte.
+
+## ⚡ 12/09 — PR #41 (chantier 2 : coordonnées structurées) — **mergée le 13/09** (voir plus haut)
 
 `api/lead.js` ajoute `contact`/`channel`/`source` à l'événement COCO COMMAND : le rattachement
 à la fiche unique ne dépend plus d'un parsing de la chaîne `details`. Une personne qui écrit sur
@@ -186,6 +209,16 @@ pages vert, `check-agents.mjs` 11/11. Variables à poser : `COMMAND_API_URL`,
   (« Route secretariat/communication/assistant-cyril to Superhuman for the academy inbox »),
   non mentionnée par Cyril, a aussi été fermée le 25/08 sur ce même sujet — vraisemblablement
   une tentative parallèle sur le même correctif ; à clarifier avec Cyril si besoin.
+
+- ⚠️ **Les 7 labels CSRA du playbook n'existent pas dans la boîte** (constaté 19/09, passage
+  `/inbox`) : `list_labels` sur `coconutrugbyacademy@gmail.com` ne renvoie que les labels
+  système Superhuman (`[Superhuman]/AI/*`, `.../Is Snoozed`, `.../Muted`, `.../ru`) — aucun
+  `CSRA/Inscriptions`, `CSRA/Essais-gratuits`, `CSRA/Corporate`, `CSRA/Sponsors`, `CSRA/Site`,
+  `CSRA/Admin` ni `CSRA/Autre` documentés dans `brain/email-playbook.md`. Superhuman Mail ne
+  crée pas de nouveau label via l'API (`update_thread`/`create_or_update_draft` ne peuvent
+  qu'ajouter un label existant) — le triage automatisé ne peut donc labelliser aucun fil tant
+  que Cyril n'a pas créé ces 7 labels côté boîte (interface Superhuman ou Gmail). **Action à
+  la main de Cyril**, sinon prochains passages `/inbox` continueront à trier sans étiqueter.
 
 - **Bloom devient l'outil visuel par défaut** (24/08, commit `3e0d542`, sur la même branche
   non mergée) : `.claude/agents/marketing.md` et `brain/marketing-playbook.md` référencent

@@ -4,6 +4,17 @@
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
 
+## 🔴 05/10 — Accélération décidée par Cyril : posts coco2 2×/semaine, Bloom rechargé
+
+Cyril a mis la CSRA en pause (plusieurs semaines) et demande en contrepartie une accélération
+des posts coco2. Routine `Génération hebdo posts coco2 (Instagram)` (`trig_01JruZ3NswBt3HeNDBX8M5WF`)
+passée de 1×/semaine (dimanche) à **2×/semaine (lundi + jeudi, 01h20 UTC)**. Bloom a des
+crédits top-up disponibles (`bloom_check_credits` : 50 crédits, workspace "Cyril's Team") —
+mais l'abonnement est en pause (paiement échoué, `subscription_paused: true`), ce qui a
+bloqué une génération test côté CSRA le même jour (`PAYMENT_REQUIRED`) malgré le solde de
+crédits affiché ; à vérifier sur le prochain post coco2 si Bloom répond une fois la routine
+relancée — sinon fallback HTML/Chromium déjà utilisé plusieurs fois cette session.
+
 ## ⚡ 20/09 — Post "vraie cuisine locale" publié — vérifié, premier post sous les nouvelles règles
 
 **Post Instagram publié et vérifié** : https://www.instagram.com/p/DdfluruMSIa/ — légende
@@ -47,6 +58,55 @@ s'était arrêtée à la description en cours du travail plutôt qu'à son résu
   ouverte » : elle est **mergée depuis le 13/09**, cf. section 13/09 ci-dessous (déjà notée
   mergée, mais le titre de section n'avait pas été corrigé). Aucun commit supplémentaire sur
   `main` depuis le 13/09 à ce jour (17/09).
+
+## ⚡ 20/09 — Routine hebdo posts Instagram, semaine 21/09 : PR #24 draft ouverte
+
+`growth-concierge` a généré 4 captions bilingues EN/FR (Ask Coco transfert aéroport, Real
+Samui marché de nuit, Practical tips soleil/chaleur, Hôtels B2B moins de questions
+répétitives à la réception) selon `COCO_Plan_Reseaux_Sociaux.md` +
+`Plan_Campagne_Samui_AI_Concierge_4semaines.md`, angles inédits vs. les semaines du 31/08,
+07/09 et 14/09.
+
+**Bloom — 2ᵉ semaine consécutive à crédit épuisé** : `bloom_check_credits` (workspace
+"Cyril's Team") renvoie `balance: 0` avant toute tentative de génération — pas de retry
+lancé (inutile sur un crédit à zéro, contrairement au cas `INSUFFICIENT_CREDITS` en cours de
+génération du 14/09). Les 4 posts sont livrés en caption seule avec un brief de génération
+par angle, prêts dès la recharge (https://www.trybloom.ai/pricing).
+
+**Blocage Telegram inchangé, 4ᵉ semaine consécutive** : `TELEGRAM_BOT_TOKEN`/
+`TELEGRAM_CHAT_PROJECT_COCO` toujours non définis dans la session → contenu déposé dans
+`content/marketing-drafts/semaine-2026-09-21.md`, **PR #24 draft ouverte** sur
+`claude/eager-ride-tunxd2`, non mergée à ce stade. Événement COCO COMMAND
+`evt_20260920_0823_7cdb40f6` (`WAITING_APPROVAL`, niveau 3). Cyril notifié en push sur les
+deux blocages récurrents (Bloom + Telegram) à lever pour retrouver une livraison hebdo
+entièrement automatisée.
+
+## ⚡ 18/09 — Posts Instagram semaine du 07/09 : confirmés publiés par Cyril
+
+L'événement `evt_20260906_0825_469cfa16` (`WAITING_APPROVAL` depuis le 06/09, portant sur les
+4 brouillons Instagram de la semaine du 07/09, déposés via la PR #19 mergée le 10/09 — un
+dépôt de brouillon, pas une publication) est clos : **Cyril confirme oralement le 18/09 que
+ces posts ont depuis été publiés**. Aucune `reference_url` fournie — clôture déclarative,
+non vérifiée par une preuve traçable au sens strict de la doctrine COCO COMMAND (à compléter
+si une preuve devient utile). Statut par post à corriger en conséquence si Cyril précise
+lesquels des 4 (Ask Coco/ferry, Real Samui/jungle, practical tips/météo, hôtels B2B) sont
+concernés — `[À COMPLÉTER PAR CYRIL]` pour le détail par post et les URLs. ⚠️ La ligne
+`command_events` reste affichée `WAITING_APPROVAL` en base (écriture directe refusée par le
+classifieur de permissions de la session) — à clore via `/approve evt_20260906_0825_469cfa16`
+côté Telegram si on veut que le statut en base reflète la décision.
+
+## ⚡ 17/09 — Resynchronisation : `main` a beaucoup avancé depuis le 13/09, non journalisé
+
+Vérification `git log origin/main` : **quatre commits mergés sur `main` que cette fiche ne
+mentionnait pas**, tous datés du 13/09 (avant même la dernière mise à jour de cette fiche, qui
+s'était arrêtée à la description en cours du travail plutôt qu'à son résultat vérifié) :
+- **PR #20 (`e583b70`, 12/09 13h18)** — décrite ci-dessous comme « en attente de merge » : en
+  réalité **mergée**.
+- **PR #21 (`6827076`, 12/09 13h18) — nouvelle, jamais journalisée** : « Chantier 4.8 :
+  supprimer les résidus racine sans usage » — nettoyage, pas de changement fonctionnel.
+- **PR #22 (`74e55bc`, 13/09 09h27)** — décrite ci-dessous : confirmée mergée.
+- **PR #23 (`f66032a`, 13/09 09h30)** — mergée depuis le 13/09, cf. section ci-dessous.
+  Aucun commit supplémentaire sur `main` depuis le 13/09 jusqu'au 17/09.
 
 ## ⚡ 13/09 — Routine hebdo posts Instagram, semaine 14/09 : PR #23 mergée
 
