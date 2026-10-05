@@ -1,8 +1,27 @@
 # CSRA — Coconut Samui Rugby Academy
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-18.
-> Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`,
-> travaux en cours sur `claude/focused-allen-d348n8`).
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-10-05 (pause activité CSRA).
+> Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`).
+
+## 🔴 05/10 — Pause complète de l'activité et de l'automatisation, plusieurs semaines (décision Cyril)
+
+Routines désactivées : `Génération hebdo posts CSRA` (marketing Instagram/Facebook, Bloom),
+`Inbox quotidien CSRA` (triage Gmail `coconutrugbyacademy@gmail.com`), `Coach — plan séances`
+(plan touch du mardi). Laissées actives à la demande de Cyril (couvrent aussi DIVING/COCO) :
+`Command brief quotidien CSRA` et `Cowork — Tâches du jour` — leur section RUGBY reflétera
+simplement l'activité en pause. Aucune action rétroactive sur les séances déjà passées ou le
+site ; à réactiver manuellement (routines + `enabled: true`) quand Cyril relance l'activité.
+
+## ⚡ 17/09 — Resynchronisation : PR #37 à #44 confirmées mergées, rien depuis le 13/09
+
+`git log origin/main` montre `main` s'arrêtant à `ded3434` (PR #37, 13/09 09h33). Toutes les
+PR listées ci-dessous comme « non mergée » ou « en attente de review » l'ont été depuis :
+**#37** (tarif Adults Touch 200 THB, confirmé), **#38** (chantier 2+1.7, CSRA écrit dans la
+base unique COCO COMMAND), **#39** (mémoire, plan 90 jours), **#40** (fix domaine
+`coconutsamuirugby.com` non enregistré), **#41** (chantier 2, coordonnées structurées —
+cf. section ci-dessous, marquée « non mergée » à tort), **#42** (correction de la thèse de
+l'audit), **#43** (brouillons marketing semaine 14/09), **#44** (mémoire, routine posts
+coco2). `list_pull_requests` GitHub confirme **zéro PR ouverte** sur ce dépôt à ce jour.
 
 ## ⚡ 18/09 — Écart COCO COMMAND fermé : PR #21 « retrait PSG Academy » était mergée depuis le 27/08
 
@@ -20,7 +39,7 @@ retrait (site vitrine) de la prospection PSG Academy en cours comme partenaire d
 terrain (`brain/pipeline.md` § Logistique) — les deux sujets ne se recouvrent pas, la
 prospection terrain reste ouverte.
 
-## ⚡ 12/09 — PR #41 (chantier 2 : coordonnées structurées), non mergée
+## ⚡ 12/09 — PR #41 (chantier 2 : coordonnées structurées) — **mergée le 13/09** (voir plus haut)
 
 `api/lead.js` ajoute `contact`/`channel`/`source` à l'événement COCO COMMAND : le rattachement
 à la fiche unique ne dépend plus d'un parsing de la chaîne `details`. Une personne qui écrit sur
@@ -53,7 +72,7 @@ entièrement à Cyril — `brain/academy.md` et le tableau du `CLAUDE.md` racine
 `https://coconutsamuirugby.com` comme site en ligne, à corriger le jour où la décision est
 prise (le site tourne en réalité sur l'URL Vercel `coconut-samui-rugby-academy.vercel.app`).
 
-## ⚡ 12/09 — PR #38 ouverte (`activation/csra-ingestion`), CI verte, non mergée
+## ⚡ 12/09 — PR #38 (`activation/csra-ingestion`) — **mergée le 12/09** (`91ebe8f`)
 
 Suite de l'[audit opérationnel](../../audit-ops/00-synthese.md) : CSRA reçoit son **premier
 émetteur programmatique** (`api/_command.js`, `venture: RUGBY`, calqué sur celui de `coco2`)
@@ -104,7 +123,55 @@ pages vert, `check-agents.mjs` 11/11. Variables à poser : `COMMAND_API_URL`,
   graphify cluster-only . --no-label`). Fait partie d'une passe transverse sur les 7 dépôts
   (voir `journal.md`).
 
-## État & prochaines étapes (2026-09-06)
+## État & prochaines étapes (2026-09-11)
+
+- **Post Instagram publié — annonce training samedi 12/09 — vérifié** : légende FR/EN
+  annonçant le nouveau créneau fusionné Kids (4-12 ans) + Teens (11-17 ans), 16h30-17h30, avec
+  les 2 visuels (poster typographique + version illustrée générée via Bloom). **Preuve
+  traçable fournie par Cyril** : https://www.instagram.com/p/DdIVbDYJMts/ . La version "plus
+  développée" proposée ensuite a été abandonnée ; c'est la légende courte initiale qui est
+  partie.
+
+- **Kids Rugby : 4-12 ans, samedis 16h30-17h30 — fusion de créneau avec Teens** (changement
+  permanent confirmé par Cyril le 11/09, chevauchement 11-12 ans avec Teens assumé). Livré via
+  agent `webmaster`, **PR #34 mergée sur `main`** : `src/data/programs.ts` (source de vérité),
+  `contact.astro`, `programs/index.astro`, `brain/academy.md` resynchronisés. Build vert
+  (13 pages). Visuels d'annonce mis à jour en cohérence (poster typographique + version
+  illustrée générée via Bloom, style demandé par Cyril) — `brain/marketing-assets/
+  training-announces/`. Deux brouillons de post plus développés (training CSRA + coco2 scooter)
+  proposés en session, **abandonnés à la demande de Cyril**, jamais publiés.
+
+- **RDV Greenacre (Dara Nagle) — 10/09, résultat très positif** : Chris anime le rugby à
+  Greenacre depuis un peu plus d'un an, ambitions qui grandissent. Greenacre très intéressée
+  par le tournoi inter-écoles, prête à démarrer même avec juste LIS pour l'instant. Suite
+  donnée le jour même : relances urgentes envoyées à Windfield, ISS, PBISS et Oonrak (accord
+  explicite de Cyril pour dépasser le plafond habituel de 2 relances) — voir `brain/pipeline.md`.
+
+- **Flyers Kids/Teens + Touch Rugby — 12/09** : deux flyers A4 imprimables créés (typographique
+  HTML puis version illustrée Bloom, à la demande de Cyril). **Cyril a validé le style Bloom
+  comme préféré** — les versions typographiques HTML retirées de `brain/marketing-assets/
+  flyers-print/`, seules `flyer-kids-teens-bloom.png` et `flyer-touch-rugby-bloom.png` restent.
+  À cette occasion, Cyril a confirmé un **changement de tarif Adults Touch Rugby (permanent)** :
+  200 THB/séance, pay-as-you-go, **plus d'offre mensuelle** (au lieu de 350 THB/séance ou
+  1 200 THB/mois) — Kids et Teens inchangés (350/1200, essai 200 THB). Flyer Touch corrigé en
+  conséquence via `bloom_edit_image`. Site : livré via agent `webmaster`, **PR #37 mergée sur
+  `main` le 13/09** (branche `pricing-adults-touch-200thb` → `src/data/programs.ts`,
+  `brain/academy.md`, build vert 13 pages) — tarif Adults Touch 200 THB/séance **en production**.
+
+- **Visuel d'annulation — séance Kids Rugby du 12/09, conditions météo** : édition ciblée
+  (`bloom_edit_image`) du visuel déjà publié pour cette séance, titre remplacé par "SESSION
+  CANCELLED" + mention météo, reste identique. Sauvegardé `brain/marketing-assets/
+  training-announces/kids-rugby-cancelled-weather-2026-09-12.png`, envoyé à Cyril — diffusion
+  (WhatsApp/Instagram) à sa charge.
+
+- **Post Instagram publié — mardi 9 septembre 2026** : photo d'un ado en pleine course, ballon
+  sous le bras (maillot teal n°7), envoyée directement par Cyril — **consentement parental
+  confirmé par Cyril avant publication** (question posée explicitement en session, mineur
+  reconnaissable). Sauvegardée dans `brain/marketing-assets/real-photos/teen-course-ballon-7.png`,
+  README mis à jour. À ne pas confondre avec les 4 photos du 08/08 ci-dessous, dont le
+  consentement reste `[À CONFIRMER PAR CYRIL]`. **Vérifié** — preuve traçable fournie par Cyril :
+  https://www.instagram.com/p/DdDPFoLsBJ8/ . Détail complet : `brain/memoire/journal.md`
+  (entrée 2026-09-09).
 
 - **Post Instagram Touch Rugby publié — mardi 8 septembre 2026** (confirmé par Cyril « c'est
   fait » en session le 06/09) : légende FR/EN + hashtags rédigés par l'agent `marketing`,
@@ -192,6 +259,20 @@ pages vert, `check-agents.mjs` 11/11. Variables à poser : `COMMAND_API_URL`,
 - **Samui Fitness Lab** (sponsoring S&C) : email 19/07 → réponse positive 20/07 → reprise de
   contact WhatsApp par Omar (Samui Fitness Lab) le 30/07 → Cyril a répondu le 31/07 pour un RDV
   mardi soir, avant la séance touch rugby (Koh's 33 Stadium 19h). En attente de l'heure.
+- **Flyer rugby périscolaire LIS — 14/09** : créé et envoyé à Cyril pour affichage à l'école et
+  diffusion aux parents. Faits confirmés : séances hebdomadaires le mercredi 15h-16h (9, 16, 23,
+  30/09 + 7, 14/10/2026 — Google Calendar, événement Alan Proudfoot), toutes classes (Kids+Teens
+  mixte, confirmé par Cyril), **200 THB/séance** (confirmé par Cyril), inscription **via l'école**
+  (pas par WhatsApp CSRA, confirmé par Cyril). Aucun nom de coach affiché (non confirmé).
+  `brain/marketing-assets/flyers-print/flyer-lis-periscolaire.png` (+ générateur `.cjs`).
+
+- **LIS — périscolaire du mercredi mis en pause (15/09)** : Alan Proudfoot (manque d'intérêt des
+  enfants) enseigne désormais le Tag Rugby en classe pour relancer l'envie, espère faire revenir
+  Cyril en coaching après les vacances de la mi-trimestre d'octobre. **5 séances calendrier
+  restantes (16/09→14/10) annulées.** Cyril a répondu positivement + proposé un **match amical
+  Greenacre-LIS en octobre**. **Le flyer périscolaire LIS (créé le 14/09) ne doit pas être
+  affiché à l'école pour l'instant** — voir `brain/pipeline.md`.
+
 - **RDV Alan Proudfoot (LIS) eu lieu** (28/08, confirmé directement par Cyril) — ⚠️ écart non
   résolu avec le calage vendredi 28/08 16h du pipeline/calendrier (Cyril indique jeudi 27/08) ;
   compte-rendu (coaching + visite école, suite à donner) `[À COMPLÉTER PAR CYRIL]`. Détail :

@@ -4,6 +4,61 @@
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
 
+## 🔴 05/10 — Accélération décidée par Cyril : posts coco2 2×/semaine, Bloom rechargé
+
+Cyril a mis la CSRA en pause (plusieurs semaines) et demande en contrepartie une accélération
+des posts coco2. Routine `Génération hebdo posts coco2 (Instagram)` (`trig_01JruZ3NswBt3HeNDBX8M5WF`)
+passée de 1×/semaine (dimanche) à **2×/semaine (lundi + jeudi, 01h20 UTC)**. Bloom a des
+crédits top-up disponibles (`bloom_check_credits` : 50 crédits, workspace "Cyril's Team") —
+mais l'abonnement est en pause (paiement échoué, `subscription_paused: true`), ce qui a
+bloqué une génération test côté CSRA le même jour (`PAYMENT_REQUIRED`) malgré le solde de
+crédits affiché ; à vérifier sur le prochain post coco2 si Bloom répond une fois la routine
+relancée — sinon fallback HTML/Chromium déjà utilisé plusieurs fois cette session.
+
+## ⚡ 20/09 — Post "vraie cuisine locale" publié — vérifié, premier post sous les nouvelles règles
+
+**Post Instagram publié et vérifié** : https://www.instagram.com/p/DdfluruMSIa/ — légende
+FR/EN pilier "Real Samui / hidden gems", photo réelle envoyée par Cyril (poisson grillé,
+curry maison, riz, petite gargote de bord de route). Premier post appliquant la règle du
+20/09 (§ ci-dessous) : accroche qui se comprend sans "voir plus", lien explicite avec le
+produit ("ce que Coco te trouve"), CTA vers le site. **PR #25 mergée sur `main`** le 20/09
+(`a8f8639`) — la règle et le registre partenaires sont donc en production dans le dépôt,
+pas seulement proposés.
+
+**Partenaires ajoutés au pipeline sur cette base** : `Coco_Partenariats_Pipeline.md` mis à
+jour avec **MrSamui.com** et **Samui & Koh** (conciergeries locales déjà orientées
+recommandations, `samui_contacts_complets.md`) comme premières cibles liées à ce thème —
+statut toujours "pas contacté", aucune approche envoyée à ce jour.
+
+## ⚡ 20/09 — Objectif fixé par Cyril : 15 resorts partenaires signés avant le 15/12/2026
+
+Nouvelle règle permanente ajoutée à `growth-concierge` (chaque post : CTA trafic vers
+coco-samui-ai.com, alternance posts "awareness"/"publicitaire direct-response",
+mécaniques d'engagement Meta, suggestion de 1-3 partenaires locaux pertinents par post —
+tiré uniquement de `samui_contacts_complets.md`, jamais inventé). Nouveau registre
+`Coco_Partenariats_Pipeline.md` (racine du dépôt), seedé avec l'ordre d'approche déjà
+défini dans les kits existants — **aucun hôtel contacté ni signé au 20/09**. Objectif
+porté par `partenariats-concierge`, avec un rappel explicite dans les deux fichiers agent :
+ni la portée d'un post sur l'algorithme Meta, ni la signature d'un partenaire ne peuvent
+être garanties par un agent — ce sont des résultats commerciaux que Cyril doit conclure
+lui-même. **PR #25 mergée sur `main`** (`a8f8639`, 20/09).
+
+
+## ⚡ 17/09 — Resynchronisation : `main` a beaucoup avancé depuis le 13/09, non journalisé
+
+Vérification `git log origin/main` : **quatre commits mergés sur `main` que cette fiche ne
+mentionnait pas**, tous datés du 13/09 (avant même la dernière mise à jour de cette fiche, qui
+s'était arrêtée à la description en cours du travail plutôt qu'à son résultat vérifié) :
+- **PR #20 (`e583b70`, 12/09 13h18)** — décrite ci-dessous comme « en attente de merge » : en
+  réalité **mergée**.
+- **PR #21 (`6827076`, 12/09 13h18) — nouvelle, jamais journalisée** : « Chantier 4.8 :
+  supprimer les résidus racine sans usage » — nettoyage, pas de changement fonctionnel.
+- **PR #22 (`74e55bc`, 13/09 09h27)** — décrite ci-dessous : confirmée mergée.
+- **PR #23 (`f66032a`, 13/09 09h30)** — la section suivante la décrivait comme « draft
+  ouverte » : elle est **mergée depuis le 13/09**, cf. section 13/09 ci-dessous (déjà notée
+  mergée, mais le titre de section n'avait pas été corrigé). Aucun commit supplémentaire sur
+  `main` depuis le 13/09 à ce jour (17/09).
+
 ## ⚡ 20/09 — Routine hebdo posts Instagram, semaine 21/09 : PR #24 draft ouverte
 
 `growth-concierge` a généré 4 captions bilingues EN/FR (Ask Coco transfert aéroport, Real
@@ -40,7 +95,20 @@ concernés — `[À COMPLÉTER PAR CYRIL]` pour le détail par post et les URLs.
 classifieur de permissions de la session) — à clore via `/approve evt_20260906_0825_469cfa16`
 côté Telegram si on veut que le statut en base reflète la décision.
 
-## ⚡ 13/09 — Routine hebdo posts Instagram, semaine 14/09 : PR #23 draft ouverte
+## ⚡ 17/09 — Resynchronisation : `main` a beaucoup avancé depuis le 13/09, non journalisé
+
+Vérification `git log origin/main` : **quatre commits mergés sur `main` que cette fiche ne
+mentionnait pas**, tous datés du 13/09 (avant même la dernière mise à jour de cette fiche, qui
+s'était arrêtée à la description en cours du travail plutôt qu'à son résultat vérifié) :
+- **PR #20 (`e583b70`, 12/09 13h18)** — décrite ci-dessous comme « en attente de merge » : en
+  réalité **mergée**.
+- **PR #21 (`6827076`, 12/09 13h18) — nouvelle, jamais journalisée** : « Chantier 4.8 :
+  supprimer les résidus racine sans usage » — nettoyage, pas de changement fonctionnel.
+- **PR #22 (`74e55bc`, 13/09 09h27)** — décrite ci-dessous : confirmée mergée.
+- **PR #23 (`f66032a`, 13/09 09h30)** — mergée depuis le 13/09, cf. section ci-dessous.
+  Aucun commit supplémentaire sur `main` depuis le 13/09 jusqu'au 17/09.
+
+## ⚡ 13/09 — Routine hebdo posts Instagram, semaine 14/09 : PR #23 mergée
 
 `growth-concierge` a généré 4 captions bilingues EN/FR (Ask Coco itinéraire complet, Real
 Samui viewpoint lever du jour, Practical tips sécurité scooter, Hôtels B2B QR code en
@@ -219,14 +287,33 @@ TripAdvisor/affiliés, coordination avec le pipeline CSRA pour les cibles commun
   - Post 4 — « Hôtels B2B » (dimanche 06/09) : **Brouillon — à valider**, idem.
 - **Nouvelle salve de brouillons — semaine du 07/09** (générée le 06/09,
   `content/marketing-drafts/semaine-2026-09-07.md`, 4 captions + visuels Bloom : Ask
-  Coco/ferry, Real Samui/jungle, practical tips/météo, hôtels B2B/6 langues) : existe sur la
-  branche `claude/eager-ride-0bv477`, **non mergée, non validée par Cyril**. Même blocage
-  Telegram que les semaines précédentes.
+  Coco/ferry, Real Samui/jungle, practical tips/météo, hôtels B2B/6 langues) : décrite ici
+  comme « non mergée » — **mergée sur `main` le 10/09** (`12755ff`, commit direct, hors PR).
+  Reste **non validée par Cyril** (le merge dépose les brouillons dans le dépôt, il ne vaut
+  pas validation du contenu — même règle que la PR #23 de la semaine 14/09, cf. section
+  17/09 en tête de fiche). Même blocage Telegram que les semaines précédentes.
 - `TELEGRAM_BOT_TOKEN`/`TELEGRAM_CHAT_PROJECT_COCO` (ou `TELEGRAM_CHAT_ID`) : toujours
   `[À COMPLÉTER PAR CYRIL]` — livraison Telegram automatique toujours non fonctionnelle. À
   trancher avec Cyril : renseigner ces variables côté Routine, ou abandonner la cible
   Telegram et rester sur brouillon fichier + validation manuelle (workflow actuellement en
   place de facto).
+
+### Post supplémentaire hors calendrier — 09/09/2026
+
+- Photo de cascade en forêt envoyée directement par Cyril (pas issue d'une génération Bloom du
+  calendrier hebdo) — légende pilier "Hidden gems" rédigée en session, publiée le 09/09. Nom du
+  lieu non précisé par Cyril, resté générique dans la légende (`[À COMPLÉTER PAR CYRIL]` si
+  besoin de le nommer pour un futur post). **Vérifié** — preuve traçable fournie par Cyril :
+  https://www.instagram.com/p/DdDPbiTz_uy/ . Ne pas confondre avec le Post 2 "Hidden gems"
+  (02/09) du calendrier hebdo ci-dessus, toujours en brouillon.
+
+### Post supplémentaire hors calendrier — 11/09/2026
+
+- Photo scooter/route côtière envoyée directement par Cyril — légende EN/FR pilier
+  découverte/road trip rédigée en session, publiée le 11/09. **Vérifié** — preuve traçable
+  fournie par Cyril : https://www.instagram.com/p/DdIW3yNMQJC/ . La version "plus développée"
+  proposée ensuite a été explicitement abandonnée par Cyril ; c'est la légende courte initiale
+  qui a été publiée.
 
 ## Pièges connus
 

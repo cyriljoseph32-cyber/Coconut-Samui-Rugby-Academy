@@ -5,6 +5,26 @@
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
 
+## ⚡ 17/09 — Resynchronisation : PR #17 à #22 confirmées mergées, dont une inédite (16/09)
+
+`git log origin/main` montre `main` avancé jusqu'à `addeb30` (PR #22, 16/09 12h09) — 6 PR
+mergées depuis la dernière mise à jour de cette fiche (12/09), dont deux jamais journalisées :
+- **PR #17** (`235877c`, 02/09) — `/approve` fait avancer le contenu lié en `APPROVED`.
+- **PR #18** (`1336b51`, 06/09) — boutons Approuver/Rejeter sur toute action nécessitant une
+  décision.
+- **PR #19** (`333dec2`, 08/09) — message de confirmation envoyé après chaque décision
+  Telegram.
+- **PR #20** (`4c8e530`, 12/09) — confirmée mergée, cf. section ci-dessous (marquée à tort
+  « non mergée »).
+- **PR #21** (`1c8253f`, 13/09) — confirmée mergée, cf. section ci-dessous.
+- **PR #22** (`addeb30`, 16/09) — **nouvelle, jamais journalisée avant ce jour** : « Éteindre
+  `coco-contenu` par défaut — B4, le propriétaire publie à la main ». Le cron de brouillon
+  quotidien DIVING (livré le 22/08) est désormais **éteint par défaut** dans le code —
+  cohérent avec la pause Instagram/Meta réitérée depuis le 21/08, mais cette fois-ci
+  codifiée dans le comportement par défaut plutôt que laissée à la discipline de ne pas
+  activer la Routine.
+`list_pull_requests` GitHub confirme **zéro PR ouverte** sur ce dépôt à ce jour.
+
 ## ⚡ 16/09 — `coco-contenu` (DIVING) éteinte à la demande de Cyril (PR #22)
 
 Retour direct de Cyril : « je veux la suppression des post jammins, je les ferai moi-même ».
@@ -84,7 +104,7 @@ notification. **457 tests verts** (38 fichiers, +37).
 sur `leads`, 2 index créés, 2 index dupliqués supprimés — les jumeaux identiques
 (`command_kpis_lookup_idx`, `command_tasks_due_idx`) ont été vérifiés présents avant suppression.
 
-## ⚡ 12/09 — PR #20 ouverte (`activation/chantier-0-et-ci`), CI verte, non mergée
+## ⚡ 12/09 — PR #20 (`activation/chantier-0-et-ci`) — **mergée le 12/09** (`4c8e530`)
 
 Suite de l'[audit opérationnel](../../audit-ops/00-synthese.md) : `.github/workflows/ci.yml`
 ajouté — les 35 fichiers de tests (428 cas) ne tournaient auparavant nulle part, désormais
@@ -239,8 +259,11 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   merge**, alors que `main` avait déjà avancé (graphify, `confidence.ts`…) — rien de tout ce
   qui précède n'était donc sur `main`, contrairement à ce qui avait été rapporté. Rebase propre
   de `claude/coco-comms-ops-x4k2m` sur `main` à jour (aucun conflit), 416 tests / typecheck /
-  lint / build verts, **PR #16 rouverte** (draft), en attente de validation de Cyril avant merge
-  et déploiement.
+  lint / build verts, **PR #16 rouverte** (draft). **Mise à jour 17/09** : PR #16 confirmée
+  **mergée** depuis (`d105f9e`), suivie des PR #17 à #22 (voir la section de resynchronisation
+  du 17/09 en tête de fiche) — le calendrier éditorial, l'adaptateur Instagram et
+  `coco-contenu` sont donc bien en production sur `main`, contrairement à l'état « en attente
+  de validation » encore décrit ici depuis le 02/09.
 
 ## Cartographie du code (graphify) — 2026-08-31
 
@@ -249,6 +272,51 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   pas de `CLAUDE.md` ; création d'un minimal pointant les agents vers `graphify
   query`/`explain`/`path`/`god-nodes` avant de grepper le code brut). Fait partie d'une passe
   transverse sur les 7 dépôts (voir `journal.md`).
+
+## Pipeline commercial (leads / réservations)
+
+> Registre vivant des réservations en cours, à l'image de `brain/pipeline.md` côté CSRA —
+> pas encore de fichier dédié dans le dépôt `jamin-depth` lui-même, à créer si le volume le
+> justifie. Sources : chats WhatsApp exportés par Cyril, à vérifier avant toute écriture.
+
+- **Groupe Mario (Cho Ratchawat, agent/revendeur) — 6 DSD, dimanche 13/09/2026** : 6 personnes,
+  débutants ("some has dive before but some new"), sortie **Koh Tao, 2 plongées**, tout inclus
+  (pick-up, équipement, repas, boissons, instructeur, drop-off). Noms transmis par Mario :
+  Juan Carlos, Cesar, Andres, Sofi, Aaron, Hector. Email de contact pour la confirmation de
+  résa : `Aaronpm28@gmail.com`. **Caution demandée : 2000 THB par plongeur (12 000 THB total)**,
+  à récupérer en personne **ce soir 11/09, lobby de l'hôtel, après 20h30** — RDV calé avec
+  Mario dans le chat, rappel calendrier posé (20h00, 30 min avant). **Nom de l'hôtel
+  `[À COMPLÉTER PAR CYRIL]`** — envoyé en photo dans le chat WhatsApp, image non accessible
+  depuis cette session. **Statut : réalisé** — sortie faite le 13/09/2026 (confirmé par
+  Cyril : « Aujourd'hui j'ai fait 6 discovery scuba divers »). Voir revenus ci-dessous.
+
+## Revenus — DSD (Discover Scuba Diving)
+
+> Cyril touche **15 % du prix total** sur les plongées vendues via un revendeur/agent (ex.
+> Mario/Cho Ratchawat) — le reste va à l'agent et/ou Discovery Divers. Tarif DSD de référence :
+> **฿5 850/personne** (`jamin-depth` `src/content/en.ts`, `courses[0].priceFrom` — tarif
+> affiché sur le site, à confirmer par Cyril si le prix réellement facturé à ce groupe diffère).
+
+- **13/09/2026 — 6 DSD (groupe Mario, Koh Tao)** : 6 × 5 850 THB = **35 100 THB de prix total**.
+  Part de Cyril (15 %) = **5 265 THB**. Caution de 2 000 THB/plongeur (12 000 THB) déjà
+  collectée le 11/09 — distincte du calcul ci-dessus (caution, pas un revenu en soi ; à
+  déduire/rapprocher du prix total selon les modalités réelles avec Mario,
+  `[À COMPLÉTER PAR CYRIL]` si le mode de règlement diffère de l'hypothèse "prix catalogue").
+  **Enregistré dans le vrai système de comptes** : table Supabase `command_kpis` du projet
+  `jamin-depth` (`prhjuuupxojjwzynohak`), métrique `revenue_thb`, venture `DIVING`, valeur
+  **5 265**, `recorded_by: Cyril` — visible via `/kpi` (COCO COMMAND) et le bilan hebdo.
+
+## Contenu publié — 14/09/2026
+
+- **Reel Chumphon Pinnacle + White Rock publié — vérifié**. Légende FR/EN rédigée en session
+  (ton personnel, « belle journée au bureau », pas de promesse d'espèce/visibilité — reportage
+  factuel d'une sortie réelle du jour). Publié à la fois sur **Instagram** et partagé sur
+  **Facebook**. Preuves fournies par Cyril :
+  - Instagram : https://www.instagram.com/reel/DdQ-QJhzeDZ/
+  - Facebook : https://www.facebook.com/share/r/1JZEjgBTrF/
+  Un message de promotion pour groupes Facebook (même accroche, ton communautaire non-pub) a
+  aussi été rédigé en session — **pas encore publié** (confirmé par Cyril : « juste Instagram
+  et Facebook pour l'instant »), brouillon disponible si Cyril veut le poster plus tard.
 
 ## Contenu publié — 28/08/2026
 
