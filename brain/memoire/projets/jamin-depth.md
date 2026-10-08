@@ -1,6 +1,6 @@
 # jamin-depth — Jammin's Depths (plongée & récupération sous-marine)
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-18.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-10-08.
 > Dépôt : `cyriljoseph32-cyber/jamin-depth` (branche par défaut `main`).
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
@@ -305,6 +305,15 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   **Enregistré dans le vrai système de comptes** : table Supabase `command_kpis` du projet
   `jamin-depth` (`prhjuuupxojjwzynohak`), métrique `revenue_thb`, venture `DIVING`, valeur
   **5 265**, `recorded_by: Cyril` — visible via `/kpi` (COCO COMMAND) et le bilan hebdo.
+
+## Contenu publié — 08/10/2026
+
+- **Reel Sail Rock publié — vérifié** : https://www.instagram.com/reel/DeO06f4zk52/
+  Légende EN/FR rédigée en session, ton punchy : sortie du jour à Sail Rock (« Viz 20m+ »,
+  donnée fournie par Cyril), annonce **Chumphon Pinnacle vendredi 09/10 (plongeurs
+  brevetés)** et **retour à Sail Rock samedi 10/10**, CTA DM. Les prix (site : Sail Rock
+  ฿4,550, Chumphon ฿5,050) ont été ajoutés puis **retirés à la demande de Cyril** : il ne
+  veut pas de prix dans ce post.
 
 ## Contenu publié — 14/09/2026
 
