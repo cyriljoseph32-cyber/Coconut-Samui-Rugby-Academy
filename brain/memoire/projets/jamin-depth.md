@@ -1,6 +1,6 @@
 # jamin-depth — Jammin's Depths (plongée & récupération sous-marine)
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-10-08.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-10-14.
 > Dépôt : `cyriljoseph32-cyber/jamin-depth` (branche par défaut `main`).
 > ⚠️ Fiche créée le 18/08/2026 : le dépôt existait sans fiche. Les faits ci-dessous
 > proviennent du dépôt (`README.md`, `docs/agents/`, `git log`) — aucun n'est déduit.
@@ -305,6 +305,13 @@ de réussite, sans échéance — donc personne ne pouvait constater qu'il avait
   **Enregistré dans le vrai système de comptes** : table Supabase `command_kpis` du projet
   `jamin-depth` (`prhjuuupxojjwzynohak`), métrique `revenue_thb`, venture `DIVING`, valeur
   **5 265**, `recorded_by: Cyril` — visible via `/kpi` (COCO COMMAND) et le bilan hebdo.
+
+## ✉️ Mails — 14/10/2026 (audit mails, passage de référence)
+
+Boîte `cyril.joseph32@gmail.com` : relevé hebdomadaire envoyé à Discovery Divers chaque dimanche
+(13/09, 27/09, 04/10) avec réponse sous 2 à 9 jours ; client Gwyn Jones : vidéos Sail Rock
+partagées, **avis Google publié le 30/09** ✅. Rien d'urgent côté DIVING. Détail :
+[`../mails.md`](../mails.md).
 
 ## Contenu publié — 08/10/2026
 

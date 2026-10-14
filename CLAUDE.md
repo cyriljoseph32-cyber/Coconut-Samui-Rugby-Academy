@@ -87,6 +87,9 @@ dérivé ; en cas de contradiction, `src/` gagne et il faut resynchroniser `brai
   terminé, arbitrage, brief, bilan, hebdo), catalogue des commandes, routage `(activité,
   catégorie) → agent`. Le moteur qui exécute tout ça en continu vit dans le dépôt
   `jamin-depth` (`src/command/`).
+- `brain/mail-audit-playbook.md` — **protocole fixe de l'audit mails** (envoyés, reçus,
+  brouillons, relances dues sur toutes les boîtes de Cyril) ; commande `/mails`, routine
+  quotidienne ; le registre mis à jour à chaque passage est `brain/memoire/mails.md`.
 - `brain/memoire/` — **mémoire transverse des projets de Cyril** (index, journal, une fiche
   par dépôt GitHub) : tenue par l'agent `memory`, à consulter avant de travailler sur un
   autre projet et à mettre à jour après chaque session significative.

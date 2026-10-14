@@ -1,7 +1,18 @@
 # CSRA — Coconut Samui Rugby Academy
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-10-05 (pause activité CSRA).
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-10-14 (pause activité CSRA).
 > Dépôt : `cyriljoseph32-cyber/Coconut-Samui-Rugby-Academy` (branche par défaut `main`).
+
+## ✉️ Mails — 14/10/2026 (audit mails, passage de référence)
+
+Boîte `coconutrugbyacademy@gmail.com` : **rien de neuf côté réception** (2 notifications Google/Zapier),
+**1 seul fil actif**. Choses qui attendent Cyril (CSRA en pause, rien n'est urgent) :
+- **Thai T-Shirt Factory** : Nina attend les artworks/tech packs depuis le 05/09 (promesses du 06/09
+  et du 01/10) — balle dans ton camp.
+- **X-Treme Sports Gear** : recontact « fin septembre » échu ; brouillon prêt depuis le 16/09.
+- **Olympia** : relance J+21 prête depuis le 13/09, non envoyée.
+- **20 brouillons non envoyés** (sponsors/partenaires, relances) dont plusieurs obsolètes — voir
+  [`../mails.md`](../mails.md). `brain/pipeline.md` à resynchroniser (relances du 08/08 périmées).
 
 ## 🔴 05/10 — Pause complète de l'activité et de l'automatisation, plusieurs semaines (décision Cyril)
 
