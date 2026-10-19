@@ -26,6 +26,12 @@ en continu vit dans `jamin-depth` (`src/command/`).
 ⚠️ **Deux « Coco » distincts** : `assistant-ai` (produit front desk pour commerces de services)
 ≠ `coco2` (concierge touristique de Koh Samui). Toujours vérifier duquel on parle.
 
+## ✉️ Mails
+
+[`mails.md`](mails.md) — registre des envoyés, reçus, brouillons et relances dues, **réécrit à
+chaque audit mails** (protocole fixe : [`../mail-audit-playbook.md`](../mail-audit-playbook.md),
+commande `/mails`, routine quotidienne). Premier passage : 14/10/2026.
+
 ## 🔍 Audit opérationnel
 
 L'audit opérationnel et stratégique transverse (11/09/2026) vit dans

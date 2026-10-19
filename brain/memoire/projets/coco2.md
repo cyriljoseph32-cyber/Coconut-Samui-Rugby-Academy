@@ -1,8 +1,25 @@
 # coco2 — Coco Samui Concierge
 
-> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-09-20.
+> Fiche mémoire — agent `memory`. Dernière mise à jour : 2026-10-14.
 > Dépôt : `cyriljoseph32-cyber/coco2` (branche par défaut `main`).
 > ⚠️ À ne pas confondre avec `assistant-ai` (Coco front desk, le produit pour commerces).
+
+## ✉️ Mails — 14/10/2026 (audit mails, passage de référence)
+
+- **🔴 Vercel : paiement de 20 $ refusé « again » + « shutdown coming soon »** (14/10, équipe
+  `cyriljoseph32-1599`). Risque de coupure de `coco-samui-ai.com`. Action Cyril : mettre à jour la carte.
+- **Outreach hôtels réellement envoyé** (boîte `cyril.joseph32@gmail.com`) : 14/09 The Stay Samui,
+  Samujana, SALA Choeng Mon, Samui Paradise (+ Kamalaya, rebond) ; 15/09 Bandara (+ NH Collection,
+  rebond) ; anciens envois du 20/07 (Nora Beach, Rocky's, Khwan Beach) et du 30/07 (Renaissance).
+  **Aucune réponse.** ⚠️ `Coco_Partenariats_Pipeline.md` (20/09) dit encore « aucun hôtel contacté » :
+  à resynchroniser par `partenariats-concierge`.
+- **17 brouillons d'hôtels prêts** (14/10 : 5, 09/10 : 6, 20/09 : 1, 12/09 : 6) ; SALA Choeng Mon et
+  Bandara sont déjà contactés en septembre : transformer en relance.
+- **Décision en attente** (brouillon du 11/10 « [Décision requise] coco2 ») : grille de prix (site
+  3 500 THB/mois vs fiche tarifaire à paliers) et commission excursions 10–15 %.
+- Klook affiliate demande une mise à jour des coordonnées bancaires (12/10). Google Cloud : clients
+  OAuth « agentic » à marquer avant le 11/11.
+- Détail : [`../mails.md`](../mails.md).
 
 ## 🔴 05/10 — Accélération décidée par Cyril : posts coco2 2×/semaine, Bloom rechargé
 
